@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\bin\Debug\net8.0\OnlineLearning.Core.deps.json
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\bin\Debug\net8.0\OnlineLearning.Core.dll
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\bin\Debug\net8.0\OnlineLearning.Core.pdb
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\OnlineLearning.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\OnlineLearning.Core.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\OnlineLearning.Core.AssemblyInfo.cs
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\OnlineLearning.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\OnlineLearning.Core.dll
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\refint\OnlineLearning.Core.dll
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\OnlineLearning.Core.pdb
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\ref\OnlineLearning.Core.dll

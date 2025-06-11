@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OnlineLearning.DAL/1.0.0": {
+        "dependencies": {
+          "OnlineLearning.Core": "1.0.0"
+        },
+        "runtime": {
+          "OnlineLearning.DAL.dll": {}
+        }
+      },
+      "OnlineLearning.Core/1.0.0": {
+        "runtime": {
+          "OnlineLearning.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OnlineLearning.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnlineLearning.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
