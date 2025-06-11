@@ -32,11 +32,11 @@ namespace OnlineLearning.BL.Services.Concretes
             {
                 Username = username,
                 Password = password,
-                Role = AssignRole()
+                role = AssignRole()
             };
 
             _userRepository.Add(user);
-            return $"Qeydiyyat tamamlandı. Rol: {user.Role}";
+            return $"Qeydiyyat tamamlandı. Rol: {user.role}";
         }
 
         public string Login(string username, string password)
@@ -44,7 +44,7 @@ namespace OnlineLearning.BL.Services.Concretes
             if (_userRepository.ValidateCredentials(username, password))
             {
                 _currentUser = _userRepository.GetByUsername(username);
-                return $"Giriş uğurlu: {_currentUser.Username} ({_currentUser.Role})";
+                return $"Giriş uğurlu: {_currentUser.Username} ({_currentUser.role})";
             }
 
             return "İstifadəçi adı və ya şifrə yalnışdır.";
@@ -63,7 +63,7 @@ namespace OnlineLearning.BL.Services.Concretes
         public bool IsLoggedIn => _currentUser != null;
 
         public string CurrentUserInfo => _currentUser != null
-            ? $"{_currentUser.Username} ({_currentUser.Role})"
+            ? $"{_currentUser.Username} ({_currentUser.role})"
             : "Sistemdə istifadəçi yoxdur.";
 
         private Role AssignRole()

@@ -9,3 +9,4 @@ C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\Onlin
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\refint\OnlineLearning.Core.dll
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\OnlineLearning.Core.pdb
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\ref\OnlineLearning.Core.dll
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\OnlineLearning.Core.sourcelink.json

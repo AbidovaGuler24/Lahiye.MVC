@@ -1,0 +1,23 @@
+﻿@model OnlineLearning.Core.ViewModels.LoginViewModel
+
+<h2>Daxil ol</h2>
+
+<form asp-action="Login" method="post">
+    <div>
+        <label>İstifadəçi adı</label>
+        <input asp-for="Username" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Şifrə</label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <button type="submit">Daxil ol</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
