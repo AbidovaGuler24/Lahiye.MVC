@@ -65,8 +65,8 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="topbar-links">
-                                            <a href="Login.cshtml"><i class="fa fa-lock"></i>Login </a>
-                                            <a href="Register.cshtml"><i class="fa fa-lock"></i>Register</a>
+                                            <a asp-action="Login" asp-controller="Account" ><i class="fa fa-lock"></i>Login </a>
+                                            <a asp-action="Register" asp-controller="Account"><i class="fa fa-lock"></i>Register</a>
                                             <span>|</span>
                                             <div class="header-cart dropdown">
                                                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">
@@ -125,14 +125,7 @@
                             </div>
                             <div class="navbar-collapse hidden-sm hidden-xs">
                                 <ul class="nav navbar-nav">
-                                    <li class="dropdown active">
-                                        <a data-toggle="dropdown" class="dropdown-toggle disabled" href="index-2.html">Home</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="index-2.html">Home V1</a></li>
-                                            <li><a href="home-v2.html">Home V2</a></li>
-                                            <li><a href="home-v3.html">Home V3</a></li>
-                                        </ul>
-                                    </li>
+                                    
                                     <li class="dropdown">
                                         <a data-toggle="dropdown" class="dropdown-toggle disabled" href="books-media-list-view.html">Books &amp; Media</a>
                                         <ul class="dropdown-menu">
@@ -160,11 +153,8 @@
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a data-toggle="dropdown" class="dropdown-toggle disabled" href="blog.html">Blog</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="blog.html">Blog Grid View</a></li>
-                                            <li><a href="blog-detail.html">Blog Detail</a></li>
-                                        </ul>
+                                        <a asp-action="Blog" asp-controller="Blog" data-toggle="dropdown" class="dropdown-toggle disabled" >Blog</a>
+                                       
                                     </li>
                                     <li><a href="services.html">Services</a></li>
                                     <li><a href="contact.html">Contact</a></li>
@@ -226,7 +216,7 @@
                             </ul>
                         </div>
                     </div>
-                </nav>
+                </nav> 
             </div>
         </div>
     </header>
@@ -386,7 +376,7 @@
 
     <!-- Custom Scripts -->
     <script type="text/javascript" src="~/js/main.js"></script>
-
+    @RenderSection("Scripts", required: false)
 </body>
 
 

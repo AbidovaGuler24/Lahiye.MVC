@@ -1,0 +1,30 @@
+﻿@model OnlineLearning.Core.ViewModels.AddBlogVm
+
+@{
+    ViewData["Title"] = "Yeni Blog Əlavə et";
+}
+
+<h2>Yeni Blog Əlavə et</h2>
+
+<form asp-area="Admin" asp-controller="Blog" asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label>Şəkil</label>
+        <input asp-for="ImageFile" type="file" class="form-control" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Təsvir</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Əlavə et</button>
+    <a asp-area="Admin" asp-controller="Blog" asp-action="Index" class="btn btn-secondary">Geri</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

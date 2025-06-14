@@ -1,0 +1,26 @@
+﻿@model OnlineLearning.Core.ViewModels.BlogVm
+
+@{
+    ViewData["Title"] = "Blog Details";
+}
+
+<h2>Blog Details</h2>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <h5 class="card-title">Description</h5>
+        <p class="card-text">@Model.Description</p>
+
+        @if (!string.IsNullOrEmpty(Model.Img))
+        {
+            <div class="mb-3">
+                <img src="~/uploads/blog/@Model.Img" alt="Blog Image" style="max-width: 400px;" />
+            </div>
+        }
+
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>
+@section Scripts {
+ ...
+ }

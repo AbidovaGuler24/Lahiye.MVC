@@ -1,0 +1,45 @@
+﻿@model List<OnlineLearning.Core.ViewModels.BlogVm>
+
+@{
+    ViewData["Title"] = "Bloglar";
+}
+
+<h2>Bloglar</h2><a href="c:\users\user\source\repos\lahiye.mvc\lahiye.mvc\areas\admin\views\blog\index.cshtml">c:\users\user\source\repos\lahiye.mvc\lahiye.mvc\areas\admin\views\blog\index.cshtml</a>
+
+<p>
+    <a asp-area="Admin" asp-controller="Blog" asp-action="Create" class="btn btn-primary">Yeni Blog Əlavə et</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Təsvir</th>
+            <th>Şəkil</th>
+            <th>Əməliyyatlar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var blog in Model)
+        {
+            <tr>
+                <td>@blog.Id</td>
+                <td>@blog.Description</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(blog.Img))
+                    {
+                        <img src="~/uploads/@blog.Img" alt="Blog Image" style="width:100px; height:auto;" />
+                    }
+                </td>
+                <td>
+                    <a asp-area="Admin" asp-controller="Blog" asp-action="Edit" asp-route-id="@blog.Id" class="btn btn-warning btn-sm">Düzəliş et</a>
+                    <a asp-area="Admin" asp-controller="Blog" asp-action="Delete" asp-route-id="@blog.Id" class="btn btn-danger btn-sm"
+                       onclick="return confirm('Silmək istədiyinizdən əminsiniz?');">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts {
+ ...
+ }

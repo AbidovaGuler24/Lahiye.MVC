@@ -1,0 +1,52 @@
+﻿@model OnlineLearning.Core.ViewModels.BookVm
+
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-primary text-white">
+            <h4>@Model.Title</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    @if (!string.IsNullOrEmpty(Model.Img))
+                    {
+                        <img src="~/Images/@Model.Img" class="img-fluid rounded" alt="Book Image" />
+                    }
+                    else
+                    {
+                        <p><em>No Image Available</em></p>
+                    }
+                </div>
+                <div class="col-md-8">
+                    <p><strong>Description:</strong> @Model.Description</p>
+                    <p><strong>Page Count:</strong> @Model.PageCount</p>
+                    <p><strong>Author ID:</strong> @Model.AuthorId</p>
+                    <p><strong>Category ID:</strong> @Model.CategoryId</p>
+                    <p>
+                        <strong>PDF File:</strong><br />
+                        @if (!string.IsNullOrEmpty(Model.Pdf))
+                        {
+                            <a class="btn btn-outline-secondary mt-1" href="~/Files/@Model.Pdf" target="_blank">
+                                Open PDF
+                            </a>
+                        }
+                        else
+                        {
+                            <span class="text-muted"><em>No PDF available</em></span>
+                        }
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-end">
+            <a asp-action="Index" class="btn btn-secondary">Back</a>
+        </div>
+    </div>
+</div>
+@section Scripts {
+
+}

@@ -3,7 +3,12 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using OnlineLearning.BL.Services.Abstracts;
+using OnlineLearning.BL.Services.Concretes;
+using OnlineLearning.Core.Entities;
 using OnlineLearning.DAL.Context;
+using OnlineLearning.DAL.Repositories.Abstracts;
+using OnlineLearning.DAL.Repositories.Concretes;
 using System;
 
 namespace Lahiye.Mvc
@@ -14,25 +19,34 @@ namespace Lahiye.Mvc
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(
-                    builder.Configuration.GetConnectionString("Default"),
-                    sqlOptions => sqlOptions.MigrationsAssembly("Lahiye.Mvc")
-                ));
 
-            builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-                .AddEntityFrameworkStores<AppDbContext>()
-                .AddDefaultTokenProviders();
-            // Servisl?ri ?lav? et
             builder.Services.AddControllersWithViews();
 
-            // Session servisini ?lav? et
-            builder.Services.AddSession(options =>
+            builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer(
+                    builder.Configuration.GetConnectionString("Default")
+                    
+                ));
+
+            builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
             {
-                options.IdleTimeout = TimeSpan.FromMinutes(30);
-                options.Cookie.HttpOnly = true;
-                options.Cookie.IsEssential = true;
-            });
+                opt.User.RequireUniqueEmail = true;
+            })
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
+
+
+            builder.Services.AddScoped<IBookRepository, BookRepository>();
+            builder.Services.AddScoped<IBookService, BookService>();
+            builder.Services.AddScoped<IAuthorService, AuthorService>();
+            builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<IBlogService, BlogService>();
+            builder.Services.AddScoped<IBlogRepository, BlogRepository>();
+
+
+
 
             var app = builder.Build();
 
@@ -47,9 +61,9 @@ namespace Lahiye.Mvc
 
             app.UseRouting();
 
-            app.UseSession();
+            
 
-            app.UseAuthorization();
+      
 
             app.MapControllerRoute(
                 name: "areas",
@@ -58,6 +72,10 @@ namespace Lahiye.Mvc
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            app.UseAuthentication();
+
+            app.UseAuthorization();
 
             app.Run();
         }

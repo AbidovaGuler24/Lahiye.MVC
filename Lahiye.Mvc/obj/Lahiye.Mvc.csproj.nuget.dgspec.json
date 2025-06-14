@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\OnlineLearning.BL\\OnlineLearning.BL.csproj": {
                 "projectPath": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\OnlineLearning.BL\\OnlineLearning.BL.csproj"
+              },
+              "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\OnlineLearning.Core\\OnlineLearning.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\OnlineLearning.Core\\OnlineLearning.Core.csproj"
               }
             }
           }
@@ -202,6 +205,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

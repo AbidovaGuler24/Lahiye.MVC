@@ -1,0 +1,51 @@
+﻿@model List<OnlineLearning.Core.ViewModels.AuthorVm>
+
+@{
+    ViewData["Title"] = "Authors List";
+}
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Add New Author</a>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Full Name</th>
+                <th>Biography</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>@(i + 1)</td>
+                    <td>@Model[i].FullName</td>
+                    <td>@Model[i].Biography</td>
+                    <td> <img src="~/imagess/@Model[i].ImagePath"  alt="Alternate Text" /> </td>
+                    <td>
+                       
+                        <a asp-area="Admin"  asp-action="Details" asp-route-id="@Model[i].Id" class="btn btn-info btn-sm">View</a>
+                        <a asp-area="Admin" asp-action="Edit" asp-route-id="@Model[i].Id" class="btn btn-warning btn-sm">Edit</a>
+                        <form asp-area="Admin"  asp-action="Delete" asp-route-id="@Model[i].Id" method="post" style="display:inline-block;">
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this author?');">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-warning">
+        No authors found.
+    </div>
+}
+@section Scripts {
+
+}

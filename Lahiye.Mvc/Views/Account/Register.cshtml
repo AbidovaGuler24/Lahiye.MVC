@@ -8,6 +8,16 @@
         <input asp-for="Username" />
         <span asp-validation-for="Username" class="text-danger"></span>
     </div>
+    <div>
+        <label>İstifadəçi adı</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div>
+        <label>İstifadəçi adı</label>
+        <input asp-for="Surname" />
+        <span asp-validation-for="Surname" class="text-danger"></span>
+    </div>
 
     <div>
         <label>Email</label>
@@ -27,7 +37,7 @@
         <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
     </div>
 
-    <button type="submit">Qeydiyyatdan keç</button>
+    <button  type="submit">Qeydiyyatdan keç</button>
 </form>
 
 @section Scripts {

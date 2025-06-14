@@ -10,3 +10,4 @@ C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\refin
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\OnlineLearning.Core.pdb
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\ref\OnlineLearning.Core.dll
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\OnlineLearning.Core.sourcelink.json
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.Core\obj\Debug\net8.0\OnlineLearning.Core.csproj.AssemblyReference.cache

@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Tools": "8.0.17",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
-          "OnlineLearning.BL": "1.0.0"
+          "OnlineLearning.BL": "1.0.0",
+          "OnlineLearning.Core": "1.0.0"
         },
         "runtime": {
           "Lahiye.Mvc.dll": {}
@@ -608,6 +609,12 @@
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.1725.26609"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "System.IO.Pipelines": "7.0.0"
         }
       },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.17": {
@@ -1971,6 +1978,10 @@
         }
       },
       "OnlineLearning.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.17"
+        },
         "runtime": {
           "OnlineLearning.Core.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -2377,6 +2388,13 @@
       "sha512": "sha512-2UkrBsqtj2gyicV0JjZ7HkXoiMLFu6DteHh0OH4cPnMzTWZuUZdFP/chriDSrhp5+iz8Mq9E+XkrxXqo08Oddg==",
       "path": "microsoft.aspnetcore.cryptography.keyderivation/8.0.17",
       "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.8.0.17.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.17": {
       "type": "package",

@@ -1,0 +1,27 @@
+﻿@model OnlineLearning.Core.ViewModels.AuthorVm
+
+@{
+    ViewData["Title"] = "Author Details";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="card mb-4" style="max-width: 600px;">
+    <div class="card-body">
+        <h4 class="card-title">@Model.FullName</h4>
+        <p class="card-text"><strong>Biography:</strong></p>
+        <p class="card-text">@Model.Biography</p>
+
+
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <img src="~/Imagess/@Model.ImagePath" alt="@Model.FullName" class="img-fluid rounded" style="max-height: 300px;" />
+        }
+    </div>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+<a asp-action="Index" class="btn btn-secondary ms-2">Back to List</a>
+@section Scripts {
+
+}

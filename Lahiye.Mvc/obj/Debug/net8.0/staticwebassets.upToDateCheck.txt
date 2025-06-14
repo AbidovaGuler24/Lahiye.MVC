@@ -1858,6 +1858,10 @@ wwwroot\css\jquery.accordion.css
 wwwroot\css\mmenu.css
 wwwroot\css\mmenu.positioning.css
 wwwroot\css\responsivetable.css
+wwwroot\Files\25ff1523-51e8-4603-b7b8-1c5febc975fa_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
+wwwroot\Files\6d4217c8-7512-4294-8307-1553f7035823_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
+wwwroot\Files\e9105679-b33a-484e-b6d9-b8fb666ed9b5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
+wwwroot\Files\ede16d71-4acc-4835-bad6-ec3cfeb88b20_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
 wwwroot\fonts\fontawesome-webfont914c.eot
 wwwroot\fonts\fontawesome-webfont914c.html
 wwwroot\fonts\fontawesome-webfont914c.svg
@@ -2023,6 +2027,13 @@ wwwroot\images\welcome-img-home-v3.jpg
 wwwroot\images\wellcome-counter-bg.jpg
 wwwroot\images\wellcome-image.jpg
 wwwroot\images\who-we-are-image.jpg
+wwwroot\Imagess\67a99858-908e-4b2b-88ce-a67e0ca31249_D3.jpeg
+wwwroot\Imagess\8164bb73-e2d2-4373-90f3-a567c97883e2_D3.jpeg
+wwwroot\Imagess\83e2f705-ba30-4d27-aa40-35e90d2d69eb_D2.jpg
+wwwroot\Imagess\879a3db1-b2c2-401e-b89b-ba0a8c6f66d4_D3.jpeg
+wwwroot\Imagess\c273f951-a346-4135-ba47-3883fd8ca4e9_D3.jpeg
+wwwroot\Imagess\d1530d25-83a9-4869-8371-2c1c075e2c0c_D3.jpeg
+wwwroot\Imagess\f08eb37b-5e9f-4ecc-8d7d-376e3bb29a5c_elza.jpg
 wwwroot\js\accordion.min.js
 wwwroot\js\bootstrap.min.js
 wwwroot\js\bxslider.min.js
@@ -2042,3 +2053,11 @@ wwwroot\js\responsive.table.min.js
 wwwroot\js\responsive.tabs.min.js
 wwwroot\js\waypoints.min.js
 wwwroot\style.css
+wwwroot\wwwroot\Files\3b6291e8-03ea-4e13-b80b-5a5aa20f4396_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
+wwwroot\wwwroot\Files\5986298c-be2a-4abc-ad2f-4f052da472fe_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
+wwwroot\wwwroot\Files\9ac25c36-e644-41a4-88b7-70bc1d45d90e_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
+wwwroot\wwwroot\Files\a5239b91-26f2-4f1d-8826-ad5e32ab10b7_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
+wwwroot\wwwroot\Files\d59ada1b-c19d-4540-b5d9-16d0b77cf122_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
+wwwroot\wwwroot\Imagess\1a87d4b2-444b-4b45-91d3-dfe31384a51e_D3.jpg
+wwwroot\wwwroot\Imagess\a7e34f29-8e35-4b14-9b9f-77598d55d6a3_D3.jpg
+wwwroot\wwwroot\Imagess\c675daa5-fb8d-406e-a158-0510d3a0dcb9_D3.jpg

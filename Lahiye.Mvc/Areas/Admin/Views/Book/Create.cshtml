@@ -1,0 +1,79 @@
+﻿@using OnlineLearning.Core.ViewModels
+@using OnlineLearning.Core.Enums
+@model AddBookVm
+@{
+    ViewData["Title"] = "Add New Book";
+}
+
+<div class="container d-flex justify-content-center mt-5">
+    <div class="card shadow w-75">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">📘 Add New Book</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create" method="post" enctype="multipart/form-data">
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <label asp-for="Title" class="form-label">Title</label>
+                        <input asp-for="Title" class="form-control" />
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="PageCount" class="form-label">Page Count</label>
+                        <input asp-for="PageCount" class="form-control" />
+                        <span asp-validation-for="PageCount" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label asp-for="Description" class="form-label">Description</label>
+                        <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="AuthorId" class="form-label">Author ID</label>
+                        <input asp-for="AuthorId" class="form-control" />
+                        <span asp-validation-for="AuthorId" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="CategoryId" class="form-label">Category ID</label>
+                        <input asp-for="CategoryId" class="form-control" />
+                        <span asp-validation-for="CategoryId" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="ImgUrl" class="form-label">Upload Image</label>
+                        <input asp-for="ImgUrl" type="file" class="form-control" />
+                        <span asp-validation-for="ImgUrl" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="PdfFile" class="form-label">Upload PDF</label>
+                        <input asp-for="PdfFile" type="file" class="form-control" />
+                        <span asp-validation-for="PdfFile" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Genre" class="form-label">Genre</label>
+                        <select asp-for="Genre" class="form-select"
+                                asp-items="Html.GetEnumSelectList<OnlineLearning.Core.Enums.BookGenre>()">
+                            <option value="">-- Select Genre --</option>
+                        </select>
+                        <span asp-validation-for="Genre" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="mt-4 text-end">
+                    <button type="submit" class="btn btn-success">➕ Add Book</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts {
+
+}
