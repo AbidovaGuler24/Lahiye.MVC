@@ -127,14 +127,7 @@
                                 <ul class="nav navbar-nav">
                                     
                                     <li class="dropdown">
-                                        <a data-toggle="dropdown" class="dropdown-toggle disabled" href="books-media-list-view.html">Books &amp; Media</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="books-media-list-view.html">Books &amp; Media List View</a></li>
-                                            <li><a href="books-media-gird-view-v1.html">Books &amp; Media Grid View V1</a></li>
-                                            <li><a href="books-media-gird-view-v2.html">Books &amp; Media Grid View V2</a></li>
-                                            <li><a href="books-media-detail-v1.html">Books &amp; Media Detail V1</a></li>
-                                            <li><a href="books-media-detail-v2.html">Books &amp; Media Detail V2</a></li>
-                                        </ul>
+                                        <a asp-controller="Book" asp-action="Index" class="btn btn-outline-dark">📚 Grid View</a>
                                     </li>
                                     <li class="dropdown">
                                         <a data-toggle="dropdown" class="dropdown-toggle disabled" href="news-events-list-view.html">News &amp; Events</a>
@@ -155,6 +148,14 @@
                                     <li class="dropdown">
                                         <a asp-action="Blog" asp-controller="Blog" data-toggle="dropdown" class="dropdown-toggle disabled" >Blog</a>
                                        
+                                    </li>
+                                    <li class="dropdown">
+                                        <a asp-action="Index" asp-controller="Employee">Employee</a>
+
+                                    </li>
+                                    <li class="dropdown">
+                                        <a asp-action="Index" asp-controller="CafeMenu">CafeMenu</a>
+
                                     </li>
                                     <li><a href="services.html">Services</a></li>
                                     <li><a href="contact.html">Contact</a></li>
@@ -189,9 +190,9 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="news-events-list-view.html">News &amp; Events</a>
+                                    <a asp-area="Admin" asp-action="NewsEvent" asp-controller="NewsEvent">News &amp; Events</a>
                                     <ul>
-                                        <li><a href="news-events-list-view.html">News &amp; Events List View</a></li>
+                                        <li><a asp-area="Admin" asp-action="NewsEvent" asp-controller="NewsEvent">News &amp; Events List View</a></li>
                                         <li><a href="news-events-detail.html">News &amp; Events Detail</a></li>
                                     </ul>
                                 </li>
@@ -205,14 +206,16 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="blog.html">Blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">Blog Grid View</a></li>
-                                        <li><a href="blog-detail.html">Blog Detail</a></li>
-                                    </ul>
+                                    <a asp-action="Blog" asp-controller="Blog" >Blog</a>
+                                   
+                                </li>
+                                <li>
+                                    <a asp-action="Index" asp-controller="Employee">Employee</a>
+
                                 </li>
                                 <li><a href="services.html">Services</a></li>
                                 <li><a href="contact.html">Contact</a></li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -221,6 +224,58 @@
         </div>
     </header>
     <!-- End: Header Section -->
+    <!-- Carousel slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <figure>
+                <img alt="Home Slide" src="~/images/header-slider/home-v1/header-slide.jpg" />
+            </figure>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h3>Online Learning Anytime, Anywhere!</h3>
+                    <h2>Discover Your Roots</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words.</p>
+                    <div class="slide-buttons hidden-sm hidden-xs">
+                        <a href="#" class="btn btn-primary">Read More</a>
+                        <a href="#" class="btn btn-default">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img alt="Home Slide" src="~/images/header-slider/home-v1/header-slide.jpg" />
+            </figure>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h3>Online Learning Anytime, Anywhere!</h3>
+                    <h2>Discover Your Roots</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words.</p>
+                    <div class="slide-buttons hidden-sm hidden-xs">
+                        <a href="#" class="btn btn-primary">Read More</a>
+                        <a href="#" class="btn btn-default">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img alt="Home Slide" src="~/images/header-slider/home-v1/header-slide.jpg" />
+            </figure>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h3>Online Learning Anytime, Anywhere!</h3>
+                    <h2>Discover Your Roots</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words.</p>
+                    <div class="slide-buttons hidden-sm hidden-xs">
+                        <a href="#" class="btn btn-primary">Read More</a>
+                        <a href="#" class="btn btn-default">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     @RenderBody()
 
     <!-- Start: Footer -->

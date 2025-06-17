@@ -1,0 +1,50 @@
+﻿@model OnlineLearning.Core.ViewModels.CafeMenuItemVM
+
+@{
+    ViewData["Title"] = "Edit Cafe Menu Item";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+   
+
+   
+
+    <div class="form-group">
+        <label>Current Image</label><br />
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <img src="@Model.ImagePath" alt="@Model.Name" style="max-height:100px;" />
+        }
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImageFile">Change Image (optional)</label>
+        <input asp-for="ImageFile" type="file" class="form-control-file" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

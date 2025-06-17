@@ -1,0 +1,20 @@
+﻿@model OnlineLearning.Core.Entities.Employee
+
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<h2>Employee Details</h2>
+
+<div>
+    <h4>Name: @Model.Name</h4>
+    <h5>Position: @Model.Position</h5>
+
+    @if (!string.IsNullOrEmpty(Model.PhotoPath))
+    {
+        <img src="~/Imagess/@Model.PhotoPath" alt="@Model.Name" width="150" />
+    }
+</div>
+
+<a asp-action="Index" class="btn btn-secondary mt-3">Back to List</a>
+@section Scripts { }

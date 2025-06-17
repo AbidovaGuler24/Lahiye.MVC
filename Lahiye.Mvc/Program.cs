@@ -44,7 +44,15 @@ namespace Lahiye.Mvc
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             builder.Services.AddScoped<IBlogService, BlogService>();
             builder.Services.AddScoped<IBlogRepository, BlogRepository>();
-
+            builder.Services.AddScoped<INewsEventService, NewsEventService>();
+            builder.Services.AddScoped<INewsEventRepository, NewsEventRepository>();
+            builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+            builder.Services.AddScoped<ICafeMenuRepository, CafeMenuRepository>();
+            builder.Services.AddScoped<ICafeMenuService, CafeMenuService>();
+            
+            builder.Services.AddScoped<IPaidBookRepository, PaidBookRepository>();
+            builder.Services.AddScoped<IPaidBookService, PaidBookService>();
 
 
 

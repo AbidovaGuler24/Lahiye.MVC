@@ -43,7 +43,7 @@ namespace Lahiye.Mvc.Areas.Admin.Controllers
             await _blogService.AddBlogAsync(model, wwwroot);
             return RedirectToAction(nameof(Index));
         }
-        public async Task<IActionResult> Update(int id)
+        public async Task<IActionResult> Edit(int id)
         {
             var blog = await _blogService.GetBlogByIdAsync(id);
             if (blog == null) return NotFound();
@@ -60,7 +60,7 @@ namespace Lahiye.Mvc.Areas.Admin.Controllers
 
         
         [HttpPost]
-        public async Task<IActionResult> Update(UpdateBlogVm model)
+        public async Task<IActionResult> Edit(UpdateBlogVm model)
         {
             if (!ModelState.IsValid)
                 return View(model);
@@ -70,13 +70,7 @@ namespace Lahiye.Mvc.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> Delete(int id)
-        {
-            var blog = await _blogService.GetBlogByIdAsync(id);
-            if (blog == null) return NotFound();
-
-            return View(blog);
-        }
+      
 
         [HttpPost, ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)

@@ -1,0 +1,47 @@
+﻿@model List<OnlineLearning.Core.ViewModels.EmployeeVM>
+
+@{
+    ViewData["Title"] = "İşçilər";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>FullName</th>
+            <th>Position</th>
+            <th>Photo</th>
+            <th>Comment</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.FullName</td>
+                <td>@employee.Position</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(employee.PhotoPath))
+                    {
+                        <img src="~/imagess/@employee.PhotoPath" alt="@employee.FullName" width="80" />
+                    }
+                    else
+                    {
+                        <span>Şəkil yoxdur</span>
+                    }
+                </td>
+                <td style="width: 300px;">
+                    @await Html.PartialAsync("_EmployeeComments", employee.Id)
+
+                    <form asp-action="AddComment" method="post" style="margin-top:10px;">
+                        <input type="hidden" name="EmployeeId" value="@employee.Id" />
+                        <input type="text" name="UserName" placeholder="Adınız" class="form-control mb-1" required />
+                        <textarea name="CommentText" placeholder="Yorumunuz" class="form-control mb-1" required></textarea>
+                        <button type="submit" class="btn btn-primary btn-sm">Yorum Yaz</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

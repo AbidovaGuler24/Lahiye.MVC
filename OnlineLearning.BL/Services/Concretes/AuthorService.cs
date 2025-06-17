@@ -97,7 +97,7 @@ namespace OnlineLearning.BL.Services.Concretes
             if (vm.ImageFile != null)
             {
                 author.ImagePath?.RemoveFile(wwwroot, "Images");
-                author.ImagePath = FileCreateExtension.CreateFile(vm.ImageFile, wwwroot, "\\Imagess\\");
+                author.ImagePath = FileCreateExtension.CreateFile(vm.ImageFile, wwwroot, "//Imagess//");
 
             }
 

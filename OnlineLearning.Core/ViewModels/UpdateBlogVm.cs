@@ -12,6 +12,8 @@ namespace OnlineLearning.Core.ViewModels
         public int Id { get; set; }
         public IFormFile? ImageFile { get; set; }
 
+        public string? ImageUrl { get; set; }
+
         public string Description { get; set; }
     }
 }

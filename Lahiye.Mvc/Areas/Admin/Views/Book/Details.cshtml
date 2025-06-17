@@ -30,9 +30,9 @@
                         <strong>PDF File:</strong><br />
                         @if (!string.IsNullOrEmpty(Model.Pdf))
                         {
-                            <a class="btn btn-outline-secondary mt-1" href="~/Files/@Model.Pdf" target="_blank">
-                                Open PDF
-                            </a>
+                            <button class="btn btn-outline-primary mt-1" onclick="showAdThenDownload('/Files/@Model.Pdf')">
+                                PDF-ni Yüklə
+                            </button>
                         }
                         else
                         {
@@ -47,6 +47,28 @@
         </div>
     </div>
 </div>
-@section Scripts {
 
+<!-- Reklam Modalı -->
+<div id="adModal" style="display: none; position: fixed; top: 20%; left: 35%; background: white; border: 1px solid #ccc; padding: 20px; z-index: 1000;">
+    <h5>Reklam</h5>
+    <video id="adVideo" width="320" height="240" controls autoplay>
+        <source src="/ads/sample-ad.mp4" type="video/mp4">
+        Sənin brauzerin videonu dəstəkləmir.
+    </video>
+</div>
+
+@section Scripts {
+    <script>
+        function showAdThenDownload(pdfUrl) {
+            const adModal = document.getElementById('adModal');
+            const adVideo = document.getElementById('adVideo');
+
+            adModal.style.display = 'block';
+
+            adVideo.onended = function () {
+                adModal.style.display = 'none';
+                window.location.href = pdfUrl;
+            };
+        }
+    </script>
 }

@@ -10,9 +10,9 @@ C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.BL\obj\Debug\net8.0\OnlineL
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.BL\obj\Debug\net8.0\OnlineLearning.BL.AssemblyInfoInputs.cache
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.BL\obj\Debug\net8.0\OnlineLearning.BL.AssemblyInfo.cs
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.BL\obj\Debug\net8.0\OnlineLearning.BL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.BL\obj\Debug\net8.0\OnlineLearning.BL.sourcelink.json
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.BL\obj\Debug\net8.0\OnlineLe.E6F50C0E.Up2Date
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.BL\obj\Debug\net8.0\OnlineLearning.BL.dll
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.BL\obj\Debug\net8.0\refint\OnlineLearning.BL.dll
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.BL\obj\Debug\net8.0\OnlineLearning.BL.pdb
 C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.BL\obj\Debug\net8.0\ref\OnlineLearning.BL.dll
-C:\Users\User\source\repos\Lahiye.Mvc\OnlineLearning.BL\obj\Debug\net8.0\OnlineLearning.BL.sourcelink.json

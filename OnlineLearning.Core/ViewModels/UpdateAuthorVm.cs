@@ -13,5 +13,6 @@ namespace OnlineLearning.Core.ViewModels
         public string FullName { get; set; } = null!;
         public string? Biography { get; set; }
         public IFormFile? ImageFile { get; set; }
+        public string? ImageUrl { get; set; }
     }
 }
