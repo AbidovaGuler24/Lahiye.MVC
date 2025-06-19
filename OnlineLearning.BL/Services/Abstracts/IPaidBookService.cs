@@ -14,5 +14,6 @@ namespace OnlineLearning.BL.Services.Abstracts
         Task CreateAsync(PaidBookCreateVm vm, string wwwroot);
         Task UpdateAsync(PaidBookUpdateVm vm , string wwwroot);
         Task DeleteAsync(int id);
+        Task<List<PaidBookVm>> GetFilteredAsync(string? search, decimal? minPrice, int? minPage);
     }
 }

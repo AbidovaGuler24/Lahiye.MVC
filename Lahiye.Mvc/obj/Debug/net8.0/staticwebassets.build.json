@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cgFJsHIuVBTTHj4KJHJcROa5h+6MTwSN+7quS9auasw=",
+  "Hash": "fgyDRr9CiRIy7OQPBUrnoYocbhfi1QFXeQPkoa87zb8=",
   "Source": "Lahiye.Mvc",
   "BasePath": "_content/Lahiye.Mvc",
   "Mode": "Default",
@@ -39140,6 +39140,27 @@
       "OriginalItemSpec": "wwwroot\\Files\\2b9ecff1-3c06-49b0-badb-09eae7a40545_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iwgix455ss",
+      "Integrity": "7vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\649c89d6-e863-4137-b45d-55824f9d0d6c_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -39287,6 +39308,27 @@
       "OriginalItemSpec": "wwwroot\\Files\\ede16d71-4acc-4835-bad6-ec3cfeb88b20_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iym720ch0b",
+      "Integrity": "+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -39306,6 +39348,321 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o9057r6kvt",
+      "Integrity": "ZFzviQJxMHPKvDdZ6448bNiJtJBslwCJTPCQqU9e6VQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nj1ycdegtb",
+      "Integrity": "rQOqd4b6lMrSUxmxtsK8iX5fNmZw74dk4GyWzB904EM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jqm9pj9ayh",
+      "Integrity": "pS+CqFvwSv6jMKZmVzSxj2f82VnWwuZJWklvmyErwqY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d3pgnli799",
+      "Integrity": "91H3YPJH5D6IlR0T19WN1qoSEB9VGI2BJChqCj/tCgw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8dvegb4j2g",
+      "Integrity": "tE0Zx5G78UDtPKIfHu+Ue04EjYXOdhFWRrNFHf8Acc0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rwiusr3x6x",
+      "Integrity": "OxNgPWPlOAtmlto1LCS5H5Zr8Eh38C/tnAxa27VOeP0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nkd79zafy4",
+      "Integrity": "d7X+rukX3GQGm1MSUhOmxS6yuVD0b9fo1l+I0snC0hk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uzmdsyl5ar",
+      "Integrity": "qqkanR5INVRn5kbsqQFIAfKKr7gNvTxmQSUkMLBfLJg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pu69spw1p0",
+      "Integrity": "8WoHwkCR0o1XelMORaMg02lKZBmheO5Ee3D5ZobtmzQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "426bhlm1hc",
+      "Integrity": "bLj10+I2OAI6vnZg7V0R0/5DPHa0AXadXrJ9dcJm2Bo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aczr860xkm",
+      "Integrity": "qgsDSOz2QhQd90ZJ51SRvS3zXlJKWuQ2MeH3Ee199kA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rzl7ek4cbt",
+      "Integrity": "F0l30dqS7sxXoRVtlfzKOVStDlAsgu7y1nRrpMfy4ks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rnjhhtlyd2",
+      "Integrity": "OW319qVzf0uhr6Gx63oRQK19f2A6nH/QYEwLCTujmgw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pdt26mfmtj",
+      "Integrity": "w7BVJdx4Eo7Y0Rqj/Jg0bhClohEcz8/nFlIwrRpftkY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zdyhvmeyal",
+      "Integrity": "V7+2vDKglT1cR2kLQdEHRZPQuYo5KPPBUuaaIQjdxDw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.pdf"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\fonts\\fontawesome-webfont914c.eot",
@@ -43025,6 +43382,27 @@
       "OriginalItemSpec": "wwwroot\\Imagess\\6e214a5e-ca9a-4b88-9f1f-7b8631b22b7e_sanay.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.jpeg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/73a327ad-5663-41fa-8871-018d0fc3d5f9_D3#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "98tm93nns6",
+      "Integrity": "eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\747a6117-2859-448a-a04e-81b1fab4e1c7_elza.jpg",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -43361,6 +43739,27 @@
       "OriginalItemSpec": "wwwroot\\Imagess\\a9e4e457-c586-459d-ba08-acca502835fd_D3.jpeg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/ac45f446-7fa7-4843-bc2b-a30035295219_elza#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "txdozl7ho1",
+      "Integrity": "kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3+Mw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.jpeg",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -43380,6 +43779,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagess\\bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/bfbef270-7862-486f-b80f-30550ec9c109_sanay#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2opu8sg8j8",
+      "Integrity": "jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\c273f951-a346-4135-ba47-3883fd8ca4e9_D3.jpeg",
@@ -196906,6 +197326,88 @@
       ]
     },
     {
+      "Route": "Files/2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.iwgix455ss.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2047745"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:48:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iwgix455ss"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4="
+        }
+      ]
+    },
+    {
+      "Route": "Files/2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2047745"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:48:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4="
+        }
+      ]
+    },
+    {
       "Route": "Files/649c89d6-e863-4137-b45d-55824f9d0d6c_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.iwgix455ss.pdf",
       "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\649c89d6-e863-4137-b45d-55824f9d0d6c_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf",
       "Selectors": [],
@@ -197480,6 +197982,88 @@
       ]
     },
     {
+      "Route": "Files/fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.iym720ch0b.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26624932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:44:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iym720ch0b"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8="
+        }
+      ]
+    },
+    {
+      "Route": "Files/fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26624932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:44:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8="
+        }
+      ]
+    },
+    {
       "Route": "Files/feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.iwgix455ss.pdf",
       "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf",
       "Selectors": [],
@@ -197558,6 +198142,1236 @@
         {
           "Name": "integrity",
           "Value": "sha256-7vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.o9057r6kvt.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZFzviQJxMHPKvDdZ6448bNiJtJBslwCJTPCQqU9e6VQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:57:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o9057r6kvt"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZFzviQJxMHPKvDdZ6448bNiJtJBslwCJTPCQqU9e6VQ="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZFzviQJxMHPKvDdZ6448bNiJtJBslwCJTPCQqU9e6VQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:57:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZFzviQJxMHPKvDdZ6448bNiJtJBslwCJTPCQqU9e6VQ="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.nj1ycdegtb.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rQOqd4b6lMrSUxmxtsK8iX5fNmZw74dk4GyWzB904EM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:44:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nj1ycdegtb"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rQOqd4b6lMrSUxmxtsK8iX5fNmZw74dk4GyWzB904EM="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rQOqd4b6lMrSUxmxtsK8iX5fNmZw74dk4GyWzB904EM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:44:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rQOqd4b6lMrSUxmxtsK8iX5fNmZw74dk4GyWzB904EM="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.jqm9pj9ayh.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pS+CqFvwSv6jMKZmVzSxj2f82VnWwuZJWklvmyErwqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:54:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jqm9pj9ayh"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pS+CqFvwSv6jMKZmVzSxj2f82VnWwuZJWklvmyErwqY="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pS+CqFvwSv6jMKZmVzSxj2f82VnWwuZJWklvmyErwqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:54:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pS+CqFvwSv6jMKZmVzSxj2f82VnWwuZJWklvmyErwqY="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.d3pgnli799.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"91H3YPJH5D6IlR0T19WN1qoSEB9VGI2BJChqCj/tCgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 12:02:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d3pgnli799"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-91H3YPJH5D6IlR0T19WN1qoSEB9VGI2BJChqCj/tCgw="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"91H3YPJH5D6IlR0T19WN1qoSEB9VGI2BJChqCj/tCgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 12:02:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-91H3YPJH5D6IlR0T19WN1qoSEB9VGI2BJChqCj/tCgw="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108.8dvegb4j2g.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tE0Zx5G78UDtPKIfHu+Ue04EjYXOdhFWRrNFHf8Acc0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 12:05:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8dvegb4j2g"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tE0Zx5G78UDtPKIfHu+Ue04EjYXOdhFWRrNFHf8Acc0="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tE0Zx5G78UDtPKIfHu+Ue04EjYXOdhFWRrNFHf8Acc0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 12:05:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tE0Zx5G78UDtPKIfHu+Ue04EjYXOdhFWRrNFHf8Acc0="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OxNgPWPlOAtmlto1LCS5H5Zr8Eh38C/tnAxa27VOeP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 12:18:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OxNgPWPlOAtmlto1LCS5H5Zr8Eh38C/tnAxa27VOeP0="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832.rwiusr3x6x.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OxNgPWPlOAtmlto1LCS5H5Zr8Eh38C/tnAxa27VOeP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 12:18:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rwiusr3x6x"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OxNgPWPlOAtmlto1LCS5H5Zr8Eh38C/tnAxa27VOeP0="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361.nkd79zafy4.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d7X+rukX3GQGm1MSUhOmxS6yuVD0b9fo1l+I0snC0hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 13:30:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nkd79zafy4"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d7X+rukX3GQGm1MSUhOmxS6yuVD0b9fo1l+I0snC0hk="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d7X+rukX3GQGm1MSUhOmxS6yuVD0b9fo1l+I0snC0hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 13:30:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d7X+rukX3GQGm1MSUhOmxS6yuVD0b9fo1l+I0snC0hk="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qqkanR5INVRn5kbsqQFIAfKKr7gNvTxmQSUkMLBfLJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 13:35:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qqkanR5INVRn5kbsqQFIAfKKr7gNvTxmQSUkMLBfLJg="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278.uzmdsyl5ar.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qqkanR5INVRn5kbsqQFIAfKKr7gNvTxmQSUkMLBfLJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 13:35:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uzmdsyl5ar"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qqkanR5INVRn5kbsqQFIAfKKr7gNvTxmQSUkMLBfLJg="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8WoHwkCR0o1XelMORaMg02lKZBmheO5Ee3D5ZobtmzQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 13:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8WoHwkCR0o1XelMORaMg02lKZBmheO5Ee3D5ZobtmzQ="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pu69spw1p0.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8WoHwkCR0o1XelMORaMg02lKZBmheO5Ee3D5ZobtmzQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 13:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pu69spw1p0"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8WoHwkCR0o1XelMORaMg02lKZBmheO5Ee3D5ZobtmzQ="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.426bhlm1hc.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bLj10+I2OAI6vnZg7V0R0/5DPHa0AXadXrJ9dcJm2Bo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 13:39:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "426bhlm1hc"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bLj10+I2OAI6vnZg7V0R0/5DPHa0AXadXrJ9dcJm2Bo="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bLj10+I2OAI6vnZg7V0R0/5DPHa0AXadXrJ9dcJm2Bo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 13:39:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bLj10+I2OAI6vnZg7V0R0/5DPHa0AXadXrJ9dcJm2Bo="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.aczr860xkm.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qgsDSOz2QhQd90ZJ51SRvS3zXlJKWuQ2MeH3Ee199kA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:50:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aczr860xkm"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qgsDSOz2QhQd90ZJ51SRvS3zXlJKWuQ2MeH3Ee199kA="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qgsDSOz2QhQd90ZJ51SRvS3zXlJKWuQ2MeH3Ee199kA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:50:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qgsDSOz2QhQd90ZJ51SRvS3zXlJKWuQ2MeH3Ee199kA="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0l30dqS7sxXoRVtlfzKOVStDlAsgu7y1nRrpMfy4ks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:35:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0l30dqS7sxXoRVtlfzKOVStDlAsgu7y1nRrpMfy4ks="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.rzl7ek4cbt.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0l30dqS7sxXoRVtlfzKOVStDlAsgu7y1nRrpMfy4ks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:35:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rzl7ek4cbt"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0l30dqS7sxXoRVtlfzKOVStDlAsgu7y1nRrpMfy4ks="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OW319qVzf0uhr6Gx63oRQK19f2A6nH/QYEwLCTujmgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:57:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OW319qVzf0uhr6Gx63oRQK19f2A6nH/QYEwLCTujmgw="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.rnjhhtlyd2.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OW319qVzf0uhr6Gx63oRQK19f2A6nH/QYEwLCTujmgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:57:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rnjhhtlyd2"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OW319qVzf0uhr6Gx63oRQK19f2A6nH/QYEwLCTujmgw="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w7BVJdx4Eo7Y0Rqj/Jg0bhClohEcz8/nFlIwrRpftkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:57:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w7BVJdx4Eo7Y0Rqj/Jg0bhClohEcz8/nFlIwrRpftkY="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdt26mfmtj.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w7BVJdx4Eo7Y0Rqj/Jg0bhClohEcz8/nFlIwrRpftkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:57:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pdt26mfmtj"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w7BVJdx4Eo7Y0Rqj/Jg0bhClohEcz8/nFlIwrRpftkY="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V7+2vDKglT1cR2kLQdEHRZPQuYo5KPPBUuaaIQjdxDw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:58:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V7+2vDKglT1cR2kLQdEHRZPQuYo5KPPBUuaaIQjdxDw="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.zdyhvmeyal.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V7+2vDKglT1cR2kLQdEHRZPQuYo5KPPBUuaaIQjdxDw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:58:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zdyhvmeyal"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V7+2vDKglT1cR2kLQdEHRZPQuYo5KPPBUuaaIQjdxDw="
         }
       ]
     },
@@ -212076,6 +213890,88 @@
       ]
     },
     {
+      "Route": "Imagess/73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.98tm93nns6.jpeg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:44:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "98tm93nns6"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.jpeg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 11:44:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ="
+        }
+      ]
+    },
+    {
       "Route": "Imagess/747a6117-2859-448a-a04e-81b1fab4e1c7_elza.jpg",
       "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\747a6117-2859-448a-a04e-81b1fab4e1c7_elza.jpg",
       "Selectors": [],
@@ -213388,6 +215284,88 @@
       ]
     },
     {
+      "Route": "Imagess/ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3+Mw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:48:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3+Mw="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/ac45f446-7fa7-4843-bc2b-a30035295219_elza.txdozl7ho1.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3+Mw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:48:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txdozl7ho1"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3+Mw="
+        }
+      ]
+    },
+    {
       "Route": "Imagess/bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.98tm93nns6.jpeg",
       "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.jpeg",
       "Selectors": [],
@@ -213466,6 +215444,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/bfbef270-7862-486f-b80f-30550ec9c109_sanay.2opu8sg8j8.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 14:53:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2opu8sg8j8"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 14:53:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI="
         }
       ]
     },

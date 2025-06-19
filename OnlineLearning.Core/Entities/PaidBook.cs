@@ -15,5 +15,7 @@ namespace OnlineLearning.Core.Entities
         public string? Img { get; set; }
         public string? Pdf { get; set; }
         public decimal Price { get; set; }
+
+        public ICollection<PurchasedBook>? PurchasedBooks { get; set; }
     }
 }

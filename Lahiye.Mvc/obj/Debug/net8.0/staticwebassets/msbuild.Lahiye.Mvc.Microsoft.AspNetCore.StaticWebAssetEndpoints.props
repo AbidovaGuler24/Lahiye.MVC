@@ -22356,6 +22356,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2047745"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 14:47:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.iwgix455ss.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iwgix455ss"},{"Name":"integrity","Value":"sha256-7vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2047745"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 09:48:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2047745"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 09:48:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/649c89d6-e863-4137-b45d-55824f9d0d6c_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.iwgix455ss.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\649c89d6-e863-4137-b45d-55824f9d0d6c_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -22440,6 +22452,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2047745"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 07:51:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.iym720ch0b.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iym720ch0b"},{"Name":"integrity","Value":"sha256-\u002BrHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"26624932"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022\u002BrHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:44:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BrHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"26624932"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022\u002BrHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:44:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.iwgix455ss.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -22451,6 +22475,186 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2047745"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227vhbiNmtPhiipVl36HQfxwOgZ96r29XM6UMvApNNrV4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 14:21:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.o9057r6kvt.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o9057r6kvt"},{"Name":"integrity","Value":"sha256-ZFzviQJxMHPKvDdZ6448bNiJtJBslwCJTPCQqU9e6VQ="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2019860"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022ZFzviQJxMHPKvDdZ6448bNiJtJBslwCJTPCQqU9e6VQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:57:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZFzviQJxMHPKvDdZ6448bNiJtJBslwCJTPCQqU9e6VQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2019860"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022ZFzviQJxMHPKvDdZ6448bNiJtJBslwCJTPCQqU9e6VQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:57:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.nj1ycdegtb.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nj1ycdegtb"},{"Name":"integrity","Value":"sha256-rQOqd4b6lMrSUxmxtsK8iX5fNmZw74dk4GyWzB904EM="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022rQOqd4b6lMrSUxmxtsK8iX5fNmZw74dk4GyWzB904EM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:44:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rQOqd4b6lMrSUxmxtsK8iX5fNmZw74dk4GyWzB904EM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022rQOqd4b6lMrSUxmxtsK8iX5fNmZw74dk4GyWzB904EM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:44:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.jqm9pj9ayh.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jqm9pj9ayh"},{"Name":"integrity","Value":"sha256-pS\u002BCqFvwSv6jMKZmVzSxj2f82VnWwuZJWklvmyErwqY="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022pS\u002BCqFvwSv6jMKZmVzSxj2f82VnWwuZJWklvmyErwqY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:54:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pS\u002BCqFvwSv6jMKZmVzSxj2f82VnWwuZJWklvmyErwqY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022pS\u002BCqFvwSv6jMKZmVzSxj2f82VnWwuZJWklvmyErwqY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:54:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.d3pgnli799.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d3pgnli799"},{"Name":"integrity","Value":"sha256-91H3YPJH5D6IlR0T19WN1qoSEB9VGI2BJChqCj/tCgw="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u002291H3YPJH5D6IlR0T19WN1qoSEB9VGI2BJChqCj/tCgw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 12:02:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-91H3YPJH5D6IlR0T19WN1qoSEB9VGI2BJChqCj/tCgw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u002291H3YPJH5D6IlR0T19WN1qoSEB9VGI2BJChqCj/tCgw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 12:02:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108.8dvegb4j2g.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8dvegb4j2g"},{"Name":"integrity","Value":"sha256-tE0Zx5G78UDtPKIfHu\u002BUe04EjYXOdhFWRrNFHf8Acc0="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022tE0Zx5G78UDtPKIfHu\u002BUe04EjYXOdhFWRrNFHf8Acc0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 12:05:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858595107459108.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tE0Zx5G78UDtPKIfHu\u002BUe04EjYXOdhFWRrNFHf8Acc0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022tE0Zx5G78UDtPKIfHu\u002BUe04EjYXOdhFWRrNFHf8Acc0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 12:05:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OxNgPWPlOAtmlto1LCS5H5Zr8Eh38C/tnAxa27VOeP0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022OxNgPWPlOAtmlto1LCS5H5Zr8Eh38C/tnAxa27VOeP0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 12:18:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832.rwiusr3x6x.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rwiusr3x6x"},{"Name":"integrity","Value":"sha256-OxNgPWPlOAtmlto1LCS5H5Zr8Eh38C/tnAxa27VOeP0="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858603162095832.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022OxNgPWPlOAtmlto1LCS5H5Zr8Eh38C/tnAxa27VOeP0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 12:18:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361.nkd79zafy4.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nkd79zafy4"},{"Name":"integrity","Value":"sha256-d7X\u002BrukX3GQGm1MSUhOmxS6yuVD0b9fo1l\u002BI0snC0hk="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022d7X\u002BrukX3GQGm1MSUhOmxS6yuVD0b9fo1l\u002BI0snC0hk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 13:30:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858646486275361.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d7X\u002BrukX3GQGm1MSUhOmxS6yuVD0b9fo1l\u002BI0snC0hk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022d7X\u002BrukX3GQGm1MSUhOmxS6yuVD0b9fo1l\u002BI0snC0hk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 13:30:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qqkanR5INVRn5kbsqQFIAfKKr7gNvTxmQSUkMLBfLJg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022qqkanR5INVRn5kbsqQFIAfKKr7gNvTxmQSUkMLBfLJg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 13:35:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278.uzmdsyl5ar.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uzmdsyl5ar"},{"Name":"integrity","Value":"sha256-qqkanR5INVRn5kbsqQFIAfKKr7gNvTxmQSUkMLBfLJg="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649263924278.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022qqkanR5INVRn5kbsqQFIAfKKr7gNvTxmQSUkMLBfLJg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 13:35:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8WoHwkCR0o1XelMORaMg02lKZBmheO5Ee3D5ZobtmzQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00228WoHwkCR0o1XelMORaMg02lKZBmheO5Ee3D5ZobtmzQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 13:35:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pu69spw1p0.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pu69spw1p0"},{"Name":"integrity","Value":"sha256-8WoHwkCR0o1XelMORaMg02lKZBmheO5Ee3D5ZobtmzQ="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00228WoHwkCR0o1XelMORaMg02lKZBmheO5Ee3D5ZobtmzQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 13:35:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.426bhlm1hc.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"426bhlm1hc"},{"Name":"integrity","Value":"sha256-bLj10\u002BI2OAI6vnZg7V0R0/5DPHa0AXadXrJ9dcJm2Bo="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bLj10\u002BI2OAI6vnZg7V0R0/5DPHa0AXadXrJ9dcJm2Bo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 13:39:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bLj10\u002BI2OAI6vnZg7V0R0/5DPHa0AXadXrJ9dcJm2Bo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bLj10\u002BI2OAI6vnZg7V0R0/5DPHa0AXadXrJ9dcJm2Bo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 13:39:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.aczr860xkm.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"aczr860xkm"},{"Name":"integrity","Value":"sha256-qgsDSOz2QhQd90ZJ51SRvS3zXlJKWuQ2MeH3Ee199kA="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022qgsDSOz2QhQd90ZJ51SRvS3zXlJKWuQ2MeH3Ee199kA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 14:50:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qgsDSOz2QhQd90ZJ51SRvS3zXlJKWuQ2MeH3Ee199kA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2140368"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022qgsDSOz2QhQd90ZJ51SRvS3zXlJKWuQ2MeH3Ee199kA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 14:50:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-F0l30dqS7sxXoRVtlfzKOVStDlAsgu7y1nRrpMfy4ks="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2019860"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022F0l30dqS7sxXoRVtlfzKOVStDlAsgu7y1nRrpMfy4ks=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:35:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.rzl7ek4cbt.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rzl7ek4cbt"},{"Name":"integrity","Value":"sha256-F0l30dqS7sxXoRVtlfzKOVStDlAsgu7y1nRrpMfy4ks="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2019860"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022F0l30dqS7sxXoRVtlfzKOVStDlAsgu7y1nRrpMfy4ks=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:35:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OW319qVzf0uhr6Gx63oRQK19f2A6nH/QYEwLCTujmgw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2019860"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022OW319qVzf0uhr6Gx63oRQK19f2A6nH/QYEwLCTujmgw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:57:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.rnjhhtlyd2.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rnjhhtlyd2"},{"Name":"integrity","Value":"sha256-OW319qVzf0uhr6Gx63oRQK19f2A6nH/QYEwLCTujmgw="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2019860"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022OW319qVzf0uhr6Gx63oRQK19f2A6nH/QYEwLCTujmgw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:57:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-w7BVJdx4Eo7Y0Rqj/Jg0bhClohEcz8/nFlIwrRpftkY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2019860"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022w7BVJdx4Eo7Y0Rqj/Jg0bhClohEcz8/nFlIwrRpftkY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:57:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdt26mfmtj.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pdt26mfmtj"},{"Name":"integrity","Value":"sha256-w7BVJdx4Eo7Y0Rqj/Jg0bhClohEcz8/nFlIwrRpftkY="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2019860"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022w7BVJdx4Eo7Y0Rqj/Jg0bhClohEcz8/nFlIwrRpftkY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:57:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-V7\u002B2vDKglT1cR2kLQdEHRZPQuYo5KPPBUuaaIQjdxDw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2019860"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022V7\u002B2vDKglT1cR2kLQdEHRZPQuYo5KPPBUuaaIQjdxDw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:58:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.zdyhvmeyal.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zdyhvmeyal"},{"Name":"integrity","Value":"sha256-V7\u002B2vDKglT1cR2kLQdEHRZPQuYo5KPPBUuaaIQjdxDw="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2019860"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022V7\u002B2vDKglT1cR2kLQdEHRZPQuYo5KPPBUuaaIQjdxDw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:58:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/fonts/fontawesome-webfont914c.4ckmkgb6y8.svg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\fontawesome-webfont914c.svg'))</AssetFile>
@@ -24576,6 +24780,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9609"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 14:33:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.98tm93nns6.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"98tm93nns6"},{"Name":"integrity","Value":"sha256-eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ="},{"Name":"label","Value":"_content/Lahiye.Mvc/Imagess/73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7931"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:44:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7931"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 11:44:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/747a6117-2859-448a-a04e-81b1fab4e1c7_elza.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\747a6117-2859-448a-a04e-81b1fab4e1c7_elza.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -24768,6 +24984,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7931"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Jun 2025 01:46:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3\u002BMw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6370"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3\u002BMw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 09:48:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/ac45f446-7fa7-4843-bc2b-a30035295219_elza.txdozl7ho1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"txdozl7ho1"},{"Name":"integrity","Value":"sha256-kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3\u002BMw="},{"Name":"label","Value":"_content/Lahiye.Mvc/Imagess/ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6370"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3\u002BMw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 09:48:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.98tm93nns6.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -24779,6 +25007,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7931"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 14:47:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/bfbef270-7862-486f-b80f-30550ec9c109_sanay.2opu8sg8j8.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2opu8sg8j8"},{"Name":"integrity","Value":"sha256-jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI="},{"Name":"label","Value":"_content/Lahiye.Mvc/Imagess/bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9609"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 14:53:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9609"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 14:53:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/c273f951-a346-4135-ba47-3883fd8ca4e9_D3.98tm93nns6.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\c273f951-a346-4135-ba47-3883fd8ca4e9_D3.jpeg'))</AssetFile>

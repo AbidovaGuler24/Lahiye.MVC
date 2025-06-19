@@ -25,7 +25,11 @@ namespace OnlineLearning.DAL.Context
             modelBuilder.Entity<PaidBook>()
                .Property(p => p.Price)
                .HasPrecision(18, 2); // 18 ümumi rəqəm, 2 onluqdan sonra
-
+            modelBuilder.Entity<PurchasedBook>()
+        .HasOne(p => p.Book)
+        .WithMany(b => b.PurchasedBooks)
+        .HasForeignKey(p => p.BookId)
+        .OnDelete(DeleteBehavior.Cascade);
 
         }
         
@@ -44,7 +48,11 @@ namespace OnlineLearning.DAL.Context
         public DbSet<CafeMenuItem> CafeMenuItems { get; set; }
 
         public DbSet<PaidBook> PaidBooks { get; set; }
+        public DbSet<FavoriteBook> FavoriteBooks { get; set; }
+        public  DbSet<CartItem> CartItems { get; set; }
 
-        
+        public DbSet<PurchasedBook> PurchasedBooks { get; set; }
+
+
     }
 }

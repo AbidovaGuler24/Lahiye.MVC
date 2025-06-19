@@ -343,6 +343,31 @@ namespace OnlineLearning.DAL.Migrations
                     b.ToTable("CafeMenuItems");
                 });
 
+            modelBuilder.Entity("OnlineLearning.Core.Entities.CartItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BookId");
+
+                    b.ToTable("CartItems");
+                });
+
             modelBuilder.Entity("OnlineLearning.Core.Entities.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -418,6 +443,28 @@ namespace OnlineLearning.DAL.Migrations
                     b.ToTable("EmployeeComments");
                 });
 
+            modelBuilder.Entity("OnlineLearning.Core.Entities.FavoriteBook", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BookId");
+
+                    b.ToTable("FavoriteBooks");
+                });
+
             modelBuilder.Entity("OnlineLearning.Core.Entities.NewsEvent", b =>
                 {
                     b.Property<int>("Id")
@@ -477,6 +524,31 @@ namespace OnlineLearning.DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("PaidBooks");
+                });
+
+            modelBuilder.Entity("OnlineLearning.Core.Entities.PurchasedBook", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("PurchaseDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BookId");
+
+                    b.ToTable("PurchasedBooks");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -545,6 +617,17 @@ namespace OnlineLearning.DAL.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("OnlineLearning.Core.Entities.CartItem", b =>
+                {
+                    b.HasOne("OnlineLearning.Core.Entities.PaidBook", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
+                });
+
             modelBuilder.Entity("OnlineLearning.Core.Entities.EmployeeComment", b =>
                 {
                     b.HasOne("OnlineLearning.Core.Entities.Employee", "Employee")
@@ -554,6 +637,28 @@ namespace OnlineLearning.DAL.Migrations
                         .IsRequired();
 
                     b.Navigation("Employee");
+                });
+
+            modelBuilder.Entity("OnlineLearning.Core.Entities.FavoriteBook", b =>
+                {
+                    b.HasOne("OnlineLearning.Core.Entities.PaidBook", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
+                });
+
+            modelBuilder.Entity("OnlineLearning.Core.Entities.PurchasedBook", b =>
+                {
+                    b.HasOne("OnlineLearning.Core.Entities.PaidBook", "Book")
+                        .WithMany("PurchasedBooks")
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
                 });
 
             modelBuilder.Entity("OnlineLearning.Core.Entities.Author", b =>
@@ -569,6 +674,11 @@ namespace OnlineLearning.DAL.Migrations
             modelBuilder.Entity("OnlineLearning.Core.Entities.Employee", b =>
                 {
                     b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("OnlineLearning.Core.Entities.PaidBook", b =>
+                {
+                    b.Navigation("PurchasedBooks");
                 });
 #pragma warning restore 612, 618
         }

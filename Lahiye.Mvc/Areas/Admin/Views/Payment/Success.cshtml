@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Uğurlu Ödəniş";
+    int bookId = ViewBag.BookId;
+}
+
+<div class="alert alert-success mt-4">
+    <h4 class="text-success">✅ @ViewBag.Message</h4>
+    <p>Kitabınız hazırdır, aşağıdan yükləyə bilərsiniz.</p>
+
+    <a asp-action="DownloadBook" asp-route-bookId="@bookId" class="btn btn-primary mt-3">📥 Kitabı Yüklə (PDF)</a>
+</div>

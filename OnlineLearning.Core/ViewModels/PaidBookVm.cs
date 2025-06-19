@@ -15,5 +15,7 @@ namespace OnlineLearning.Core.ViewModels
         public string? Img { get; set; }
         public string? Pdf { get; set; }
         public decimal Price { get; set; }
+        
+        public bool IsPaid { get; set; }
     }
 }

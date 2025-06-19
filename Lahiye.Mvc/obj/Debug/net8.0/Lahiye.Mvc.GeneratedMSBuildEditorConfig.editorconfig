@@ -160,6 +160,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFpZEJvb2tcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Areas/Admin/Views/Payment/Cancel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGF5bWVudFxDYW5jZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Areas/Admin/Views/Payment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGF5bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Areas/Admin/Views/Payment/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGF5bWVudFxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -192,8 +204,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZU1lbnVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Views/Cart/ViewCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxWaWV3Q2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Views/Checkout/Cancel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQ2FuY2VsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Views/Checkout/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Views/Favorites/ViewFavorites.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVzXFZpZXdGYXZvcml0ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Views/Home/Index.cshtml]
@@ -202,6 +230,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Views/NewsEvent/NewsEvent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c0V2ZW50XE5ld3NFdmVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Views/PaidBook/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpZEJvb2tcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Views/PaidBook/ReadBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpZEJvb2tcUmVhZEJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Views/PaidBook/Reader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpZEJvb2tcUmVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/source/repos/Lahiye.Mvc/Lahiye.Mvc/Views/Shared/_Layout.cshtml]

@@ -86,6 +86,31 @@ namespace OnlineLearning.BL.Services.Concretes
             };
         }
 
+        public async Task<List<PaidBookVm>> GetFilteredAsync(string? search, decimal? minPrice, int? minPage)
+        {
+            var paidBooks = await _paidBookRepository.GetAllAsync();
+
+            if (!string.IsNullOrWhiteSpace(search))
+                paidBooks = paidBooks.Where(b => b.Title != null && b.Title.Contains(search, StringComparison.OrdinalIgnoreCase)).ToList();
+
+            if (minPrice.HasValue)
+                paidBooks = paidBooks.Where(b => b.Price >= minPrice.Value).ToList();
+
+            if (minPage.HasValue)
+                paidBooks = paidBooks.Where(b => b.PageCount >= minPage.Value).ToList();
+
+            return paidBooks.Select(b => new PaidBookVm
+            {
+                Id = b.Id,
+                Title = b.Title,
+                Description = b.Description,
+                PageCount = b.PageCount,
+                Img = b.Img,
+                Pdf = b.Pdf,
+                Price = b.Price
+            }).ToList();
+        }
+
         public async Task UpdateAsync(PaidBookUpdateVm vm, string wwwroot)
         {
             var paidBook = await _paidBookRepository.GetByIdAsync(vm.Id);

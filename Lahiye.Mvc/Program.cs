@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,10 +18,16 @@ namespace Lahiye.Mvc
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+           
+            builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
+            // Stripe API açarını təyin et
+            var stripeSettings = builder.Configuration.GetSection("Stripe").Get<StripeSettings>();
+            Stripe.StripeConfiguration.ApiKey = stripeSettings.SecretKey;
 
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddScoped<PaymentService>();
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(
                     builder.Configuration.GetConnectionString("Default")
@@ -35,7 +41,7 @@ namespace Lahiye.Mvc
                 .AddEntityFrameworkStores<AppDbContext>()
                 .AddDefaultTokenProviders();
 
-
+            builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
             builder.Services.AddScoped<IBookRepository, BookRepository>();
             builder.Services.AddScoped<IBookService, BookService>();
             builder.Services.AddScoped<IAuthorService, AuthorService>();
@@ -53,10 +59,14 @@ namespace Lahiye.Mvc
             
             builder.Services.AddScoped<IPaidBookRepository, PaidBookRepository>();
             builder.Services.AddScoped<IPaidBookService, PaidBookService>();
+            builder.Services.AddScoped<IPaymentService, PaymentService>();
 
-
+            builder.Services.AddSession();
+            builder.Services.AddHttpContextAccessor();
 
             var app = builder.Build();
+
+            Stripe.StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
 
             if (!app.Environment.IsDevelopment())
             {
@@ -66,12 +76,13 @@ namespace Lahiye.Mvc
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseAuthentication();   
+            app.UseAuthorization();
             app.UseRouting();
 
-            
+            app.UseSession();
 
-      
+
 
             app.MapControllerRoute(
                 name: "areas",

@@ -1,0 +1,33 @@
+﻿@model List<OnlineLearning.Core.Entities.PaidBook>
+
+@{
+    ViewData["Title"] = "My Favorites";
+}
+
+<h2><i class="fa fa-heart text-danger"></i> My Favorite Books</h2>
+
+@if (Model.Count == 0)
+{
+    <p>You don't have any favorite books yet.</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var book in Model)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                  @*   <img src="~/imagess/" class="card-img-top" alt="@book.Img" /> *@
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title</h5>
+                        <p class="card-text">@book.Description</p>
+                        <p><strong>Price:</strong> $@book.Price</p>
+                        <a asp-action="RemoveFromFavorites" asp-route-id="@book.Id" class="btn btn-danger">
+                            <i class="fa fa-trash"></i> Remove
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

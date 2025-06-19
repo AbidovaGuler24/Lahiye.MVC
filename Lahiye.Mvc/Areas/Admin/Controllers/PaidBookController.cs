@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.BL.Services.Concretes;
+using OnlineLearning.Core.Entities;
 using OnlineLearning.Core.ViewModels;
+using OnlineLearning.DAL.Context;
 
 namespace OnlineLearning.MVC.Controllers
 {
@@ -10,17 +12,20 @@ namespace OnlineLearning.MVC.Controllers
     {
         private readonly IPaidBookService _paidBookService;
         private readonly IWebHostEnvironment _env;
+        private readonly AppDbContext _context;
 
-        public PaidBookController(IPaidBookService paidBookService, IWebHostEnvironment env)
+
+        public PaidBookController(IPaidBookService paidBookService, IWebHostEnvironment env, AppDbContext context)
         {
             _paidBookService = paidBookService;
             _env = env;
+            _context = context;
         }
 
         // GET: PaidBook
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string search, decimal? minPrice, int? minPage)
         {
-            var books = await _paidBookService.GetAllAsync();
+            var books = await _paidBookService.GetFilteredAsync(search, minPrice, minPage);
             return View(books);
         }
 
@@ -86,6 +91,36 @@ namespace OnlineLearning.MVC.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             await _paidBookService.DeleteAsync(id);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult AddToFavoritesAndCart(int bookId)
+        {
+            var userId = "test-user"; // Əgər login sistemi varsa: User.Identity.Name və ya UserManager ilə al
+
+            // Favoritə əlavə et
+            if (!_context.FavoriteBooks.Any(f => f.BookId == bookId && f.UserId == userId))
+            {
+                _context.FavoriteBooks.Add(new FavoriteBook
+                {
+                    BookId = bookId,
+                    UserId = userId
+                });
+            }
+
+            // Səbətə əlavə et
+            if (!_context.CartItems.Any(c => c.BookId == bookId && c.UserId == userId))
+            {
+                _context.CartItems.Add(new CartItem
+                {
+                    BookId = bookId,
+                    UserId = userId,
+                    Quantity = 1
+                });
+            }
+
+            _context.SaveChanges();
             return RedirectToAction("Index");
         }
 

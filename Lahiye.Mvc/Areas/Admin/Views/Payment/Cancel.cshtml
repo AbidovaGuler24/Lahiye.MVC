@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Ödəniş Ləğv Edildi";
+}
+
+<div class="alert alert-warning mt-4">
+    <h4 class="text-danger">⚠️ @ViewBag.Message</h4>
+    <p>Ödəniş uğursuz oldu və ya istifadəçi tərəfindən ləğv edildi.</p>
+    <a asp-action="Index" class="btn btn-outline-secondary mt-3">Yenidən cəhd et</a>
+</div>
