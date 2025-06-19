@@ -1,4 +1,5 @@
-﻿@model List<OnlineLearning.Core.Entities.PaidBook>
+﻿@using OnlineLearning.Core.ViewModels
+@model List<FavoriteBookVM>
 
 @{
     ViewData["Title"] = "My Favorites";
@@ -19,8 +20,8 @@ else
                 <div class="card">
                   @*   <img src="~/imagess/" class="card-img-top" alt="@book.Img" /> *@
                     <div class="card-body">
-                        <h5 class="card-title">@book.Title</h5>
-                        <p class="card-text">@book.Description</p>
+                        <h5 class="card-title">@book.BookTitle</h5>
+                        
                         <p><strong>Price:</strong> $@book.Price</p>
                         <a asp-action="RemoveFromFavorites" asp-route-id="@book.Id" class="btn btn-danger">
                             <i class="fa fa-trash"></i> Remove

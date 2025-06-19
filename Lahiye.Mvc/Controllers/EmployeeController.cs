@@ -17,8 +17,18 @@ namespace Lahiye.Mvc.Controllers
         public async Task<IActionResult> Index()
         {
             var employees = await _employeeService.GetAllAsync();
-            return View(employees);
+
+            var viewModels = employees.Select(e => new EmployeeVM
+            {
+                Id = e.Id,
+                FullName = e.Name,
+                Position = e.Position,
+                PhotoPath = e.PhotoPath
+            }).ToList();
+
+            return View(viewModels);
         }
+
     }
 }
  

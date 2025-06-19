@@ -56,17 +56,8 @@ namespace Lahiye.Mvc.Controllers
             
             var allUsers = await _userManager.Users.ToListAsync();
 
-            string roleToAssign = "User";
-            if (allUsers.Count == 1)
-                roleToAssign = "Admin";
-            else if (allUsers.Count == 2)
-                roleToAssign = "Moderator";
 
-           
-            if (!await _roleManager.RoleExistsAsync(roleToAssign))
-                await _roleManager.CreateAsync(new IdentityRole(roleToAssign));
-
-            await _userManager.AddToRoleAsync(appUser, roleToAssign);
+            await _userManager.AddToRoleAsync(appUser, "User");
 
             return RedirectToAction("Login");
         }
@@ -113,8 +104,7 @@ namespace Lahiye.Mvc.Controllers
             if (!await _roleManager.RoleExistsAsync("Admin"))
                 await _roleManager.CreateAsync(new IdentityRole("Admin"));
 
-            if (!await _roleManager.RoleExistsAsync("Moderator"))
-                await _roleManager.CreateAsync(new IdentityRole("Moderator"));
+            
 
             if (!await _roleManager.RoleExistsAsync("User"))
                 await _roleManager.CreateAsync(new IdentityRole("User"));

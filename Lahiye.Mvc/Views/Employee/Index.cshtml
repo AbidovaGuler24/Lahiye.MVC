@@ -1,47 +1,186 @@
 ﻿@model List<OnlineLearning.Core.ViewModels.EmployeeVM>
-
 @{
-    ViewData["Title"] = "İşçilər";
+    Layout = null;
 }
 
-<h2>@ViewData["Title"]</h2>
+@{
+    ViewData["Title"] = "Employees";
+}
 
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>FullName</th>
-            <th>Position</th>
-            <th>Photo</th>
-            <th>Comment</th>
-        </tr>
-    </thead>
-    <tbody>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+<h2 class="title">@ViewData["Title"]</h2>
+
+<div class="container py-5">
+    <div class="grid">
         @foreach (var employee in Model)
         {
-            <tr>
-                <td>@employee.FullName</td>
-                <td>@employee.Position</td>
-                <td>
-                    @if (!string.IsNullOrEmpty(employee.PhotoPath))
-                    {
-                        <img src="~/imagess/@employee.PhotoPath" alt="@employee.FullName" width="80" />
-                    }
-                    else
-                    {
-                        <span>Şəkil yoxdur</span>
-                    }
-                </td>
-                <td style="width: 300px;">
-                    @await Html.PartialAsync("_EmployeeComments", employee.Id)
-
-                    <form asp-action="AddComment" method="post" style="margin-top:10px;">
-                        <input type="hidden" name="EmployeeId" value="@employee.Id" />
-                        <input type="text" name="UserName" placeholder="Adınız" class="form-control mb-1" required />
-                        <textarea name="CommentText" placeholder="Yorumunuz" class="form-control mb-1" required></textarea>
-                        <button type="submit" class="btn btn-primary btn-sm">Yorum Yaz</button>
-                    </form>
-                </td>
-            </tr>
+            <div class="card">
+                @if (!string.IsNullOrEmpty(employee.PhotoPath))
+                {
+                    <img src="~/imagess/@employee.PhotoPath" alt="@employee.FullName" class="photo" />
+                }
+                else
+                {
+                    <div class="no-photo">Şəkil yoxdur</div>
+                }
+                <div class="info">
+                    <h3>@employee.FullName</h3>
+                    <p>@employee.Position</p>
+                    
+                </div>
+            </div>
         }
-    </tbody>
-</table>
+    </div>
+</div>
+
+<style>
+    body {
+        margin: 0;
+        background: #121212;
+        font-family: 'Montserrat', sans-serif;
+        color: #eee;
+    }
+
+    .title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 3rem;
+        margin: 2rem 0;
+        letter-spacing: 3px;
+        color: #fafafa;
+        text-transform: uppercase;
+        text-shadow: 0 0 10px #c49a6c;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 15px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+        gap: 2.5rem;
+        padding-bottom: 4rem;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.07);
+        border-radius: 20px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(196, 154, 108, 0.3);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 40px rgba(196, 154, 108, 0.7);
+            border-color: #c49a6c;
+        }
+
+    .photo {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover .photo {
+        transform: scale(1.07);
+    }
+
+    .no-photo {
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        color: #c49a6c;
+        background: rgba(196, 154, 108, 0.1);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        font-style: italic;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .info {
+        padding: 1.6rem 1.8rem 2rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+        .info h3 {
+            margin: 0 0 0.3rem;
+            font-weight: 700;
+            font-size: 1.7rem;
+            letter-spacing: 1.2px;
+            color: #f7e7ce;
+        }
+
+        .info p {
+            margin: 0 0 1.5rem;
+            font-weight: 500;
+            font-size: 1.1rem;
+            color: #d7c5ab;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+    .btn {
+        padding: 10px 28px;
+        border: 2px solid #c49a6c;
+        border-radius: 50px;
+        background: transparent;
+        color: #c49a6c;
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        user-select: none;
+        box-shadow: 0 0 10px transparent;
+    }
+
+        .btn:hover {
+            background: #c49a6c;
+            color: #121212;
+            box-shadow: 0 0 15px #c49a6c;
+        }
+
+    @@media (max-width: 768px) {
+        .photo, .no-photo
+
+    {
+        height: 280px;
+    }
+
+    }
+
+    @@media (max-width: 480px) {
+        .photo, .no-photo
+
+    {
+        height: 220px;
+    }
+
+    .title {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    }
+</style>

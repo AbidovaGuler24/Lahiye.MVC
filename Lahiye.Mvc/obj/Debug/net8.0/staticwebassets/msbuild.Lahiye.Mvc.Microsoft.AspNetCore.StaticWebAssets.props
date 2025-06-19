@@ -33732,6 +33732,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Files/temp/first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jrj9dhletc</Fingerprint>
+      <Integrity>sVIW9NSWI2vkHgTDYsUJU3T67STwMPjnvMnBYmpBcOs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>Lahiye.Mvc</SourceId>
@@ -33911,6 +33929,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jj437yxxum</Fingerprint>
+      <Integrity>v7j8Hl5/B39aAzFlUg7R715aWXfYdNri76InOryW2Ww=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uzknaco88i</Fingerprint>
+      <Integrity>9ruz5LQMMFXJeAqYmkHixArcGAtKfBjwZ4CyEk13UaE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf'))">
       <SourceType>Package</SourceType>
@@ -37026,6 +37080,114 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\who-we-are-image.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>z070vvd6dk</Fingerprint>
+      <Integrity>bTEVOT/8GrG4e783u8GYX30llrKA+jSWirT0YTMxyvU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cmnin9at2f</Fingerprint>
+      <Integrity>FGN8it4auatNIENsEQ88NHKKcf3+gmNrWlN/cCyiWD0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3b2r9km6y</Fingerprint>
+      <Integrity>piPqrPHp/dMK7YXzFaj/FZlVuW0a+MxAcr8DEkWNfKY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tsinsqza9v</Fingerprint>
+      <Integrity>E03qtcsgc66h6d8QpDLzbDUXpjXXPrAzTglv4iek0mw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>63iuz9bnad</Fingerprint>
+      <Integrity>Eu5BLcfc6+pg6f8SIqZlITHE4qks/ZX4vNrUbPnSBrQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vreq6tqj3m</Fingerprint>
+      <Integrity>tXgt4L2QjjnXdPtP5Q6tbjIR1mfgsoTdGyQ/brgZ7Pw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\23dc0bd1-fca3-46ec-90dd-5e041ae5446a_D2.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Lahiye.Mvc</SourceId>
@@ -37043,6 +37205,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\23dc0bd1-fca3-46ec-90dd-5e041ae5446a_D2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mt8wev51zi</Fingerprint>
+      <Integrity>qi7cDD9tJFwt0cHi9NR8q6u+ns7r1+3HAVP7uj5ER/0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\2d6c28c1-060d-4326-ae95-9e8687399807_download (4).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/2d6c28c1-060d-4326-ae95-9e8687399807_download (4).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>x37e9frss1</Fingerprint>
+      <Integrity>fRCGM4PvPTZfBsQc3LTyRoYgrTTlW3748ibm2Co2p9Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\2d6c28c1-060d-4326-ae95-9e8687399807_download (4).jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\2ecce5df-43d4-4d05-b1e4-fb711c7d14bd_sanay.jpg'))">
       <SourceType>Package</SourceType>
@@ -37080,6 +37278,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\3d7eb4dd-5383-42f6-ae10-c05495133f8b_catt.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vt7hqy8lic</Fingerprint>
+      <Integrity>4yO2s/LYKNlJGc0pgS94xQ/BZyTHh415pzgeo4PDyTc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\418f1569-c9f0-4217-a6d2-aa94944eb263_elza.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Lahiye.Mvc</SourceId>
@@ -37115,6 +37331,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\4b007635-272e-44bf-9651-81930c637dd1_D3.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1w6wjzxyt7</Fingerprint>
+      <Integrity>4dnAVJFToPNroMmnqY9QXi6l1eMaoX8HdTIn7AX5wZs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wcgu9ayg3a</Fingerprint>
+      <Integrity>sCC6eYH8P8vKkn7IilSarU7NuP6d72pJJd3RAI1xUNM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>arjwx2jrse</Fingerprint>
+      <Integrity>+tqy5satFKHh4hJi60Ee0hmFAcmXE3oguLKKact1264=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\67a99858-908e-4b2b-88ce-a67e0ca31249_D3.jpeg'))">
       <SourceType>Package</SourceType>
@@ -37223,6 +37493,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\79ec1b45-9190-4eaf-ba1a-154597c93c1a_D3.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9j7j0ah3gi</Fingerprint>
+      <Integrity>5eQKpFF0XFB97YVDYPUkH0J9+TDBP40zLa8BOTcZuYw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\8164bb73-e2d2-4373-90f3-a567c97883e2_D3.jpeg'))">
       <SourceType>Package</SourceType>
@@ -37404,6 +37692,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\9baafa99-a113-4c9b-83f0-e3dbcea6ab2e_D3.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pmkg0dysp1</Fingerprint>
+      <Integrity>cUCClA/fGzRIBWoAHAfkixoxfq6iUdLomcadBOZUNOc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\a03c28f6-2017-47bb-bcb9-d85f9f80cbc9_D2.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Lahiye.Mvc</SourceId>
@@ -37421,6 +37727,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\a03c28f6-2017-47bb-bcb9-d85f9f80cbc9_D2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\a0be7027-abf9-457d-96dc-0df8e343220b_download (2).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/a0be7027-abf9-457d-96dc-0df8e343220b_download (2).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nux9nsty3x</Fingerprint>
+      <Integrity>YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\a0be7027-abf9-457d-96dc-0df8e343220b_download (2).jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\a5f9a338-71cc-446c-8bcf-64475481bacc_sanay.jpg'))">
       <SourceType>Package</SourceType>
@@ -37494,6 +37818,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>u4q9376fec</Fingerprint>
+      <Integrity>jmtcsARnU5EVyKo0Q1AhIuevttEpVXQky1IuQkdNaV0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>Lahiye.Mvc</SourceId>
@@ -37529,6 +37871,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\c1998685-92d1-470e-9c35-e2a3df250a02_download (12).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/c1998685-92d1-470e-9c35-e2a3df250a02_download (12).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2qpuwhgryy</Fingerprint>
+      <Integrity>uqFKaMPCmeNYU2wnJT2/LNsVlPXEQDj0JK8rEj8mznc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\c1998685-92d1-470e-9c35-e2a3df250a02_download (12).jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\c273f951-a346-4135-ba47-3883fd8ca4e9_D3.jpeg'))">
       <SourceType>Package</SourceType>
@@ -37638,6 +37998,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\dc7c4a6e-9054-46f3-90ce-47925e60eb7e_D3.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iie4zv3duf</Fingerprint>
+      <Integrity>ho4BVe4mZ/XXIfX1laEbdx96xpI/U8NVHYVbdgEqmQc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fmkz2smftf</Fingerprint>
+      <Integrity>2VovLLB0t3L6XfACRN8SnHYGkqfayQ/mLxjxDBIlJLc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\e3b23cf4-0859-47bc-9b59-d5806a3105cc_catt.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Lahiye.Mvc</SourceId>
@@ -37655,6 +38051,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\e3b23cf4-0859-47bc-9b59-d5806a3105cc_catt.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dww4ze0rit</Fingerprint>
+      <Integrity>jTpw+5l2+C8ByaKz7IL4/vBsdo6D9Y8/+HFRFtRGqxg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\f08eb37b-5e9f-4ecc-8d7d-376e3bb29a5c_elza.jpg'))">
       <SourceType>Package</SourceType>
@@ -37691,6 +38105,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\fafdd290-c21a-41a6-ae88-8069b37d47f0_D2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Imagess/fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7n8zn13g8x</Fingerprint>
+      <Integrity>g2GeYkfYCc50KtD7thyIy4cqso4lD4PGHTUyHBUIrJE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\accordion.min.js'))">
       <SourceType>Package</SourceType>

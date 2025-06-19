@@ -29,7 +29,7 @@ else
                     <td>@book.Title</td>
 
                     <td>@book.Price.ToString("0.00") ₼</td>
-                    <td>@book.</td>
+                  
                     <td>
                         <a asp-controller="Checkout" asp-action="CreateCheckoutSession" asp-route-bookId="@book.Id" class="btn btn-success">Buy Now</a>
                         <a asp-action="RemoveFromCart" asp-route-id="@book.Id" class="btn btn-danger">Remove</a>

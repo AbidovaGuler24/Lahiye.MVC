@@ -1872,6 +1872,7 @@ wwwroot\Files\ede16d71-4acc-4835-bad6-ec3cfeb88b20_Tarix-vahid_ve_ardicil_tekamu
 wwwroot\Files\fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf
 wwwroot\Files\feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
 wwwroot\Files\temp\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf
+wwwroot\Files\temp\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf
 wwwroot\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf
 wwwroot\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.pdf
 wwwroot\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.pdf
@@ -1882,6 +1883,8 @@ wwwroot\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasvir
 wwwroot\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858649397482502.pdf
 wwwroot\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858651948482765.pdf
 wwwroot\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf
+wwwroot\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.pdf
+wwwroot\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.pdf
 wwwroot\Files\temp\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf
 wwwroot\Files\temp\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590275722336.pdf
 wwwroot\Files\temp\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590513626157.pdf
@@ -2055,17 +2058,30 @@ wwwroot\images\welcome-img-home-v3.jpg
 wwwroot\images\wellcome-counter-bg.jpg
 wwwroot\images\wellcome-image.jpg
 wwwroot\images\who-we-are-image.jpg
+wwwroot\Imagess\08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg
+wwwroot\Imagess\0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg
+wwwroot\Imagess\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg
+wwwroot\Imagess\1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg
+wwwroot\Imagess\1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.jpg
+wwwroot\Imagess\210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg
 wwwroot\Imagess\23dc0bd1-fca3-46ec-90dd-5e041ae5446a_D2.jpg
+wwwroot\Imagess\2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg
+wwwroot\Imagess\2d6c28c1-060d-4326-ae95-9e8687399807_download (4).jpg
 wwwroot\Imagess\2ecce5df-43d4-4d05-b1e4-fb711c7d14bd_sanay.jpg
 wwwroot\Imagess\3d7eb4dd-5383-42f6-ae10-c05495133f8b_catt.jpg
+wwwroot\Imagess\3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg
 wwwroot\Imagess\418f1569-c9f0-4217-a6d2-aa94944eb263_elza.jpg
 wwwroot\Imagess\4b007635-272e-44bf-9651-81930c637dd1_D3.jpeg
+wwwroot\Imagess\528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg
+wwwroot\Imagess\5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg
+wwwroot\Imagess\5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg
 wwwroot\Imagess\67a99858-908e-4b2b-88ce-a67e0ca31249_D3.jpeg
 wwwroot\Imagess\6b64d2e7-045a-4941-a35b-66c232121533_elza.jpg
 wwwroot\Imagess\6e214a5e-ca9a-4b88-9f1f-7b8631b22b7e_sanay.jpg
 wwwroot\Imagess\73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.jpeg
 wwwroot\Imagess\747a6117-2859-448a-a04e-81b1fab4e1c7_elza.jpg
 wwwroot\Imagess\79ec1b45-9190-4eaf-ba1a-154597c93c1a_D3.jpeg
+wwwroot\Imagess\7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg
 wwwroot\Imagess\8164bb73-e2d2-4373-90f3-a567c97883e2_D3.jpeg
 wwwroot\Imagess\83e2f705-ba30-4d27-aa40-35e90d2d69eb_D2.jpg
 wwwroot\Imagess\879a3db1-b2c2-401e-b89b-ba0a8c6f66d4_D3.jpeg
@@ -2076,22 +2092,30 @@ wwwroot\Imagess\901a11bf-fb94-4d57-b239-6315a16d43c7_catt.jpg
 wwwroot\Imagess\911a976d-1640-4788-8760-90410e461b97_D2.jpg
 wwwroot\Imagess\93058fda-33f2-48ea-85ec-333671847469_elza.jpg
 wwwroot\Imagess\9baafa99-a113-4c9b-83f0-e3dbcea6ab2e_D3.jpeg
+wwwroot\Imagess\9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg
 wwwroot\Imagess\a03c28f6-2017-47bb-bcb9-d85f9f80cbc9_D2.jpg
+wwwroot\Imagess\a0be7027-abf9-457d-96dc-0df8e343220b_download (2).jpg
 wwwroot\Imagess\a5f9a338-71cc-446c-8bcf-64475481bacc_sanay.jpg
 wwwroot\Imagess\a70b7b71-9330-44ed-ad25-2a0e61d60c76_D3.jpeg
 wwwroot\Imagess\a9e4e457-c586-459d-ba08-acca502835fd_D3.jpeg
 wwwroot\Imagess\ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg
+wwwroot\Imagess\b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg
 wwwroot\Imagess\bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.jpeg
 wwwroot\Imagess\bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg
+wwwroot\Imagess\c1998685-92d1-470e-9c35-e2a3df250a02_download (12).jpg
 wwwroot\Imagess\c273f951-a346-4135-ba47-3883fd8ca4e9_D3.jpeg
 wwwroot\Imagess\cb575942-c5bc-44f7-9fb9-16d3f89e43e2_D1.jpg
 wwwroot\Imagess\d1530d25-83a9-4869-8371-2c1c075e2c0c_D3.jpeg
 wwwroot\Imagess\d38a18bc-d488-4716-bcf4-986c4456e9cd_D3.jpeg
 wwwroot\Imagess\d72279bd-ac7a-4c88-b065-3009493a2aae_D1.jpg
 wwwroot\Imagess\dc7c4a6e-9054-46f3-90ce-47925e60eb7e_D3.jpeg
+wwwroot\Imagess\e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).jpg
+wwwroot\Imagess\e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).jpg
 wwwroot\Imagess\e3b23cf4-0859-47bc-9b59-d5806a3105cc_catt.jpg
+wwwroot\Imagess\ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg
 wwwroot\Imagess\f08eb37b-5e9f-4ecc-8d7d-376e3bb29a5c_elza.jpg
 wwwroot\Imagess\fafdd290-c21a-41a6-ae88-8069b37d47f0_D2.jpg
+wwwroot\Imagess\fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).jpg
 wwwroot\js\accordion.min.js
 wwwroot\js\bootstrap.min.js
 wwwroot\js\bxslider.min.js

@@ -7473,6 +7473,10 @@
       "PackagePath": "staticwebassets\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf",
+      "PackagePath": "staticwebassets\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf",
       "PackagePath": "staticwebassets\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf"
     },
@@ -7513,6 +7517,14 @@
       "PackagePath": "staticwebassets\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.pdf",
+      "PackagePath": "staticwebassets\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.pdf",
+      "PackagePath": "staticwebassets\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.pdf"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf",
       "PackagePath": "staticwebassets\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf"
     },
@@ -7529,8 +7541,40 @@
       "PackagePath": "staticwebassets\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590907514491.pdf"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.jpg",
+      "PackagePath": "staticwebassets\\Imagess\\1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\23dc0bd1-fca3-46ec-90dd-5e041ae5446a_D2.jpg",
       "PackagePath": "staticwebassets\\Imagess\\23dc0bd1-fca3-46ec-90dd-5e041ae5446a_D2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\2d6c28c1-060d-4326-ae95-9e8687399807_download (4).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\2d6c28c1-060d-4326-ae95-9e8687399807_download (4).jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\2ecce5df-43d4-4d05-b1e4-fb711c7d14bd_sanay.jpg",
@@ -7541,12 +7585,28 @@
       "PackagePath": "staticwebassets\\Imagess\\3d7eb4dd-5383-42f6-ae10-c05495133f8b_catt.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\418f1569-c9f0-4217-a6d2-aa94944eb263_elza.jpg",
       "PackagePath": "staticwebassets\\Imagess\\418f1569-c9f0-4217-a6d2-aa94944eb263_elza.jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\4b007635-272e-44bf-9651-81930c637dd1_D3.jpeg",
       "PackagePath": "staticwebassets\\Imagess\\4b007635-272e-44bf-9651-81930c637dd1_D3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\67a99858-908e-4b2b-88ce-a67e0ca31249_D3.jpeg",
@@ -7571,6 +7631,10 @@
     {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\79ec1b45-9190-4eaf-ba1a-154597c93c1a_D3.jpeg",
       "PackagePath": "staticwebassets\\Imagess\\79ec1b45-9190-4eaf-ba1a-154597c93c1a_D3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg",
+      "PackagePath": "staticwebassets\\Imagess\\7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\8164bb73-e2d2-4373-90f3-a567c97883e2_D3.jpeg",
@@ -7613,8 +7677,16 @@
       "PackagePath": "staticwebassets\\Imagess\\9baafa99-a113-4c9b-83f0-e3dbcea6ab2e_D3.jpeg"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\a03c28f6-2017-47bb-bcb9-d85f9f80cbc9_D2.jpg",
       "PackagePath": "staticwebassets\\Imagess\\a03c28f6-2017-47bb-bcb9-d85f9f80cbc9_D2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\a0be7027-abf9-457d-96dc-0df8e343220b_download (2).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\a0be7027-abf9-457d-96dc-0df8e343220b_download (2).jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\a5f9a338-71cc-446c-8bcf-64475481bacc_sanay.jpg",
@@ -7633,12 +7705,20 @@
       "PackagePath": "staticwebassets\\Imagess\\ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.jpeg",
       "PackagePath": "staticwebassets\\Imagess\\bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.jpeg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg",
       "PackagePath": "staticwebassets\\Imagess\\bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\c1998685-92d1-470e-9c35-e2a3df250a02_download (12).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\c1998685-92d1-470e-9c35-e2a3df250a02_download (12).jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\c273f951-a346-4135-ba47-3883fd8ca4e9_D3.jpeg",
@@ -7665,8 +7745,20 @@
       "PackagePath": "staticwebassets\\Imagess\\dc7c4a6e-9054-46f3-90ce-47925e60eb7e_D3.jpeg"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\e3b23cf4-0859-47bc-9b59-d5806a3105cc_catt.jpg",
       "PackagePath": "staticwebassets\\Imagess\\e3b23cf4-0859-47bc-9b59-d5806a3105cc_catt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\f08eb37b-5e9f-4ecc-8d7d-376e3bb29a5c_elza.jpg",
@@ -7675,6 +7767,10 @@
     {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\fafdd290-c21a-41a6-ae88-8069b37d47f0_D2.jpg",
       "PackagePath": "staticwebassets\\Imagess\\fafdd290-c21a-41a6-ae88-8069b37d47f0_D2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).jpg",
+      "PackagePath": "staticwebassets\\Imagess\\fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\ads\\WhatsApp Video 2025-06-17 at 15.23.50 (1).mp4",

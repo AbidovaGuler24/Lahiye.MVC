@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fgyDRr9CiRIy7OQPBUrnoYocbhfi1QFXeQPkoa87zb8=",
+  "Hash": "pLg5mbKQ9COVTjIzBoQF3+E/oAlxRPcAwXv/0LRasno=",
   "Source": "Lahiye.Mvc",
   "BasePath": "_content/Lahiye.Mvc",
   "Mode": "Default",
@@ -39371,6 +39371,27 @@
       "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858590389970253.pdf"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jrj9dhletc",
+      "Integrity": "sVIW9NSWI2vkHgTDYsUJU3T67STwMPjnvMnBYmpBcOs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -39579,6 +39600,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858694155684178.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jj437yxxum",
+      "Integrity": "v7j8Hl5/B39aAzFlUg7R715aWXfYdNri76InOryW2Ww=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uzknaco88i",
+      "Integrity": "9ruz5LQMMFXJeAqYmkHixArcGAtKfBjwZ4CyEk13UaE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.pdf"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638858577543413027.pdf",
@@ -43214,6 +43277,132 @@
       "OriginalItemSpec": "wwwroot\\images\\who-we-are-image.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/08e91e18-47cc-4d8b-968a-843c1c96d393_download (14)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z070vvd6dk",
+      "Integrity": "bTEVOT/8GrG4e783u8GYX30llrKA+jSWirT0YTMxyvU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmnin9at2f",
+      "Integrity": "FGN8it4auatNIENsEQ88NHKKcf3+gmNrWlN/cCyiWD0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a3b2r9km6y",
+      "Integrity": "piPqrPHp/dMK7YXzFaj/FZlVuW0a+MxAcr8DEkWNfKY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tsinsqza9v",
+      "Integrity": "E03qtcsgc66h6d8QpDLzbDUXpjXXPrAzTglv4iek0mw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/1c8a372c-e711-47fa-8f1a-ff1685ac3490_images#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "63iuz9bnad",
+      "Integrity": "Eu5BLcfc6+pg6f8SIqZlITHE4qks/ZX4vNrUbPnSBrQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vreq6tqj3m",
+      "Integrity": "tXgt4L2QjjnXdPtP5Q6tbjIR1mfgsoTdGyQ/brgZ7Pw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\23dc0bd1-fca3-46ec-90dd-5e041ae5446a_D2.jpg",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -43233,6 +43422,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagess\\23dc0bd1-fca3-46ec-90dd-5e041ae5446a_D2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mt8wev51zi",
+      "Integrity": "qi7cDD9tJFwt0cHi9NR8q6u+ns7r1+3HAVP7uj5ER/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\2d6c28c1-060d-4326-ae95-9e8687399807_download (4).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/2d6c28c1-060d-4326-ae95-9e8687399807_download (4)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x37e9frss1",
+      "Integrity": "fRCGM4PvPTZfBsQc3LTyRoYgrTTlW3748ibm2Co2p9Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\2d6c28c1-060d-4326-ae95-9e8687399807_download (4).jpg"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\2ecce5df-43d4-4d05-b1e4-fb711c7d14bd_sanay.jpg",
@@ -43277,6 +43508,27 @@
       "OriginalItemSpec": "wwwroot\\Imagess\\3d7eb4dd-5383-42f6-ae10-c05495133f8b_catt.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vt7hqy8lic",
+      "Integrity": "4yO2s/LYKNlJGc0pgS94xQ/BZyTHh415pzgeo4PDyTc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\418f1569-c9f0-4217-a6d2-aa94944eb263_elza.jpg",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -43317,6 +43569,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagess\\4b007635-272e-44bf-9651-81930c637dd1_D3.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/528be715-8330-4d9d-a86b-ca863a8435ff_download (5)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1w6wjzxyt7",
+      "Integrity": "4dnAVJFToPNroMmnqY9QXi6l1eMaoX8HdTIn7AX5wZs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wcgu9ayg3a",
+      "Integrity": "sCC6eYH8P8vKkn7IilSarU7NuP6d72pJJd3RAI1xUNM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/5e5be2aa-133e-419f-a982-edbf50686337_download (8)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "arjwx2jrse",
+      "Integrity": "+tqy5satFKHh4hJi60Ee0hmFAcmXE3oguLKKact1264=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\67a99858-908e-4b2b-88ce-a67e0ca31249_D3.jpeg",
@@ -43443,6 +43758,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagess\\79ec1b45-9190-4eaf-ba1a-154597c93c1a_D3.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9j7j0ah3gi",
+      "Integrity": "5eQKpFF0XFB97YVDYPUkH0J9+TDBP40zLa8BOTcZuYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\8164bb73-e2d2-4373-90f3-a567c97883e2_D3.jpeg",
@@ -43655,6 +43991,27 @@
       "OriginalItemSpec": "wwwroot\\Imagess\\9baafa99-a113-4c9b-83f0-e3dbcea6ab2e_D3.jpeg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pmkg0dysp1",
+      "Integrity": "cUCClA/fGzRIBWoAHAfkixoxfq6iUdLomcadBOZUNOc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\a03c28f6-2017-47bb-bcb9-d85f9f80cbc9_D2.jpg",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -43674,6 +44031,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagess\\a03c28f6-2017-47bb-bcb9-d85f9f80cbc9_D2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\a0be7027-abf9-457d-96dc-0df8e343220b_download (2).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/a0be7027-abf9-457d-96dc-0df8e343220b_download (2)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nux9nsty3x",
+      "Integrity": "YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\a0be7027-abf9-457d-96dc-0df8e343220b_download (2).jpg"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\a5f9a338-71cc-446c-8bcf-64475481bacc_sanay.jpg",
@@ -43760,6 +44138,27 @@
       "OriginalItemSpec": "wwwroot\\Imagess\\ac45f446-7fa7-4843-bc2b-a30035295219_elza.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u4q9376fec",
+      "Integrity": "jmtcsARnU5EVyKo0Q1AhIuevttEpVXQky1IuQkdNaV0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.jpeg",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -43800,6 +44199,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagess\\bfbef270-7862-486f-b80f-30550ec9c109_sanay.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\c1998685-92d1-470e-9c35-e2a3df250a02_download (12).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/c1998685-92d1-470e-9c35-e2a3df250a02_download (12)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2qpuwhgryy",
+      "Integrity": "uqFKaMPCmeNYU2wnJT2/LNsVlPXEQDj0JK8rEj8mznc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\c1998685-92d1-470e-9c35-e2a3df250a02_download (12).jpg"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\c273f951-a346-4135-ba47-3883fd8ca4e9_D3.jpeg",
@@ -43928,6 +44348,48 @@
       "OriginalItemSpec": "wwwroot\\Imagess\\dc7c4a6e-9054-46f3-90ce-47925e60eb7e_D3.jpeg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iie4zv3duf",
+      "Integrity": "ho4BVe4mZ/XXIfX1laEbdx96xpI/U8NVHYVbdgEqmQc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fmkz2smftf",
+      "Integrity": "2VovLLB0t3L6XfACRN8SnHYGkqfayQ/mLxjxDBIlJLc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\e3b23cf4-0859-47bc-9b59-d5806a3105cc_catt.jpg",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -43947,6 +44409,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagess\\e3b23cf4-0859-47bc-9b59-d5806a3105cc_catt.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/ed3a4350-1e25-4657-b7af-22af055c2e98_download (7)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dww4ze0rit",
+      "Integrity": "jTpw+5l2+C8ByaKz7IL4/vBsdo6D9Y8/+HFRFtRGqxg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\f08eb37b-5e9f-4ecc-8d7d-376e3bb29a5c_elza.jpg",
@@ -43989,6 +44472,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagess\\fafdd290-c21a-41a6-ae88-8069b37d47f0_D2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7n8zn13g8x",
+      "Integrity": "g2GeYkfYCc50KtD7thyIy4cqso4lD4PGHTUyHBUIrJE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).jpg"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\js\\accordion.min.js",
@@ -198228,6 +198732,88 @@
       ]
     },
     {
+      "Route": "Files/temp/first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.jrj9dhletc.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sVIW9NSWI2vkHgTDYsUJU3T67STwMPjnvMnBYmpBcOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 11:16:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jrj9dhletc"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sVIW9NSWI2vkHgTDYsUJU3T67STwMPjnvMnBYmpBcOs="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sVIW9NSWI2vkHgTDYsUJU3T67STwMPjnvMnBYmpBcOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 11:16:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sVIW9NSWI2vkHgTDYsUJU3T67STwMPjnvMnBYmpBcOs="
+        }
+      ]
+    },
+    {
       "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.nj1ycdegtb.pdf",
       "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf",
       "Selectors": [],
@@ -199044,6 +199630,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-qgsDSOz2QhQd90ZJ51SRvS3zXlJKWuQ2MeH3Ee199kA="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.jj437yxxum.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v7j8Hl5/B39aAzFlUg7R715aWXfYdNri76InOryW2Ww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 11:16:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jj437yxxum"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v7j8Hl5/B39aAzFlUg7R715aWXfYdNri76InOryW2Ww="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859429720181919.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v7j8Hl5/B39aAzFlUg7R715aWXfYdNri76InOryW2Ww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 11:16:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v7j8Hl5/B39aAzFlUg7R715aWXfYdNri76InOryW2Ww="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ruz5LQMMFXJeAqYmkHixArcGAtKfBjwZ4CyEk13UaE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 12:20:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ruz5LQMMFXJeAqYmkHixArcGAtKfBjwZ4CyEk13UaE="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.uzknaco88i.pdf",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ruz5LQMMFXJeAqYmkHixArcGAtKfBjwZ4CyEk13UaE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 12:20:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uzknaco88i"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638859468355182217.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ruz5LQMMFXJeAqYmkHixArcGAtKfBjwZ4CyEk13UaE="
         }
       ]
     },
@@ -213234,6 +213984,498 @@
       ]
     },
     {
+      "Route": "Imagess/08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bTEVOT/8GrG4e783u8GYX30llrKA+jSWirT0YTMxyvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bTEVOT/8GrG4e783u8GYX30llrKA+jSWirT0YTMxyvU="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).z070vvd6dk.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bTEVOT/8GrG4e783u8GYX30llrKA+jSWirT0YTMxyvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:57:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z070vvd6dk"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bTEVOT/8GrG4e783u8GYX30llrKA+jSWirT0YTMxyvU="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).cmnin9at2f.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FGN8it4auatNIENsEQ88NHKKcf3+gmNrWlN/cCyiWD0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:19:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmnin9at2f"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FGN8it4auatNIENsEQ88NHKKcf3+gmNrWlN/cCyiWD0="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FGN8it4auatNIENsEQ88NHKKcf3+gmNrWlN/cCyiWD0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:19:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FGN8it4auatNIENsEQ88NHKKcf3+gmNrWlN/cCyiWD0="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).a3b2r9km6y.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"piPqrPHp/dMK7YXzFaj/FZlVuW0a+MxAcr8DEkWNfKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 16:29:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3b2r9km6y"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-piPqrPHp/dMK7YXzFaj/FZlVuW0a+MxAcr8DEkWNfKY="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"piPqrPHp/dMK7YXzFaj/FZlVuW0a+MxAcr8DEkWNfKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 16:29:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-piPqrPHp/dMK7YXzFaj/FZlVuW0a+MxAcr8DEkWNfKY="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E03qtcsgc66h6d8QpDLzbDUXpjXXPrAzTglv4iek0mw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:59:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E03qtcsgc66h6d8QpDLzbDUXpjXXPrAzTglv4iek0mw="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).tsinsqza9v.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E03qtcsgc66h6d8QpDLzbDUXpjXXPrAzTglv4iek0mw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:59:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tsinsqza9v"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E03qtcsgc66h6d8QpDLzbDUXpjXXPrAzTglv4iek0mw="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.63iuz9bnad.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Eu5BLcfc6+pg6f8SIqZlITHE4qks/ZX4vNrUbPnSBrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:26:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "63iuz9bnad"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Eu5BLcfc6+pg6f8SIqZlITHE4qks/ZX4vNrUbPnSBrQ="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\1c8a372c-e711-47fa-8f1a-ff1685ac3490_images.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Eu5BLcfc6+pg6f8SIqZlITHE4qks/ZX4vNrUbPnSBrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:26:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Eu5BLcfc6+pg6f8SIqZlITHE4qks/ZX4vNrUbPnSBrQ="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tXgt4L2QjjnXdPtP5Q6tbjIR1mfgsoTdGyQ/brgZ7Pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:55:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tXgt4L2QjjnXdPtP5Q6tbjIR1mfgsoTdGyQ/brgZ7Pw="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).vreq6tqj3m.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tXgt4L2QjjnXdPtP5Q6tbjIR1mfgsoTdGyQ/brgZ7Pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:55:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vreq6tqj3m"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tXgt4L2QjjnXdPtP5Q6tbjIR1mfgsoTdGyQ/brgZ7Pw="
+        }
+      ]
+    },
+    {
       "Route": "Imagess/23dc0bd1-fca3-46ec-90dd-5e041ae5446a_D2.8opg30l0xq.jpg",
       "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\23dc0bd1-fca3-46ec-90dd-5e041ae5446a_D2.jpg",
       "Selectors": [],
@@ -213312,6 +214554,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-+Biek1UMn2hzTsVJL87bSZpD5J+4shnBfLUS4kZ91UA="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qi7cDD9tJFwt0cHi9NR8q6u+ns7r1+3HAVP7uj5ER/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 16:35:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qi7cDD9tJFwt0cHi9NR8q6u+ns7r1+3HAVP7uj5ER/0="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).mt8wev51zi.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qi7cDD9tJFwt0cHi9NR8q6u+ns7r1+3HAVP7uj5ER/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 16:35:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mt8wev51zi"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qi7cDD9tJFwt0cHi9NR8q6u+ns7r1+3HAVP7uj5ER/0="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/2d6c28c1-060d-4326-ae95-9e8687399807_download (4).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\2d6c28c1-060d-4326-ae95-9e8687399807_download (4).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fRCGM4PvPTZfBsQc3LTyRoYgrTTlW3748ibm2Co2p9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:23:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fRCGM4PvPTZfBsQc3LTyRoYgrTTlW3748ibm2Co2p9Q="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/2d6c28c1-060d-4326-ae95-9e8687399807_download (4).x37e9frss1.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\2d6c28c1-060d-4326-ae95-9e8687399807_download (4).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fRCGM4PvPTZfBsQc3LTyRoYgrTTlW3748ibm2Co2p9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:23:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x37e9frss1"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/2d6c28c1-060d-4326-ae95-9e8687399807_download (4).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fRCGM4PvPTZfBsQc3LTyRoYgrTTlW3748ibm2Co2p9Q="
         }
       ]
     },
@@ -213480,6 +214886,88 @@
       ]
     },
     {
+      "Route": "Imagess/3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4yO2s/LYKNlJGc0pgS94xQ/BZyTHh415pzgeo4PDyTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:01:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4yO2s/LYKNlJGc0pgS94xQ/BZyTHh415pzgeo4PDyTc="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).vt7hqy8lic.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4yO2s/LYKNlJGc0pgS94xQ/BZyTHh415pzgeo4PDyTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:01:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vt7hqy8lic"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4yO2s/LYKNlJGc0pgS94xQ/BZyTHh415pzgeo4PDyTc="
+        }
+      ]
+    },
+    {
       "Route": "Imagess/418f1569-c9f0-4217-a6d2-aa94944eb263_elza.jpg",
       "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\418f1569-c9f0-4217-a6d2-aa94944eb263_elza.jpg",
       "Selectors": [],
@@ -213640,6 +215128,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/528be715-8330-4d9d-a86b-ca863a8435ff_download (5).1w6wjzxyt7.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4dnAVJFToPNroMmnqY9QXi6l1eMaoX8HdTIn7AX5wZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:27:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1w6wjzxyt7"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4dnAVJFToPNroMmnqY9QXi6l1eMaoX8HdTIn7AX5wZs="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4dnAVJFToPNroMmnqY9QXi6l1eMaoX8HdTIn7AX5wZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:27:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4dnAVJFToPNroMmnqY9QXi6l1eMaoX8HdTIn7AX5wZs="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sCC6eYH8P8vKkn7IilSarU7NuP6d72pJJd3RAI1xUNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 16:32:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sCC6eYH8P8vKkn7IilSarU7NuP6d72pJJd3RAI1xUNM="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).wcgu9ayg3a.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sCC6eYH8P8vKkn7IilSarU7NuP6d72pJJd3RAI1xUNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 16:32:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wcgu9ayg3a"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sCC6eYH8P8vKkn7IilSarU7NuP6d72pJJd3RAI1xUNM="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/5e5be2aa-133e-419f-a982-edbf50686337_download (8).arjwx2jrse.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13825"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+tqy5satFKHh4hJi60Ee0hmFAcmXE3oguLKKact1264=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "arjwx2jrse"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+tqy5satFKHh4hJi60Ee0hmFAcmXE3oguLKKact1264="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13825"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+tqy5satFKHh4hJi60Ee0hmFAcmXE3oguLKKact1264=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+tqy5satFKHh4hJi60Ee0hmFAcmXE3oguLKKact1264="
         }
       ]
     },
@@ -214132,6 +215866,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.9j7j0ah3gi.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5eQKpFF0XFB97YVDYPUkH0J9+TDBP40zLa8BOTcZuYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:18:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9j7j0ah3gi"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5eQKpFF0XFB97YVDYPUkH0J9+TDBP40zLa8BOTcZuYw="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5eQKpFF0XFB97YVDYPUkH0J9+TDBP40zLa8BOTcZuYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:18:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5eQKpFF0XFB97YVDYPUkH0J9+TDBP40zLa8BOTcZuYw="
         }
       ]
     },
@@ -214956,6 +216772,88 @@
       ]
     },
     {
+      "Route": "Imagess/9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUCClA/fGzRIBWoAHAfkixoxfq6iUdLomcadBOZUNOc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:01:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUCClA/fGzRIBWoAHAfkixoxfq6iUdLomcadBOZUNOc="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).pmkg0dysp1.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUCClA/fGzRIBWoAHAfkixoxfq6iUdLomcadBOZUNOc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:01:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pmkg0dysp1"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUCClA/fGzRIBWoAHAfkixoxfq6iUdLomcadBOZUNOc="
+        }
+      ]
+    },
+    {
       "Route": "Imagess/a03c28f6-2017-47bb-bcb9-d85f9f80cbc9_D2.8opg30l0xq.jpg",
       "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\a03c28f6-2017-47bb-bcb9-d85f9f80cbc9_D2.jpg",
       "Selectors": [],
@@ -215034,6 +216932,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+Biek1UMn2hzTsVJL87bSZpD5J+4shnBfLUS4kZ91UA="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/a0be7027-abf9-457d-96dc-0df8e343220b_download (2).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\a0be7027-abf9-457d-96dc-0df8e343220b_download (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:21:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/a0be7027-abf9-457d-96dc-0df8e343220b_download (2).nux9nsty3x.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\a0be7027-abf9-457d-96dc-0df8e343220b_download (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:21:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nux9nsty3x"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/a0be7027-abf9-457d-96dc-0df8e343220b_download (2).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo="
         }
       ]
     },
@@ -215366,6 +217346,88 @@
       ]
     },
     {
+      "Route": "Imagess/b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4289"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jmtcsARnU5EVyKo0Q1AhIuevttEpVXQky1IuQkdNaV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jmtcsARnU5EVyKo0Q1AhIuevttEpVXQky1IuQkdNaV0="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).u4q9376fec.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4289"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jmtcsARnU5EVyKo0Q1AhIuevttEpVXQky1IuQkdNaV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4q9376fec"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jmtcsARnU5EVyKo0Q1AhIuevttEpVXQky1IuQkdNaV0="
+        }
+      ]
+    },
+    {
       "Route": "Imagess/bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.98tm93nns6.jpeg",
       "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.jpeg",
       "Selectors": [],
@@ -215526,6 +217588,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/c1998685-92d1-470e-9c35-e2a3df250a02_download (12).2qpuwhgryy.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\c1998685-92d1-470e-9c35-e2a3df250a02_download (12).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15986"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uqFKaMPCmeNYU2wnJT2/LNsVlPXEQDj0JK8rEj8mznc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:52:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2qpuwhgryy"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/c1998685-92d1-470e-9c35-e2a3df250a02_download (12).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uqFKaMPCmeNYU2wnJT2/LNsVlPXEQDj0JK8rEj8mznc="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/c1998685-92d1-470e-9c35-e2a3df250a02_download (12).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\c1998685-92d1-470e-9c35-e2a3df250a02_download (12).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15986"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uqFKaMPCmeNYU2wnJT2/LNsVlPXEQDj0JK8rEj8mznc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:52:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uqFKaMPCmeNYU2wnJT2/LNsVlPXEQDj0JK8rEj8mznc="
         }
       ]
     },
@@ -216022,6 +218166,170 @@
       ]
     },
     {
+      "Route": "Imagess/e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).iie4zv3duf.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13745"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ho4BVe4mZ/XXIfX1laEbdx96xpI/U8NVHYVbdgEqmQc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 16:33:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iie4zv3duf"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ho4BVe4mZ/XXIfX1laEbdx96xpI/U8NVHYVbdgEqmQc="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\e0938772-92bf-4587-ac0f-6e16bf9885b2_images (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13745"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ho4BVe4mZ/XXIfX1laEbdx96xpI/U8NVHYVbdgEqmQc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 16:33:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ho4BVe4mZ/XXIfX1laEbdx96xpI/U8NVHYVbdgEqmQc="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).fmkz2smftf.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2VovLLB0t3L6XfACRN8SnHYGkqfayQ/mLxjxDBIlJLc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:22:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fmkz2smftf"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2VovLLB0t3L6XfACRN8SnHYGkqfayQ/mLxjxDBIlJLc="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\e243b3f7-60ab-4dc6-b082-c65b79e4e0c1_download (3).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2VovLLB0t3L6XfACRN8SnHYGkqfayQ/mLxjxDBIlJLc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:22:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2VovLLB0t3L6XfACRN8SnHYGkqfayQ/mLxjxDBIlJLc="
+        }
+      ]
+    },
+    {
       "Route": "Imagess/e3b23cf4-0859-47bc-9b59-d5806a3105cc_catt.eu709pnytg.jpg",
       "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\e3b23cf4-0859-47bc-9b59-d5806a3105cc_catt.jpg",
       "Selectors": [],
@@ -216100,6 +218408,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-SjvTY3QX3T2DFQXadTRr34D40IYlD1ZLP17K4XjpYx8="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).dww4ze0rit.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jTpw+5l2+C8ByaKz7IL4/vBsdo6D9Y8/+HFRFtRGqxg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:58:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dww4ze0rit"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jTpw+5l2+C8ByaKz7IL4/vBsdo6D9Y8/+HFRFtRGqxg="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jTpw+5l2+C8ByaKz7IL4/vBsdo6D9Y8/+HFRFtRGqxg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 14:58:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jTpw+5l2+C8ByaKz7IL4/vBsdo6D9Y8/+HFRFtRGqxg="
         }
       ]
     },
@@ -216264,6 +218654,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+Biek1UMn2hzTsVJL87bSZpD5J+4shnBfLUS4kZ91UA="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).7n8zn13g8x.jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g2GeYkfYCc50KtD7thyIy4cqso4lD4PGHTUyHBUIrJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:50:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7n8zn13g8x"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g2GeYkfYCc50KtD7thyIy4cqso4lD4PGHTUyHBUIrJE="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).jpg",
+      "AssetFile": "C:\\Users\\User\\source\\repos\\Lahiye.Mvc\\Lahiye.Mvc\\wwwroot\\Imagess\\fe17d5d2-c6dd-43ee-84ac-f10c075d88db_download (11).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g2GeYkfYCc50KtD7thyIy4cqso4lD4PGHTUyHBUIrJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 15:50:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g2GeYkfYCc50KtD7thyIy4cqso4lD4PGHTUyHBUIrJE="
         }
       ]
     },

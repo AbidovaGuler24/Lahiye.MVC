@@ -60,7 +60,8 @@ namespace Lahiye.Mvc
             builder.Services.AddScoped<IPaidBookRepository, PaidBookRepository>();
             builder.Services.AddScoped<IPaidBookService, PaidBookService>();
             builder.Services.AddScoped<IPaymentService, PaymentService>();
-
+            builder.Services.AddScoped<IFavoriteBookRepository, FavoriteBookRepository>();
+            builder.Services.AddScoped<IFavoriteBookService, FavoriteBookService>();
             builder.Services.AddSession();
             builder.Services.AddHttpContextAccessor();
 

@@ -35,7 +35,7 @@
 
                     <form asp-action="AddToFavorites" asp-controller="PaidBook" method="post" style="display:inline-block;">
                         <input type="hidden" name="bookId" value="@book.Id" />
-                        <button type="submit" class="btn btn-sm btn-outline-danger" title="Sevimlilərə əlavə et">
+                        <button asp-action="AddToFavorites" asp-controller="Favorites" asp-route-id="@book.Id" asp-route-email=@User.Identity.Name class="btn btn-sm btn-outline-danger" title="Sevimlilərə əlavə et">
                             ❤️
                         </button>
                     </form>

@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.Core.ViewModels;
+using OnlineLearning.DAL.Context;
 
 namespace Lahiye.Mvc.Areas.Admin.Controllers
 {
@@ -9,17 +11,29 @@ namespace Lahiye.Mvc.Areas.Admin.Controllers
     {
         private readonly IEmployeeService _employeeService;
         private readonly IWebHostEnvironment _environment;
-
-        public EmployeeController(IEmployeeService employeeService, IWebHostEnvironment environment)
+        private readonly AppDbContext _context;
+        public EmployeeController(IEmployeeService employeeService, IWebHostEnvironment environment, AppDbContext context)
         {
             _employeeService = employeeService;
             _environment = environment;
+            _context = context;
         }
         public async Task<IActionResult> Index()
         {
             var employees = await _employeeService.GetAllAsync();
-            return View(employees);
+
+            var viewModels = employees.Select(e => new EmployeeVM
+            {
+                Id = e.Id,
+                FullName = e.Name,
+                Position = e.Position,
+                PhotoPath = e.PhotoPath
+            }).ToList();
+
+            return View(viewModels);
         }
+
+
 
         public async Task<IActionResult> Details(int id)
         {
