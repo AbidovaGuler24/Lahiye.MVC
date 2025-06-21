@@ -1,0 +1,53 @@
+﻿@model OnlineLearning.Core.ViewModels.LibraryItemVM
+
+@{
+    ViewData["Title"] = "Kitab Detalları";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Başlıq</dt>
+        <dd class="col-sm-10">@Model.Title</dd>
+
+        <dt class="col-sm-2">Müəllif</dt>
+        <dd class="col-sm-10">@Model.Author</dd>
+
+        <dt class="col-sm-2">Təsvir</dt>
+        <dd class="col-sm-10">@Model.Description</dd>
+
+        <dt class="col-sm-2">Yaş Kateqoriyası</dt>
+        <dd class="col-sm-10">@Model.AgeCategory</dd>
+
+        <dt class="col-sm-2">Audio Fayl</dt>
+        <dd class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model.ExistingAudioPath))
+            {
+                <audio controls>
+                    <source src="@Model.ExistingAudioPath" type="audio/mpeg" />
+                    Brauzeriniz audio elementini dəstəkləmir.
+                </audio>
+            }
+            else
+            {
+                <p>Mövcud audio fayl yoxdur.</p>
+            }
+        </dd>
+
+        <dt class="col-sm-2">Şəkil</dt>
+        <dd class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model.ExistingImagePath))
+            {
+                <img src="@Model.ExistingImagePath" alt="@Model.Title" style="max-height: 200px;" />
+            }
+            else
+            {
+                <p>Mövcud şəkil yoxdur.</p>
+            }
+        </dd>
+    </dl>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Düzəliş Et</a>
+<a asp-action="Index" class="btn btn-secondary">Geri</a>

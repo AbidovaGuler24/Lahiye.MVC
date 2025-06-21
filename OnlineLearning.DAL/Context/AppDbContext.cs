@@ -52,6 +52,7 @@ namespace OnlineLearning.DAL.Context
         public  DbSet<CartItem> CartItems { get; set; }
 
         public DbSet<PurchasedBook> PurchasedBooks { get; set; }
+        public DbSet<LibraryItem> LibraryItems { get; set; }
 
 
     }

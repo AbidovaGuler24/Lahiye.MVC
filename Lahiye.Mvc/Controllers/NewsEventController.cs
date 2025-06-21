@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OnlineLearning.BL.Services.Abstracts;
+using OnlineLearning.BL.Services.Concretes;
 using System.Threading.Tasks;
 
 namespace Lahiye.Mvc.Controllers
@@ -28,5 +29,28 @@ namespace Lahiye.Mvc.Controllers
 
             return View(newsEvent);
         }
+        public async Task<IActionResult> Search(string searchDay, string searchMonth, string searchYear)
+        {
+            var list = await _newsEventService.GetAllAsync();
+
+            if (int.TryParse(searchYear, out int year))
+            {
+                list = list.Where(x => x.Date.Year == year).ToList();
+            }
+
+            if (int.TryParse(searchMonth, out int month))
+            {
+                list = list.Where(x => x.Date.Month == month).ToList();
+            }
+
+            if (int.TryParse(searchDay, out int day))
+            {
+                list = list.Where(x => x.Date.Day == day).ToList();
+            }
+
+            return View("Search", list);
+        }
+
+
     }
 }

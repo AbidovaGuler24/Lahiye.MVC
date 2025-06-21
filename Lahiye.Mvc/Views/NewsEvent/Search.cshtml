@@ -1,0 +1,126 @@
+﻿@model List<OnlineLearning.Core.ViewModels.NewsEventVm>
+@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Library News & Events";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<style>
+    body {
+        background-color: #f5f2ed;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .page-title {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #5c4438;
+    }
+
+    .page-subtitle {
+        font-size: 1.2rem;
+        color: #7a6e65;
+        margin-bottom: 40px;
+    }
+
+    .card-news {
+        border: none;
+        border-radius: 16px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        background-color: #ffffff;
+    }
+
+        .card-news:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-news img {
+            height: 220px;
+            object-fit: cover;
+            width: 100%;
+            border-bottom: 1px solid #eee;
+        }
+
+    .news-date {
+        background-color: #8e6f5f;
+        color: white;
+        padding: 6px 14px;
+        font-size: 0.85rem;
+        border-radius: 50px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .btn-readmore {
+        background-color: #6f4e37;
+        color: white;
+        border-radius: 50px;
+        padding: 8px 18px;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-readmore:hover {
+            background-color: #563c2b;
+        }
+
+    .back-arrow-link {
+        position: fixed; /* Küncdə sabitləyir */
+        top: 20px; /* Yuxarıdan 20px məsafə */
+        left: 20px; /* Soldan 20px məsafə */
+        font-size: 2.5rem;
+        color: #a67c52; /* Açıq qəhvəyi rəng */
+        text-decoration: none;
+        cursor: pointer;
+        transition: color 0.3s ease, transform 0.3s ease;
+        user-select: none;
+        z-index: 1000;
+    }
+
+        .back-arrow-link:hover {
+            color: #6f4e37; /* Daha tünd qəhvəyi hover rəngi */
+            transform: translateX(-5px);
+        }
+</style>
+
+<div class="container py-5">
+    <div class="text-center">
+        <h1 class="page-title">Library News & Events</h1>
+        <p class="page-subtitle">Stay updated with the latest happenings in our library world</p>
+        <a href="/NewsEvent" class="back-arrow-link" aria-label="Əvvəlki səhifəyə qayıt">
+            &#8592;
+        </a>
+    </div>
+
+    <div class="row">
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card card-news">
+                        <img src="~/imagess/@item.ImagePath" alt="@item.Title" />
+                        <div class="card-body">
+                            <span class="news-date">@item.Date.ToString("dd MMMM yyyy")</span>
+                            <h5 class="card-title mt-2">@item.Title</h5>
+                            <p class="card-text">@item.Description.Substring(0, Math.Min(item.Description.Length, 100))...</p>
+                            <a href="/NewsEvent/Details/@item.Id" class="btn btn-readmore mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="text-center">
+                <p>No news or events found.</p>
+            </div>
+        }
+    </div>
+</div>

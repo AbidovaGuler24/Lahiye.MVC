@@ -103,6 +103,28 @@
             color: #fff;
         }
 </style>
+<style>
+    .back-arrow-link {
+        position: fixed; /* Küncdə sabitləyir */
+        top: 20px; /* Yuxarıdan 20px məsafə */
+        left: 20px; /* Soldan 20px məsafə */
+        font-size: 2.5rem;
+        color: #a67c52; /* Açıq qəhvəyi rəng */
+        text-decoration: none;
+        cursor: pointer;
+        transition: color 0.3s ease, transform 0.3s ease;
+        user-select: none;
+        z-index: 1000;
+    }
+
+        .back-arrow-link:hover {
+            color: #6f4e37; /* Daha tünd qəhvəyi hover rəngi */
+            transform: translateX(-5px);
+        }
+</style>
+<a href="/NewsEvent" class="back-arrow-link" aria-label="Əvvəlki səhifəyə qayıt">
+    &#8592;
+</a>
 
 <div class="details-container">
     <h2>@ViewData["Title"]</h2>

@@ -1,0 +1,286 @@
+﻿@model IEnumerable<OnlineLearning.Core.ViewModels.LibraryItemVM>
+@{
+    Layout = null;
+    ViewData["Title"] = "☕ Səsli Kitabxana";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+<style>
+    /* Üst bölüm (Header) - Kahve teması renkleri */
+    .header-section {
+        background-color: #6f4e37; /* Kahverengi */
+        color: #fff7f0; /* Açık krem */
+        padding: 50px 20px;
+        text-align: center;
+        border-radius: 16px;
+        box-shadow: 0 6px 20px rgba(111, 78, 55, 0.5);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 40px;
+    }
+
+        .header-section h2 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        .header-section p {
+            font-size: 1.2rem;
+            font-style: italic;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+            text-shadow: 0 0 6px rgba(0,0,0,0.1);
+        }
+
+    /* Axtarış formu */
+    .search-box {
+        display: flex;
+        align-items: center;
+        width: 400px;
+        max-width: 90vw;
+        background-color: #fff7f0;
+        border-radius: 50px;
+        box-shadow: 0 4px 12px rgba(111, 78, 55, 0.3);
+        overflow: hidden;
+        transition: box-shadow 0.3s ease;
+        margin: 0 auto 30px auto;
+    }
+
+        .search-box:hover {
+            box-shadow: 0 6px 20px rgba(111, 78, 55, 0.6);
+        }
+
+        .search-box input[type="text"] {
+            flex-grow: 1;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1rem;
+            background-color: transparent;
+            color: #5a3c22;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            outline: none;
+            transition: background-color 0.3s ease;
+        }
+
+            .search-box input[type="text"]::placeholder {
+                color: #8b6a4a;
+                font-style: italic;
+            }
+
+        .search-box button {
+            border: none;
+            background-color: #6f4e37;
+            color: #fff7f0;
+            padding: 12px 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+            font-size: 1.2rem;
+            border-radius: 0 50px 50px 0;
+        }
+
+            .search-box button:hover {
+                background-color: #593d2b;
+            }
+
+            .search-box button i {
+                pointer-events: none;
+            }
+
+    /* Kartlar */
+    .audio-card {
+        background: #fff7f0; /* Açık krem */
+        border-radius: 16px;
+        box-shadow: 0 4px 12px rgba(111, 78, 55, 0.15);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+        height: 120px;
+    }
+
+        .audio-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 25px rgba(111, 78, 55, 0.35);
+        }
+
+    .audio-thumb {
+        flex-shrink: 0;
+        width: 120px;
+        height: 120px;
+        border-radius: 16px;
+        object-fit: cover;
+        border: 3px solid #6f4e37;
+        background-color: #fff0e6;
+        box-shadow: 0 2px 8px rgba(111, 78, 55, 0.25);
+    }
+
+    .audio-info {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 6px;
+        min-width: 0;
+        color: #5a3c22;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .audio-title {
+        font-size: 1.3rem;
+        font-weight: 700;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .audio-author, .audio-meta {
+        font-size: 1rem;
+        color: #8b6a4a;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .audio-player-wrapper {
+        width: 220px;
+        min-width: 220px;
+    }
+
+    audio.audio-player {
+        width: 100%;
+        outline: none;
+        border-radius: 12px;
+        box-shadow: 0 3px 8px rgba(111, 78, 55, 0.4);
+        background-color: #fff7f0;
+    }
+
+    .no-audio {
+        font-size: 0.9rem;
+        color: #a35d35;
+        font-style: italic;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    /* Responsive */
+    @@media (max-width: 576px) {
+        .audio-card {
+            flex-direction: column;
+            height: auto;
+            gap: 12px;
+            padding: 16px;
+        }
+
+        .audio-thumb {
+            width: 100px;
+            height: 100px;
+            border-color: #5a3c22;
+            background-color: #f7ede1;
+        }
+
+        .audio-player-wrapper {
+            width: 100%;
+            min-width: auto;
+        }
+
+        .audio-info {
+            white-space: normal;
+            text-align: center;
+        }
+    }
+</style>
+
+<div class="container py-5">
+
+  
+
+
+    <div class="header-section">
+        <h2>@ViewData["Title"]</h2>
+        <p>Sizə təqdim olunan audio kitablarla tanış olun və zövqlə dinləyin.</p>
+        
+    </div>
+
+    <style>
+        .back-arrow-link {
+            position: fixed; /* Küncdə sabitləyir */
+            top: 20px; /* Yuxarıdan 20px məsafə */
+            left: 20px; /* Soldan 20px məsafə */
+            font-size: 2.5rem;
+            color: #a67c52; /* Açıq qəhvəyi rəng */
+            text-decoration: none;
+            cursor: pointer;
+            transition: color 0.3s ease, transform 0.3s ease;
+            user-select: none;
+            z-index: 1000;
+        }
+
+            .back-arrow-link:hover {
+                color: #6f4e37; /* Daha tünd qəhvəyi hover rəngi */
+                transform: translateX(-5px);
+            }
+    </style>
+
+    <form asp-action="Index" method="get" class="mb-4">
+        <div class="search-box">
+            <a href="/LibraryItem" class="back-arrow-link" aria-label="Əvvəlki səhifəyə qayıt">
+                &#8592;
+            </a>
+            @{
+                var searchTerm = Context.Request.Query["searchTerm"].FirstOrDefault() ?? "";
+            }
+            <input type="text" name="searchTerm" value="@searchTerm" placeholder="Başlıq və ya müəllifə görə axtarın..." />
+
+
+
+            <button type="submit" aria-label="Axtar">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+    </form>
+
+    <div class="d-flex flex-column gap-4">
+        @foreach (var item in Model)
+        {
+            <div class="audio-card">
+                @if (!string.IsNullOrEmpty(item.ExistingImagePath))
+                {
+                    <img src="~/imagess/@item.ExistingImagePath" alt="@item.Title" class="audio-thumb" />
+                }
+                else
+                {
+                    <img src="/images/default-book.png" alt="Default image" class="audio-thumb" />
+                }
+
+                <div class="audio-info">
+                    <div class="audio-title" title="@item.Title">@item.Title</div>
+                    <div class="audio-author"><i class="bi bi-person"></i> @item.Author</div>
+                    <div class="audio-meta"><i class="bi bi-calendar3"></i> Yaş: @item.AgeCategory</div>
+                </div>
+
+                <div class="audio-player-wrapper">
+                    @if (!string.IsNullOrEmpty(item.ExistingAudioPath))
+                    {
+                        <audio controls class="audio-player" preload="none">
+                            <source src="~/audio/@item.ExistingAudioPath" type="audio/mpeg" />
+                            Səsləndirici dəstəklənmir.
+                        </audio>
+                    }
+                    else
+                    {
+                        <div class="no-audio"><i class="bi bi-volume-mute"></i> Audio yoxdur</div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>

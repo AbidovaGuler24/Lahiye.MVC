@@ -1,0 +1,79 @@
+﻿@model OnlineLearning.Core.ViewModels.LibraryItemUpdateVM
+
+@{
+    ViewData["Title"] = "Kitabı Düzəliş Et";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Author"></label>
+        <input asp-for="Author" class="form-control" />
+        <span asp-validation-for="Author" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AgeCategory"></label>
+        <select asp-for="AgeCategory" asp-items="Html.GetEnumSelectList<OnlineLearning.Core.Entities.AgeCategory>()" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label>Mövcud Audio</label><br />
+        @if (!string.IsNullOrEmpty(Model.ExistingAudioPath))
+        {
+            <audio controls>
+                <source src="@Model.ExistingAudioPath" type="audio/mpeg" />
+                Brauzeriniz audio elementini dəstəkləmir.
+            </audio>
+        }
+        else
+        {
+            <p>Mövcud audio fayl yoxdur.</p>
+        }
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AudioFile">Yeni Audio yüklə (istəyə bağlı)</label>
+        <input asp-for="AudioFile" type="file" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Mövcud Şəkil</label><br />
+        @if (!string.IsNullOrEmpty(Model.ExistingImagePath))
+        {
+            <img src="@Model.ExistingImagePath" alt="@Model.Title" style="max-height: 100px;" />
+        }
+        else
+        {
+            <p>Mövcud şəkil yoxdur.</p>
+        }
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImageFile">Yeni Şəkil yüklə (istəyə bağlı)</label>
+        <input asp-for="ImageFile" type="file" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Yadda saxla</button>
+    <a asp-action="Index" class="btn btn-secondary">Geri</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

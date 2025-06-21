@@ -22272,6 +22272,78 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HAV1cbwo4FY3q4KCPy9RTk7fAhJANuQ1iiBpvsjydRg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"354681"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022HAV1cbwo4FY3q4KCPy9RTk7fAhJANuQ1iiBpvsjydRg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 11:24:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/audio/1a61536d-ec8a-419f-adc9-ca0a444645c6_WhatsApp.6eg2epvcy0.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\1a61536d-ec8a-419f-adc9-ca0a444645c6_WhatsApp.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6eg2epvcy0"},{"Name":"integrity","Value":"sha256-foFy89Xr\u002BLcnX7shVbf0cLiEdCxhuoA2tI7dZqcatJk="},{"Name":"label","Value":"_content/Lahiye.Mvc/audio/1a61536d-ec8a-419f-adc9-ca0a444645c6_WhatsApp.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"618831"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022foFy89Xr\u002BLcnX7shVbf0cLiEdCxhuoA2tI7dZqcatJk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:42:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/audio/1a61536d-ec8a-419f-adc9-ca0a444645c6_WhatsApp.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\1a61536d-ec8a-419f-adc9-ca0a444645c6_WhatsApp.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-foFy89Xr\u002BLcnX7shVbf0cLiEdCxhuoA2tI7dZqcatJk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"618831"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022foFy89Xr\u002BLcnX7shVbf0cLiEdCxhuoA2tI7dZqcatJk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:42:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/audio/338fa745-d32a-4ff1-85af-a0e118e76550_WhatsApp.6eg2epvcy0.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\338fa745-d32a-4ff1-85af-a0e118e76550_WhatsApp.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6eg2epvcy0"},{"Name":"integrity","Value":"sha256-foFy89Xr\u002BLcnX7shVbf0cLiEdCxhuoA2tI7dZqcatJk="},{"Name":"label","Value":"_content/Lahiye.Mvc/audio/338fa745-d32a-4ff1-85af-a0e118e76550_WhatsApp.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"618831"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022foFy89Xr\u002BLcnX7shVbf0cLiEdCxhuoA2tI7dZqcatJk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:48:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/audio/338fa745-d32a-4ff1-85af-a0e118e76550_WhatsApp.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\338fa745-d32a-4ff1-85af-a0e118e76550_WhatsApp.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-foFy89Xr\u002BLcnX7shVbf0cLiEdCxhuoA2tI7dZqcatJk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"618831"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022foFy89Xr\u002BLcnX7shVbf0cLiEdCxhuoA2tI7dZqcatJk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:48:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/audio/395d081c-1896-46c1-8ebd-fc426db6795f_Steynbek Con. Siçanlar və adamlar Ruscadan tərc. V. Əlixanlı..mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\395d081c-1896-46c1-8ebd-fc426db6795f_Steynbek Con. Siçanlar və adamlar Ruscadan tərc. V. Əlixanlı..mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7mQCUrTiz4gPpfXMjx189ygaTya0byere\u002BoYbEQx6Aw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24829946"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u00227mQCUrTiz4gPpfXMjx189ygaTya0byere\u002BoYbEQx6Aw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 06:58:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/audio/395d081c-1896-46c1-8ebd-fc426db6795f_Steynbek Con. Siçanlar və adamlar Ruscadan tərc. V. Əlixanlı..mylv09exn7.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\395d081c-1896-46c1-8ebd-fc426db6795f_Steynbek Con. Siçanlar və adamlar Ruscadan tərc. V. Əlixanlı..mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mylv09exn7"},{"Name":"integrity","Value":"sha256-7mQCUrTiz4gPpfXMjx189ygaTya0byere\u002BoYbEQx6Aw="},{"Name":"label","Value":"_content/Lahiye.Mvc/audio/395d081c-1896-46c1-8ebd-fc426db6795f_Steynbek Con. Si\u00E7anlar v\u0259 adamlar Ruscadan t\u0259rc. V. \u018Flixanl\u0131..mp3"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24829946"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u00227mQCUrTiz4gPpfXMjx189ygaTya0byere\u002BoYbEQx6Aw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 06:58:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/audio/3dfb5668-2625-4f64-8efd-b1c9d5c1746c_Tam Quran Azərbaycan dilində.1yktvp1b6i.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\3dfb5668-2625-4f64-8efd-b1c9d5c1746c_Tam Quran Azərbaycan dilində.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1yktvp1b6i"},{"Name":"integrity","Value":"sha256-SWLzaIi4GhYhBEvaii5x5a2r8ZkH1tp370J3G8fyEzo="},{"Name":"label","Value":"_content/Lahiye.Mvc/audio/3dfb5668-2625-4f64-8efd-b1c9d5c1746c_Tam Quran Az\u0259rbaycan dilind\u0259.mp3"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19417274"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022SWLzaIi4GhYhBEvaii5x5a2r8ZkH1tp370J3G8fyEzo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 06:55:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/audio/3dfb5668-2625-4f64-8efd-b1c9d5c1746c_Tam Quran Azərbaycan dilində.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\3dfb5668-2625-4f64-8efd-b1c9d5c1746c_Tam Quran Azərbaycan dilində.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SWLzaIi4GhYhBEvaii5x5a2r8ZkH1tp370J3G8fyEzo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"19417274"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022SWLzaIi4GhYhBEvaii5x5a2r8ZkH1tp370J3G8fyEzo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 06:55:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/audio/8469e061-f802-4f98-b664-edd2b737cf7c_WhatsApp.6eg2epvcy0.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\8469e061-f802-4f98-b664-edd2b737cf7c_WhatsApp.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6eg2epvcy0"},{"Name":"integrity","Value":"sha256-foFy89Xr\u002BLcnX7shVbf0cLiEdCxhuoA2tI7dZqcatJk="},{"Name":"label","Value":"_content/Lahiye.Mvc/audio/8469e061-f802-4f98-b664-edd2b737cf7c_WhatsApp.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"618831"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022foFy89Xr\u002BLcnX7shVbf0cLiEdCxhuoA2tI7dZqcatJk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:53:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/audio/8469e061-f802-4f98-b664-edd2b737cf7c_WhatsApp.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\8469e061-f802-4f98-b664-edd2b737cf7c_WhatsApp.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-foFy89Xr\u002BLcnX7shVbf0cLiEdCxhuoA2tI7dZqcatJk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"618831"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022foFy89Xr\u002BLcnX7shVbf0cLiEdCxhuoA2tI7dZqcatJk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:53:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/audio/e589c315-5edf-4a9f-a3f2-2f821f298938_water-333590.fglx8rg26y.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\e589c315-5edf-4a9f-a3f2-2f821f298938_water-333590.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fglx8rg26y"},{"Name":"integrity","Value":"sha256-IUHQHir6CrKXlJQKGbaLgTxM0kyDcZpyYZduxmMH4QM="},{"Name":"label","Value":"_content/Lahiye.Mvc/audio/e589c315-5edf-4a9f-a3f2-2f821f298938_water-333590.mp3"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"490684"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022IUHQHir6CrKXlJQKGbaLgTxM0kyDcZpyYZduxmMH4QM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 10:05:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/audio/e589c315-5edf-4a9f-a3f2-2f821f298938_water-333590.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\e589c315-5edf-4a9f-a3f2-2f821f298938_water-333590.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IUHQHir6CrKXlJQKGbaLgTxM0kyDcZpyYZduxmMH4QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"490684"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022IUHQHir6CrKXlJQKGbaLgTxM0kyDcZpyYZduxmMH4QM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 10:05:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/css/font-awesome.min.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\font-awesome.min.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -24744,6 +24816,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FGN8it4auatNIENsEQ88NHKKcf3\u002BgmNrWlN/cCyiWD0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5319"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FGN8it4auatNIENsEQ88NHKKcf3\u002BgmNrWlN/cCyiWD0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 14:19:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/0dfbf213-aaeb-4112-943c-c611cd30692f_download (19).jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\0dfbf213-aaeb-4112-943c-c611cd30692f_download (19).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Y3Z3evGM6HFWCM/7JSeLjr5J/J07pM\u002BdcE2Io50Cpc0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7055"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Y3Z3evGM6HFWCM/7JSeLjr5J/J07pM\u002BdcE2Io50Cpc0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 06:55:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/0dfbf213-aaeb-4112-943c-c611cd30692f_download (19).vp4e7s9edh.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\0dfbf213-aaeb-4112-943c-c611cd30692f_download (19).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vp4e7s9edh"},{"Name":"integrity","Value":"sha256-Y3Z3evGM6HFWCM/7JSeLjr5J/J07pM\u002BdcE2Io50Cpc0="},{"Name":"label","Value":"_content/Lahiye.Mvc/Imagess/0dfbf213-aaeb-4112-943c-c611cd30692f_download (19).jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7055"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Y3Z3evGM6HFWCM/7JSeLjr5J/J07pM\u002BdcE2Io50Cpc0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 06:55:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).a3b2r9km6y.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -24839,6 +24923,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9609"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jiqNcAHVIErZJ2ApOZUgmylgUMEHkVn9ogvH3uIYoyI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 06:33:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/3c030abe-f1ff-4609-a301-d5f09ea27d21_download (4).jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\3c030abe-f1ff-4609-a301-d5f09ea27d21_download (4).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fRCGM4PvPTZfBsQc3LTyRoYgrTTlW3748ibm2Co2p9Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5848"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fRCGM4PvPTZfBsQc3LTyRoYgrTTlW3748ibm2Co2p9Q=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 10:05:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/3c030abe-f1ff-4609-a301-d5f09ea27d21_download (4).x37e9frss1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\3c030abe-f1ff-4609-a301-d5f09ea27d21_download (4).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x37e9frss1"},{"Name":"integrity","Value":"sha256-fRCGM4PvPTZfBsQc3LTyRoYgrTTlW3748ibm2Co2p9Q="},{"Name":"label","Value":"_content/Lahiye.Mvc/Imagess/3c030abe-f1ff-4609-a301-d5f09ea27d21_download (4).jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5848"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fRCGM4PvPTZfBsQc3LTyRoYgrTTlW3748ibm2Co2p9Q=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 10:05:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/3d7eb4dd-5383-42f6-ae10-c05495133f8b_catt.eu709pnytg.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\3d7eb4dd-5383-42f6-ae10-c05495133f8b_catt.jpg'))</AssetFile>
@@ -25116,6 +25212,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"txdozl7ho1"},{"Name":"integrity","Value":"sha256-kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3\u002BMw="},{"Name":"label","Value":"_content/Lahiye.Mvc/Imagess/93058fda-33f2-48ea-85ec-333671847469_elza.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6370"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3\u002BMw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 05:26:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/994edbea-8e1d-4005-abd7-ce80166b316f_download (18).jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\994edbea-8e1d-4005-abd7-ce80166b316f_download (18).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qi7cDD9tJFwt0cHi9NR8q6u\u002Bns7r1\u002B3HAVP7uj5ER/0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10244"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qi7cDD9tJFwt0cHi9NR8q6u\u002Bns7r1\u002B3HAVP7uj5ER/0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:42:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/994edbea-8e1d-4005-abd7-ce80166b316f_download (18).mt8wev51zi.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\994edbea-8e1d-4005-abd7-ce80166b316f_download (18).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mt8wev51zi"},{"Name":"integrity","Value":"sha256-qi7cDD9tJFwt0cHi9NR8q6u\u002Bns7r1\u002B3HAVP7uj5ER/0="},{"Name":"label","Value":"_content/Lahiye.Mvc/Imagess/994edbea-8e1d-4005-abd7-ce80166b316f_download (18).jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10244"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qi7cDD9tJFwt0cHi9NR8q6u\u002Bns7r1\u002B3HAVP7uj5ER/0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:42:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/9baafa99-a113-4c9b-83f0-e3dbcea6ab2e_D3.98tm93nns6.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\9baafa99-a113-4c9b-83f0-e3dbcea6ab2e_D3.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -25127,6 +25235,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7931"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022eQI9oPU4m8ICfMRnfhwXba3hdAf7qWA8kuPfBqiMQqQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Jun 2025 02:14:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/9c670fbd-2c56-4edf-8bbf-0d35cc50d9f6_download (20).caca3gnkgb.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\9c670fbd-2c56-4edf-8bbf-0d35cc50d9f6_download (20).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"caca3gnkgb"},{"Name":"integrity","Value":"sha256-tO/RbaBLAewAD5zChWd0qWcWUFDk0\u002BsrjVW\u002Buo4dGis="},{"Name":"label","Value":"_content/Lahiye.Mvc/Imagess/9c670fbd-2c56-4edf-8bbf-0d35cc50d9f6_download (20).jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5897"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tO/RbaBLAewAD5zChWd0qWcWUFDk0\u002BsrjVW\u002Buo4dGis=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 06:58:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/9c670fbd-2c56-4edf-8bbf-0d35cc50d9f6_download (20).jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\9c670fbd-2c56-4edf-8bbf-0d35cc50d9f6_download (20).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tO/RbaBLAewAD5zChWd0qWcWUFDk0\u002BsrjVW\u002Buo4dGis="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5897"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tO/RbaBLAewAD5zChWd0qWcWUFDk0\u002BsrjVW\u002Buo4dGis=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 06:58:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\9f20eeeb-39be-49ec-ab25-16a85de00e33_download (9).jpg'))</AssetFile>
@@ -25223,6 +25343,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u4q9376fec"},{"Name":"integrity","Value":"sha256-jmtcsARnU5EVyKo0Q1AhIuevttEpVXQky1IuQkdNaV0="},{"Name":"label","Value":"_content/Lahiye.Mvc/Imagess/b185da0e-54d6-4688-b02a-ec47c9c802d3_download (6).jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4289"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jmtcsARnU5EVyKo0Q1AhIuevttEpVXQky1IuQkdNaV0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 14:28:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/b45a760f-305b-4843-9201-1b96cd2c918f_download (15).jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\b45a760f-305b-4843-9201-1b96cd2c918f_download (15).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E03qtcsgc66h6d8QpDLzbDUXpjXXPrAzTglv4iek0mw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"11406"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022E03qtcsgc66h6d8QpDLzbDUXpjXXPrAzTglv4iek0mw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:57:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/b45a760f-305b-4843-9201-1b96cd2c918f_download (15).tsinsqza9v.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\b45a760f-305b-4843-9201-1b96cd2c918f_download (15).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tsinsqza9v"},{"Name":"integrity","Value":"sha256-E03qtcsgc66h6d8QpDLzbDUXpjXXPrAzTglv4iek0mw="},{"Name":"label","Value":"_content/Lahiye.Mvc/Imagess/b45a760f-305b-4843-9201-1b96cd2c918f_download (15).jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"11406"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022E03qtcsgc66h6d8QpDLzbDUXpjXXPrAzTglv4iek0mw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:57:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.98tm93nns6.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\bf064aee-2bf0-41f2-beda-61d27cb6a35e_D3.jpeg'))</AssetFile>
@@ -25391,6 +25523,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"txdozl7ho1"},{"Name":"integrity","Value":"sha256-kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3\u002BMw="},{"Name":"label","Value":"_content/Lahiye.Mvc/Imagess/f08eb37b-5e9f-4ecc-8d7d-376e3bb29a5c_elza.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6370"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kYOZfhd96ahxt8qK5Pl644CBZnEC7aBimw4Hiuf3\u002BMw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Jun 2025 13:03:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/f1bd378b-f13e-4adc-8287-5a7002f6e6b2_download (18).jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\f1bd378b-f13e-4adc-8287-5a7002f6e6b2_download (18).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qi7cDD9tJFwt0cHi9NR8q6u\u002Bns7r1\u002B3HAVP7uj5ER/0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10244"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qi7cDD9tJFwt0cHi9NR8q6u\u002Bns7r1\u002B3HAVP7uj5ER/0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:53:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/f1bd378b-f13e-4adc-8287-5a7002f6e6b2_download (18).mt8wev51zi.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\f1bd378b-f13e-4adc-8287-5a7002f6e6b2_download (18).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mt8wev51zi"},{"Name":"integrity","Value":"sha256-qi7cDD9tJFwt0cHi9NR8q6u\u002Bns7r1\u002B3HAVP7uj5ER/0="},{"Name":"label","Value":"_content/Lahiye.Mvc/Imagess/f1bd378b-f13e-4adc-8287-5a7002f6e6b2_download (18).jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10244"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qi7cDD9tJFwt0cHi9NR8q6u\u002Bns7r1\u002B3HAVP7uj5ER/0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:53:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Imagess/fafdd290-c21a-41a6-ae88-8069b37d47f0_D2.8opg30l0xq.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagess\fafdd290-c21a-41a6-ae88-8069b37d47f0_D2.jpg'))</AssetFile>

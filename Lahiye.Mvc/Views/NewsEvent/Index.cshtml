@@ -69,6 +69,9 @@
         .btn-readmore:hover {
             background-color: #563c2b;
         }
+    
+
+
 </style>
 
 <div class="container py-5">
@@ -76,6 +79,140 @@
         <h1 class="page-title">Library News & Events</h1>
         <p class="page-subtitle">Stay updated with the latest happenings in our library world</p>
     </div>
+    <form asp-action="Search" method="get" class="search-form" style="max-width: 600px; margin: 2rem auto; padding: 1rem; background: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);">
+        <div class="form-controls">
+            @{
+                var searchDay = Context.Request.Query["searchDay"].FirstOrDefault() ?? "";
+                var searchMonth = Context.Request.Query["searchMonth"].FirstOrDefault() ?? "";
+                var searchYear = Context.Request.Query["searchYear"].FirstOrDefault() ?? "";
+                var months = new[] { "Yanvar", "Fevral", "Mart", "Aprel", "May", "İyun", "İyul", "Avqust", "Sentyabr", "Oktyabr", "Noyabr", "Dekabr" };
+                var currentYear = DateTime.Now.Year;
+            }
+
+            <select name="searchDay" class="custom-select">
+                <option value="">Gün</option>
+                @for (int day = 1; day <= 31; day++)
+                {
+                    bool isSelected = (searchDay == day.ToString());
+                    <option value="@day" selected="@(isSelected ? "selected" : null)">@day</option>
+                }
+            </select>
+
+            <select name="searchMonth" class="custom-select">
+                <option value="">Ay</option>
+                @for (int i = 0; i < 12; i++)
+                {
+                    var monthNum = (i + 1).ToString();
+                    bool isSelected = (searchMonth == monthNum);
+                    <option value="@monthNum" selected="@(isSelected ? "selected" : null)">@months[i]</option>
+                }
+            </select>
+
+            <select name="searchYear" class="custom-select">
+                <option value="">İl</option>
+                @for (int year = currentYear; year >= currentYear - 10; year--)
+                {
+                    bool isSelected = (searchYear == year.ToString());
+                    <option value="@year" selected="@(isSelected ? "selected" : null)">@year</option>
+                }
+            </select>
+
+            <button type="submit" class="btn-submit" title="Axtar">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+    </form>
+
+    <style>
+        .search-form {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 1rem 1.25rem;
+        }
+
+        .form-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .custom-select {
+            flex: 1 1 120px;
+            padding: 0.5rem 0.75rem;
+            font-size: 1rem;
+            border: 1.8px solid #ccc;
+            border-radius: 6px;
+            background-color: #f9f9f9;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2210%22%20height%3D%227%22%20viewBox%3D%220%200%2010%207%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%200l5%207%205-7z%22%20fill%3D%22%23666%22/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 0.75rem center;
+            background-size: 10px 7px;
+        }
+
+            .custom-select:focus {
+                border-color: #6f4e37;
+                box-shadow: 0 0 8px #6f4e37;
+                outline: none;
+                background-color: #fff;
+            }
+
+        .btn-submit {
+            background-color: #6f4e37;
+            border: none;
+            color: #fff;
+            padding: 0.55rem 1.2rem;
+            font-size: 1.25rem;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+            flex-shrink: 0;
+            width: 48px;
+            height: 48px;
+        }
+
+            .btn-submit:hover {
+                background-color: #6f4e37;
+            }
+            .btn-submit i {
+                font-size: 1.25rem;
+            }
+
+        @@media (max-width: 480px) {
+            .form-controls
+
+        {
+            flex-direction: column;
+        }
+
+        .custom-select, .btn-submit {
+            flex: 1 1 100%;
+            width: 100%;
+        }
+
+        .btn-submit {
+            font-size: 1.5rem;
+            height: 48px;
+        }
+
+        }
+
+    </style>
+
+
+
+
+
 
     <div class="row">
         @if (Model != null && Model.Any())
