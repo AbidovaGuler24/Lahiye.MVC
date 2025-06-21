@@ -23,24 +23,60 @@ namespace OnlineLearning.BL.Services.Concretes
             _repo = repo;
         }
 
+        //public async Task AddAsync(LibraryItemAddVM vm, string rootPath)
+        //{
+        //    var entity = new LibraryItem
+        //    {
+        //        Title = vm.Title,
+        //        Author = vm.Author,
+        //        Description = vm.Description,
+        //        AgeCategory = vm.AgeCategory,
+        //        //AudioFilePath = vm.AudioFile?.CreateFile(rootPath, _audioFolder),
+        //        AudioFilePath=FileCreateExtension.CreateFile(vm.AudioFile,rootPath,"\\audio\\"),
+        //        //ImageFilePath = vm.ImageFile?.CreateFile(rootPath, _imageFolder)
+        //        ImageFilePath=FileCreateExtension.CreateFile(vm.ImageFile,rootPath,"\\imagess\\"),
+        //    };
+
+        //    await _repo.AddAsync(entity);
+        //    await _repo.SaveAllChangesAsync();
+        //}
         public async Task AddAsync(LibraryItemAddVM vm, string rootPath)
         {
-            var entity = new LibraryItem
+            try
             {
-                Title = vm.Title,
-                Author = vm.Author,
-                Description = vm.Description,
-                AgeCategory = vm.AgeCategory,
-                //AudioFilePath = vm.AudioFile?.CreateFile(rootPath, _audioFolder),
-                AudioFilePath=FileCreateExtension.CreateFile(vm.AudioFile,rootPath,"\\audio\\"),
-                //ImageFilePath = vm.ImageFile?.CreateFile(rootPath, _imageFolder)
-                ImageFilePath=FileCreateExtension.CreateFile(vm.ImageFile,rootPath,"\\imagess\\"),
-            };
+                string audioPath = null;
+                string imagePath = null;
 
-            await _repo.AddAsync(entity);
-            await _repo.SaveAllChangesAsync();
+                if (vm.AudioFile != null)
+                {
+                    audioPath = FileCreateExtension.CreateFile(vm.AudioFile, rootPath, "\\audio\\");
+                }
+
+                if (vm.ImageFile != null)
+                {
+                    imagePath = FileCreateExtension.CreateFile(vm.ImageFile, rootPath, "\\imagess\\");
+                }
+
+                var entity = new LibraryItem
+                {
+                    Title = vm.Title,
+                    Author = vm.Author,
+                    Description = vm.Description,
+                    AgeCategory = vm.AgeCategory,
+                    AudioFilePath = audioPath,
+                    ImageFilePath = imagePath
+                };
+
+                await _repo.AddAsync(entity);
+                await _repo.SaveAllChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Xəta baş verdi: " + ex.Message);
+                throw;
+            }
         }
-        
+
 
         public async Task DeleteAsync(int id)
         {

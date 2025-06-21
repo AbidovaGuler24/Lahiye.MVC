@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lahiye.Mvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac59aa20a0d22c9240e1c89fb974c240e08d574d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad98874e193f1957172f9ff6af98b09f92736bf3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lahiye.Mvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lahiye.Mvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

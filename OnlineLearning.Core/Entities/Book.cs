@@ -17,7 +17,7 @@ namespace OnlineLearning.Core.Entities
         public string PdfUrl { get; set; }
         public string ImgUrl { get; set; }
 
-        public BookGenre Genre { get; set; }
+        public BookGenre? Genre { get; set; }
 
         public int? CategoryId { get; set; }
         public Category? Category { get; set; } = null!;

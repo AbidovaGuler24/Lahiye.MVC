@@ -15,5 +15,7 @@ namespace OnlineLearning.Core.Entities
 
         public string Surname { get; set; }
 
+
+
     }
 }

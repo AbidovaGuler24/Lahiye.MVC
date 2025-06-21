@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OnlineLearning.Core.Entities;
+using OnlineLearning.Core.Enums;
 
 namespace OnlineLearning.Core.ViewModels
 {
@@ -17,6 +18,7 @@ namespace OnlineLearning.Core.ViewModels
         public string? Img { get; set; }
         public string? Pdf { get; set; }
 
+        public BookGenre? Genre { get; set; }
 
         public int? CategoryId { get; set; }
         

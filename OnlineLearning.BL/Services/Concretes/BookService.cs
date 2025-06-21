@@ -77,6 +77,7 @@ namespace OnlineLearning.BL.Services.Concretes
                 AuthorId = book.AuthorId.HasValue ? (int)book.AuthorId : null,
                 Img = book.ImgUrl,
                 Pdf = book.PdfUrl
+                
 
 
 
@@ -99,7 +100,7 @@ namespace OnlineLearning.BL.Services.Concretes
                 book.ImgUrl = FileCreateExtension.CreateFile(vm.ImgUrl, wwwroot, "\\Imagess\\");
 
             if (vm.PdfFile != null)
-                book.PdfUrl = vm.PdfFile.CreateFile(wwwroot, "Files");
+                book.PdfUrl = vm.PdfFile.CreateFile(wwwroot, "\\Files\\");
             else
                 book.PdfUrl = vm.Pdf;
 

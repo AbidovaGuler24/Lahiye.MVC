@@ -1,0 +1,149 @@
+﻿@model OnlineLearning.Core.ViewModels.BookVm
+
+@{
+	Layout = null;
+	ViewData["Title"] = "Kitab Detalları";
+}
+
+<!-- Bootstrap və ikon stilləri -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+<style>
+	body {
+		background-color: #f9f6f1;
+		font-family: 'Segoe UI', sans-serif;
+	}
+
+	.card {
+		border-radius: 15px;
+	}
+
+	.card-header {
+		background: linear-gradient(45deg, #bfae9c, #d6cfc4);
+		color: white;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+	}
+
+	.img-fluid {
+		max-height: 300px;
+		object-fit: cover;
+		border-radius: 12px;
+		box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+	}
+
+	.btn-beige {
+		background-color: #d6cfc4;
+		color: #3c3c3c;
+		border: none;
+	}
+
+		.btn-beige:hover {
+			background-color: #c5bbae;
+			color: black;
+		}
+
+	#adModal {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1050;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.7);
+		justify-content: center;
+		align-items: center;
+	}
+
+	.ad-content {
+		background-color: #fff;
+		padding: 25px;
+		border-radius: 12px;
+		text-align: center;
+		max-width: 500px;
+		width: 90%;
+	}
+
+		.ad-content video {
+			width: 100%;
+			border-radius: 10px;
+		}
+</style>
+
+<div class="container mt-5 mb-5">
+	<div class="card shadow-lg">
+		<div class="card-header">
+			<h4 class="mb-0"><i class="bi bi-book"></i> @Model.Title</h4>
+		</div>
+		<div class="card-body">
+			<div class="row g-4">
+				<div class="col-md-4 text-center">
+					@if (!string.IsNullOrEmpty(Model.Img))
+					{
+						<img src="~/Imagess/@Model.Img" class="img-fluid" alt="Book Image" />
+					}
+					else
+					{
+						<div class="bg-light d-flex justify-content-center align-items-center rounded" style="height: 300px;">
+							<span class="text-muted">Şəkil yoxdur</span>
+						</div>
+					}
+				</div>
+				<div class="col-md-8">
+					<p><strong>Açıqlama:</strong><br />@Model.Description</p>
+					<p><strong>Səhifə sayı:</strong> @Model.PageCount</p>
+
+					
+					<p>
+						<strong>PDF Faylı:</strong><br />
+						@if (!string.IsNullOrEmpty(Model.Pdf))
+						{
+							<button class="btn btn-beige mt-2" onclick="showAdThenDownload('@Url.Content("~/Files/" + @Model.Pdf)')">
+								<i class="bi bi-download"></i> PDF-ni Yüklə
+							</button>
+						}
+						else
+						{
+							<span class="text-muted"><em>PDF yoxdur</em></span>
+						}
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="card-footer text-end bg-white border-top-0">
+			<a asp-action="Index" class="btn btn-secondary"><i class="bi bi-arrow-left-circle"></i> Geri</a>
+		</div>
+	</div>
+</div>
+
+<!-- Reklam Modalı -->
+<div id="adModal" class="ad-modal">
+	<div class="ad-content text-center">
+		<h5 class="mb-3">📢 Qısa reklam</h5>
+		<video id="adVideo" width="100%" height="300" controls autoplay muted>
+			<source src="@Url.Content("~/ads/WhatsApp Video 2025-06-17 at 15.23.50 (1).mp4")" type="video/mp4" />
+			Brauzer videonu dəstəkləmir.
+		</video>
+	</div>
+</div>
+
+
+<script>
+	function showAdThenDownload(pdfUrl) {
+		const adModal = document.getElementById('adModal');
+		const adVideo = document.getElementById('adVideo');
+
+		adModal.style.display = 'flex';
+		adVideo.currentTime = 0;
+	adVideo.muted = false;
+		adVideo.play();
+
+		adVideo.onended = function () {
+			adModal.style.display = 'none';
+			window.location.href = pdfUrl;
+		};
+	}
+</script>
+
