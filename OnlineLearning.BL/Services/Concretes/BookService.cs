@@ -24,16 +24,14 @@ namespace OnlineLearning.BL.Services.Concretes
         }
         public async Task<string> AddBookAsync(AddBookVm model,string wwwroot)
         {
-            
-            
+             
             var book = new Book
             {
                 Title = model.Title,
                 Description = model.Description,
                 PageCount = model.PageCount,
-                CategoryId = model.CategoryId.HasValue ? (int)model.CategoryId : null,
-                AuthorId = model.AuthorId.HasValue ? (int)model.AuthorId : null,
-
+                CategoryId = model.CategoryId,
+                //AuthorId = model.AuthorId.HasValue ? (int)model.AuthorId : null,
             };
 
             if (model.ImgUrl != null)
@@ -73,8 +71,8 @@ namespace OnlineLearning.BL.Services.Concretes
                 Title = book.Title,
                 Description = book.Description,
                 PageCount = book.PageCount,
-                CategoryId = book.CategoryId.HasValue ? (int)book.CategoryId : null,
-                AuthorId = book.AuthorId.HasValue ? (int)book.AuthorId : null,
+              CategoryId= book.CategoryId,
+              Category=book.Category,
                 Img = book.ImgUrl,
                 Pdf = book.PdfUrl
                 
@@ -93,7 +91,7 @@ namespace OnlineLearning.BL.Services.Concretes
             book.Title = vm.Title;
             book.Description = vm.Description;
             book.PageCount = vm.PageCount;
-            book.AuthorId = vm.AuthorId;
+            //book.AuthorId = vm.AuthorId;
             book.CategoryId = vm.CategoryId;
 
             if (vm.ImgUrl != null)
@@ -123,8 +121,7 @@ namespace OnlineLearning.BL.Services.Concretes
                     Title = item.Title,
                     Description = item.Description,
                     PageCount = item.PageCount,
-                    AuthorId = item.AuthorId,
-                    CategoryId = item.CategoryId,
+                   
                     Img = item.ImgUrl,
                     Pdf = item.PdfUrl
                 };

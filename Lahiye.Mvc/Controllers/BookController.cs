@@ -16,10 +16,10 @@ namespace Lahiye.Mvc.Controllers
         public IActionResult Index(BookGenre? genre)
         {
             var books = _bookService.GetAllBooksAsync().Result; 
-            if (genre.HasValue)
-            {
-                books = books.Where(b => b.Genre == genre.Value).ToList();
-            }
+            //if (genre.HasValue)
+            //{
+            //    books = books.Where(b => b.Genre == genre.Value).ToList();
+            //}
 
            
             ViewBag.Genres = Enum.GetValues(typeof(BookGenre)).Cast<BookGenre>().ToList();
@@ -46,14 +46,14 @@ namespace Lahiye.Mvc.Controllers
                 BookGenre.Bioqrafiya,
             };
 
-            if (!string.IsNullOrEmpty(searchTerm))
-            {
+            //if (!string.IsNullOrEmpty(searchTerm))
+            //{
                 
 
-                list = list.Where(x =>
-                    x.Genre.ToString().ToLower().Contains(searchTerm)
-                ).ToList();
-            }
+            //    list = list.Where(x =>
+            //        x.Genre.ToString().ToLower().Contains(searchTerm)
+            //    ).ToList();
+            //}
 
             return View(list);
         }

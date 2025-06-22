@@ -18,13 +18,13 @@ namespace OnlineLearning.Core.ViewModels
         public string? Img { get; set; }
         public string? Pdf { get; set; }
 
-        public BookGenre? Genre { get; set; }
-
-        public int? CategoryId { get; set; }
         
 
+        public int? CategoryId { get; set; }
+        public Category Category { get; set; }
 
-        public int? AuthorId { get; set; }
+
+       
         
     }
 }

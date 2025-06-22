@@ -31,6 +31,13 @@ namespace OnlineLearning.DAL.Context
         .HasForeignKey(p => p.BookId)
         .OnDelete(DeleteBehavior.Cascade);
 
+
+            modelBuilder.Entity<Book>()
+                .HasOne(b => b.Category)
+                .WithMany(c => c.Books)
+                .HasForeignKey(b => b.CategoryId)
+                .OnDelete(DeleteBehavior.Cascade);
+
         }
         
 

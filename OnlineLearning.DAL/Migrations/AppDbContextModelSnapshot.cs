@@ -291,7 +291,7 @@ namespace OnlineLearning.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Genre")
+                    b.Property<int?>("Genre")
                         .HasColumnType("int");
 
                     b.Property<string>("ImgUrl")
@@ -642,7 +642,8 @@ namespace OnlineLearning.DAL.Migrations
 
                     b.HasOne("OnlineLearning.Core.Entities.Category", "Category")
                         .WithMany("Books")
-                        .HasForeignKey("CategoryId");
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("Author");
 

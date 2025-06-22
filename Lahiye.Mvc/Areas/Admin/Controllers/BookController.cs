@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using OnlineLearning.BL.Services.Abstracts;
+using OnlineLearning.BL.Services.Concretes;
 using OnlineLearning.Core.ViewModels;
 
 namespace Lahiye.Mvc.Areas.Admin.Controllers
@@ -9,11 +12,12 @@ namespace Lahiye.Mvc.Areas.Admin.Controllers
     {
         private readonly IBookService _bookService;
         private readonly IWebHostEnvironment _env;
-
-        public BookController(IBookService bookService, IWebHostEnvironment env)
+        private readonly ICategoryService _categoryService;
+        public BookController(IBookService bookService, IWebHostEnvironment env, ICategoryService categoryService)
         {
             _bookService = bookService;
             _env = env;
+            _categoryService = categoryService;
         }
 
         public async Task<IActionResult> Index()
@@ -29,8 +33,12 @@ namespace Lahiye.Mvc.Areas.Admin.Controllers
             return View(book);
         }
 
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+
+            var categories = await _categoryService.GetAllCategoriesAsync();
+            ViewBag.Categories = categories;    
+
             return View();
         }
 
@@ -50,7 +58,12 @@ namespace Lahiye.Mvc.Areas.Admin.Controllers
         public async Task<IActionResult> Edit(int id)
         {
             var book = await _bookService.GetBookByIdAsync(id);
+           
             if (book == null) return NotFound();
+
+            var categories = await _categoryService.GetAllCategoriesAsync(); 
+            ViewBag.Categories = categories;
+
 
             var updateVm = new UpdateBookVm
             {
@@ -58,12 +71,12 @@ namespace Lahiye.Mvc.Areas.Admin.Controllers
                 Title = book.Title,
                 Description = book.Description,
                 PageCount = book.PageCount,
-                AuthorId = book.AuthorId,
-                CategoryId = book.CategoryId,
+               
                 Img = book.Img,
-                Pdf = book.Pdf
+                Pdf = book.Pdf,
+                 
             };
-
+            
             return View(updateVm);
         }
 
@@ -71,7 +84,12 @@ namespace Lahiye.Mvc.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(UpdateBookVm model)
         {
-            if (!ModelState.IsValid) return View(model);
+            if (!ModelState.IsValid)
+            {
+                var categories = await _categoryService.GetAllCategoriesAsync();
+                ViewBag.Categories = categories;
+                return View(model);
+            }
 
             string wwwroot = _env.WebRootPath;
             await _bookService.UpdateBookAsync(model, wwwroot);

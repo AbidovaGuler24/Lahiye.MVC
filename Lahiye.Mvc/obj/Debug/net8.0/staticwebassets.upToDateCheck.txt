@@ -1880,6 +1880,8 @@ wwwroot\Files\1ef5e458-c9d5-4cdc-92bd-33db573b9f04_Paula-Hawkins-Trendeki-Kiz.pd
 wwwroot\Files\25ff1523-51e8-4603-b7b8-1c5febc975fa_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
 wwwroot\Files\2b9ecff1-3c06-49b0-badb-09eae7a40545_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
 wwwroot\Files\2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
+wwwroot\Files\2fb3576d-b4b0-45e3-b9b0-6d8eb428288f_Khaled Hosseini-uçurtma avcısı.pdf
+wwwroot\Files\4442449f-952c-42bf-b18b-76f67de8adc7_Khaled Hosseini-uçurtma avcısı.pdf
 wwwroot\Files\649c89d6-e863-4137-b45d-55824f9d0d6c_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
 wwwroot\Files\6d4217c8-7512-4294-8307-1553f7035823_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
 wwwroot\Files\71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi.pdf
@@ -2106,6 +2108,7 @@ wwwroot\Imagess\3c030abe-f1ff-4609-a301-d5f09ea27d21_download (4).jpg
 wwwroot\Imagess\3d7eb4dd-5383-42f6-ae10-c05495133f8b_catt.jpg
 wwwroot\Imagess\3e6faa9d-09c5-4916-9506-38ce7a951b88_download (10).jpg
 wwwroot\Imagess\418f1569-c9f0-4217-a6d2-aa94944eb263_elza.jpg
+wwwroot\Imagess\47bab5ae-db7d-4a9e-b83f-cc0cd401712d_download (34).jpg
 wwwroot\Imagess\495a8526-7cc4-4111-8d70-63e88ca8a53b_download (23).jpg
 wwwroot\Imagess\4b007635-272e-44bf-9651-81930c637dd1_D3.jpeg
 wwwroot\Imagess\50ef756f-d8d0-4022-982c-3e668a6631ca_download (23).jpg
@@ -2123,6 +2126,7 @@ wwwroot\Imagess\6e214a5e-ca9a-4b88-9f1f-7b8631b22b7e_sanay.jpg
 wwwroot\Imagess\73a327ad-5663-41fa-8871-018d0fc3d5f9_D3.jpeg
 wwwroot\Imagess\73fa5f50-bd4a-4291-8d67-359035f83420_download (22).jpg
 wwwroot\Imagess\747a6117-2859-448a-a04e-81b1fab4e1c7_elza.jpg
+wwwroot\Imagess\786ec32f-8a00-4aae-aa65-0ab868b2afa2_download (34).jpg
 wwwroot\Imagess\79ec1b45-9190-4eaf-ba1a-154597c93c1a_D3.jpeg
 wwwroot\Imagess\7a067c42-ddc2-49e9-a8d1-26a80faea1e1_download.jpg
 wwwroot\Imagess\7b7d7925-7582-401e-a34a-5c4607db95e4_download (20).jpg

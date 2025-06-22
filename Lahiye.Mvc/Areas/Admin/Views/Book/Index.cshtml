@@ -17,7 +17,7 @@
                 <th>Description</th>
                 <th>Page Count</th>
                 <th>Image</th>
-                
+                <td>Category</td>
                 <th></th>
             </tr>
         </thead>
@@ -28,6 +28,7 @@
                     <td>@book.Title</td>
                     <td>@book.Description</td>
                     <td>@book.PageCount</td>
+                    <td>@book.Category</td>
                     <td>
                         @if (!string.IsNullOrEmpty(book.Img))
                         {
