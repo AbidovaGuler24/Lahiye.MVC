@@ -118,6 +118,30 @@
 	</div>
 </div>
 
+@if (ViewBag.RelatedBooks != null && ((List<OnlineLearning.Core.ViewModels.BookVm>)ViewBag.RelatedBooks).Count > 0)
+{
+	<div class="container mt-4">
+		<h5 class="mb-3">📚 Eyni kateqoriyadan olan digər kitablar</h5>
+		<div class="row">
+			@foreach (var item in (List<OnlineLearning.Core.ViewModels.BookVm>)ViewBag.RelatedBooks)
+			{
+				<div class="col-md-3 mb-4">
+					<div class="card h-100 shadow-sm">
+						<img src="~/Imagess/@item.Img" class="card-img-top" alt="@item.Title" style="height:200px; object-fit:cover;">
+						<div class="card-body">
+							<h6 class="card-title">@item.Title</h6>
+							<p class="card-text text-truncate">@item.Description</p>
+							<a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-beige">
+								<i class="bi bi-eye"></i> Bax
+							</a>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+}
+
 <!-- Reklam Modalı -->
 <div id="adModal" class="ad-modal">
 	<div class="ad-content text-center">

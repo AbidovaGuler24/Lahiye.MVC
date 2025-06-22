@@ -3,20 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\lahiye.mvc\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|solutionrelative:lahiye.mvc\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\lahiye.mvc\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|solutionrelative:lahiye.mvc\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Migrations\\20250622132723_AddCascadeDeleteToBookCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineLearning.DAL\\Migrations\\20250622132723_AddCascadeDeleteToBookCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\lahiye.mvc\\views\\book\\relatedbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|solutionrelative:lahiye.mvc\\views\\book\\relatedbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|solutionrelative:onlinelearning.dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\lahiye.mvc\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|solutionrelative:lahiye.mvc\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.bl\\services\\concretes\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|solutionrelative:onlinelearning.bl\\services\\concretes\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.dal\\repositories\\concretes\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|solutionrelative:onlinelearning.dal\\repositories\\concretes\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\lahiye.mvc\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|solutionrelative:lahiye.mvc\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.bl\\services\\abstracts\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|solutionrelative:onlinelearning.bl\\services\\abstracts\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.core\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|solutionrelative:onlinelearning.core\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.core\\viewmodels\\blogvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|solutionrelative:onlinelearning.core\\viewmodels\\blogvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.core\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|solutionrelative:onlinelearning.core\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.core\\viewmodels\\bookdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|solutionrelative:onlinelearning.core\\viewmodels\\bookdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.dal\\repositories\\abstracts\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|solutionrelative:onlinelearning.dal\\repositories\\abstracts\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.bl\\services\\abstracts\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|solutionrelative:onlinelearning.bl\\services\\abstracts\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.bl\\services\\abstracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|solutionrelative:onlinelearning.bl\\services\\abstracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|solutionrelative:onlinelearning.dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\lahiye.mvc\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +71,8 @@
       "RelativeMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|solutionrelative:lahiye.mvc\\areas\\admin\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.dal\\repositories\\concretes\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|solutionrelative:onlinelearning.dal\\repositories\\concretes\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.bl\\services\\abstracts\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|solutionrelative:onlinelearning.bl\\services\\abstracts\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\lahiye.mvc\\areas\\admin\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|solutionrelative:lahiye.mvc\\areas\\admin\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Migrations\\20250622115330_Categoryy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineLearning.DAL\\Migrations\\20250622115330_Categoryy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\lahiye.mvc\\areas\\admin\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -51,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|solutionrelative:lahiye.mvc\\areas\\admin\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.core\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|solutionrelative:onlinelearning.core\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.core\\viewmodels\\updatebookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|solutionrelative:onlinelearning.core\\viewmodels\\updatebookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,24 +91,8 @@
       "RelativeMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|solutionrelative:onlinelearning.core\\viewmodels\\addbookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\lahiye.mvc\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|solutionrelative:lahiye.mvc\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.core\\viewmodels\\updatecategoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|solutionrelative:onlinelearning.core\\viewmodels\\updatecategoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\lahiye.mvc\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|solutionrelative:lahiye.mvc\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Migrations\\20250622103513_Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineLearning.DAL\\Migrations\\20250622103513_Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.core\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|solutionrelative:onlinelearning.core\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.core\\enums\\bookgenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\lahiye.mvc\\controllers\\newseventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|solutionrelative:lahiye.mvc\\controllers\\newseventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.core\\viewmodels\\blogvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4656CD3-4263-4B89-BE3E-3B413E6224AF}|OnlineLearning.Core\\OnlineLearning.Core.csproj|solutionrelative:onlinelearning.core\\viewmodels\\blogvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{858B62B6-9A25-4697-9A46-FA6096594C03}|Lahiye.Mvc\\Lahiye.Mvc.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\lahiye.mvc\\controllers\\cafemenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -153,10 +161,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.bl\\services\\concretes\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|solutionrelative:onlinelearning.bl\\services\\concretes\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.bl\\services\\abstracts\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B912BC71-550D-4F2F-87BB-868E9C45CEDC}|OnlineLearning.BL\\OnlineLearning.BL.csproj|solutionrelative:onlinelearning.bl\\services\\abstracts\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.dal\\repositories\\abstracts\\iblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -365,6 +369,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.dal\\migrations\\20250620085313_libraryitemtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|solutionrelative:onlinelearning.dal\\migrations\\20250620085313_libraryitemtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.dal\\migrations\\20250622132723_addcascadedeletetobookcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|solutionrelative:onlinelearning.dal\\migrations\\20250622132723_addcascadedeletetobookcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.dal\\migrations\\20250622115330_categoryy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|solutionrelative:onlinelearning.dal\\migrations\\20250622115330_categoryy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|c:\\users\\user\\desktop\\lahiye.mvc\\onlinelearning.dal\\migrations\\20250622103513_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64E62F91-1EF4-4FED-96B4-4786266678DE}|OnlineLearning.DAL\\OnlineLearning.DAL.csproj|solutionrelative:onlinelearning.dal\\migrations\\20250622103513_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -374,37 +390,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250622132723_AddCascadeDeleteToBookCategory.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Migrations\\20250622132723_AddCascadeDeleteToBookCategory.cs",
-              "RelativeDocumentMoniker": "OnlineLearning.DAL\\Migrations\\20250622132723_AddCascadeDeleteToBookCategory.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Migrations\\20250622132723_AddCascadeDeleteToBookCategory.cs",
-              "RelativeToolTip": "OnlineLearning.DAL\\Migrations\\20250622132723_AddCascadeDeleteToBookCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Lahiye.Mvc\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Lahiye.Mvc\\Controllers\\BookController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwCAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T13:27:23.177Z",
+              "WhenOpened": "2025-06-19T12:26:37.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RelatedBooks.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Book\\RelatedBooks.cshtml",
+              "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\Book\\RelatedBooks.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Book\\RelatedBooks.cshtml",
+              "RelativeToolTip": "Lahiye.Mvc\\Views\\Book\\RelatedBooks.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T15:02:12.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Concretes\\BookService.cs",
+              "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Concretes\\BookService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Concretes\\BookService.cs",
+              "RelativeToolTip": "OnlineLearning.BL\\Services\\Concretes\\BookService.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAswIMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:54:17.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Abstracts\\IBookService.cs",
+              "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Abstracts\\IBookService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Abstracts\\IBookService.cs",
+              "RelativeToolTip": "OnlineLearning.BL\\Services\\Abstracts\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T12:30:19.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookVm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\BookVm.cs",
+              "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\BookVm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\BookVm.cs",
+              "RelativeToolTip": "OnlineLearning.Core\\ViewModels\\BookVm.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:47:23.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BlogVm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\BlogVm.cs",
+              "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\BlogVm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\BlogVm.cs",
+              "RelativeToolTip": "OnlineLearning.Core\\ViewModels\\BlogVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:35:23.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "OnlineLearning.Core\\Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\Entities\\Book.cs",
+              "RelativeToolTip": "OnlineLearning.Core\\Entities\\Book.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA3wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:43:01.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BookRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Concretes\\BookRepository.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Repositories\\Concretes\\BookRepository.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Concretes\\BookRepository.cs",
               "RelativeToolTip": "OnlineLearning.DAL\\Repositories\\Concretes\\BookRepository.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAowE0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T12:19:09.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\Book\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "Lahiye.Mvc\\Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAwwI8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T14:43:17.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Book\\Details.cshtml",
+              "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\Book\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Book\\Details.cshtml",
+              "RelativeToolTip": "Lahiye.Mvc\\Views\\Book\\Details.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAwG4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T12:31:08.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookDetailsVm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\BookDetailsVm.cs",
+              "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\BookDetailsVm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\BookDetailsVm.cs",
+              "RelativeToolTip": "OnlineLearning.Core\\ViewModels\\BookDetailsVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T13:47:15.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Abstracts\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "OnlineLearning.DAL\\Repositories\\Abstracts\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Abstracts\\IBookRepository.cs",
+              "RelativeToolTip": "OnlineLearning.DAL\\Repositories\\Abstracts\\IBookRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T13:53:29.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBlogService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Abstracts\\IBlogService.cs",
+              "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Abstracts\\IBlogService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Abstracts\\IBlogService.cs",
+              "RelativeToolTip": "OnlineLearning.BL\\Services\\Abstracts\\IBlogService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:40:01.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Abstracts\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Abstracts\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Abstracts\\ICategoryService.cs",
+              "RelativeToolTip": "OnlineLearning.BL\\Services\\Abstracts\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T13:51:59.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Controllers\\BookController.cs",
@@ -417,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
@@ -425,12 +597,11 @@
               "RelativeToolTip": "Lahiye.Mvc\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-21T13:31:40.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T13:31:40.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Views\\Book\\Details.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Views\\Book\\Details.cshtml",
@@ -438,25 +609,11 @@
               "RelativeToolTip": "Lahiye.Mvc\\Areas\\Admin\\Views\\Book\\Details.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-21T12:33:12.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T12:33:12.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Book\\Details.cshtml",
-              "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\Book\\Details.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Book\\Details.cshtml",
-              "RelativeToolTip": "Lahiye.Mvc\\Views\\Book\\Details.cshtml",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAkwIsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-21T12:31:08.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 93,
               "Title": "20250622115330_Categoryy.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Migrations\\20250622115330_Categoryy.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Migrations\\20250622115330_Categoryy.cs",
@@ -464,38 +621,36 @@
               "RelativeToolTip": "OnlineLearning.DAL\\Migrations\\20250622115330_Categoryy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T11:53:30.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T11:53:30.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Concretes\\BookService.cs",
-              "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Concretes\\BookService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Concretes\\BookService.cs",
-              "RelativeToolTip": "OnlineLearning.BL\\Services\\Concretes\\BookService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAIwEoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T13:54:17.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Context\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Context\\AppDbContext.cs",
               "RelativeToolTip": "OnlineLearning.DAL\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCYAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T06:50:55.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 92,
+              "Title": "20250622132723_AddCascadeDeleteToBookCategory.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Migrations\\20250622132723_AddCascadeDeleteToBookCategory.cs",
+              "RelativeDocumentMoniker": "OnlineLearning.DAL\\Migrations\\20250622132723_AddCascadeDeleteToBookCategory.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Migrations\\20250622132723_AddCascadeDeleteToBookCategory.cs",
+              "RelativeToolTip": "OnlineLearning.DAL\\Migrations\\20250622132723_AddCascadeDeleteToBookCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T13:27:23.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Views\\Book\\Create.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Views\\Book\\Create.cshtml",
@@ -503,38 +658,11 @@
               "RelativeToolTip": "Lahiye.Mvc\\Areas\\Admin\\Views\\Book\\Create.cshtml",
               "ViewState": "AgIAADEAAAAAAAAAAAAUwDsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-21T13:31:08.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T13:31:08.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Abstracts\\IBookService.cs",
-              "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Abstracts\\IBookService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Abstracts\\IBookService.cs",
-              "RelativeToolTip": "OnlineLearning.BL\\Services\\Abstracts\\IBookService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwA8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T12:30:19.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BookVm.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\BookVm.cs",
-              "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\BookVm.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\BookVm.cs",
-              "RelativeToolTip": "OnlineLearning.Core\\ViewModels\\BookVm.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAD4vxgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T14:47:23.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "UpdateBookVm.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\UpdateBookVm.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\UpdateBookVm.cs",
@@ -542,12 +670,11 @@
               "RelativeToolTip": "OnlineLearning.Core\\ViewModels\\UpdateBookVm.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAqwBUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T07:31:18.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T07:31:18.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "AddBookVm.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\AddBookVm.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\AddBookVm.cs",
@@ -555,12 +682,11 @@
               "RelativeToolTip": "OnlineLearning.Core\\ViewModels\\AddBookVm.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAowBsAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:00:04.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T10:00:04.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Views\\Book\\Index.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Views\\Book\\Index.cshtml",
@@ -568,25 +694,11 @@
               "RelativeToolTip": "Lahiye.Mvc\\Areas\\Admin\\Views\\Book\\Index.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-21T13:11:10.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T13:11:10.262Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Lahiye.Mvc\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Lahiye.Mvc\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T12:26:37.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "UpdateCategoryVm.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\UpdateCategoryVm.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\UpdateCategoryVm.cs",
@@ -594,25 +706,11 @@
               "RelativeToolTip": "OnlineLearning.Core\\ViewModels\\UpdateCategoryVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:42:40.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T10:42:40.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Book\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\Book\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Book\\Index.cshtml",
-              "RelativeToolTip": "Lahiye.Mvc\\Views\\Book\\Index.cshtml",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAkwGMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T14:43:17.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 94,
               "Title": "20250622103513_Category.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Migrations\\20250622103513_Category.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Migrations\\20250622103513_Category.cs",
@@ -620,24 +718,11 @@
               "RelativeToolTip": "OnlineLearning.DAL\\Migrations\\20250622103513_Category.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:35:13.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T10:35:13.722Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "BlogVm.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\BlogVm.cs",
-              "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\BlogVm.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\BlogVm.cs",
-              "RelativeToolTip": "OnlineLearning.Core\\ViewModels\\BlogVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T09:35:23.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "BookGenre.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\Enums\\BookGenre.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\Enums\\BookGenre.cs",
@@ -649,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "NewsEventController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\NewsEventController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Controllers\\NewsEventController.cs",
@@ -661,19 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\Entities\\Book.cs",
-              "RelativeDocumentMoniker": "OnlineLearning.Core\\Entities\\Book.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\Entities\\Book.cs",
-              "RelativeToolTip": "OnlineLearning.Core\\Entities\\Book.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA0wBEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T14:43:01.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Search.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Book\\Search.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\Book\\Search.cshtml",
@@ -685,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "CafeMenuController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\CafeMenuController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Controllers\\CafeMenuController.cs",
@@ -697,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Search.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\LibraryItem\\Search.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\LibraryItem\\Search.cshtml",
@@ -709,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "LibraryItemController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\LibraryItemController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Controllers\\LibraryItemController.cs",
@@ -721,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\LibraryItem\\Index.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\LibraryItem\\Index.cshtml",
@@ -733,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Search.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\NewsEvent\\Search.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\NewsEvent\\Search.cshtml",
@@ -745,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\CafeMenu\\Index.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\CafeMenu\\Index.cshtml",
@@ -757,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Program.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Program.cs",
@@ -769,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "INewsEventRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Abstracts\\INewsEventRepository.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Repositories\\Abstracts\\INewsEventRepository.cs",
@@ -781,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "NewsEventService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Concretes\\NewsEventService.cs",
               "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Concretes\\NewsEventService.cs",
@@ -793,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "BlogController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Controllers\\BlogController.cs",
@@ -805,7 +878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\Entities\\AppUser.cs",
@@ -817,7 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "FileCreateExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\Helpers\\Exictance\\FileCreateExtension.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\Helpers\\Exictance\\FileCreateExtension.cs",
@@ -829,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "BlogController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Controllers\\BlogController.cs",
@@ -837,11 +910,12 @@
               "RelativeToolTip": "Lahiye.Mvc\\Areas\\Admin\\Controllers\\BlogController.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAswFgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T12:53:20.698Z"
+              "WhenOpened": "2025-06-19T12:53:20.698Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Concretes\\BlogService.cs",
               "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Concretes\\BlogService.cs",
@@ -849,23 +923,12 @@
               "RelativeToolTip": "OnlineLearning.BL\\Services\\Concretes\\BlogService.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwDwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T08:38:02.025Z"
+              "WhenOpened": "2025-06-20T08:38:02.025Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IBlogService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Abstracts\\IBlogService.cs",
-              "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Abstracts\\IBlogService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Abstracts\\IBlogService.cs",
-              "RelativeToolTip": "OnlineLearning.BL\\Services\\Abstracts\\IBlogService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T14:40:01.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "IBlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Abstracts\\IBlogRepository.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Repositories\\Abstracts\\IBlogRepository.cs",
@@ -877,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "LibraryItemService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Concretes\\LibraryItemService.cs",
               "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Concretes\\LibraryItemService.cs",
@@ -889,7 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Views\\LibraryItem\\Create.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Views\\LibraryItem\\Create.cshtml",
@@ -901,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "LibraryItemController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Controllers\\LibraryItemController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Controllers\\LibraryItemController.cs",
@@ -913,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Views\\LibraryItem\\Index.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Views\\LibraryItem\\Index.cshtml",
@@ -925,7 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "ILibraryItemService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Abstracts\\ILibraryItemService.cs",
               "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Abstracts\\ILibraryItemService.cs",
@@ -937,7 +1000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Views\\LibraryItem\\Edit.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Views\\LibraryItem\\Edit.cshtml",
@@ -949,7 +1012,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\Shared\\_Layout.cshtml",
@@ -961,7 +1024,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\NewsEvent\\Index.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\NewsEvent\\Index.cshtml",
@@ -973,7 +1036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\NewsEvent\\Details.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\NewsEvent\\Details.cshtml",
@@ -985,7 +1048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Blog\\Details.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\Blog\\Details.cshtml",
@@ -997,7 +1060,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "LibraryItem.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\Entities\\LibraryItem.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\Entities\\LibraryItem.cs",
@@ -1009,7 +1072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "LibraryItemVM.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\LibraryItemVM.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\LibraryItemVM.cs",
@@ -1021,7 +1084,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "PaidBookController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Controllers\\PaidBookController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Controllers\\PaidBookController.cs",
@@ -1029,11 +1092,12 @@
               "RelativeToolTip": "Lahiye.Mvc\\Areas\\Admin\\Controllers\\PaidBookController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T09:42:50.983Z"
+              "WhenOpened": "2025-06-20T09:42:50.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "1a61536d-ec8a-419f-adc9-ca0a444645c6_WhatsApp.html",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\audio\\1a61536d-ec8a-419f-adc9-ca0a444645c6_WhatsApp.html",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\wwwroot\\audio\\1a61536d-ec8a-419f-adc9-ca0a444645c6_WhatsApp.html",
@@ -1045,7 +1109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "PaidBookController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\PaidBookController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Controllers\\PaidBookController.cs",
@@ -1057,7 +1121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "LibraryItemUpdateVM.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\LibraryItemUpdateVM.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\LibraryItemUpdateVM.cs",
@@ -1069,7 +1133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "LibraryItemAddVM.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\LibraryItemAddVM.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\LibraryItemAddVM.cs",
@@ -1081,7 +1145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "LibraryItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Concretes\\LibraryItemRepository.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Repositories\\Concretes\\LibraryItemRepository.cs",
@@ -1093,7 +1157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "CategoryVm.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\CategoryVm.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\CategoryVm.cs",
@@ -1105,7 +1169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "AddAuthorVm.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\AddAuthorVm.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\AddAuthorVm.cs",
@@ -1117,7 +1181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Views\\LibraryItem\\Details.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Views\\LibraryItem\\Details.cshtml",
@@ -1129,7 +1193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 91,
               "Title": "20250620085313_LibraryItemTable.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Migrations\\20250620085313_LibraryItemTable.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Migrations\\20250620085313_LibraryItemTable.cs",
@@ -1141,7 +1205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "AuthorController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Controllers\\AuthorController.cs",
@@ -1149,11 +1213,12 @@
               "RelativeToolTip": "Lahiye.Mvc\\Areas\\Admin\\Controllers\\AuthorController.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAAAwwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T08:43:54.276Z"
+              "WhenOpened": "2025-06-20T08:43:54.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\LoginViewModel.cs",
@@ -1165,7 +1230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Controllers\\EmployeeController.cs",
@@ -1177,7 +1242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "FavoriteBookService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Concretes\\FavoriteBookService.cs",
               "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Concretes\\FavoriteBookService.cs",
@@ -1189,7 +1254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "ILibraryItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Abstracts\\ILibraryItemRepository.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Repositories\\Abstracts\\ILibraryItemRepository.cs",
@@ -1201,7 +1266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "UpdateBlogVm.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\UpdateBlogVm.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\UpdateBlogVm.cs",
@@ -1213,7 +1278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "FavoriteBookVM.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\FavoriteBookVM.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\FavoriteBookVM.cs",
@@ -1225,7 +1290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "IAuthorRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Abstracts\\IAuthorRepository.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Repositories\\Abstracts\\IAuthorRepository.cs",
@@ -1237,7 +1302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "AddNewsEventVm.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\AddNewsEventVm.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\AddNewsEventVm.cs",
@@ -1249,7 +1314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\Employee\\Index.cshtml",
@@ -1261,7 +1326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "FavoritesController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\FavoritesController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Controllers\\FavoritesController.cs",
@@ -1269,11 +1334,12 @@
               "RelativeToolTip": "Lahiye.Mvc\\Controllers\\FavoritesController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAMwCQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T12:19:34.013Z"
+              "WhenOpened": "2025-06-19T12:19:34.013Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Controllers\\EmployeeController.cs",
@@ -1285,7 +1351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "EmployeeVM.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\ViewModels\\EmployeeVM.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\ViewModels\\EmployeeVM.cs",
@@ -1297,7 +1363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "Blog.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Blog\\Blog.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\Blog\\Blog.cshtml",
@@ -1309,7 +1375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\Entities\\Employee.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\Entities\\Employee.cs",
@@ -1321,7 +1387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Areas\\Admin\\Views\\Blog\\Details.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Areas\\Admin\\Views\\Blog\\Details.cshtml",
@@ -1333,7 +1399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "Blog.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\Entities\\Blog.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\Entities\\Blog.cs",
@@ -1345,7 +1411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "ViewFavorites.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\Favorites\\ViewFavorites.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\Favorites\\ViewFavorites.cshtml",
@@ -1357,7 +1423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "FavoriteBookRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Concretes\\FavoriteBookRepository.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Repositories\\Concretes\\FavoriteBookRepository.cs",
@@ -1369,7 +1435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 84,
               "Title": "NewsEventRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Concretes\\NewsEventRepository.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Repositories\\Concretes\\NewsEventRepository.cs",
@@ -1381,7 +1447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 82,
               "Title": "FavoriteBook.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.Core\\Entities\\FavoriteBook.cs",
               "RelativeDocumentMoniker": "OnlineLearning.Core\\Entities\\FavoriteBook.cs",
@@ -1393,7 +1459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 81,
               "Title": "IFavoriteBookService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Abstracts\\IFavoriteBookService.cs",
               "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Abstracts\\IFavoriteBookService.cs",
@@ -1405,7 +1471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 83,
               "Title": "IFavoriteBookRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Abstracts\\IFavoriteBookRepository.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Repositories\\Abstracts\\IFavoriteBookRepository.cs",
@@ -1417,7 +1483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 85,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Abstracts\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Repositories\\Abstracts\\IEmployeeRepository.cs",
@@ -1429,7 +1495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 86,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Views\\PaidBook\\Index.cshtml",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Views\\PaidBook\\Index.cshtml",
@@ -1441,7 +1507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "PaidBookService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.BL\\Services\\Concretes\\PaidBookService.cs",
               "RelativeDocumentMoniker": "OnlineLearning.BL\\Services\\Concretes\\PaidBookService.cs",
@@ -1449,11 +1515,12 @@
               "RelativeToolTip": "OnlineLearning.BL\\Services\\Concretes\\PaidBookService.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T12:38:53.794Z"
+              "WhenOpened": "2025-06-19T12:38:53.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "IPaymentService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\OnlineLearning.DAL\\Repositories\\Abstracts\\IPaymentService.cs",
               "RelativeDocumentMoniker": "OnlineLearning.DAL\\Repositories\\Abstracts\\IPaymentService.cs",
@@ -1465,7 +1532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 89,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Controllers\\CartController.cs",
@@ -1477,7 +1544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 90,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Lahiye.Mvc\\Controllers\\AccountController.cs",
@@ -1485,7 +1552,8 @@
               "RelativeToolTip": "Lahiye.Mvc\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAowCAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T12:16:53.15Z"
+              "WhenOpened": "2025-06-19T12:16:53.15Z",
+              "EditorCaption": ""
             }
           ]
         }

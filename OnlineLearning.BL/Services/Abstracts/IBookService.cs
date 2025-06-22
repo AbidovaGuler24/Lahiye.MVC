@@ -15,6 +15,7 @@ namespace OnlineLearning.BL.Services.Abstracts
         Task<string> AddBookAsync(AddBookVm model,string wwwroot );
         Task UpdateBookAsync(UpdateBookVm vm, string wwwroot);
         Task DeleteBookAsync(int id);
-        
+        Task<List<BookVm>> GetBooksByCategoryIdAsync(int? categoryId, int excludeBookId);
+        //Task<Category> GetCategoryByIdAsync(int categoryId, int excludeBookId);
     }
 }

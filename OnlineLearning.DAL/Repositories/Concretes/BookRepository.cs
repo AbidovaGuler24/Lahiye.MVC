@@ -61,5 +61,23 @@ namespace OnlineLearning.DAL.Repositories.Concretes
         {
             await _context.SaveChangesAsync();
         }
+        public async Task<List<Book>> GetByCategoryIdAsync(int categoryId, int excludeBookId)
+        {
+            return await _context.Books
+                .Where(b => b.CategoryId == categoryId && b.Id != excludeBookId)
+                .ToListAsync();
+        }
+
+        public async Task<Category> GetCategoryByIdAsync(int categoryId)
+        {
+            return await _context.Categories.FindAsync(categoryId);
+        }
+
+        public async Task<List<Book>> GetBooksByCategoryIdAsync(int? categoryId, int excludeBookId)
+        {
+            return await _context.Books
+          .Where(b => b.CategoryId == categoryId && b.Id != excludeBookId)
+          .ToListAsync();
+        }
     }
 }

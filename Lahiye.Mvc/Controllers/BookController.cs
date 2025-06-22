@@ -2,6 +2,7 @@
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.BL.Services.Concretes;
 using OnlineLearning.Core.Enums;
+using OnlineLearning.Core.ViewModels;
 
 namespace Lahiye.Mvc.Controllers
 {
@@ -31,10 +32,13 @@ namespace Lahiye.Mvc.Controllers
 
         public async Task<IActionResult> Details(int id)
         {
-            var newsEvent = await _bookService.GetBookByIdAsync(id);
-            if (newsEvent == null) return NotFound();
+            var book = await _bookService.GetBookByIdAsync(id);
+            if (book == null) return NotFound();
 
-            return View(newsEvent);
+            var relatedBooks = await _bookService.GetBooksByCategoryIdAsync(book.CategoryId, book.Id);
+            ViewBag.RelatedBooks = relatedBooks;
+
+            return View(book);
         }
         public async Task<IActionResult> Search(string searchTerm)
         {
@@ -58,6 +62,11 @@ namespace Lahiye.Mvc.Controllers
             return View(list);
         }
 
+        public async Task<IActionResult> RelatedBooks(int? categoryId, int excludeBookId)
+        {
+            var relatedBooks = await _bookService.GetBooksByCategoryIdAsync(categoryId, excludeBookId);
+            return View(relatedBooks);
+        }
 
     }
 }

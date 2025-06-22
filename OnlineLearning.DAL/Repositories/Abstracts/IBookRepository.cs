@@ -15,5 +15,7 @@ namespace OnlineLearning.DAL.Repositories.Abstracts
         Task UpdateAsync(Book book);
         Task DeleteAsync(int id);
         Task SaveAllChangesAsync();
+        //Task<Category> GetCategoryByIdAsync(int categoryId);
+        Task<List<Book>> GetBooksByCategoryIdAsync(int? categoryId, int excludeBookId);
     }
 }

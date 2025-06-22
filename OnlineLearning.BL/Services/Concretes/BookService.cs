@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.Core.Entities;
 using OnlineLearning.Core.Helpers.Exictance;
 using OnlineLearning.Core.ViewModels;
+using OnlineLearning.DAL.Context;
 using OnlineLearning.DAL.Repositories.Abstracts;
 using OnlineLearning.DAL.Repositories.Concretes;
 
@@ -14,17 +16,17 @@ namespace OnlineLearning.BL.Services.Concretes
 {
     public class BookService : IBookService
     {
-        
+
         private readonly IBookRepository _bookRepository;
-       
-        public BookService( IBookRepository bookRepository)
+        private readonly AppDbContext _context;
+        public BookService(IBookRepository bookRepository, AppDbContext context)
         {
-            
+            _context = context;
             _bookRepository = bookRepository;
         }
-        public async Task<string> AddBookAsync(AddBookVm model,string wwwroot)
+        public async Task<string> AddBookAsync(AddBookVm model, string wwwroot)
         {
-             
+
             var book = new Book
             {
                 Title = model.Title,
@@ -39,7 +41,7 @@ namespace OnlineLearning.BL.Services.Concretes
 
             if (model.PdfFile != null)
                 book.PdfUrl = model.PdfFile.CreateFile(wwwroot, "\\Files\\");
-            
+
 
             await _bookRepository.AddAsync(book);
             await _bookRepository.SaveAllChangesAsync();
@@ -52,14 +54,14 @@ namespace OnlineLearning.BL.Services.Concretes
             var book = await _bookRepository.GetByIdAsync(id);
 
             await _bookRepository.DeleteAsync(id);
-             await _bookRepository.SaveAllChangesAsync();
-            
+            await _bookRepository.SaveAllChangesAsync();
+
         }
 
-      
 
-        
-        
+
+
+
 
         public async Task<BookVm?> GetBookByIdAsync(int id)
         {
@@ -71,11 +73,11 @@ namespace OnlineLearning.BL.Services.Concretes
                 Title = book.Title,
                 Description = book.Description,
                 PageCount = book.PageCount,
-              CategoryId= book.CategoryId,
-              Category=book.Category,
+                CategoryId = book.CategoryId,
+                Category = book.Category,
                 Img = book.ImgUrl,
                 Pdf = book.PdfUrl
-                
+
 
 
 
@@ -117,17 +119,39 @@ namespace OnlineLearning.BL.Services.Concretes
             foreach (var item in books)
             {
                 var bookVm = new BookVm()
-                {  Id = item.Id,
+                {
+                    Id = item.Id,
                     Title = item.Title,
                     Description = item.Description,
                     PageCount = item.PageCount,
-                   
+
                     Img = item.ImgUrl,
                     Pdf = item.PdfUrl
                 };
                 booksList.Add(bookVm);
             }
             return booksList;
+        }
+
+        public async Task<List<BookVm>> GetBooksByCategoryIdAsync(int? categoryId, int excludeBookId)
+        {
+            var books = await _bookRepository.GetBooksByCategoryIdAsync(categoryId, excludeBookId);
+
+            var bookVms = books.Select(b => new BookVm
+            {
+                Id = b.Id,
+                Title = b.Title,
+                Description = b.Description,
+                PageCount = b.PageCount,
+                Img = b.ImgUrl ?? string.Empty,
+                Pdf = b.PdfUrl,
+                CategoryId = b.CategoryId,
+                Category = b.Category
+            }).ToList();
+
+            return bookVms;
+
+
         }
     }
 }

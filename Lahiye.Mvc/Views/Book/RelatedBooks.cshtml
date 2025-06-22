@@ -1,0 +1,11 @@
+﻿@model List<OnlineLearning.Core.ViewModels.BookVm>
+
+@foreach (var book in Model)
+{
+    <div class="book-card">
+        <h3>@book.Title</h3>
+        <p>@book.Description</p>
+        <img src="/Imagess/@book.Img" alt="Book Image" style="width: 150px;" />
+        <a href="/Files/@book.Pdf" target="_blank">PDF-ə bax</a>
+    </div>
+}
