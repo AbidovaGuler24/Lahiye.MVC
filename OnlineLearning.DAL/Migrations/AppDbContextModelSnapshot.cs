@@ -532,6 +532,9 @@ namespace OnlineLearning.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -554,6 +557,8 @@ namespace OnlineLearning.DAL.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("PaidBooks");
                 });
@@ -636,7 +641,7 @@ namespace OnlineLearning.DAL.Migrations
 
             modelBuilder.Entity("OnlineLearning.Core.Entities.Book", b =>
                 {
-                    b.HasOne("OnlineLearning.Core.Entities.Author", "Author")
+                    b.HasOne("OnlineLearning.Core.Entities.Author", null)
                         .WithMany("Books")
                         .HasForeignKey("AuthorId");
 
@@ -644,8 +649,6 @@ namespace OnlineLearning.DAL.Migrations
                         .WithMany("Books")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade);
-
-                    b.Navigation("Author");
 
                     b.Navigation("Category");
                 });
@@ -683,6 +686,15 @@ namespace OnlineLearning.DAL.Migrations
                     b.Navigation("Book");
                 });
 
+            modelBuilder.Entity("OnlineLearning.Core.Entities.PaidBook", b =>
+                {
+                    b.HasOne("OnlineLearning.Core.Entities.Category", "Category")
+                        .WithMany("PaidBook")
+                        .HasForeignKey("CategoryId");
+
+                    b.Navigation("Category");
+                });
+
             modelBuilder.Entity("OnlineLearning.Core.Entities.PurchasedBook", b =>
                 {
                     b.HasOne("OnlineLearning.Core.Entities.PaidBook", "Book")
@@ -702,6 +714,8 @@ namespace OnlineLearning.DAL.Migrations
             modelBuilder.Entity("OnlineLearning.Core.Entities.Category", b =>
                 {
                     b.Navigation("Books");
+
+                    b.Navigation("PaidBook");
                 });
 
             modelBuilder.Entity("OnlineLearning.Core.Entities.Employee", b =>

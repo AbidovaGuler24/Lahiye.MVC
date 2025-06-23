@@ -38,9 +38,22 @@ namespace OnlineLearning.DAL.Repositories.Concretes
 
         public async Task<PaidBook?> GetByIdAsync(int id)
         {
-            return await _context.PaidBooks.FindAsync(id);
+            return await _context.PaidBooks
+         .Include(pb => pb.Category) 
+         .FirstOrDefaultAsync(pb => pb.Id == id);
+        }
+        public async Task<Category> GetCategoryByIdAsync(int categoryId)
+        {
+            return await _context.Categories.FindAsync(categoryId);
         }
 
+      
+        public async Task<List<PaidBook>> GetPaidBooksByCategoryIdAsync(int? categoryId, int excludeBookId)
+        {
+            return await _context.PaidBooks
+          .Where(b => b.CategoryId == categoryId && b.Id != excludeBookId)
+          .ToListAsync();
+        }
         public async Task<int> SaveAllChangesAsync()
         {
             return await _context.SaveChangesAsync();
@@ -51,5 +64,7 @@ namespace OnlineLearning.DAL.Repositories.Concretes
             _context.PaidBooks.Update(book);
             await _context.SaveChangesAsync(); ;
         }
+
+        
     }
 }

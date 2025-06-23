@@ -15,5 +15,6 @@ namespace OnlineLearning.DAL.Repositories.Abstracts
         Task UpdateAsync(Blog blog);
         Task DeleteAsync(Blog blog);
         Task SaveAllChangesAsync();
+
     }
 }

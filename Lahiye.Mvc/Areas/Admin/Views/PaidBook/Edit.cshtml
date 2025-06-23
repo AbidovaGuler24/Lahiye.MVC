@@ -1,4 +1,5 @@
-﻿@model OnlineLearning.Core.ViewModels.PaidBookUpdateVm
+﻿@using OnlineLearning.Core.Entities
+@model OnlineLearning.Core.ViewModels.PaidBookUpdateVm
 @{
     ViewData["Title"] = "Kitabı Yenilə";
 }
@@ -27,6 +28,19 @@
         <label>Qiymət (₼)</label>
         <input asp-for="Price" class="form-control" type="number" step="0.01" required />
     </div>
+   
+        <select asp-for="CategoryId" class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            @{
+                foreach (var item in ViewBag.Categories as List<Category>)
+                {
+                    <option value=@item.Id>@item.Name</option>
+                }
+            }
+
+
+        </select>
+   
     <div class="form-group mb-2">
         <label hidden></label>
         <input hidden asp-for="Img" class="form-control" type="number" step="0.01" />

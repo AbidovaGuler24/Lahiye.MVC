@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OnlineLearning.Core.Entities;
 
 namespace OnlineLearning.Core.ViewModels
 {
@@ -15,7 +16,9 @@ namespace OnlineLearning.Core.ViewModels
         public string? Img { get; set; }
         public string? Pdf { get; set; }
         public decimal Price { get; set; }
-        
+        public int? CategoryId { get; set; }
+        public Category Category { get; set; }
+
         public bool IsPaid { get; set; }
     }
 }

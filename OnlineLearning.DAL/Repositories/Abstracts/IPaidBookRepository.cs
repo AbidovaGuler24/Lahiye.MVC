@@ -15,5 +15,6 @@ namespace OnlineLearning.DAL.Repositories.Abstracts
         Task UpdateAsync(PaidBook book);
         Task DeleteAsync(PaidBook book);
         Task<int> SaveAllChangesAsync();
+        Task<List<PaidBook>> GetPaidBooksByCategoryIdAsync(int? categoryId, int excludeBookId);
     }
 }

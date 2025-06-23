@@ -70,6 +70,7 @@ namespace OnlineLearning.BL.Services.Concretes
             BookVm bookVm = new BookVm()
 
             {
+                Id = id,
                 Title = book.Title,
                 Description = book.Description,
                 PageCount = book.PageCount,

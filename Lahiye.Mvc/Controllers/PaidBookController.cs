@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using OnlineLearning.DAL.Context;
 using OnlineLearning.Core.ViewModels;
 using OnlineLearning.Core.Helpers.Exictance;
+using OnlineLearning.BL.Services.Concretes;
 namespace Lahiye.Mvc.Controllers
 {
     public class PaidBookController : Controller
@@ -142,6 +143,34 @@ namespace Lahiye.Mvc.Controllers
         {
             return View();
         }
+        public async Task<IActionResult> RelatedBooks(int? categoryId, int excludeBookId)
+        {
+            var relatedBooks = await _paidBookService.GetBooksByCategoryIdAsync(categoryId, excludeBookId);
+            return View(relatedBooks);
+        }
+        public async Task<IActionResult> Details(int id)
+        {
+            var book = await _paidBookService.GetByIdAsync(id);
+            if (book == null) return NotFound();
 
+            var relatedBooks = await _paidBookService.GetBooksByCategoryIdAsync(book.CategoryId, book.Id);
+
+            
+            ViewBag.RelatedBooks = relatedBooks ?? new List<PaidBookVm>();
+
+            var vm = new PaidBookVm
+            {
+                Id = book.Id,
+                Title = book.Title,
+                Description = book.Description,
+                PageCount = book.PageCount,
+                Img = book.Img,
+                Pdf = book.Pdf,
+                Price = book.Price,
+                Category = book.Category
+            };
+
+            return View(vm);
+        }
     }
 }

@@ -37,14 +37,14 @@ namespace OnlineLearning.DAL.Repositories.Concretes
         public async Task<List<Book>> GetAllAsync()
         {
             return await _context.Books
-        .Include(b => b.Author)
+       
         .Include(b => b.Category)
         .ToListAsync();
         }
         public async Task<Book?> GetByIdAsync(int id)
         {
             return await _context.Books
-        .Include(b => b.Author)
+        
         .Include(b => b.Category)
         .FirstOrDefaultAsync(b => b.Id == id);
         }

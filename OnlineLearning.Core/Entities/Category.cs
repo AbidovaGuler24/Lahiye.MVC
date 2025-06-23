@@ -14,5 +14,6 @@ namespace OnlineLearning.Core.Entities
         public string? Description { get; set; }
 
         public ICollection<Book> Books { get; set; } = new List<Book>();
+        public ICollection<PaidBook> PaidBook { get; set; } = new List<PaidBook>();
     }
 }

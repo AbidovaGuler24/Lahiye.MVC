@@ -8,6 +8,7 @@ using OnlineLearning.Core.Entities;
 using OnlineLearning.Core.Helpers.Exictance;
 using OnlineLearning.Core.ViewModels;
 using OnlineLearning.DAL.Repositories.Abstracts;
+using OnlineLearning.DAL.Repositories.Concretes;
 
 namespace OnlineLearning.BL.Services.Concretes
 {
@@ -29,7 +30,8 @@ namespace OnlineLearning.BL.Services.Concretes
                 PageCount = vm.PageCount,
                 Price = vm.Price,
                 Img = vm.ImgFile != null ? vm.ImgFile.CreateFile(wwwroot, "\\imagess\\") : null,
-                Pdf = vm.PdfFile != null ? vm.PdfFile.CreateFile(wwwroot, "\\Files\\") : null
+                Pdf = vm.PdfFile != null ? vm.PdfFile.CreateFile(wwwroot, "\\Files\\") : null,
+                 CategoryId = vm.CategoryId,
             };
 
             await _paidBookRepository.CreateAsync(paidBook);
@@ -69,6 +71,26 @@ namespace OnlineLearning.BL.Services.Concretes
             }
             return list;
         }
+
+        public async Task<List<PaidBookVm>> GetBooksByCategoryIdAsync(int? categoryId, int excludeBookId)
+        {
+            var books = await _paidBookRepository.GetPaidBooksByCategoryIdAsync(categoryId, excludeBookId);
+
+            var paidbookVms = books.Select(b => new PaidBookVm
+            {
+                Id = b.Id,
+                Title = b.Title,
+                Description = b.Description,
+                PageCount = b.PageCount,
+                Img = b.Img ?? string.Empty,
+                Pdf = b.Pdf,
+                CategoryId = b.CategoryId,
+                Category = b.Category
+            }).ToList();
+
+            return paidbookVms;
+        }
+
         public async Task<PaidBookVm?> GetByIdAsync(int id)
         {
             var paidBook = await _paidBookRepository.GetByIdAsync(id);
@@ -82,34 +104,36 @@ namespace OnlineLearning.BL.Services.Concretes
                 PageCount = paidBook.PageCount,
                 Img = paidBook.Img,
                 Pdf = paidBook.Pdf,
-                Price = paidBook.Price
+                Price = paidBook.Price,
+                CategoryId = paidBook.CategoryId,
+                Category = paidBook.Category,
             };
         }
 
-        public async Task<List<PaidBookVm>> GetFilteredAsync(string? search, decimal? minPrice, int? minPage)
-        {
-            var paidBooks = await _paidBookRepository.GetAllAsync();
+        //public async Task<List<PaidBookVm>> GetFilteredAsync(string? search, decimal? minPrice, int? minPage)
+        //{
+        //    var paidBooks = await _paidBookRepository.GetAllAsync();
 
-            if (!string.IsNullOrWhiteSpace(search))
-                paidBooks = paidBooks.Where(b => b.Title != null && b.Title.Contains(search, StringComparison.OrdinalIgnoreCase)).ToList();
+        //    if (!string.IsNullOrWhiteSpace(search))
+        //        paidBooks = paidBooks.Where(b => b.Title != null && b.Title.Contains(search, StringComparison.OrdinalIgnoreCase)).ToList();
 
-            if (minPrice.HasValue)
-                paidBooks = paidBooks.Where(b => b.Price >= minPrice.Value).ToList();
+        //    if (minPrice.HasValue)
+        //        paidBooks = paidBooks.Where(b => b.Price >= minPrice.Value).ToList();
 
-            if (minPage.HasValue)
-                paidBooks = paidBooks.Where(b => b.PageCount >= minPage.Value).ToList();
+        //    if (minPage.HasValue)
+        //        paidBooks = paidBooks.Where(b => b.PageCount >= minPage.Value).ToList();
 
-            return paidBooks.Select(b => new PaidBookVm
-            {
-                Id = b.Id,
-                Title = b.Title,
-                Description = b.Description,
-                PageCount = b.PageCount,
-                Img = b.Img,
-                Pdf = b.Pdf,
-                Price = b.Price
-            }).ToList();
-        }
+        //    return paidBooks.Select(b => new PaidBookVm
+        //    {
+        //        Id = b.Id,
+        //        Title = b.Title,
+        //        Description = b.Description,
+        //        PageCount = b.PageCount,
+        //        Img = b.Img,
+        //        Pdf = b.Pdf,
+        //        Price = b.Price
+        //    }).ToList();
+        //}
 
         public async Task UpdateAsync(PaidBookUpdateVm vm, string wwwroot)
         {
@@ -120,7 +144,7 @@ namespace OnlineLearning.BL.Services.Concretes
             paidBook.Description = vm.Description;
             paidBook.PageCount = vm.PageCount;
             paidBook.Price = vm.Price;
-
+            paidBook.CategoryId = vm.CategoryId;
             if (vm.ImgFile != null)
             {
                 paidBook.Img?.RemoveFile(wwwroot, "\\imagess\\");

@@ -15,6 +15,7 @@
     <thead class="table-dark">
         <tr>
             <th>Img</th>
+            <th>Pdf</th>
             <th>Title</th>
             <th>PageCount</th>
             <th>Price</th>
@@ -29,7 +30,7 @@
                     <img src="~/Imagess/@book.Img" width="70" />
                 </td>
                 <td><a href="~/Files/@book.Pdf" target="_blank">View PDF</a></td>
-                <td>
+                
                 <td>@book.Title</td>
                 <td>@book.PageCount</td>
                 <td>@book.Price.ToString("0.00") ₼</td>

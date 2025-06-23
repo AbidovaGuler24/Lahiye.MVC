@@ -13,19 +13,21 @@ namespace OnlineLearning.MVC.Controllers
         private readonly IPaidBookService _paidBookService;
         private readonly IWebHostEnvironment _env;
         private readonly AppDbContext _context;
+        private readonly ICategoryService _categoryService;
 
-
-        public PaidBookController(IPaidBookService paidBookService, IWebHostEnvironment env, AppDbContext context)
+        public PaidBookController(IPaidBookService paidBookService, IWebHostEnvironment env, AppDbContext context, ICategoryService categoryService)
         {
             _paidBookService = paidBookService;
             _env = env;
             _context = context;
+            _categoryService = categoryService;
         }
 
         // GET: PaidBook
-        public async Task<IActionResult> Index(string search, decimal? minPrice, int? minPage)
+        public async Task<IActionResult> Index()
         {
-            var books = await _paidBookService.GetFilteredAsync(search, minPrice, minPage);
+           
+            var books = await _paidBookService.GetAllAsync();
             return View(books);
         }
 
@@ -39,8 +41,11 @@ namespace OnlineLearning.MVC.Controllers
         }
 
         // GET: PaidBook/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            var categories = await _categoryService.GetAllCategoriesAsync();
+            ViewBag.Categories = categories;
+
             return View();
         }
 
@@ -62,6 +67,9 @@ namespace OnlineLearning.MVC.Controllers
             var book = await _paidBookService.GetByIdAsync(id);
             if (book == null) return NotFound();
 
+            var categories = await _categoryService.GetAllCategoriesAsync();
+            ViewBag.Categories = categories;
+
             var vm = new PaidBookUpdateVm
             {
                 Id = book.Id,
@@ -78,8 +86,12 @@ namespace OnlineLearning.MVC.Controllers
         // POST: PaidBook/Edit/5
         [HttpPost]
         public async Task<IActionResult> Edit(PaidBookUpdateVm vm)
-        {
-            if (!ModelState.IsValid) return View(vm);
+        { if (!ModelState.IsValid)
+            {
+                var categories = await _categoryService.GetAllCategoriesAsync();
+                ViewBag.Categories = categories;
+                return View(vm);
+            }
 
             string wwwroot = _env.WebRootPath;
             await _paidBookService.UpdateAsync(vm, wwwroot);

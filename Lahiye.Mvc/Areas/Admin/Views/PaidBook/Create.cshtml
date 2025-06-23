@@ -1,4 +1,5 @@
-﻿@model OnlineLearning.Core.ViewModels.PaidBookCreateVm
+﻿@using OnlineLearning.Core.Entities
+@model OnlineLearning.Core.ViewModels.PaidBookCreateVm
 @{
     ViewData["Title"] = "Yeni Pullu Kitab Əlavə Et";
 }
@@ -25,7 +26,17 @@
         <label>Price (₼)</label>
         <input asp-for="Price" class="form-control" type="number" step="0.01" min="0" required />
     </div>
+    <select asp-for="CategoryId" class="form-select" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        @{
+            foreach (var item in ViewBag.Categories as List<Category>)
+            {
+                <option value=@item.Id>@item.Name</option>
+            }
+        }
 
+
+    </select>
     <div class="form-group mb-2">
         <label>Image (JPG/PNG)</label>
         <input asp-for="ImgFile" class="form-control" type="file" accept="image/*" required />
