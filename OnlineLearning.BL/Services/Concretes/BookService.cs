@@ -115,7 +115,7 @@ namespace OnlineLearning.BL.Services.Concretes
         public async Task<List<BookVm>> GetAllBooksAsync()
         {
             var books = await _bookRepository.GetAllAsync();
-
+            
             List<BookVm> booksList = new List<BookVm>();
             foreach (var item in books)
             {
@@ -125,7 +125,8 @@ namespace OnlineLearning.BL.Services.Concretes
                     Title = item.Title,
                     Description = item.Description,
                     PageCount = item.PageCount,
-
+                    CategoryId = item.CategoryId,
+                    Category = item.Category,
                     Img = item.ImgUrl,
                     Pdf = item.PdfUrl
                 };
@@ -153,6 +154,14 @@ namespace OnlineLearning.BL.Services.Concretes
             return bookVms;
 
 
+        }
+
+        public async Task<List<string>> GetAllCategoriesAsync()
+        {
+            return await _context.Categories
+                                 .Select(c => c.Name)
+                                 .Distinct()
+                                 .ToListAsync();
         }
     }
 }

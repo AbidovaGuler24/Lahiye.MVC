@@ -1,10 +1,5 @@
-﻿@model List<OnlineLearning.Core.ViewModels.BookVm>
+﻿@model List<OnlineLearning.Core.ViewModels.PaidBookVm>
 
-
-@* @{
-    var genres = ViewBag.Genres as List<OnlineLearning.Core.Enums.BookGenre>;
-    var selectedGenre = ViewBag.SelectedGenre as OnlineLearning.Core.Enums.BookGenre?;
-} *@
 @{
     Layout = null;
     ViewData["Title"] = "Books Gallery";
@@ -15,7 +10,6 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
 
 <style>
-    /* Stil hissəsi eyni qalır - dəyişiklik yoxdur */
     body {
         background-color: #6f4e37;
         font-family: 'Segoe UI', sans-serif;
@@ -32,7 +26,6 @@
             transform: scale(1.02);
         }
 
-
     .card-img-top {
         max-height: 250px;
         width: 100%;
@@ -42,7 +35,6 @@
         background-color: #f8f8f8;
     }
 
-
     .card-body {
         padding: 15px;
     }
@@ -50,28 +42,6 @@
     .card-footer {
         background-color: transparent;
         border-top: none;
-    }
-
-    .ad-modal, .pdf-modal {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-        z-index: 1050;
-        display: none;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .ad-content, .pdf-content {
-        background: #6f4e37;
-        padding: 20px;
-        border-radius: 12px;
-        max-width: 600px;
-        width: 90%;
-        position: relative;
     }
 
     .pdf-frame {
@@ -89,12 +59,35 @@
         .btn-custom:hover {
             background-color: #6f4e37;
         }
+
+    /* PDF Modal */
+    .pdf-modal {
+        display: none;
+        position: fixed;
+        z-index: 1050;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pdf-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 80%;
+        max-height: 90%;
+        overflow: auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: relative;
+    }
 </style>
 
 <div class="container mt-5">
-    <h2 class="mb-4 text-center">📘 Kitab Qalereyası</h2>
-
- 
+    <h2 class="mb-4 text-center text-white">📘 Kitab Qalereyası</h2>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
         @foreach (var book in Model)
@@ -113,26 +106,25 @@
                     }
 
                     <div class="card-body">
-                        @* <h5 class="card-title">@book.Title</h5> *@
-                        @*  <p class="card-text text-truncate">@book.Description</p>
-                        <p><strong>Səhifə:</strong> @book.PageCount</p> *@
+                        <h5 class="card-title">@book.Title</h5>
+                       
                     </div>
 
-                    <div class="card-footer d-flex justify-content-between">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
                         @if (!string.IsNullOrEmpty(book.Pdf))
                         {
-                            <button class="btn btn-sm btn-custom" onclick="showAdThenPdf('@Url.Content("~/Files/" + book.Pdf)')">
-                                <i class="bi bi-book"></i> Oxu
-                            </button>
+                            <a href="javascript:void(0);" onclick="showPdf('@Url.Content("~/PDFs/" + book.Pdf)')" class="btn btn-outline-secondary btn-sm">
+                                📖 Oxu
+                            </a>
                         }
                         else
                         {
                             <span class="text-muted">PDF yoxdur</span>
                         }
 
-                        <a asp-action="Details" asp-controller="Book" asp-route-id="@book.Id" class="btn btn-sm btn-outline-secondary">
+                        <button asp-action="Details" asp-controller="PaidBook" asp-route-id="@book.Id" class="btn btn-sm btn-outline-secondary">
                             Ətraflı
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -140,19 +132,8 @@
     </div>
 </div>
 
-<!-- Reklam Modal -->
-<div id="adModal" class="ad-modal">
-    <div class="ad-content text-center">
-        <h5 class="mb-3">📢 Qısa reklam</h5>
-        <video id="adVideo" width="100%" height="300" controls autoplay muted>
-            <source src="@Url.Content("~/ads/WhatsApp Video 2025-06-17 at 15.23.50 (1).mp4")" type="video/mp4" />
-            Brauzer videonu dəstəkləmir.
-        </video>
-    </div>
-</div>
-
 <!-- PDF Modal -->
-<div id="pdfModal" class="pdf-modal">
+@* <div id="pdfModal" class="pdf-modal d-flex">
     <div class="pdf-content">
         <button class="btn btn-sm btn-danger float-end mb-2" onclick="closePdf()">Bağla ✖</button>
         <a id="downloadPdfBtn" href="#" download class="btn btn-sm btn-success mb-2">
@@ -160,24 +141,9 @@
         </a>
         <iframe id="pdfFrame" class="pdf-frame"></iframe>
     </div>
-</div>
+</div> *@
 
-<!-- 💡 SCRIPTLƏRİN DÜZGÜN YERİ -->
 <script>
-    function showAdThenPdf(pdfUrl) {
-        const adModal = document.getElementById("adModal");
-        const video = document.getElementById("adVideo");
-
-        adModal.style.display = "flex";
-        video.currentTime = 0;
-        video.play();
-
-        video.onended = function () {
-            adModal.style.display = "none";
-            showPdf(pdfUrl);
-        };
-    }
-
     function showPdf(pdfUrl) {
         const pdfModal = document.getElementById("pdfModal");
         const pdfFrame = document.getElementById("pdfFrame");

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EalZ56fWncXg53ug3+NrcrRwlxxUdOflGxbDGchTtxg=",
+  "Hash": "iqOzqDXQEy4RbfIF/8WGYDM/sBWRvlcJqpxzxlS+t38=",
   "Source": "Lahiye.Mvc",
   "BasePath": "_content/Lahiye.Mvc",
   "Mode": "Default",
@@ -40484,6 +40484,27 @@
       "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638862871154092139.pdf"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638863690313804832.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638863690313804832#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ep66vyebu",
+      "Integrity": "9/cMqQBDPIW+l61TbX/QsEZ9pMiQ8TRs+gQsFsG0DFI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638863690313804832.pdf"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_5f3e4dfe-dce0-48f4-9b3c-ed35a2f5fe78_Pərinuş Sənii - Mənim payım_638862849439954805.pdf",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -40629,6 +40650,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_71ea97c0-7c1c-4e3d-ba80-013b304f24ba_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638859429649595324.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_980b9aa9-567d-4bc0-ab58-d08894b23299_Franz Kafka - Dönüşüm_638863600504713590.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_980b9aa9-567d-4bc0-ab58-d08894b23299_Franz Kafka - Dönüşüm_638863600504713590#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a61r35gc50",
+      "Integrity": "TqqJB9CXXe7xi+bBHT5QLrML4xRprmZlc1yOEPfg+uM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_980b9aa9-567d-4bc0-ab58-d08894b23299_Franz Kafka - Dönüşüm_638863600504713590.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863623572112624.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863623572112624#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7a91cs10xm",
+      "Integrity": "P3FGkZjgIl8jMhM3GUoqrD4uGGXgtyaFOfdHB5+xxeg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863623572112624.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863681045695343.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863681045695343#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zzz9zqyffj",
+      "Integrity": "f6mNxFQXJj9k46ILNu6d7luZHv7r+GsPhR4wtuK7jtA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863681045695343.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863689748684608.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863689748684608#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zy9san8m1f",
+      "Integrity": "hdhH1bvcGlLYTlsvaRftY6xLC9IpggBmLwkpz5CoN/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863689748684608.pdf"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf",
@@ -205577,6 +205682,88 @@
       ]
     },
     {
+      "Route": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638863690313804832.1ep66vyebu.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638863690313804832.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9/cMqQBDPIW+l61TbX/QsEZ9pMiQ8TRs+gQsFsG0DFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 09:37:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ep66vyebu"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638863690313804832.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9/cMqQBDPIW+l61TbX/QsEZ9pMiQ8TRs+gQsFsG0DFI="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638863690313804832.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638863690313804832.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9/cMqQBDPIW+l61TbX/QsEZ9pMiQ8TRs+gQsFsG0DFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 09:37:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9/cMqQBDPIW+l61TbX/QsEZ9pMiQ8TRs+gQsFsG0DFI="
+        }
+      ]
+    },
+    {
       "Route": "Files/temp/first10pages_5f3e4dfe-dce0-48f4-9b3c-ed35a2f5fe78_Pərinuş Sənii - Mənim payım_638862849439954805.l5vyihbg3u.pdf",
       "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_5f3e4dfe-dce0-48f4-9b3c-ed35a2f5fe78_Pərinuş Sənii - Mənim payım_638862849439954805.pdf",
       "Selectors": [],
@@ -206147,6 +206334,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-sVIW9NSWI2vkHgTDYsUJU3T67STwMPjnvMnBYmpBcOs="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_980b9aa9-567d-4bc0-ab58-d08894b23299_Franz Kafka - Dönüşüm_638863600504713590.a61r35gc50.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_980b9aa9-567d-4bc0-ab58-d08894b23299_Franz Kafka - Dönüşüm_638863600504713590.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TqqJB9CXXe7xi+bBHT5QLrML4xRprmZlc1yOEPfg+uM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 07:07:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a61r35gc50"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_980b9aa9-567d-4bc0-ab58-d08894b23299_Franz Kafka - Dönüşüm_638863600504713590.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TqqJB9CXXe7xi+bBHT5QLrML4xRprmZlc1yOEPfg+uM="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_980b9aa9-567d-4bc0-ab58-d08894b23299_Franz Kafka - Dönüşüm_638863600504713590.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_980b9aa9-567d-4bc0-ab58-d08894b23299_Franz Kafka - Dönüşüm_638863600504713590.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TqqJB9CXXe7xi+bBHT5QLrML4xRprmZlc1yOEPfg+uM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 07:07:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TqqJB9CXXe7xi+bBHT5QLrML4xRprmZlc1yOEPfg+uM="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863623572112624.7a91cs10xm.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863623572112624.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P3FGkZjgIl8jMhM3GUoqrD4uGGXgtyaFOfdHB5+xxeg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 07:45:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7a91cs10xm"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863623572112624.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P3FGkZjgIl8jMhM3GUoqrD4uGGXgtyaFOfdHB5+xxeg="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863623572112624.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863623572112624.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P3FGkZjgIl8jMhM3GUoqrD4uGGXgtyaFOfdHB5+xxeg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 07:45:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P3FGkZjgIl8jMhM3GUoqrD4uGGXgtyaFOfdHB5+xxeg="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863681045695343.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863681045695343.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f6mNxFQXJj9k46ILNu6d7luZHv7r+GsPhR4wtuK7jtA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 09:21:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f6mNxFQXJj9k46ILNu6d7luZHv7r+GsPhR4wtuK7jtA="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863681045695343.zzz9zqyffj.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863681045695343.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f6mNxFQXJj9k46ILNu6d7luZHv7r+GsPhR4wtuK7jtA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 09:21:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zzz9zqyffj"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863681045695343.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f6mNxFQXJj9k46ILNu6d7luZHv7r+GsPhR4wtuK7jtA="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863689748684608.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863689748684608.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hdhH1bvcGlLYTlsvaRftY6xLC9IpggBmLwkpz5CoN/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 09:36:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hdhH1bvcGlLYTlsvaRftY6xLC9IpggBmLwkpz5CoN/o="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863689748684608.zy9san8m1f.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863689748684608.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hdhH1bvcGlLYTlsvaRftY6xLC9IpggBmLwkpz5CoN/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 09:36:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zy9san8m1f"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863689748684608.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hdhH1bvcGlLYTlsvaRftY6xLC9IpggBmLwkpz5CoN/o="
         }
       ]
     },

@@ -185,6 +185,33 @@
     <p class="subtitle">Ən keyfiyyətli kitabları sizin üçün seçdik</p>
 </div>
 
+<div class="row mb-4">
+    <div class="col-md-6 offset-md-3">
+        <form method="get" asp-action="Search" asp-controller="PaidBook">
+            <div class="input-group">
+                <select name="searchTerm" class="form-select">
+                    @if (ViewBag.Categories != null)
+                    {
+                        foreach (var category in ViewBag.Categories as List<string>)
+                        {
+                            <option value="@category">@category</option>
+                        }
+                    }
+                    else
+                    {
+                        <option disabled>Kateqoriyalar tapılmadı</option>
+                    }
+                </select>
+
+                <button type="submit" class="btn btn-custom">
+                    <i class="bi bi-search"></i> Axtar
+                </button>
+            </div>
+        </form>
+
+    </div>
+</div>
+
 <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-6 g-4 justify-content-center">
         @foreach (var book in Model)

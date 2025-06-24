@@ -1,30 +1,33 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.BL.Services.Concretes;
 using OnlineLearning.Core.Enums;
 using OnlineLearning.Core.ViewModels;
+using OnlineLearning.DAL.Context;
 
 namespace Lahiye.Mvc.Controllers
 {
     public class BookController : Controller
     {
         private readonly IBookService _bookService;
+        private readonly AppDbContext _context;
 
-        public BookController(IBookService bookService)
+        public BookController(IBookService bookService, AppDbContext context)
         {
             _bookService = bookService;
+            _context = context;
         }
-        public IActionResult Index(BookGenre? genre)
+        public async Task<IActionResult> Index()
         {
-            var books = _bookService.GetAllBooksAsync().Result; 
-            //if (genre.HasValue)
-            //{
-            //    books = books.Where(b => b.Genre == genre.Value).ToList();
-            //}
+            var categories = await _context.Categories
+                             .Select(c => c.Name) 
+                             .ToListAsync();
 
-           
-            ViewBag.Genres = Enum.GetValues(typeof(BookGenre)).Cast<BookGenre>().ToList();
-            ViewBag.SelectedGenre = genre;
+            ViewBag.Categories = categories;
+
+            
+            var books = await _bookService.GetAllBooksAsync();
 
             return View(books);
         }
@@ -40,33 +43,26 @@ namespace Lahiye.Mvc.Controllers
 
             return View(book);
         }
-        public async Task<IActionResult> Search(string searchTerm)
-        {
-            var list = await _bookService.GetAllBooksAsync();
-
-            ViewBag.Genres = new List<BookGenre>()
-
-            {
-                BookGenre.Bioqrafiya,
-            };
-
-            //if (!string.IsNullOrEmpty(searchTerm))
-            //{
-                
-
-            //    list = list.Where(x =>
-            //        x.Genre.ToString().ToLower().Contains(searchTerm)
-            //    ).ToList();
-            //}
-
-            return View(list);
-        }
+        
 
         public async Task<IActionResult> RelatedBooks(int? categoryId, int excludeBookId)
         {
             var relatedBooks = await _bookService.GetBooksByCategoryIdAsync(categoryId, excludeBookId);
             return View(relatedBooks);
         }
+        [HttpGet]
+        public async Task<IActionResult> Search([FromQuery]string searchTerm)
+        {
+            var books = await _bookService.GetAllBooksAsync();
 
+            if (!string.IsNullOrWhiteSpace(searchTerm))
+            {
+                books = books
+                    .Where(b => b.Category != null && b.Category.Name.Contains(searchTerm))
+                    .ToList();
+            }
+
+            return View("Index", books); 
+        }
     }
 }

@@ -66,6 +66,8 @@ namespace OnlineLearning.BL.Services.Concretes
                     PageCount = item.PageCount,
                     Img = item.Img,
                     Pdf = item.Pdf,
+                    CategoryId = item.CategoryId,
+                    Category = item.Category,
                     Price = item.Price
                 });
             }

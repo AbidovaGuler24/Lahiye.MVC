@@ -30,8 +30,14 @@ namespace Lahiye.Mvc.Controllers
 
         public async Task<IActionResult> Index()
         {
+            var categories = await _context.Categories
+                            .Select(c => c.Name)
+                            .ToListAsync();
+
+            ViewBag.Categories = categories;
             var books = await _paidBookService.GetAllAsync();
             return View(books);
+
         }
 
 
@@ -171,6 +177,19 @@ namespace Lahiye.Mvc.Controllers
             };
 
             return View(vm);
+        }
+        public async Task<IActionResult> Search([FromQuery] string searchTerm)
+        {
+            var books = await _paidBookService.GetAllAsync();
+
+            if (!string.IsNullOrWhiteSpace(searchTerm))
+            {
+                books = books
+                    .Where(b => b.Category != null && b.Category.Name.Contains(searchTerm))
+                    .ToList();
+            }
+
+            return View(books);
         }
     }
 }

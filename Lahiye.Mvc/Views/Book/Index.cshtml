@@ -1,7 +1,7 @@
 ﻿@model List<OnlineLearning.Core.ViewModels.BookVm>
 @{
-    Layout = null;
-    ViewData["Title"] = "Books Gallery";
+	Layout = null;
+	ViewData["Title"] = "Books Gallery";
 }
 
 <!-- Bootstrap və ikon stil -->
@@ -9,187 +9,234 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
 
 <style>
-    body {
-        background-color: #6f4e37;
-        font-family: 'Segoe UI', sans-serif;
-    }
+	body {
+		background-color: #6f4e37;
+		font-family: 'Segoe UI', sans-serif;
+	}
 
-    .card {
-        background-color: #fffaf0;
-        border: none;
-        border-radius: 15px;
-        transition: transform 0.3s ease;
-    }
+	.card {
+		background-color: #fffaf0;
+		border: none;
+		border-radius: 15px;
+		transition: transform 0.3s ease;
+	}
 
-        .card:hover {
-            transform: scale(1.02);
-        }
+		.card:hover {
+			transform: scale(1.02);
+		}
 
-    .card-img-top {
-        max-height: 250px;
-        width: 100%;
-        object-fit: contain;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        background-color: #f8f8f8;
-    }
+	.card-img-top {
+		max-height: 250px;
+		width: 100%;
+		object-fit: contain;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		background-color: #f8f8f8;
+	}
 
-    .card-body {
-        padding: 15px;
-    }
+	.card-body {
+		padding: 15px;
+	}
 
-    .card-footer {
-        background-color: transparent;
-        border-top: none;
-    }
+	.card-footer {
+		background-color: transparent;
+		border-top: none;
+	}
 
-    .ad-modal, .pdf-modal {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-        z-index: 1050;
-        display: none;
-        justify-content: center;
-        align-items: center;
-    }
+	/* Reklam və PDF modal stili */
+	.modal-backdrop-custom {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.7);
+		z-index: 1050;
+		display: none;
+		justify-content: center;
+		align-items: center;
+	}
 
-    .ad-content, .pdf-content {
-        background: #6f4e37;
-        padding: 20px;
-        border-radius: 12px;
-        max-width: 600px;
-        width: 90%;
-        position: relative;
-    }
+	.modal-content-custom {
+		background: #6f4e37;
+		padding: 20px;
+		border-radius: 12px;
+		max-width: 600px;
+		width: 90%;
+		position: relative;
+		box-shadow: 0 0 15px #333;
+	}
 
-    .pdf-frame {
-        width: 100%;
-        height: 500px;
-        border: none;
-        border-radius: 10px;
-    }
+	/* Video reklam */
+	#adVideo {
+		width: 100%;
+		border-radius: 10px;
+		background-color: black;
+	}
 
-    .btn-custom {
-        background-color: #6f4e37;
-        color: white;
-    }
+	/* PDF frame */
+	#pdfFrame {
+		width: 100%;
+		height: 500px;
+		border: none;
+		border-radius: 10px;
+	}
 
-        .btn-custom:hover {
-            background-color: #5a3d2b;
-        }
+	/* Close button */
+	.btn-close-custom {
+		position: absolute;
+		top: 10px;
+		right: 15px;
+		background: transparent;
+		border: none;
+		font-size: 1.5rem;
+		color: white;
+		cursor: pointer;
+	}
+
+	/* Custom button */
+	.btn-custom {
+		background-color: #6f4e37;
+		color: white;
+	}
+
+		.btn-custom:hover {
+			background-color: #5a3d2b;
+		}
 </style>
 
 <div class="container mt-5">
-    <h2 class="mb-4 text-center">📘 Kitab Qalereyası</h2>
+	<h2 class="mb-4 text-center">📘 Kitab Qalereyası</h2>
 
-    <!-- AXTARIŞ FORMU BURADA -->
-    <div class="row mb-4">
-        <div class="col-md-6 offset-md-3">
-          <form method="get" asp-action="Search" asp-controller="Book">
-   @{
-    var genres = new List<string> { "Fiction", "Science", "Biography", "Fantasy", "History" };
-    var selectedGenre = Context.Request.Query["searchTerm"].FirstOrDefault() ?? "";
-}
+	<div class="row mb-4">
+		<div class="col-md-6 offset-md-3">
+			<form method="get" asp-action="Search" asp-controller="Book">
+				<div class="input-group">
+					<select name="searchTerm" class="form-select">
+						@if (ViewBag.Categories != null)
+						{
+							foreach (var category in ViewBag.Categories as List<string>)
+							{
+								<option value="@category">@category</option>
+							}
+						}
+						else
+						{
+							<option disabled>Kateqoriyalar tapılmadı</option>
+						}
+					</select>
 
-<select name="searchTerm" class="form-select mb-3" aria-label="Janr seçimi">
-    <option value="">Janr seçin...</option>
-                    @foreach (var genre in genres)
-                    {
-                        if (genre == selectedGenre)
-                        {
-                            <option value="@genre" selected>@genre</option>
-                        }
-                        else
-                        {
-                            <option value="@genre">@genre</option>
-                        }
-                    }
-</select>
+					<button type="submit" class="btn btn-custom">
+						<i class="bi bi-search"></i> Axtar
+					</button>
+				</div>
+			</form>
 
-    <button type="submit" class="btn btn-custom">
-        <i class="bi bi-search"></i> Axtar
-    </button>
-</form>
-        </div>
-    </div>
+		</div>
+	</div>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        @foreach (var book in Model)
-        {
-            <div class="col">
-                <div class="card h-100 shadow-sm">
-                    @if (!string.IsNullOrEmpty(book.Img))
-                    {
-                        <img src="@Url.Content("~/Imagess/" + book.Img)" class="card-img-top" alt="@book.Title" />
-                    }
-                    else
-                    {
-                        <div class="bg-light d-flex justify-content-center align-items-center" style="height: 250px;">
-                            <span class="text-muted">Şəkil yoxdur</span>
-                        </div>
-                    }
 
-                    <div class="card-body">
-                        @* Burada kitab adı və digər məlumatlar əlavə edilə bilər *@
-                    </div>
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+		@foreach (var book in Model)
+		{
+			<div class="col">
+				<div class="card h-100 shadow-sm">
+					@if (!string.IsNullOrEmpty(book.Img))
+					{
+						<img src="@Url.Content("~/Imagess/" + book.Img)" class="card-img-top" alt="@book.Title" />
+					}
+					else
+					{
+						<div class="bg-light d-flex justify-content-center align-items-center" style="height: 250px;">
+							<span class="text-muted">Şəkil yoxdur</span>
+						</div>
+					}
 
-                    <div class="card-footer d-flex justify-content-between">
-                        @if (!string.IsNullOrEmpty(book.Pdf))
-                        {
-                            <button class="btn btn-sm btn-custom" onclick="showAdThenPdf('@Url.Content("~/Files/" + book.Pdf)')">
-                                <i class="bi bi-book"></i> Oxu
-                            </button>
-                        }
-                        else
-                        {
-                            <span class="text-muted">PDF yoxdur</span>
-                        }
+					<div class="card-body">
+						<h5 class="card-title">@book.Title</h5>
+						@*  <p class="card-text">@book.Description</p> *@
+					</div>
 
-                        <a asp-action="Details" asp-controller="Book" asp-route-id="@book.Id" class="btn btn-sm btn-outline-secondary">
-                            Ətraflı
-                        </a>
-                    </div>
-                </div>
-            </div>
-        }
-    </div>
+					<div class="card-footer d-flex justify-content-between">
+						@if (!string.IsNullOrEmpty(book.Pdf))
+						{
+							<button class="btn btn-sm btn-custom" onclick="showAdThenPdf('@Url.Content("~/Files/" + book.Pdf)')">
+								<i class="bi bi-book"></i> Oxu
+							</button>
+						}
+						else
+						{
+							<span class="text-muted">PDF yoxdur</span>
+						}
+
+						<a asp-action="Details" asp-controller="Book" asp-route-id="@book.Id" class="btn btn-sm btn-outline-secondary">
+							Ətraflı
+						</a>
+					</div>
+				</div>
+			</div>
+		}
+	</div>
 </div>
 
-<!-- Reklam Modal və PDF Modal... (Sizin əvvəlki kodunuz burada qalır) -->
+<!-- Reklam Modal -->
+<div id="adModal" class="modal-backdrop-custom">
+	<div class="modal-content-custom">
+		<button class="btn-close-custom" onclick="closeAd()">×</button>
+		<video id="adVideo" controls muted>
+			<source src="@Url.Content("~/videos/sample-ad.mp4")" type="video/mp4" />
+			Sizin brauzer video et dəstəkləmir.
+		</video>
+	</div>
+</div>
+
+<!-- PDF Modal -->
+<div id="pdfModal" class="modal-backdrop-custom">
+	<div class="modal-content-custom">
+		<button class="btn-close-custom" onclick="closePdf()">×</button>
+		<iframe id="pdfFrame"></iframe>
+		<a id="downloadPdfBtn" class="btn btn-custom mt-3" download target="_blank">Yüklə</a>
+	</div>
+</div>
 
 <script>
-    function showAdThenPdf(pdfUrl) {
-        const adModal = document.getElementById("adModal");
-        const video = document.getElementById("adVideo");
+	function showAdThenPdf(pdfUrl) {
+		const adModal = document.getElementById("adModal");
+		const video = document.getElementById("adVideo");
 
-        adModal.style.display = "flex";
-        video.currentTime = 0;
-        video.play();
+		adModal.style.display = "flex";
+		video.currentTime = 0;
+		video.play();
 
-        video.onended = function () {
-            adModal.style.display = "none";
-            showPdf(pdfUrl);
-        };
-    }
+		video.onended = function () {
+			adModal.style.display = "none";
+			showPdf(pdfUrl);
+		};
+	}
 
-    function showPdf(pdfUrl) {
-        const pdfModal = document.getElementById("pdfModal");
-        const pdfFrame = document.getElementById("pdfFrame");
-        const downloadBtn = document.getElementById("downloadPdfBtn");
+	function closeAd() {
+		const adModal = document.getElementById("adModal");
+		const video = document.getElementById("adVideo");
 
-        pdfFrame.src = pdfUrl;
-        downloadBtn.href = pdfUrl;
-        pdfModal.style.display = "flex";
-    }
+		video.pause();
+		adModal.style.display = "none";
+	}
 
-    function closePdf() {
-        const pdfModal = document.getElementById("pdfModal");
-        const pdfFrame = document.getElementById("pdfFrame");
+	function showPdf(pdfUrl) {
+		const pdfModal = document.getElementById("pdfModal");
+		const pdfFrame = document.getElementById("pdfFrame");
+		const downloadBtn = document.getElementById("downloadPdfBtn");
 
-        pdfModal.style.display = "none";
-        pdfFrame.src = "";
-    }
+		pdfFrame.src = pdfUrl;
+		downloadBtn.href = pdfUrl;
+		pdfModal.style.display = "flex";
+	}
+
+	function closePdf() {
+		const pdfModal = document.getElementById("pdfModal");
+		const pdfFrame = document.getElementById("pdfFrame");
+
+		pdfModal.style.display = "none";
+		pdfFrame.src = "";
+	}
 </script>

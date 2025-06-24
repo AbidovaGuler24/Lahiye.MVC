@@ -33,7 +33,7 @@ namespace OnlineLearning.DAL.Repositories.Concretes
 
         public  async Task<List<PaidBook>> GetAllAsync()
         {
-            return await _context.PaidBooks.ToListAsync();
+            return await _context.PaidBooks.Include(x=>x.Category).ToListAsync();
         }
 
         public async Task<PaidBook?> GetByIdAsync(int id)
