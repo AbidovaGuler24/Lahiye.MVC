@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iqOzqDXQEy4RbfIF/8WGYDM/sBWRvlcJqpxzxlS+t38=",
+  "Hash": "UTo8ZPPTI+ee5a0lshzt9YuBaiEn7zMUsFdGaQBngkk=",
   "Source": "Lahiye.Mvc",
   "BasePath": "_content/Lahiye.Mvc",
   "Mode": "Default",
@@ -40734,6 +40734,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863689748684608.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5eslt60g8p",
+      "Integrity": "A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b1gjw4ym66",
+      "Integrity": "EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rzocrt9grf",
+      "Integrity": "hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf",
@@ -206662,6 +206725,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-hdhH1bvcGlLYTlsvaRftY6xLC9IpggBmLwkpz5CoN/o="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.5eslt60g8p.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 09:44:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5eslt60g8p"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 09:44:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.b1gjw4ym66.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 09:47:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b1gjw4ym66"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 09:47:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 09:57:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.rzocrt9grf.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 09:57:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rzocrt9grf"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg="
         }
       ]
     },

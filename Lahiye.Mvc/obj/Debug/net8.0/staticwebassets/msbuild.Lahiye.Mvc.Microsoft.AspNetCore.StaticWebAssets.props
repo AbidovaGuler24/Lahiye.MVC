@@ -34902,6 +34902,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863689748684608.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5eslt60g8p</Fingerprint>
+      <Integrity>A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b1gjw4ym66</Fingerprint>
+      <Integrity>EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lahiye.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lahiye.Mvc</BasePath>
+      <RelativePath>Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rzocrt9grf</Fingerprint>
+      <Integrity>hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>Lahiye.Mvc</SourceId>

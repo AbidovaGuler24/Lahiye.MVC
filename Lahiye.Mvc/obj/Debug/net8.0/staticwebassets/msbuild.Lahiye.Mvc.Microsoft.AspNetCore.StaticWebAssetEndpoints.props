@@ -23268,6 +23268,42 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zy9san8m1f"},{"Name":"integrity","Value":"sha256-hdhH1bvcGlLYTlsvaRftY6xLC9IpggBmLwkpz5CoN/o="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyac\u0131_638863689748684608.pdf"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"431595"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hdhH1bvcGlLYTlsvaRftY6xLC9IpggBmLwkpz5CoN/o=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 09:36:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.5eslt60g8p.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5eslt60g8p"},{"Name":"integrity","Value":"sha256-A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyac\u0131_638864558989884715.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"431595"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 09:44:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"431595"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 09:44:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.b1gjw4ym66.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b1gjw4ym66"},{"Name":"integrity","Value":"sha256-EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyac\u0131_638864560246144729.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"431595"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 09:47:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"431595"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 09:47:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"431595"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 09:57:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.rzocrt9grf.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rzocrt9grf"},{"Name":"integrity","Value":"sha256-hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg="},{"Name":"label","Value":"_content/Lahiye.Mvc/Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyac\u0131_638864566338199844.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"431595"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 09:57:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lahiye.Mvc/Files/temp/first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.nj1ycdegtb.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

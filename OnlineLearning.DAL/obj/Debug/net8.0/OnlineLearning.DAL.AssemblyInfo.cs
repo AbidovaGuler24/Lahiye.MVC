@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineLearning.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06ef6b9754dee13f1b3a811ae65c0734ab6b9c8f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91769319c00c147a2ec2f4ef69ded26db46bca74")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineLearning.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineLearning.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

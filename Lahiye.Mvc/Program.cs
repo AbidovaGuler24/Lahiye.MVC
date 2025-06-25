@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.BL.Services.Concretes;
 using OnlineLearning.Core.Entities;
+using OnlineLearning.Core.Services;
 using OnlineLearning.DAL.Context;
 using OnlineLearning.DAL.Repositories.Abstracts;
 using OnlineLearning.DAL.Repositories.Concretes;
@@ -59,6 +60,9 @@ namespace Lahiye.Mvc
             
             builder.Services.AddScoped<IPaidBookRepository, PaidBookRepository>();
             builder.Services.AddScoped<IPaidBookService, PaidBookService>();
+
+            builder.Services.AddScoped<ICartRepository,CartRepository>();
+            builder.Services.AddScoped<ICartService, CartService>();
             builder.Services.AddScoped<IPaymentService, PaymentService>();
             builder.Services.AddScoped<IFavoriteBookRepository, FavoriteBookRepository>();
             builder.Services.AddScoped<IFavoriteBookService, FavoriteBookService>();

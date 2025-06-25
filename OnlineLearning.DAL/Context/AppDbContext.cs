@@ -22,9 +22,11 @@ namespace OnlineLearning.DAL.Context
             modelBuilder.Entity<CafeMenuItem>()
                 .Property(c => c.Price)
                 .HasColumnType("decimal(18,2)");
+
             modelBuilder.Entity<PaidBook>()
                .Property(p => p.Price)
-               .HasPrecision(18, 2); // 18 ümumi rəqəm, 2 onluqdan sonra
+               .HasPrecision(18, 2); 
+            
             modelBuilder.Entity<PurchasedBook>()
         .HasOne(p => p.Book)
         .WithMany(b => b.PurchasedBooks)
@@ -38,6 +40,12 @@ namespace OnlineLearning.DAL.Context
                 .HasForeignKey(b => b.CategoryId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+
+            modelBuilder.Entity<CartItem>()
+    .HasOne(c => c.PaidBook)
+    .WithMany()
+    .HasForeignKey(c => c.PaidBookId)
+    .OnDelete(DeleteBehavior.Cascade);
         }
         
 

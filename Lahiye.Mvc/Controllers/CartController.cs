@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Security.Claims;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.Core.Helpers.Exictance;
 using OnlineLearning.DAL.Context;
 
@@ -7,40 +9,68 @@ namespace Lahiye.Mvc.Controllers
 {
     public class CartController : Controller
     {
-        private readonly AppDbContext _context;
+        private readonly ICartService _cartService;
 
-        public CartController(AppDbContext context)
+        public CartController(ICartService cartService)
         {
-            _context = context;
+            _cartService = cartService;
         }
-        public IActionResult AddToCart(int id)
+        [HttpPost]
+        public async Task<IActionResult> AddToCart(int bookId)
         {
-            var cart = HttpContext.Session.GetObjectFromJson<List<int>>("Cart") ?? new List<int>();
-            if (!cart.Contains(id))
-                cart.Add(id);
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
 
-            HttpContext.Session.SetObjectAsJson("Cart", cart);
+            bool added = await _cartService.AddToCartAsync(userId, bookId);
 
-            return RedirectToAction("Index", "PaidBook"); // və ya Home
+            if (added)
+            {
+                TempData["SuccessMessage"] = "Kitab səbətə əlavə olundu.";
+            }
+            else
+            {
+                TempData["InfoMessage"] = "Kitab artıq səbətdə mövcuddur.";
+            }
+
+            return RedirectToAction("Index", "PaidBook");
+        }
+        public  async Task<IActionResult> ViewCartAsync()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var cartItems = await _cartService.GetCartItemsAsync(userId);
+            return View(cartItems);
         }
 
-        public IActionResult ViewCart()
+        [HttpPost]
+        public async Task<IActionResult> RemoveFromCart(int bookId)
         {
-            var cart = HttpContext.Session.GetObjectFromJson<List<int>>("Cart") ?? new List<int>();
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
 
-            // ID-lərə əsaslanaraq PaidBook-ları al
-            var booksInCart = _context.PaidBooks
-                                      .Where(b => cart.Contains(b.Id))
-                                      .ToList();
-
-            return View(booksInCart); // Artıq View doğru model alır
+            await _cartService.RemoveFromCartAsync(userId, bookId);
+            return RedirectToAction("ViewCart");
         }
-
-        public IActionResult RemoveFromCart(int id)
+        [HttpPost]
+        public async Task<IActionResult> ClearCart()
         {
-            var cart = HttpContext.Session.GetObjectFromJson<List<int>>("Cart") ?? new List<int>();
-            cart.Remove(id);
-            HttpContext.Session.SetObjectAsJson("Cart", cart);
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            await _cartService.ClearCartAsync(userId);
             return RedirectToAction("ViewCart");
         }
     }

@@ -350,7 +350,10 @@ namespace OnlineLearning.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BookId")
+                    b.Property<string>("Img")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PaidBookId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
@@ -362,7 +365,7 @@ namespace OnlineLearning.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BookId");
+                    b.HasIndex("PaidBookId");
 
                     b.ToTable("CartItems");
                 });
@@ -655,13 +658,12 @@ namespace OnlineLearning.DAL.Migrations
 
             modelBuilder.Entity("OnlineLearning.Core.Entities.CartItem", b =>
                 {
-                    b.HasOne("OnlineLearning.Core.Entities.PaidBook", "Book")
+                    b.HasOne("OnlineLearning.Core.Entities.PaidBook", "PaidBook")
                         .WithMany()
-                        .HasForeignKey("BookId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PaidBookId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
-                    b.Navigation("Book");
+                    b.Navigation("PaidBook");
                 });
 
             modelBuilder.Entity("OnlineLearning.Core.Entities.EmployeeComment", b =>
