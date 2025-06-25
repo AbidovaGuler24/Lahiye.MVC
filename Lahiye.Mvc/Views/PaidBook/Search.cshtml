@@ -11,8 +11,13 @@
 
 <style>
     body {
-        background-color: #6f4e37;
+        background-color: #f9f6f1;
         font-family: 'Segoe UI', sans-serif;
+    }
+
+    h2 {
+        color: #3a2e27; /* Tünd krem-qəhvəyi ton */
+        font-weight: bold;
     }
 
     .card {
@@ -57,10 +62,9 @@
     }
 
         .btn-custom:hover {
-            background-color: #6f4e37;
+            background-color: #5e3e2e;
         }
 
-    /* PDF Modal */
     .pdf-modal {
         display: none;
         position: fixed;
@@ -86,49 +90,38 @@
     }
 </style>
 
+
+
 <div class="container mt-5">
-    <h2 class="mb-4 text-center text-white">📘 Kitab Qalereyası</h2>
+    <h2 class="mb-4 text-center">📘 Kitab Qalereyası</h2>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
         @foreach (var book in Model)
         {
             <div class="col">
                 <div class="card h-100 shadow-sm">
-                    @if (!string.IsNullOrEmpty(book.Img))
-                    {
-                        <img src="@Url.Content("~/Imagess/" + book.Img)" class="card-img-top" alt="@book.Title" />
-                    }
-                    else
-                    {
-                        <div class="bg-light d-flex justify-content-center align-items-center" style="height: 250px;">
-                            <span class="text-muted">Şəkil yoxdur</span>
-                        </div>
-                    }
-
-                    <div class="card-body">
-                        <h5 class="card-title">@book.Title</h5>
-                       
-                    </div>
-
-                    <div class="card-footer d-flex justify-content-between align-items-center">
-                        @if (!string.IsNullOrEmpty(book.Pdf))
+                    <a asp-action="Details" asp-controller="PaidBook" asp-route-id="@book.Id" class="text-decoration-none text-dark">
+                        @if (!string.IsNullOrEmpty(book.Img))
                         {
-                            <a href="javascript:void(0);" onclick="showPdf('@Url.Content("~/PDFs/" + book.Pdf)')" class="btn btn-outline-secondary btn-sm">
-                                📖 Oxu
-                            </a>
+                            <img src="@Url.Content("~/Imagess/" + book.Img)" class="card-img-top" alt="@book.Title" />
                         }
                         else
                         {
-                            <span class="text-muted">PDF yoxdur</span>
+                            <div class="bg-light d-flex justify-content-center align-items-center" style="height: 250px;">
+                                <span class="text-muted">Şəkil yoxdur</span>
+                            </div>
                         }
 
-                        <button asp-action="Details" asp-controller="PaidBook" asp-route-id="@book.Id" class="btn btn-sm btn-outline-secondary">
-                            Ətraflı
-                        </button>
-                    </div>
+                        <div class="card-body">
+                            <h5 class="card-title">@book.Title</h5>
+                        </div>
+                    </a>
+
+                    
                 </div>
             </div>
         }
+
     </div>
 </div>
 

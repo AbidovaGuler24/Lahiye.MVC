@@ -1,10 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Lahiye.Mvc.Areas.Admin.Controllers
 {
     [Area("Admin")]
-
-    public class Dashboard : Controller
+    [Authorize(Roles ="Admin")]
+    public class DashboardController : Controller
     {
         public IActionResult Index()
         {

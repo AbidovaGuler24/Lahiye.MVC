@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
+using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.Core.Entities;
 using OnlineLearning.Core.Enums;
 using OnlineLearning.Core.ViewModels;
@@ -11,18 +12,13 @@ namespace Lahiye.Mvc.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly UserManager<AppUser> _userManager;
-        private readonly SignInManager<AppUser> _signInManager;
+        private readonly IAccountService _accountService;
         private readonly RoleManager<IdentityRole> _roleManager;
-
-        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
+        public AccountController(IAccountService accountService, RoleManager<IdentityRole> roleManager)
         {
-            _userManager = userManager;
-            _signInManager = signInManager;
+            _accountService = accountService;
             _roleManager = roleManager;
         }
-
-
         public IActionResult Register()
         {
             return View();
@@ -34,82 +30,58 @@ namespace Lahiye.Mvc.Controllers
             if (!ModelState.IsValid)
                 return View(registerVm);
 
-            AppUser appUser = new AppUser()
+            var isSuccess = await _accountService.RegisterAsync(registerVm);
+            if (!isSuccess)
             {
-                Name = registerVm.Name,
-                Email = registerVm.Email,
-                Surname = registerVm.Surname,
-                UserName = registerVm.Username,
-            };
-
-            var result = await _userManager.CreateAsync(appUser, registerVm.Password);
-
-            if (!result.Succeeded)
-            {
-                foreach (var item in result.Errors)
-                {
-                    ModelState.AddModelError("", item.Description);
-                }
+                ModelState.AddModelError("", "Qeydiyyat zamanı xəta baş verdi.");
                 return View(registerVm);
             }
 
-            
-            var allUsers = await _userManager.Users.ToListAsync();
-
-
-            await _userManager.AddToRoleAsync(appUser, "User");
-
             return RedirectToAction("Login");
         }
-
-        public async Task<IActionResult> LogOut()
-        {
-            await _signInManager.SignOutAsync();
-            return RedirectToAction("Index", "Home");
-        }
-
         public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(LoginViewModel loginVm, string? returnUrl)
+        public async Task<IActionResult> Login(LoginViewModel loginVm,[FromQuery]string? returnUrl)
         {
             if (!ModelState.IsValid)
                 return View(loginVm);
 
-            var user = await _userManager.FindByEmailAsync(loginVm.Email);
-            if (user == null)
+            var isSuccess = await _accountService.LoginAsync(loginVm);
+            if (!isSuccess)
             {
-                ModelState.AddModelError("", "İstifadəçi tapılmadı.");
+                ModelState.AddModelError("", "Email və ya şifrə yanlışdır.");
                 return View(loginVm);
             }
 
-            var result = await _signInManager.PasswordSignInAsync(user, loginVm.Password!, loginVm.IsRememberMe, false);
-            if (result.Succeeded)
-            {
-                if (!string.IsNullOrEmpty(returnUrl))
-                    return Redirect(returnUrl);
+            var user = await _accountService.GetUserByEmailAsync(loginVm.Email); // əgər istifadə etmək istəsən
+            var roles = await _accountService.GetRolesAsync(user);
 
+            if (roles.Contains("Admin"))
                 return RedirectToAction("Index", "Home");
-            }
 
-            ModelState.AddModelError("", "Email və ya şifrə yanlışdır.");
-            return View(loginVm);
+            return RedirectToAction("Index", "Home");
         }
-
+        public async Task<IActionResult> Logout()
+        {
+            await _accountService.LogoutAsync();
+            return RedirectToAction("Index", "Home");
+        }
+        [HttpGet]
         public async Task<IActionResult> CreateRoles()
         {
             if (!await _roleManager.RoleExistsAsync("Admin"))
+            {
                 await _roleManager.CreateAsync(new IdentityRole("Admin"));
-
-            
-
+            }
             if (!await _roleManager.RoleExistsAsync("User"))
+            {
                 await _roleManager.CreateAsync(new IdentityRole("User"));
-
-            return Content("Rollar yaradıldı.");
+            }
+            return Content("Roles created!");
         }
     }
 }

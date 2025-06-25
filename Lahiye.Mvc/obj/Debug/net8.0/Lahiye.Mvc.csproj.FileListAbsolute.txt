@@ -562,3 +562,10 @@ C:\Users\User\Desktop\Lahiye.MVC\Lahiye.Mvc\bin\Debug\net8.0\Microsoft.Extension
 C:\Users\User\Desktop\Lahiye.MVC\Lahiye.Mvc\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\User\Desktop\Lahiye.MVC\Lahiye.Mvc\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
 C:\Users\User\Desktop\Lahiye.MVC\Lahiye.Mvc\obj\Debug\net8.0\Lahiye.Mvc.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\Lahiye.MVC\Lahiye.Mvc\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\Lahiye.MVC\Lahiye.Mvc\bin\Debug\net8.0\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Desktop\Lahiye.MVC\Lahiye.Mvc\bin\Debug\net8.0\Microsoft.Owin.dll
+C:\Users\User\Desktop\Lahiye.MVC\Lahiye.Mvc\bin\Debug\net8.0\Microsoft.Owin.Security.dll
+C:\Users\User\Desktop\Lahiye.MVC\Lahiye.Mvc\bin\Debug\net8.0\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Desktop\Lahiye.MVC\Lahiye.Mvc\bin\Debug\net8.0\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Desktop\Lahiye.MVC\Lahiye.Mvc\bin\Debug\net8.0\Owin.dll
