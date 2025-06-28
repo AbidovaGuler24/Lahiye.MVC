@@ -18,6 +18,7 @@ namespace OnlineLearning.Core.Services
                 _cartRepository = cartRepository;
             }
 
+
         public async Task<bool> AddSingleItemAsync(string userId, int bookId)
         {
             var existingItem = await _cartRepository.GetCartItemAsync(userId, bookId);
@@ -41,6 +42,7 @@ namespace OnlineLearning.Core.Services
                 return false;
             }
         }
+
 
         public async Task<bool> AddToCartAsync(string userId, int bookId, int quantity = 1)
         {
@@ -79,6 +81,7 @@ namespace OnlineLearning.Core.Services
             await _cartRepository.RemoveFromCartAsync(userId, bookId);
         }
 
+
         public async Task<bool> RemoveSingleItemAsync(string userId, int bookId)
         {
             var existingItem = await _cartRepository.GetCartItemAsync(userId, bookId);
@@ -100,5 +103,6 @@ namespace OnlineLearning.Core.Services
                 return true;
             }
         }
+
     }
 }
