@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineLearning.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43df7bbab63370188d7885ad0470a3e4fd171844")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d88399d47f967f8ca534e2fe0fd029344bd9b69")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineLearning.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineLearning.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

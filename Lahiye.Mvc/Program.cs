@@ -6,9 +6,11 @@ using Microsoft.Extensions.Hosting;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.BL.Services.Concretes;
 using OnlineLearning.Core.Entities;
+using OnlineLearning.Core.Services;
 using OnlineLearning.DAL.Context;
 using OnlineLearning.DAL.Repositories.Abstracts;
 using OnlineLearning.DAL.Repositories.Concretes;
+using Stripe;
 using System;
 
 namespace Lahiye.Mvc
@@ -59,18 +61,25 @@ namespace Lahiye.Mvc
             
             builder.Services.AddScoped<IPaidBookRepository, PaidBookRepository>();
             builder.Services.AddScoped<IPaidBookService, PaidBookService>();
+
+            builder.Services.AddScoped<ICartRepository,CartRepository>();
+            builder.Services.AddScoped<ICartService, CartService>();
             builder.Services.AddScoped<IPaymentService, PaymentService>();
+            builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
+
             builder.Services.AddScoped<IFavoriteBookRepository, FavoriteBookRepository>();
             builder.Services.AddScoped<IFavoriteBookService, FavoriteBookService>();
-            builder.Services.AddScoped<IAccountService, AccountService>();
+            builder.Services.AddScoped<IAccountService, OnlineLearning.BL.Services.Concretes.AccountService>();
             builder.Services.AddScoped<ILibraryItemRepository, LibraryItemRepository>();
             builder.Services.AddScoped<ILibraryItemService, LibraryItemService>();
             builder.Services.AddSession();
             builder.Services.AddHttpContextAccessor();
 
+            builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
+
             var app = builder.Build();
 
-            Stripe.StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
+            
 
             if (!app.Environment.IsDevelopment())
             {
@@ -80,6 +89,8 @@ namespace Lahiye.Mvc
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
             app.UseAuthentication();   
             app.UseAuthorization();
             app.UseRouting();

@@ -251,6 +251,32 @@ namespace OnlineLearning.DAL.Migrations
                     b.ToTable("Authors");
                 });
 
+            modelBuilder.Entity("OnlineLearning.Core.Entities.BasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("BasketItems");
+                });
+
             modelBuilder.Entity("OnlineLearning.Core.Entities.Blog", b =>
                 {
                     b.Property<int>("Id")
@@ -350,7 +376,10 @@ namespace OnlineLearning.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BookId")
+                    b.Property<string>("Img")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PaidBookId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
@@ -362,7 +391,7 @@ namespace OnlineLearning.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BookId");
+                    b.HasIndex("PaidBookId");
 
                     b.ToTable("CartItems");
                 });
@@ -394,6 +423,13 @@ namespace OnlineLearning.DAL.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CvPath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -549,7 +585,6 @@ namespace OnlineLearning.DAL.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
-                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Title")
@@ -561,6 +596,32 @@ namespace OnlineLearning.DAL.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("PaidBooks");
+                });
+
+            modelBuilder.Entity("OnlineLearning.Core.Entities.Payment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("PaymentDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("PaymentStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Payments");
                 });
 
             modelBuilder.Entity("OnlineLearning.Core.Entities.PurchasedBook", b =>
@@ -655,13 +716,12 @@ namespace OnlineLearning.DAL.Migrations
 
             modelBuilder.Entity("OnlineLearning.Core.Entities.CartItem", b =>
                 {
-                    b.HasOne("OnlineLearning.Core.Entities.PaidBook", "Book")
+                    b.HasOne("OnlineLearning.Core.Entities.PaidBook", "PaidBook")
                         .WithMany()
-                        .HasForeignKey("BookId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PaidBookId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
-                    b.Navigation("Book");
+                    b.Navigation("PaidBook");
                 });
 
             modelBuilder.Entity("OnlineLearning.Core.Entities.EmployeeComment", b =>

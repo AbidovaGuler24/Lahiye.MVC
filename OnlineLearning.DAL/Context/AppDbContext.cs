@@ -22,9 +22,19 @@ namespace OnlineLearning.DAL.Context
             modelBuilder.Entity<CafeMenuItem>()
                 .Property(c => c.Price)
                 .HasColumnType("decimal(18,2)");
+
             modelBuilder.Entity<PaidBook>()
-               .Property(p => p.Price)
-               .HasPrecision(18, 2); // 18 ümumi rəqəm, 2 onluqdan sonra
+    .Property(p => p.Price)
+    .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<BasketItem>()
+    .Property(b => b.Price)
+    .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<Payment>()
+    .Property(p => p.Amount)
+    .HasColumnType("decimal(18,2)");
+
             modelBuilder.Entity<PurchasedBook>()
         .HasOne(p => p.Book)
         .WithMany(b => b.PurchasedBooks)
@@ -38,6 +48,12 @@ namespace OnlineLearning.DAL.Context
                 .HasForeignKey(b => b.CategoryId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+
+            modelBuilder.Entity<CartItem>()
+    .HasOne(c => c.PaidBook)
+    .WithMany()
+    .HasForeignKey(c => c.PaidBookId)
+    .OnDelete(DeleteBehavior.Cascade);
         }
         
 
@@ -61,6 +77,8 @@ namespace OnlineLearning.DAL.Context
         public DbSet<PurchasedBook> PurchasedBooks { get; set; }
         public DbSet<LibraryItem> LibraryItems { get; set; }
 
+        public DbSet<Payment> Payments { get; set; }
+        public DbSet<BasketItem> BasketItems { get; set; }
 
     }
 }

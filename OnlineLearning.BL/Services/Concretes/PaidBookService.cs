@@ -16,7 +16,7 @@ namespace OnlineLearning.BL.Services.Concretes
     public class PaidBookService : IPaidBookService
     {
         private readonly IPaidBookRepository _paidBookRepository;
-
+        
         public PaidBookService(IPaidBookRepository paidBookRepository)
         {
             _paidBookRepository = paidBookRepository;

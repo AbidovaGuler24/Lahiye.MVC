@@ -18,6 +18,8 @@ namespace OnlineLearning.Core.ViewModels
 
         [Display(Name = "Şəkil")]
         public IFormFile PhotoFile { get; set; }
-       
+
+        public IFormFile CvFile { get; set; }
+
     }
 }

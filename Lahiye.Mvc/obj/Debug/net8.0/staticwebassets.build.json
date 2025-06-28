@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iqOzqDXQEy4RbfIF/8WGYDM/sBWRvlcJqpxzxlS+t38=",
+  "Hash": "ctwIK31q6y14QnGvIt4RAVk9ED9q4Hqrj4dVnNw3Y28=",
   "Source": "Lahiye.Mvc",
   "BasePath": "_content/Lahiye.Mvc",
   "Mode": "Default",
@@ -39455,6 +39455,90 @@
       "OriginalItemSpec": "wwwroot\\css\\responsivetable.css"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\cv\\25c359e2-ee50-4911-89fd-0b829c0bf983_SƏHRA ÇİÇƏYİ.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "cv/25c359e2-ee50-4911-89fd-0b829c0bf983_SƏHRA ÇİÇƏYİ#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0p3qjd0tpw",
+      "Integrity": "zONVg7pMC+GMZ38DW0/UAc40P7Ydeh2zwPIK6qwlAtc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cv\\25c359e2-ee50-4911-89fd-0b829c0bf983_SƏHRA ÇİÇƏYİ.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\cv\\4156a683-7db7-405f-9461-b8976a3ef781_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "cv/4156a683-7db7-405f-9461-b8976a3ef781_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iym720ch0b",
+      "Integrity": "+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cv\\4156a683-7db7-405f-9461-b8976a3ef781_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\cv\\dc69b260-ab4d-4907-8165-9a30a7c67e1a_Franz Kafka - Dönüşüm.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "cv/dc69b260-ab4d-4907-8165-9a30a7c67e1a_Franz Kafka - Dönüşüm#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n9as214d7j",
+      "Integrity": "+4hqE4zBJLUOq13JwhA1itWA8bPVRpRgGfXaNugfCz8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cv\\dc69b260-ab4d-4907-8165-9a30a7c67e1a_Franz Kafka - Dönüşüm.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\cv\\ec4313e7-3297-46fd-a948-ced3478e6eee_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "cv/ec4313e7-3297-46fd-a948-ced3478e6eee_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iym720ch0b",
+      "Integrity": "+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cv\\ec4313e7-3297-46fd-a948-ced3478e6eee_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant.pdf",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -40400,6 +40484,27 @@
       "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant_638862984368725946.pdf"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant_638865586033197286.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant_638865586033197286#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oxb7floy06",
+      "Integrity": "1OQkfYrLJL2XdtdvdRwEIOrsiAOi/51vuaG6RIQR3VI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant_638865586033197286.pdf"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638861076706292908.pdf",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -40503,6 +40608,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638863690313804832.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866471605201773.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866471605201773#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hql7i8dglu",
+      "Integrity": "N1Rj5W3jvk/ld43Upvviwng2Q1WvEBnwQY+1My+OuqQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866471605201773.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472534139569.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472534139569#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dfaqcvup6g",
+      "Integrity": "ST9OeMDLUSRwAU2xiNIEfOTHBLjraYBHLx5Aq7BmH5s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472534139569.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472609849023.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472609849023#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "otdttt865r",
+      "Integrity": "xEPQGpSXwGP5djqqYgMYAJudbKMlInA41u8ZmAGbX2k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472609849023.pdf"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_5f3e4dfe-dce0-48f4-9b3c-ed35a2f5fe78_Pərinuş Sənii - Mənim payım_638862849439954805.pdf",
@@ -40734,6 +40902,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863689748684608.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5eslt60g8p",
+      "Integrity": "A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b1gjw4ym66",
+      "Integrity": "EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rzocrt9grf",
+      "Integrity": "hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf",
@@ -44831,6 +45062,27 @@
       "OriginalItemSpec": "wwwroot\\Imagess\\0b137e8d-4892-45fe-87ad-86319a7aea69_download (38).jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\135bd2a5-95b2-4dce-a9af-7c5b5cc58fcb_download (48).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/135bd2a5-95b2-4dce-a9af-7c5b5cc58fcb_download (48)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gvtfqx2z5h",
+      "Integrity": "BF0R2qPmD8LCMiJwEbCwmCXqHLuwKqLcOxOLdrZ0dQQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\135bd2a5-95b2-4dce-a9af-7c5b5cc58fcb_download (48).jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg",
       "SourceId": "Lahiye.Mvc",
       "SourceType": "Discovered",
@@ -44997,6 +45249,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagess\\210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\2142c956-ff76-499a-85af-834f8b5276e3_download (2).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/2142c956-ff76-499a-85af-834f8b5276e3_download (2)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nux9nsty3x",
+      "Integrity": "YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\2142c956-ff76-499a-85af-834f8b5276e3_download (2).jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\23dc0bd1-fca3-46ec-90dd-5e041ae5446a_D2.jpg",
@@ -45459,6 +45732,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagess\\5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\60751c67-5de9-4114-87e8-2f4cb8b2f272_5.png",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/60751c67-5de9-4114-87e8-2f4cb8b2f272_5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ylj201nwc2",
+      "Integrity": "OhyNhC4VoVHfXb2FDhbx0bphMjKJwc/rL+mrFu23Q7U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\60751c67-5de9-4114-87e8-2f4cb8b2f272_5.png"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\629bbfa4-d1d5-4141-9c82-d701ff9f88a9_download (19).jpg",
@@ -46992,6 +47286,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagess\\f1bd378b-f13e-4adc-8287-5a7002f6e6b2_download (18).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\f3be3efb-901f-4b6f-aff7-c16b42b05580_download (2).jpg",
+      "SourceId": "Lahiye.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\",
+      "BasePath": "_content/Lahiye.Mvc",
+      "RelativePath": "Imagess/f3be3efb-901f-4b6f-aff7-c16b42b05580_download (2)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nux9nsty3x",
+      "Integrity": "YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagess\\f3be3efb-901f-4b6f-aff7-c16b42b05580_download (2).jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\f4aea0af-f855-401f-bfed-a72d8bc01487_download (44).jpg",
@@ -201664,6 +201979,334 @@
       ]
     },
     {
+      "Route": "cv/25c359e2-ee50-4911-89fd-0b829c0bf983_SƏHRA ÇİÇƏYİ.0p3qjd0tpw.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\cv\\25c359e2-ee50-4911-89fd-0b829c0bf983_SƏHRA ÇİÇƏYİ.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1177524"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zONVg7pMC+GMZ38DW0/UAc40P7Ydeh2zwPIK6qwlAtc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:55:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0p3qjd0tpw"
+        },
+        {
+          "Name": "label",
+          "Value": "cv/25c359e2-ee50-4911-89fd-0b829c0bf983_SƏHRA ÇİÇƏYİ.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zONVg7pMC+GMZ38DW0/UAc40P7Ydeh2zwPIK6qwlAtc="
+        }
+      ]
+    },
+    {
+      "Route": "cv/25c359e2-ee50-4911-89fd-0b829c0bf983_SƏHRA ÇİÇƏYİ.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\cv\\25c359e2-ee50-4911-89fd-0b829c0bf983_SƏHRA ÇİÇƏYİ.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1177524"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zONVg7pMC+GMZ38DW0/UAc40P7Ydeh2zwPIK6qwlAtc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:55:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zONVg7pMC+GMZ38DW0/UAc40P7Ydeh2zwPIK6qwlAtc="
+        }
+      ]
+    },
+    {
+      "Route": "cv/4156a683-7db7-405f-9461-b8976a3ef781_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.iym720ch0b.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\cv\\4156a683-7db7-405f-9461-b8976a3ef781_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26624932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iym720ch0b"
+        },
+        {
+          "Name": "label",
+          "Value": "cv/4156a683-7db7-405f-9461-b8976a3ef781_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8="
+        }
+      ]
+    },
+    {
+      "Route": "cv/4156a683-7db7-405f-9461-b8976a3ef781_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\cv\\4156a683-7db7-405f-9461-b8976a3ef781_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26624932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8="
+        }
+      ]
+    },
+    {
+      "Route": "cv/dc69b260-ab4d-4907-8165-9a30a7c67e1a_Franz Kafka - Dönüşüm.n9as214d7j.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\cv\\dc69b260-ab4d-4907-8165-9a30a7c67e1a_Franz Kafka - Dönüşüm.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "621695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+4hqE4zBJLUOq13JwhA1itWA8bPVRpRgGfXaNugfCz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:26:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n9as214d7j"
+        },
+        {
+          "Name": "label",
+          "Value": "cv/dc69b260-ab4d-4907-8165-9a30a7c67e1a_Franz Kafka - Dönüşüm.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+4hqE4zBJLUOq13JwhA1itWA8bPVRpRgGfXaNugfCz8="
+        }
+      ]
+    },
+    {
+      "Route": "cv/dc69b260-ab4d-4907-8165-9a30a7c67e1a_Franz Kafka - Dönüşüm.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\cv\\dc69b260-ab4d-4907-8165-9a30a7c67e1a_Franz Kafka - Dönüşüm.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "621695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+4hqE4zBJLUOq13JwhA1itWA8bPVRpRgGfXaNugfCz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:26:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+4hqE4zBJLUOq13JwhA1itWA8bPVRpRgGfXaNugfCz8="
+        }
+      ]
+    },
+    {
+      "Route": "cv/ec4313e7-3297-46fd-a948-ced3478e6eee_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.iym720ch0b.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\cv\\ec4313e7-3297-46fd-a948-ced3478e6eee_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26624932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:17:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iym720ch0b"
+        },
+        {
+          "Name": "label",
+          "Value": "cv/ec4313e7-3297-46fd-a948-ced3478e6eee_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8="
+        }
+      ]
+    },
+    {
+      "Route": "cv/ec4313e7-3297-46fd-a948-ced3478e6eee_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\cv\\ec4313e7-3297-46fd-a948-ced3478e6eee_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26624932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:17:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+rHLZY76jYI0pdptoX0vbKNg4rFU8ECfzJxfCdmJXM8="
+        }
+      ]
+    },
+    {
       "Route": "Files/078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant.hd5ahur2yd.pdf",
       "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant.pdf",
       "Selectors": [],
@@ -205354,6 +205997,88 @@
       ]
     },
     {
+      "Route": "Files/temp/first10pages_078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant_638865586033197286.oxb7floy06.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant_638865586033197286.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1OQkfYrLJL2XdtdvdRwEIOrsiAOi/51vuaG6RIQR3VI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 14:16:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oxb7floy06"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant_638865586033197286.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1OQkfYrLJL2XdtdvdRwEIOrsiAOi/51vuaG6RIQR3VI="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant_638865586033197286.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant_638865586033197286.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1OQkfYrLJL2XdtdvdRwEIOrsiAOi/51vuaG6RIQR3VI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 14:16:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1OQkfYrLJL2XdtdvdRwEIOrsiAOi/51vuaG6RIQR3VI="
+        }
+      ]
+    },
+    {
       "Route": "Files/temp/first10pages_2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638861076706292908.a2hik7u66x.pdf",
       "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638861076706292908.pdf",
       "Selectors": [],
@@ -205760,6 +206485,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-9/cMqQBDPIW+l61TbX/QsEZ9pMiQ8TRs+gQsFsG0DFI="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866471605201773.hql7i8dglu.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866471605201773.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N1Rj5W3jvk/ld43Upvviwng2Q1WvEBnwQY+1My+OuqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 14:52:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hql7i8dglu"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866471605201773.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N1Rj5W3jvk/ld43Upvviwng2Q1WvEBnwQY+1My+OuqQ="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866471605201773.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866471605201773.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N1Rj5W3jvk/ld43Upvviwng2Q1WvEBnwQY+1My+OuqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 14:52:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N1Rj5W3jvk/ld43Upvviwng2Q1WvEBnwQY+1My+OuqQ="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472534139569.dfaqcvup6g.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472534139569.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ST9OeMDLUSRwAU2xiNIEfOTHBLjraYBHLx5Aq7BmH5s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 14:54:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dfaqcvup6g"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472534139569.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ST9OeMDLUSRwAU2xiNIEfOTHBLjraYBHLx5Aq7BmH5s="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472534139569.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472534139569.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ST9OeMDLUSRwAU2xiNIEfOTHBLjraYBHLx5Aq7BmH5s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 14:54:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ST9OeMDLUSRwAU2xiNIEfOTHBLjraYBHLx5Aq7BmH5s="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472609849023.otdttt865r.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472609849023.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xEPQGpSXwGP5djqqYgMYAJudbKMlInA41u8ZmAGbX2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 14:54:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "otdttt865r"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472609849023.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xEPQGpSXwGP5djqqYgMYAJudbKMlInA41u8ZmAGbX2k="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472609849023.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472609849023.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xEPQGpSXwGP5djqqYgMYAJudbKMlInA41u8ZmAGbX2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 14:54:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xEPQGpSXwGP5djqqYgMYAJudbKMlInA41u8ZmAGbX2k="
         }
       ]
     },
@@ -206662,6 +207633,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-hdhH1bvcGlLYTlsvaRftY6xLC9IpggBmLwkpz5CoN/o="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.5eslt60g8p.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 09:44:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5eslt60g8p"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 09:44:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A2jpjLznOmjS8D/Ol/aWqZRG1S3PkIH/akc5j318c8M="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.b1gjw4ym66.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 09:47:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b1gjw4ym66"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 09:47:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EdgbbbSFJCmPhIKgoEdJRZ6FtOWYPuBWKwhV63ZJJXE="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 09:57:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg="
+        }
+      ]
+    },
+    {
+      "Route": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.rzocrt9grf.pdf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Files\\temp\\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 09:57:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rzocrt9grf"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/temp/first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hygUjVzR4oRJ9RbvUrULtTglsCozNRLjwDrsHWNwPjg="
         }
       ]
     },
@@ -222656,6 +223873,88 @@
       ]
     },
     {
+      "Route": "Imagess/135bd2a5-95b2-4dce-a9af-7c5b5cc58fcb_download (48).gvtfqx2z5h.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\135bd2a5-95b2-4dce-a9af-7c5b5cc58fcb_download (48).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BF0R2qPmD8LCMiJwEbCwmCXqHLuwKqLcOxOLdrZ0dQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:26:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gvtfqx2z5h"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/135bd2a5-95b2-4dce-a9af-7c5b5cc58fcb_download (48).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BF0R2qPmD8LCMiJwEbCwmCXqHLuwKqLcOxOLdrZ0dQQ="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/135bd2a5-95b2-4dce-a9af-7c5b5cc58fcb_download (48).jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\135bd2a5-95b2-4dce-a9af-7c5b5cc58fcb_download (48).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BF0R2qPmD8LCMiJwEbCwmCXqHLuwKqLcOxOLdrZ0dQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:26:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BF0R2qPmD8LCMiJwEbCwmCXqHLuwKqLcOxOLdrZ0dQQ="
+        }
+      ]
+    },
+    {
       "Route": "Imagess/14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).a3b2r9km6y.jpg",
       "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg",
       "Selectors": [],
@@ -223308,6 +224607,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-tXgt4L2QjjnXdPtP5Q6tbjIR1mfgsoTdGyQ/brgZ7Pw="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/2142c956-ff76-499a-85af-834f8b5276e3_download (2).jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\2142c956-ff76-499a-85af-834f8b5276e3_download (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/2142c956-ff76-499a-85af-834f8b5276e3_download (2).nux9nsty3x.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\2142c956-ff76-499a-85af-834f8b5276e3_download (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nux9nsty3x"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/2142c956-ff76-499a-85af-834f8b5276e3_download (2).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo="
         }
       ]
     },
@@ -225112,6 +226493,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+tqy5satFKHh4hJi60Ee0hmFAcmXE3oguLKKact1264="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/60751c67-5de9-4114-87e8-2f4cb8b2f272_5.png",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\60751c67-5de9-4114-87e8-2f4cb8b2f272_5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OhyNhC4VoVHfXb2FDhbx0bphMjKJwc/rL+mrFu23Q7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:55:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OhyNhC4VoVHfXb2FDhbx0bphMjKJwc/rL+mrFu23Q7U="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/60751c67-5de9-4114-87e8-2f4cb8b2f272_5.ylj201nwc2.png",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\60751c67-5de9-4114-87e8-2f4cb8b2f272_5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OhyNhC4VoVHfXb2FDhbx0bphMjKJwc/rL+mrFu23Q7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:55:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ylj201nwc2"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/60751c67-5de9-4114-87e8-2f4cb8b2f272_5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OhyNhC4VoVHfXb2FDhbx0bphMjKJwc/rL+mrFu23Q7U="
         }
       ]
     },
@@ -231098,6 +232561,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-qi7cDD9tJFwt0cHi9NR8q6u+ns7r1+3HAVP7uj5ER/0="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/f3be3efb-901f-4b6f-aff7-c16b42b05580_download (2).jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\f3be3efb-901f-4b6f-aff7-c16b42b05580_download (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:17:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo="
+        }
+      ]
+    },
+    {
+      "Route": "Imagess/f3be3efb-901f-4b6f-aff7-c16b42b05580_download (2).nux9nsty3x.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lahiye.MVC\\Lahiye.Mvc\\wwwroot\\Imagess\\f3be3efb-901f-4b6f-aff7-c16b42b05580_download (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:17:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nux9nsty3x"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagess/f3be3efb-901f-4b6f-aff7-c16b42b05580_download (2).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YTXh39Byd9+rRdQvaEwLMPQLQ++qFLNZwec7OCsENVo="
         }
       ]
     },

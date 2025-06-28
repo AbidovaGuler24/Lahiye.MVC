@@ -13,7 +13,9 @@ namespace OnlineLearning.Core.Entities
         public string Position { get; set; }
         public string PhotoPath { get; set; }
 
+        public string CvPath { get; set; }
 
+        public bool IsApproved { get; set; }
         public List<EmployeeComment> Comments { get; set; }
     }
 }

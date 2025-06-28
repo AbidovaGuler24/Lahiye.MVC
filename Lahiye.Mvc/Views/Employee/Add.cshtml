@@ -1,0 +1,31 @@
+﻿@model OnlineLearning.Core.ViewModels.EmployeeAddVm
+
+<h3>İşçi əlavə et</h3>
+
+<form asp-action="Add" method="post" enctype="multipart/form-data">
+    <div>
+        <label asp-for="Name"></label><br />
+        <input asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Position"></label><br />
+        <input asp-for="Position" />
+        <span asp-validation-for="Position" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="PhotoFile">Şəkil (isteğe bağlı)</label><br />
+        <input asp-for="PhotoFile" type="file" accept="image/*" />
+        <span asp-validation-for="PhotoFile" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="CvFile">CV (yalnız PDF)</label><br />
+        <input asp-for="CvFile" type="file" accept="application/pdf" />
+        <span asp-validation-for="CvFile" class="text-danger"></span>
+    </div>
+    <button type="submit">Göndər</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -122,11 +122,11 @@ namespace OnlineLearning.MVC.Controllers
             }
 
             // Səbətə əlavə et
-            if (!_context.CartItems.Any(c => c.BookId == bookId && c.UserId == userId))
+            if (!_context.CartItems.Any(c => c.PaidBookId == bookId && c.UserId == userId))
             {
                 _context.CartItems.Add(new CartItem
                 {
-                    BookId = bookId,
+                    PaidBookId = bookId,
                     UserId = userId,
                     Quantity = 1
                 });

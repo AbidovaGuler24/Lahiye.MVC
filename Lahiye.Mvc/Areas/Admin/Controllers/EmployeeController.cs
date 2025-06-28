@@ -126,6 +126,34 @@ namespace Lahiye.Mvc.Areas.Admin.Controllers
             TempData["SuccessMessage"] = "İşçi silindi.";
             return RedirectToAction(nameof(Index));
         }
+        public async Task<IActionResult> PendingList()
+        {
+            var pendingEmployees = await _context.Employees
+                .Where(e => !e.IsApproved) 
+                .Select(e => new EmployeeVM
+                {
+                    Id = e.Id,
+                    FullName = e.Name,
+                    Position = e.Position,
+                    PhotoPath = e.PhotoPath,
+                    CvPath = e.CvPath
+                }).ToListAsync();
 
+            return View(pendingEmployees);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Approve(int id)
+        {
+            var employee = await _context.Employees.FindAsync(id);
+            if (employee == null) return NotFound();
+
+            employee.IsApproved = true;
+            _context.Employees.Update(employee);
+            await _context.SaveChangesAsync();
+
+            TempData["SuccessMessage"] = "İşçi təsdiqləndi!";
+            return RedirectToAction(nameof(PendingList));
+        }
     }
 }

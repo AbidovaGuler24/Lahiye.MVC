@@ -1876,6 +1876,10 @@ wwwroot\css\jquery.accordion.css
 wwwroot\css\mmenu.css
 wwwroot\css\mmenu.positioning.css
 wwwroot\css\responsivetable.css
+wwwroot\cv\25c359e2-ee50-4911-89fd-0b829c0bf983_SƏHRA ÇİÇƏYİ.pdf
+wwwroot\cv\4156a683-7db7-405f-9461-b8976a3ef781_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf
+wwwroot\cv\dc69b260-ab4d-4907-8165-9a30a7c67e1a_Franz Kafka - Dönüşüm.pdf
+wwwroot\cv\ec4313e7-3297-46fd-a948-ced3478e6eee_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik.pdf
 wwwroot\Files\078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant.pdf
 wwwroot\Files\125b9b7e-4b57-4d6f-8f2b-cda838f77ffb_Andy Weir - Marslı.pdf
 wwwroot\Files\135179c3-b1fb-491e-b911-e04425de03d5_Lev Nikolayeviç Tolstoy - Diriliş.pdf
@@ -1921,11 +1925,15 @@ wwwroot\Files\feea99a1-cf76-4258-97da-5f3a8a1e2cf5_Tarix-vahid_ve_ardicil_tekamu
 wwwroot\Files\fff025a1-1912-4948-8282-1a415fc2ea55_Paula-Hawkins-Trendeki-Kiz.pdf
 wwwroot\Files\temp\first10pages_078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant_638862982936706309.pdf
 wwwroot\Files\temp\first10pages_078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant_638862984368725946.pdf
+wwwroot\Files\temp\first10pages_078d66fc-d397-4da8-aac5-efad382951b0_rumcek Agindaki Kiz 4[kitabyur - Stieg Larsson, David Lagercrant_638865586033197286.pdf
 wwwroot\Files\temp\first10pages_2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638861076706292908.pdf
 wwwroot\Files\temp\first10pages_2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638862784117220981.pdf
 wwwroot\Files\temp\first10pages_2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638862863527905690.pdf
 wwwroot\Files\temp\first10pages_2f342ae6-4326-4054-8ac3-6267d3bd58db_Tarix-vahid_ve_ardicil_tekamul_prosesi_kimi_638862871154092139.pdf
 wwwroot\Files\temp\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638863690313804832.pdf
+wwwroot\Files\temp\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866471605201773.pdf
+wwwroot\Files\temp\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472534139569.pdf
+wwwroot\Files\temp\first10pages_56d65100-e4cc-41e5-b6a5-1f8e3a267957_Knut Hamsun - Açlık_638866472609849023.pdf
 wwwroot\Files\temp\first10pages_5f3e4dfe-dce0-48f4-9b3c-ed35a2f5fe78_Pərinuş Sənii - Mənim payım_638862849439954805.pdf
 wwwroot\Files\temp\first10pages_5f3e4dfe-dce0-48f4-9b3c-ed35a2f5fe78_Pərinuş Sənii - Mənim payım_638862853590863490.pdf
 wwwroot\Files\temp\first10pages_5f3e4dfe-dce0-48f4-9b3c-ed35a2f5fe78_Pərinuş Sənii - Mənim payım_638862862944241872.pdf
@@ -1937,6 +1945,9 @@ wwwroot\Files\temp\first10pages_980b9aa9-567d-4bc0-ab58-d08894b23299_Franz Kafka
 wwwroot\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863623572112624.pdf
 wwwroot\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863681045695343.pdf
 wwwroot\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638863689748684608.pdf
+wwwroot\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864558989884715.pdf
+wwwroot\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864560246144729.pdf
+wwwroot\Files\temp\first10pages_a9cb7f38-3d4c-4700-b562-2989c2a8967a_Paulo Coelho - Simyacı_638864566338199844.pdf
 wwwroot\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858582990936348.pdf
 wwwroot\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858588477373485.pdf
 wwwroot\Files\temp\first10pages_fa0b9d9d-1c58-4a4a-ad4e-5ef9ce1692a7_quot-tasviri-incasanat-quot-fanni-uzra-2-ci-sinif-ucun-darslik_638858593224774086.pdf
@@ -2132,6 +2143,7 @@ wwwroot\Imagess\064147cf-d93a-4623-afd7-be84cbf03a2f_download (30).jpg
 wwwroot\Imagess\08e91e18-47cc-4d8b-968a-843c1c96d393_download (14).jpg
 wwwroot\Imagess\0aa46b2c-c576-4a70-9414-cc21a524a5fd_download (1).jpg
 wwwroot\Imagess\0b137e8d-4892-45fe-87ad-86319a7aea69_download (38).jpg
+wwwroot\Imagess\135bd2a5-95b2-4dce-a9af-7c5b5cc58fcb_download (48).jpg
 wwwroot\Imagess\14fcb7ac-3f40-43f3-8ea3-d7e9c0109fc6_download (16).jpg
 wwwroot\Imagess\1a6f0ed7-dcfa-4eba-b398-54e9a65dd04a_download (35).jpg
 wwwroot\Imagess\1ade26c3-bd1c-4503-a5f2-dbc5dc2d5668_download (15).jpg
@@ -2140,6 +2152,7 @@ wwwroot\Imagess\1f84f689-0c82-4c7e-a6af-53a5e0ca4c93_download (34).jpg
 wwwroot\Imagess\1faa92ca-c7c3-4621-b705-95a33def24cf_download (22).jpg
 wwwroot\Imagess\20985bed-77f5-43d2-98da-71e90a90eb15_download (24).jpg
 wwwroot\Imagess\210db6b7-1198-453e-82a1-f58abcd4b8b6_download (13).jpg
+wwwroot\Imagess\2142c956-ff76-499a-85af-834f8b5276e3_download (2).jpg
 wwwroot\Imagess\23dc0bd1-fca3-46ec-90dd-5e041ae5446a_D2.jpg
 wwwroot\Imagess\2b630fc0-562f-448d-8e67-bc3befba5a71_images (2).jpg
 wwwroot\Imagess\2bb66d1e-efc6-4e5e-b6ed-b0316ab10224_download (18).jpg
@@ -2162,6 +2175,7 @@ wwwroot\Imagess\528be715-8330-4d9d-a86b-ca863a8435ff_download (5).jpg
 wwwroot\Imagess\5b8b2448-59dc-4b30-ac0f-80ebd5123e3d_download (17).jpg
 wwwroot\Imagess\5cf2bc04-e4fe-41f4-a39c-5f0f7cfadb17_download (33).jpg
 wwwroot\Imagess\5e5be2aa-133e-419f-a982-edbf50686337_download (8).jpg
+wwwroot\Imagess\60751c67-5de9-4114-87e8-2f4cb8b2f272_5.png
 wwwroot\Imagess\629bbfa4-d1d5-4141-9c82-d701ff9f88a9_download (19).jpg
 wwwroot\Imagess\62b0310e-c02b-4095-bae8-32664a537c13_Pərinuş Sənii - Mənim payım.pdf
 wwwroot\Imagess\67a99858-908e-4b2b-88ce-a67e0ca31249_D3.jpeg
@@ -2235,6 +2249,7 @@ wwwroot\Imagess\ed3a4350-1e25-4657-b7af-22af055c2e98_download (7).jpg
 wwwroot\Imagess\efcd96e0-4805-44dd-a808-53d326a07773_download (47).jpg
 wwwroot\Imagess\f08eb37b-5e9f-4ecc-8d7d-376e3bb29a5c_elza.jpg
 wwwroot\Imagess\f1bd378b-f13e-4adc-8287-5a7002f6e6b2_download (18).jpg
+wwwroot\Imagess\f3be3efb-901f-4b6f-aff7-c16b42b05580_download (2).jpg
 wwwroot\Imagess\f4aea0af-f855-401f-bfed-a72d8bc01487_download (44).jpg
 wwwroot\Imagess\f6d74a34-15b2-4507-82e5-66835d7503e4_images (2).jpg
 wwwroot\Imagess\fafdd290-c21a-41a6-ae88-8069b37d47f0_D2.jpg

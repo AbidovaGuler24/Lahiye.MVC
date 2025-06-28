@@ -60,5 +60,10 @@ namespace OnlineLearning.DAL.Repositories.Concretes
                 .Include(e => e.Comments) 
                 .ToListAsync();
         }
+
+        public IQueryable<Employee> GetQueryable()
+        {
+            return _context.Employees.AsQueryable();
+        }
     }
     }
