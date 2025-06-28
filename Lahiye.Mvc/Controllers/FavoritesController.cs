@@ -6,6 +6,7 @@ using OnlineLearning.BL.Services.Abstracts;
 using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Lahiye.Mvc.Controllers
 {
@@ -31,9 +32,10 @@ namespace Lahiye.Mvc.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        public async Task<IActionResult> ViewFavorites(string email)
-        {
-            var user = await _userManager.FindByNameAsync(email);
+        [Authorize]
+        public async Task<IActionResult> ViewFavorites()
+        {            
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var favorites =await _favoriteBookService.GetFavoritesAsync(user.Id);
             
             return View(favorites);  // buradakı books => List<PaidBook>

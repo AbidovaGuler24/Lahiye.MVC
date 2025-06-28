@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Security.Claims;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.Core.ViewModels;
 
@@ -16,7 +18,8 @@ namespace Lahiye.Mvc.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var employees = await _employeeService.GetAllAsync();
+
+            var employees = await _employeeService.GetApprovedAsync();
 
             var viewModels = employees.Select(e => new EmployeeVM
             {
@@ -27,8 +30,28 @@ namespace Lahiye.Mvc.Controllers
             }).ToList();
 
             return View(viewModels);
+
+        }
+        [HttpGet]
+        public IActionResult Add()
+        {
+            return View();
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Add(EmployeeAddVm vm)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(vm);
+            }
+
+            string wwwroot = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+
+            await _employeeService.AddAsync(vm, wwwroot);
+
+            return RedirectToAction("Index");
+        }
     }
 }
  

@@ -17,6 +17,33 @@ namespace OnlineLearning.Core.Services
             {
                 _cartRepository = cartRepository;
             }
+
+
+        public async Task<bool> AddSingleItemAsync(string userId, int bookId)
+        {
+            var existingItem = await _cartRepository.GetCartItemAsync(userId, bookId);
+            if (existingItem == null)
+            {
+                // Əgər mövcud deyilsə, yeni element əlavə et
+                var cartItem = new CartItem
+                {
+                    UserId = userId,
+                    PaidBookId = bookId,
+                    Quantity = 1,
+                };
+                await _cartRepository.AddToCartAsync(cartItem);
+                return true;
+            }
+            else
+            {
+                // Mövcuddursa, say artır
+                existingItem.Quantity += 1;
+                await _cartRepository.UpdateCartItemAsync(existingItem);
+                return false;
+            }
+        }
+
+
         public async Task<bool> AddToCartAsync(string userId, int bookId, int quantity = 1)
         {
             var existingItem = await _cartRepository.GetCartItemAsync(userId, bookId);
@@ -54,6 +81,28 @@ namespace OnlineLearning.Core.Services
             await _cartRepository.RemoveFromCartAsync(userId, bookId);
         }
 
-       
+
+        public async Task<bool> RemoveSingleItemAsync(string userId, int bookId)
+        {
+            var existingItem = await _cartRepository.GetCartItemAsync(userId, bookId);
+            if (existingItem == null)
+            {
+                return false; // element yoxdu
+            }
+
+            if (existingItem.Quantity > 1)
+            {
+                existingItem.Quantity -= 1;
+                await _cartRepository.UpdateCartItemAsync(existingItem);
+                return true; // say azaldıldı
+            }
+            else
+            {
+                // 1 ədəd qalıbsa, tam sil
+                await _cartRepository.RemoveFromCartAsync(userId, bookId);
+                return true;
+            }
+        }
+
     }
 }

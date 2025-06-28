@@ -1,0 +1,46 @@
+﻿@using OnlineLearning.Core.ViewModels
+@model List<EmployeeVM>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ad Soyad</th>
+            <th>Vəzifə</th>
+            <th>Foto</th>
+            <th>CV</th>
+            <th>Əməliyyatlar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.FullName</td>
+                <td>@employee.Position</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(employee.PhotoPath))
+                    {
+                        <img src="~/imagess/@employee.PhotoPath" alt="Foto" style="width:50px;height:50px;" />
+                    }
+                </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(employee.CvPath))
+                    {
+                        <a href="~/cv/@employee.CvPath" target="_blank">CV-yə bax</a>
+                    }
+                    else
+                    {
+                        <span>Yüklənməyib</span>
+                    }
+                </td>
+                <td>
+                    <form asp-action="Approve" method="post">
+                        <input type="hidden" name="id" value="@employee.Id" />
+                        <button type="submit" class="btn btn-success btn-sm">Təsdiqlə</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts { }

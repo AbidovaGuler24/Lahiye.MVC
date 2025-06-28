@@ -22,7 +22,7 @@ namespace OnlineLearning.Core.ViewModels
         public string? PhotoPath { get; set; }
 
         public IFormFile? PhotoFile { get; set; }
-
+        public string CvPath { get; set; }
         public List<EmployeeCommentVM>? Comments { get; set; }
     }
 }

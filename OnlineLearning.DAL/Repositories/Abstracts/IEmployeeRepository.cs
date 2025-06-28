@@ -15,5 +15,6 @@ namespace OnlineLearning.DAL.Repositories.Abstracts
         Task UpdateAsync(Employee employee);
         Task DeleteAsync(Employee employee);
         Task SaveAllChangesAsync();
+        IQueryable<Employee> GetQueryable();
     }
 }

@@ -24,9 +24,18 @@ namespace OnlineLearning.DAL.Context
                 .HasColumnType("decimal(18,2)");
 
             modelBuilder.Entity<PaidBook>()
-               .Property(p => p.Price)
-               .HasPrecision(18, 2); 
-            
+
+    .Property(p => p.Price)
+    .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<BasketItem>()
+    .Property(b => b.Price)
+    .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<Payment>()
+    .Property(p => p.Amount)
+    .HasColumnType("decimal(18,2)");
+
             modelBuilder.Entity<PurchasedBook>()
         .HasOne(p => p.Book)
         .WithMany(b => b.PurchasedBooks)
@@ -69,6 +78,8 @@ namespace OnlineLearning.DAL.Context
         public DbSet<PurchasedBook> PurchasedBooks { get; set; }
         public DbSet<LibraryItem> LibraryItems { get; set; }
 
+        public DbSet<Payment> Payments { get; set; }
+        public DbSet<BasketItem> BasketItems { get; set; }
 
     }
 }

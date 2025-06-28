@@ -152,7 +152,9 @@
 
                 <p><strong>Qiymət:</strong> @Model.Price.ToString("C")</p>
 
-                <form asp-action="ReadBook" asp-controller="PaidBook" method="post">
+
+                <form asp-route-pdfFileName="@Model.Pdf" asp-action="GetFirst10Pages" asp-controller="PaidBook" method="post">
+
                     <input type="hidden" name="id" value="@Model.Id" />
                     <button type="submit" class="btn btn-outline-secondary mt-3">
                         📖 Oxu

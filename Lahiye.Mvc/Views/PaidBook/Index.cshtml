@@ -261,7 +261,7 @@
                         </form>
                         <form asp-action="ReadBook" asp-controller="PaidBook" method="post" style="display:inline;">
                             <input type="hidden" name="bookId" value="@book.Id" />
-                            <button asp-route-id="@book.Id" asp-action="ReadBook" type="submit" class="btn btn-outline-secondary" title="Oxu">
+                            <button asp-route-pdfFileName="@book.Pdf" asp-action="GetFirst10Pages" type="submit" class="btn btn-outline-secondary" title="Oxu">
                                 📖
                             </button>
                         </form>

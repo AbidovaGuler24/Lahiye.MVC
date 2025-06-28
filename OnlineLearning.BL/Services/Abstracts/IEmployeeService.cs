@@ -16,5 +16,6 @@ namespace OnlineLearning.BL.Services.Abstracts
         Task AddAsync(EmployeeAddVm vm, string wwwroot);
         Task UpdateAsync(EmployeeUpdateVm vm, string wwwroot);
         Task DeleteAsync(int id);
+        Task<List<Employee>> GetApprovedAsync();
     }
 }

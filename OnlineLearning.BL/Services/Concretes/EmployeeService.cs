@@ -27,17 +27,24 @@ namespace OnlineLearning.BL.Services.Concretes
         public async Task AddAsync(EmployeeAddVm vm, string wwwroot)
         {
             string photoFileName = null;
+            string cvFileName = null;
 
             if (vm.PhotoFile != null)
             {
                 photoFileName = vm.PhotoFile.CreateFile( wwwroot, "\\imagess\\");
             }
-
+            if (vm.CvFile != null)
+            {
+                cvFileName = vm.CvFile.CreateFile(wwwroot, "\\cv\\");
+            }
             var employee = new Employee
             {
                 Name = vm.Name,
                 Position = vm.Position,
-                PhotoPath = photoFileName
+                PhotoPath = photoFileName,
+                CvPath = cvFileName,
+                IsApproved = false,
+
             };
             await _employeeRepository.AddAsync(employee);
         }
@@ -55,6 +62,13 @@ namespace OnlineLearning.BL.Services.Concretes
         {
             return await _employeeRepository.GetAllAsync();
 
+        }
+
+        public async Task<List<Employee>> GetApprovedAsync()
+        {
+            return await _employeeRepository.GetQueryable()
+        .Where(e => e.IsApproved)
+        .ToListAsync();
         }
 
         public async Task<Employee> GetByIdAsync(int id)
