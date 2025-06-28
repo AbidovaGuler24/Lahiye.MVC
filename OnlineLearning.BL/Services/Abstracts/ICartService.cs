@@ -13,7 +13,9 @@ namespace OnlineLearning.BL.Services.Abstracts
         Task<bool> AddToCartAsync(string userId, int bookId, int quantity = 1);
         Task RemoveFromCartAsync(string userId, int bookId);
         Task ClearCartAsync(string userId);
+
         Task<bool> AddSingleItemAsync(string userId, int bookId);
         Task<bool> RemoveSingleItemAsync(string userId, int bookId);
+
     }
 }

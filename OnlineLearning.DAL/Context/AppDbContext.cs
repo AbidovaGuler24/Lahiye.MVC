@@ -24,6 +24,7 @@ namespace OnlineLearning.DAL.Context
                 .HasColumnType("decimal(18,2)");
 
             modelBuilder.Entity<PaidBook>()
+
     .Property(p => p.Price)
     .HasColumnType("decimal(18,2)");
 
