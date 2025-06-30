@@ -10,6 +10,7 @@ namespace OnlineLearning.Core.ViewModels
 {
     public class EmployeeAddVm
     {
+        public string Email { get; set; }
         [Required(ErrorMessage = "Ad daxil edilməlidir.")]
         public string Name { get; set; }
 

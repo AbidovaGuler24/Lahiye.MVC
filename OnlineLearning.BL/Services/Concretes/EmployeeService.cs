@@ -39,6 +39,7 @@ namespace OnlineLearning.BL.Services.Concretes
             }
             var employee = new Employee
             {
+                Email= vm.Email,
                 Name = vm.Name,
                 Position = vm.Position,
                 PhotoPath = photoFileName,

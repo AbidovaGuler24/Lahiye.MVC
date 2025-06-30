@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OnlineLearning.BL.Services.Abstracts;
+using OnlineLearning.Core.Helpers.Exictance;
 using OnlineLearning.Core.ViewModels;
 using OnlineLearning.DAL.Context;
 
@@ -152,8 +153,14 @@ namespace Lahiye.Mvc.Areas.Admin.Controllers
             _context.Employees.Update(employee);
             await _context.SaveChangesAsync();
 
-            TempData["SuccessMessage"] = "İşçi təsdiqləndi!";
+            // ✅ Email göndərmək üçün
+            string subject = "Təbrik edirik!";
+            string body = $"Hörmətli {employee.Name},\n\nSizin müraciətiniz təsdiqləndi. Artıq sistemdə aktiv işçisiniz. Təbrik edirik!\n\nOnline Learning Komandası.";
+            string result = EmailExtension.SendEmail(employee.Email, subject, body);
+
+            TempData["SuccessMessage"] = "İşçi təsdiqləndi və email göndərildi.";
             return RedirectToAction(nameof(PendingList));
         }
+
     }
 }
