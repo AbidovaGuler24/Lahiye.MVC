@@ -8,7 +8,7 @@ using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.Core.Entities;
 using OnlineLearning.Core.Helpers.Exictance;
 using OnlineLearning.Core.ViewModels;
-using OnlineLearning.DAL.Migrations;
+
 using OnlineLearning.DAL.Repositories.Abstracts;
 
 namespace OnlineLearning.BL.Services.Concretes

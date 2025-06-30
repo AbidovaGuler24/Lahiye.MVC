@@ -147,15 +147,15 @@
 
                 @if (!string.IsNullOrEmpty(book.CoverImage))
                 {
-                    <a asp-action="Details" asp-controller="PaidBook" asp-route-id="@book.Id">
-                        <img src="~/Imagess/@book.CoverImage" alt="@book.BookTitle" class="book-image" />
+                    <a asp-action="Details" asp-controller="PaidBook" asp-route-id="@book.BookId">
+                        <img  src="~/Imagess/@book.CoverImage" alt="@book.BookTitle" class="book-image" />
                     </a>
                 }
                 else
                 {
-                    <a asp-action="Details" asp-controller="PaidBook" asp-route-id="@book.Id" style="display:flex;align-items:center;justify-content:center;width:100%;height:240px;background:#eae6dd;border-radius:10px;color:#999;font-style:italic;text-decoration:none;">
+                    <button asp-action="Details" asp-controller="PaidBook" asp-route-id="@book.BookId" style="display:flex;align-items:center;justify-content:center;width:100%;height:240px;background:#eae6dd;border-radius:10px;color:#999;font-style:italic;text-decoration:none;">
                         Şəkil yoxdur
-                    </a>
+                    </button>
                 }
 
                 <div class="book-title">@book.BookTitle</div>
@@ -164,19 +164,19 @@
                 <div class="button-group">
                     <!-- Favoritdən sil -->
                     <form asp-action="RemoveFromFavorites" asp-controller="Favorites" method="post" style="margin:0;">
-                        <input type="hidden" name="id" value="@book.Id" />
+                        <input type="hidden" name="id" value="@book.BookId">
                         <button type="submit" title="Favoritdən sil">🗑️</button>
                     </form>
 
                     <!-- Səbətə əlavə -->
-                    <form asp-action="AddToCart" asp-controller="Cart" method="post" style="margin:0;">
-                        <input type="hidden" name="id" value="@book.Id" />
+                    <form asp-action="AddToCart" asp-controller="Cart" asp-route-bookId="@book.BookId" method="post" style="margin:0;">
+                        <input type="hidden" name="id" value="@book.BookId" />
                         <button type="submit" title="Səbətə əlavə et">🛒</button>
                     </form>
 
                     <!-- Birbaşa almaq -->
-                    <form asp-action="BuyNow" asp-controller="Cart" method="post" style="margin:0;">
-                        <input type="hidden" name="id" value="@book.Id" />
+                    <form asp-action="BuyNow" asp-controller="Cart" asp-route-bookId="@book.BookId" method="post" style="margin:0;">
+                        <input type="hidden" name="id" value="@book.BookId" />
                         <button type="submit" title="Birbaşa al">💳</button>
                     </form>
                 </div>

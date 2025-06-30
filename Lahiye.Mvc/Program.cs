@@ -67,6 +67,9 @@ namespace Lahiye.Mvc
             builder.Services.AddScoped<IPaymentService, PaymentService>();
             builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
 
+            builder.Services.AddScoped<IPurchasedBookRepository, PurchasedBookRepository>();
+            builder.Services.AddScoped<IPurchasedBookService, PurchasedBookService>();
+
             builder.Services.AddScoped<IFavoriteBookRepository, FavoriteBookRepository>();
             builder.Services.AddScoped<IFavoriteBookService, FavoriteBookService>();
             builder.Services.AddScoped<IAccountService, OnlineLearning.BL.Services.Concretes.AccountService>();

@@ -120,8 +120,11 @@ namespace OnlineLearning.Mvc.Controllers
 
         public IActionResult Success(int bookId)
         {
-            var userId = "test-user"; // Əgər ASP.NET Identity varsa, User.Identity.Name və ya User.FindFirst(ClaimTypes.NameIdentifier).Value ilə əvəz et
-
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return RedirectToAction("Login", "Account");
+            }
             // Kitab artıq alınmayıbsa əlavə et
             bool alreadyPurchased = _context.PurchasedBooks.Any(p => p.BookId == bookId && p.UserId == userId);
             if (!alreadyPurchased)
@@ -142,25 +145,26 @@ namespace OnlineLearning.Mvc.Controllers
         public IActionResult SuccessBasket(string bookIds)
         {
             var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return RedirectToAction("Login", "Account");
+            }
 
             if (string.IsNullOrWhiteSpace(bookIds))
             {
-                return BadRequest("No book IDs provided.");
+                return BadRequest("Kitab ID-ləri verilməyib.");
             }
 
-            // "15,14,13,16" -> List<int> çevirmək
+            // "15,14,13" kimi stringi List<int>-ə çevir
             var ids = bookIds.Split(',')
-                             .Select(idStr => {
-                                 bool ok = int.TryParse(idStr, out int id);
-                                 return (ok, id);
-                             })
-                             .Where(x => x.ok)
-                             .Select(x => x.id)
+                             .Select(idStr => int.TryParse(idStr, out var id) ? id : (int?)null)
+                             .Where(id => id.HasValue)
+                             .Select(id => id.Value)
                              .ToList();
 
             if (!ids.Any())
             {
-                return BadRequest("No valid book IDs provided.");
+                return BadRequest("Etibarlı kitab ID-ləri yoxdur.");
             }
 
             var alreadyPurchasedIds = _context.PurchasedBooks
@@ -168,25 +172,25 @@ namespace OnlineLearning.Mvc.Controllers
                 .Select(p => p.BookId)
                 .ToList();
 
-            var newPurchases = ids
-                .Where(id => !alreadyPurchasedIds.Contains(id))
-                .Select(id => new PurchasedBook
+            var newPurchaseIds = ids.Except(alreadyPurchasedIds);
+
+            foreach (var bookId in newPurchaseIds)
+            {
+                _context.PurchasedBooks.Add(new PurchasedBook
                 {
                     UserId = userId,
-                    BookId = id,
+                    BookId = bookId,
                     PurchaseDate = DateTime.Now
-                }).ToList();
-
-            if (newPurchases.Any())
-            {
-                _context.PurchasedBooks.AddRange(newPurchases);
-                _context.SaveChanges();
+                });
             }
-            var result = cartService.ClearCartAsync(userId);
 
-            return View(); // SuccessBasket.cshtml və ya Success.cshtml
+            _context.SaveChanges();
+
+            // İstifadəçinin səbətini təmizlə
+            cartService.ClearCartAsync(userId).Wait();
+
+            return View("Success"); // Success.cshtml view-i aç
         }
-
         public IActionResult Cancel()
         {
             return Content("Ödəniş ləğv edildi.");
