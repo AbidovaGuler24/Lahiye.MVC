@@ -4,13 +4,9 @@
 }
 
 <h2 class="text-2xl font-bold mb-4">📚 Paid Books </h2>
-<form method="get">
-    <input type="text" name="search" placeholder="Search by title" />
-    <input type="number" name="minPrice" placeholder="Min Price" />
-    <input type="number" name="minPage" placeholder="Min Page Count" />
-    <button type="submit">Filter</button>
-</form>
-
+<div class="mt-4">
+    <a asp-action="Create" class="btn btn-primary">➕ Create New Book</a>
+</div>
 <table class="table table-bordered">
     <thead class="table-dark">
         <tr>
@@ -46,9 +42,7 @@
     </tbody>
 </table>
 
-<div class="mt-4">
-    <a asp-action="Create" class="btn btn-primary">➕ Create New Book</a>
-</div>
+
 
 @section Scripts {
 }

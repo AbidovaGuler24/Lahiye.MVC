@@ -4,14 +4,14 @@
 }
 
 @{
-    ViewData["Title"] = "Employees";
+    ViewData["Title"] = "Our Instructors";
 }
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 
 <h2 class="title">@ViewData["Title"]</h2>
 
-<div class="container py-5">
+<div class="container">
     <div class="grid">
         @foreach (var employee in Model)
         {
@@ -22,201 +22,147 @@
                 }
                 else
                 {
-                    <div class="no-photo">Şəkil yoxdur</div>
+                    <div class="no-photo">No Photo</div>
                 }
                 <div class="info">
                     <h3>@employee.FullName</h3>
-                    <p>@employee.Position</p>
-                    
+                    <p class="position">@employee.Position</p>
                 </div>
             </div>
         }
     </div>
 </div>
-<div class="work-with-us">
-    <h3>Bizimlə işləmək istəyirsiniz?</h3>
+
+<div class="join-us">
+    <h3>Join our library of knowledge!</h3>
     <div class="buttons">
-        <a href="/Employee/Add" class="btn">Əlavə et</a>
-       
+        <a href="/Employee/Add" class="btn">Add Instructor</a>
     </div>
 </div>
 
 <style>
-    .work-with-us {
-        text-align: center;
-        margin: 3rem 0 5rem 0;
-        color: #c49a6c;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-        .work-with-us h3 {
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            text-shadow: 0 0 8px #c49a6c;
-        }
-
-        .work-with-us .buttons {
-            display: inline-flex;
-            justify-content: center;
-            gap: 1rem;
-        }
-
-        .work-with-us .btn {
-            padding: 12px 32px;
-            border: 2px solid #c49a6c;
-            border-radius: 50px;
-            background: transparent;
-            color: #c49a6c;
-            font-weight: 700;
-            letter-spacing: 1.4px;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            box-shadow: 0 0 10px transparent;
-        }
-
-            .work-with-us .btn:hover {
-                background: #c49a6c;
-                color: #121212;
-                box-shadow: 0 0 15px #c49a6c;
-            }
-</style>
-
-<style>
     body {
         margin: 0;
-        background: #121212;
-        font-family: 'Montserrat', sans-serif;
-        color: #eee;
+        font-family: 'Nunito', sans-serif;
+        background: #f9f6f1; /* yumşaq bej fon */
+        color: #3e3e3e;
     }
 
     .title {
         text-align: center;
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 2.8rem;
         margin: 2rem 0;
-        letter-spacing: 3px;
-        color: #fafafa;
-        text-transform: uppercase;
-        text-shadow: 0 0 10px #c49a6c;
+        color: #5a4a3c; /* qəhvə-bej ton */
+        letter-spacing: 1px;
     }
 
     .container {
         max-width: 1200px;
         margin: auto;
-        padding: 0 15px;
+        padding: 0 20px;
     }
 
     .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
-        gap: 2.5rem;
-        padding-bottom: 4rem;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
     }
 
     .card {
-        background: rgba(255, 255, 255, 0.07);
-        border-radius: 20px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border: 1px solid rgba(196, 154, 108, 0.3);
-        display: flex;
-        flex-direction: column;
+        background: #fffaf4; /* bej-ağ kart */
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(90, 74, 60, 0.15);
         overflow: hidden;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
     }
 
         .card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 40px rgba(196, 154, 108, 0.7);
-            border-color: #c49a6c;
+            transform: translateY(-6px);
+            box-shadow: 0 12px 25px rgba(90, 74, 60, 0.3);
         }
 
     .photo {
         width: 100%;
-        height: 350px;
+        height: 280px;
         object-fit: cover;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
         transition: transform 0.3s ease;
     }
 
     .card:hover .photo {
-        transform: scale(1.07);
+        transform: scale(1.04);
     }
 
     .no-photo {
-        height: 350px;
+        height: 280px;
         display: flex;
-        align-items: center;
         justify-content: center;
-        font-size: 1.5rem;
-        color: #c49a6c;
-        background: rgba(196, 154, 108, 0.1);
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        align-items: center;
+        background: #efe6dc;
+        color: #7a6a56;
+        font-size: 1.3rem;
         font-style: italic;
-        text-align: center;
-        padding: 1rem;
     }
 
     .info {
-        padding: 1.6rem 1.8rem 2rem;
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        padding: 1.2rem;
         text-align: center;
     }
 
         .info h3 {
-            margin: 0 0 0.3rem;
+            margin: 0 0 0.5rem;
+            font-size: 1.5rem;
             font-weight: 700;
-            font-size: 1.7rem;
-            letter-spacing: 1.2px;
-            color: #f7e7ce;
+            color: #5a4a3c;
         }
 
-        .info p {
-            margin: 0 0 1.5rem;
+        .info .position {
+            margin: 0;
+            font-size: 1rem;
             font-weight: 500;
-            font-size: 1.1rem;
-            color: #d7c5ab;
+            color: #a67c52; /* isti bej-qəhvə vurğu */
             text-transform: uppercase;
-            letter-spacing: 1.5px;
+            letter-spacing: 1px;
         }
+
+    .join-us {
+        text-align: center;
+        margin: 4rem 0;
+        color: #5a4a3c;
+    }
+
+        .join-us h3 {
+            font-size: 2rem;
+            margin-bottom: 1.2rem;
+        }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
 
     .btn {
-        padding: 10px 28px;
-        border: 2px solid #c49a6c;
-        border-radius: 50px;
-        background: transparent;
-        color: #c49a6c;
-        font-weight: 700;
-        letter-spacing: 1.4px;
+        background: #a67c52;
+        color: #fff;
+        padding: 14px 36px;
+        border-radius: 8px;
         text-decoration: none;
-        transition: all 0.3s ease;
-        cursor: pointer;
-        user-select: none;
-        box-shadow: 0 0 10px transparent;
+        font-weight: 600;
+        transition: background 0.3s ease, box-shadow 0.3s ease;
     }
 
         .btn:hover {
-            background: #c49a6c;
-            color: #121212;
-            box-shadow: 0 0 15px #c49a6c;
+            background: #8c6239;
+            box-shadow: 0 6px 20px rgba(140, 98, 57, 0.4);
         }
 
     @@media (max-width: 768px) {
         .photo, .no-photo
 
     {
-        height: 280px;
+        height: 220px;
     }
 
     }
@@ -225,12 +171,11 @@
         .photo, .no-photo
 
     {
-        height: 220px;
+        height: 160px;
     }
 
     .title {
         font-size: 2rem;
-        letter-spacing: 2px;
     }
 
     }
