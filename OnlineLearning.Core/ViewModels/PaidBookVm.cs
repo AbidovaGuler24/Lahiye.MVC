@@ -18,7 +18,7 @@ namespace OnlineLearning.Core.ViewModels
         public decimal Price { get; set; }
         public int? CategoryId { get; set; }
         public Category Category { get; set; }
-
+        public List<PaidBookVm>? RelatedBooks { get; set; }
         public bool IsPaid { get; set; }
     }
 }

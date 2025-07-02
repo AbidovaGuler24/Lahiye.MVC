@@ -1,242 +1,240 @@
 ﻿@model List<OnlineLearning.Core.ViewModels.BookVm>
 @{
-	Layout = null;
-	ViewData["Title"] = "Books Gallery";
+    Layout = null;
+    ViewData["Title"] = "Kitab Qalereyası";
 }
 
-<!-- Bootstrap və ikon stil -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
 
 <style>
-	body {
-		background-color: #6f4e37;
-		font-family: 'Segoe UI', sans-serif;
-	}
+    body {
+        background-color: #f4f1ee;
+        font-family: 'Segoe UI', sans-serif;
+    }
 
-	.card {
-		background-color: #fffaf0;
-		border: none;
-		border-radius: 15px;
-		transition: transform 0.3s ease;
-	}
+    h2 {
+        color: #4a3f35;
+    }
 
-		.card:hover {
-			transform: scale(1.02);
-		}
+    .card {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        color: inherit;
+        text-decoration: none;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
 
-	.card-img-top {
-		max-height: 250px;
-		width: 100%;
-		object-fit: contain;
-		border-top-left-radius: 15px;
-		border-top-right-radius: 15px;
-		background-color: #f8f8f8;
-	}
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
 
-	.card-body {
-		padding: 15px;
-	}
+    .card-img-top {
+        height: 320px;
+        object-fit: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        background-color: #f6f6f6;
+    }
 
-	.card-footer {
-		background-color: transparent;
-		border-top: none;
-	}
+    .card-body {
+        padding: 15px;
+        flex-grow: 1;
+    }
 
-	/* Reklam və PDF modal stili */
-	.modal-backdrop-custom {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(0,0,0,0.7);
-		z-index: 1050;
-		display: none;
-		justify-content: center;
-		align-items: center;
-	}
+    .card-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #3d322b;
+        text-align: center;
+    }
 
-	.modal-content-custom {
-		background: #6f4e37;
-		padding: 20px;
-		border-radius: 12px;
-		max-width: 600px;
-		width: 90%;
-		position: relative;
-		box-shadow: 0 0 15px #333;
-	}
+    .btn-custom {
+        background-color: #7b5d42;
+        color: white;
+        border: none;
+        padding: 6px 14px;
+        font-size: 0.9rem;
+        border-radius: 30px;
+        transition: background-color 0.3s ease;
+    }
 
-	/* Video reklam */
-	#adVideo {
-		width: 100%;
-		border-radius: 10px;
-		background-color: black;
-	}
+        .btn-custom:hover {
+            background-color: #5c4431;
+        }
 
-	/* PDF frame */
-	#pdfFrame {
-		width: 100%;
-		height: 500px;
-		border: none;
-		border-radius: 10px;
-	}
+    /* Modal */
+    .modal-backdrop-custom {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.7);
+        z-index: 1050;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
 
-	/* Close button */
-	.btn-close-custom {
-		position: absolute;
-		top: 10px;
-		right: 15px;
-		background: transparent;
-		border: none;
-		font-size: 1.5rem;
-		color: white;
-		cursor: pointer;
-	}
+    .modal-content-custom {
+        background: #fffaf0;
+        padding: 20px;
+        border-radius: 12px;
+        max-width: 600px;
+        width: 90%;
+        position: relative;
+        box-shadow: 0 0 20px #333;
+    }
 
-	/* Custom button */
-	.btn-custom {
-		background-color: #6f4e37;
-		color: white;
-	}
+    #adVideo {
+        width: 100%;
+        border-radius: 10px;
+        background-color: black;
+    }
 
-		.btn-custom:hover {
-			background-color: #5a3d2b;
-		}
+    #pdfFrame {
+        width: 100%;
+        height: 500px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .btn-close-custom {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        background: transparent;
+        border: none;
+        font-size: 1.5rem;
+        color: black;
+        cursor: pointer;
+    }
 </style>
 
-<div class="container mt-5">
-	<h2 class="mb-4 text-center">📘 Kitab Qalereyası</h2>
+<div class="container py-5">
+    <h2 class="mb-4 text-center">📚 Kitab Qalereyası</h2>
 
-	<div class="row mb-4">
-		<div class="col-md-6 offset-md-3">
-			<form method="get" asp-action="Search" asp-controller="Book">
-				<div class="input-group">
-					<select name="searchTerm" class="form-select">
-						@if (ViewBag.Categories != null)
-						{
-							foreach (var category in ViewBag.Categories as List<string>)
-							{
-								<option value="@category">@category</option>
-							}
-						}
-						else
-						{
-							<option disabled>Kateqoriyalar tapılmadı</option>
-						}
-					</select>
+    <div class="row mb-4">
+        <div class="col-md-6 offset-md-3">
+            <form method="get" asp-action="Search" asp-controller="Book">
+                <div class="input-group">
+                    <select name="searchTerm" class="form-select">
+                        @if (ViewBag.Categories != null)
+                        {
+                            foreach (var category in ViewBag.Categories as List<string>)
+                            {
+                                <option value="@category">@category</option>
+                            }
+                        }
+                        else
+                        {
+                            <option disabled>Kateqoriyalar tapılmadı</option>
+                        }
+                    </select>
 
-					<button type="submit" class="btn btn-custom">
-						<i class="bi bi-search"></i> Axtar
-					</button>
-				</div>
-			</form>
+                    <button type="submit" class="btn btn-custom">
+                        <i class="bi bi-search"></i> Axtar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
 
-		</div>
-	</div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+        @foreach (var book in Model)
+        {
+            <div class="col d-flex">
+                <a asp-action="Details" asp-controller="Book" asp-route-id="@book.Id" class="card text-decoration-none">
+                    @if (!string.IsNullOrEmpty(book.Img))
+                    {
+                        <img src="@Url.Content("~/Imagess/" + book.Img)" class="card-img-top" alt="@book.Title" />
+                    }
+                    else
+                    {
+                        <div class="bg-light d-flex justify-content-center align-items-center" style="height: 320px;">
+                            <span class="text-muted">Şəkil yoxdur</span>
+                        </div>
+                    }
 
-
-	<div class="row row-cols-1 row-cols-md-3 g-4">
-		@foreach (var book in Model)
-		{
-			<div class="col">
-				<div class="card h-100 shadow-sm">
-					@if (!string.IsNullOrEmpty(book.Img))
-					{
-						<img src="@Url.Content("~/Imagess/" + book.Img)" class="card-img-top" alt="@book.Title" />
-					}
-					else
-					{
-						<div class="bg-light d-flex justify-content-center align-items-center" style="height: 250px;">
-							<span class="text-muted">Şəkil yoxdur</span>
-						</div>
-					}
-
-					<div class="card-body">
-						<h5 class="card-title">@book.Title</h5>
-						@*  <p class="card-text">@book.Description</p> *@
-					</div>
-
-					<div class="card-footer d-flex justify-content-between">
-						@if (!string.IsNullOrEmpty(book.Pdf))
-						{
-							<button class="btn btn-sm btn-custom" onclick="showAdThenPdf('@Url.Content("~/Files/" + book.Pdf)')">
-								<i class="bi bi-book"></i> Oxu
-							</button>
-						}
-						else
-						{
-							<span class="text-muted">PDF yoxdur</span>
-						}
-
-						<a asp-action="Details" asp-controller="Book" asp-route-id="@book.Id" class="btn btn-sm btn-outline-secondary">
-							Ətraflı
-						</a>
-					</div>
-				</div>
-			</div>
-		}
-	</div>
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title</h5>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
 </div>
 
 <!-- Reklam Modal -->
 <div id="adModal" class="modal-backdrop-custom">
-	<div class="modal-content-custom">
-		<button class="btn-close-custom" onclick="closeAd()">×</button>
-		<video id="adVideo" controls muted>
-			<source src="@Url.Content("~/videos/sample-ad.mp4")" type="video/mp4" />
-			Sizin brauzer video et dəstəkləmir.
-		</video>
-	</div>
+    <div class="modal-content-custom">
+        <button class="btn-close-custom" onclick="closeAd()">×</button>
+        <video id="adVideo" controls muted>
+            <source src="@Url.Content("~/videos/sample-ad.mp4")" type="video/mp4" />
+            Sizin brauzer video et dəstəkləmir.
+        </video>
+    </div>
 </div>
 
 <!-- PDF Modal -->
 <div id="pdfModal" class="modal-backdrop-custom">
-	<div class="modal-content-custom">
-		<button class="btn-close-custom" onclick="closePdf()">×</button>
-		<iframe id="pdfFrame"></iframe>
-		<a id="downloadPdfBtn" class="btn btn-custom mt-3" download target="_blank">Yüklə</a>
-	</div>
+    <div class="modal-content-custom">
+        <button class="btn-close-custom" onclick="closePdf()">×</button>
+        <iframe id="pdfFrame"></iframe>
+        <a id="downloadPdfBtn" class="btn btn-custom mt-3" download target="_blank">Yüklə</a>
+    </div>
 </div>
 
 <script>
-	function showAdThenPdf(pdfUrl) {
-		const adModal = document.getElementById("adModal");
-		const video = document.getElementById("adVideo");
+    function showAdThenPdf(pdfUrl) {
+        const adModal = document.getElementById("adModal");
+        const video = document.getElementById("adVideo");
 
-		adModal.style.display = "flex";
-		video.currentTime = 0;
-		video.play();
+        adModal.style.display = "flex";
+        video.currentTime = 0;
+        video.play();
 
-		video.onended = function () {
-			adModal.style.display = "none";
-			showPdf(pdfUrl);
-		};
-	}
+        video.onended = function () {
+            adModal.style.display = "none";
+            showPdf(pdfUrl);
+        };
+    }
 
-	function closeAd() {
-		const adModal = document.getElementById("adModal");
-		const video = document.getElementById("adVideo");
+    function closeAd() {
+        const adModal = document.getElementById("adModal");
+        const video = document.getElementById("adVideo");
 
-		video.pause();
-		adModal.style.display = "none";
-	}
+        video.pause();
+        adModal.style.display = "none";
+    }
 
-	function showPdf(pdfUrl) {
-		const pdfModal = document.getElementById("pdfModal");
-		const pdfFrame = document.getElementById("pdfFrame");
-		const downloadBtn = document.getElementById("downloadPdfBtn");
+    function showPdf(pdfUrl) {
+        const pdfModal = document.getElementById("pdfModal");
+        const pdfFrame = document.getElementById("pdfFrame");
+        const downloadBtn = document.getElementById("downloadPdfBtn");
 
-		pdfFrame.src = pdfUrl;
-		downloadBtn.href = pdfUrl;
-		pdfModal.style.display = "flex";
-	}
+        pdfFrame.src = pdfUrl;
+        downloadBtn.href = pdfUrl;
+        pdfModal.style.display = "flex";
+    }
 
-	function closePdf() {
-		const pdfModal = document.getElementById("pdfModal");
-		const pdfFrame = document.getElementById("pdfFrame");
+    function closePdf() {
+        const pdfModal = document.getElementById("pdfModal");
+        const pdfFrame = document.getElementById("pdfFrame");
 
-		pdfModal.style.display = "none";
-		pdfFrame.src = "";
-	}
+        pdfModal.style.display = "none";
+        pdfFrame.src = "";
+    }
 </script>

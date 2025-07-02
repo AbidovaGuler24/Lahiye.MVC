@@ -174,7 +174,8 @@ namespace Lahiye.Mvc.Controllers
                 Img = book.Img,
                 Pdf = book.Pdf,
                 Price = book.Price,
-                Category = book.Category
+                Category = book.Category,
+                 RelatedBooks = relatedBooks
             };
 
             return View(vm);
