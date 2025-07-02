@@ -75,6 +75,12 @@ namespace Lahiye.Mvc
             builder.Services.AddScoped<IAccountService, OnlineLearning.BL.Services.Concretes.AccountService>();
             builder.Services.AddScoped<ILibraryItemRepository, LibraryItemRepository>();
             builder.Services.AddScoped<ILibraryItemService, LibraryItemService>();
+
+            builder.Services.AddScoped<IMomentRepository, MomentRepository>();
+            builder.Services.AddScoped<IMomentService, MomentService>();
+            builder.Services.AddScoped<ICommentService, CommentService>();
+            builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+
             builder.Services.AddSession();
             builder.Services.AddHttpContextAccessor();
 

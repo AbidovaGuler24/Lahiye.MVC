@@ -1,0 +1,53 @@
+﻿@using OnlineLearning.Core.ViewModels
+@model MomentEditViewModel
+
+@{
+    ViewData["Title"] = "Edit Moment";
+}
+
+<h2>Edit Moment</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />  
+
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <p>Current Image:</p>
+     
+        @if (!string.IsNullOrEmpty(Model.ExistingImagePath))
+        {
+
+            <img src="~/imagess/@Model.ExistingImagePath" alt="Alternate Text" style="width:100px; height:auto;" />
+        }
+        else
+        {
+            <p>No image uploaded</p>
+        }
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImageFile">Change Image</label>
+        <input asp-for="ImageFile" type="file" class="form-control-file" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

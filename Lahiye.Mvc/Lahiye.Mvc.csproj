@@ -28,6 +28,7 @@
     <Folder Include="wwwroot\ads\" />
     <Folder Include="wwwroot\audio\" />
     <Folder Include="wwwroot\cv\" />
+    <Folder Include="wwwroot\uploads\moments\" />
   </ItemGroup>
 
 </Project>

@@ -81,5 +81,9 @@ namespace OnlineLearning.DAL.Context
         public DbSet<Payment> Payments { get; set; }
         public DbSet<BasketItem> BasketItems { get; set; }
 
+        public DbSet<Moment> Moments { get; set; }
+
+        public DbSet<Comment> Comments { get; set; }
+
     }
 }

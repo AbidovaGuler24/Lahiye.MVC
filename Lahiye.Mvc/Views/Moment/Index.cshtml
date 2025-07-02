@@ -1,0 +1,61 @@
+﻿@model List<OnlineLearning.Core.Entities.Moment>
+
+@{
+
+    Layout = null;
+    ViewData["Title"] = "Moments";
+}
+
+<h2>All Moments</h2>
+
+@foreach (var moment in Model)
+{
+    <div class="card mb-4">
+        <div class="card-header">
+            <h4>@moment.Title</h4>
+        </div>
+        <div class="card-body">
+            <p>@moment.Description</p>
+
+           
+            @if (!string.IsNullOrEmpty(moment.ImagePath))
+            {
+
+                <img src="~/imagess/@moment.ImagePath" alt="Alternate Text" style="width:100px; height:auto;" />
+            }
+
+
+            <h5>Comments</h5>
+
+            @if (moment.Comments != null && moment.Comments.Any())
+            {
+                <ul class="list-group mb-3">
+                    @foreach (var comment in moment.Comments)
+                    {
+                        <li class="list-group-item">
+                            <strong>@comment.UserName</strong> (@comment.CreatedAt.ToString("g")):
+                            <p>@comment.Message</p>
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p class="text-muted">No comments yet.</p>
+            }
+
+            <form asp-action="AddComment" method="post">
+                <input type="hidden" name="MomentId" value="@moment.Id" />
+                <div class="form-group">
+                    <label for="UserName">Your Name</label>
+                    <input type="text" name="UserName" class="form-control" required />
+                </div>
+                <div class="form-group">
+                    <label for="Message">Comment</label>
+                    <textarea name="Message" class="form-control" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-2">Add Comment</button>
+            </form>
+        </div>
+    </div>
+}
