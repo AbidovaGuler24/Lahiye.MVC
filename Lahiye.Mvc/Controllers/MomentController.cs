@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Text.Json;
+using Microsoft.AspNetCore.Mvc;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.Core.Entities;
 using OnlineLearning.Core.ViewModels;
@@ -24,6 +25,34 @@ namespace Lahiye.Mvc.Controllers
         }
 
         // /PublicMoment/Details/5
+        //public async Task<IActionResult> Details(int id)
+        //{
+        //    var moment = await _momentService.GetByIdAsync(id);
+        //    if (moment == null) return NotFound();
+
+        //    var vm = new MomentViewModel
+        //    {
+        //        Title = moment.Title,
+        //        Description = moment.Description,
+        //        ImagePath = moment.ImagePath,
+        //        Id = moment.Id,
+        //        Comments = moment.Comments.Select(x=>new CommentViewModel()
+        //        {
+        //            MomentId = moment.Id,
+        //            Content = x.Content,
+        //            UserName = x.UserName,
+        //        }).ToList(),
+
+        //    };
+        //    ViewBag.CommentVm = new CommentViewModel();
+
+
+        //    return View(vm);
+        //}
+
+
+
+
         public async Task<IActionResult> Details(int id)
         {
             var moment = await _momentService.GetByIdAsync(id);
@@ -35,16 +64,25 @@ namespace Lahiye.Mvc.Controllers
                 Description = moment.Description,
                 ImagePath = moment.ImagePath,
                 Id = moment.Id,
-                Comments = moment.Comments.Select(x=>new CommentViewModel()
+                Comments = moment.Comments.Select(x => new CommentViewModel()
                 {
                     MomentId = moment.Id,
                     Content = x.Content,
                     UserName = x.UserName,
+                    CreatedAt = x.CreatedAt // Make sure to include this if you need it
                 }).ToList(),
-
+                
             };
+            var serializedComments = JsonSerializer.Serialize(moment.Comments.Select(x => new CommentViewModel()
+            {
+                MomentId = moment.Id,
+                Content = x.Content,
+                UserName = x.UserName,
+                CreatedAt = x.CreatedAt
+            }));
+            ViewBag.SComments = serializedComments;
+
             ViewBag.CommentVm = new CommentViewModel();
-            
 
             return View(vm);
         }
