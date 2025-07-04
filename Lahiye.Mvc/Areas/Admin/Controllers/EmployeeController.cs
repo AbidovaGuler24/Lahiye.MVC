@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.Core.Helpers.Exictance;
@@ -8,6 +9,7 @@ using OnlineLearning.DAL.Context;
 namespace Lahiye.Mvc.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class EmployeeController : Controller
     {
         private readonly IEmployeeService _employeeService;

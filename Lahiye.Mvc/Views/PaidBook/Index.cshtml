@@ -187,7 +187,7 @@
 
                     <form asp-action="AddToFavorites" asp-controller="Favorites" method="post">
                         <input type="hidden" name="id" value="@book.Id" />
-                        <button type="submit" class="favorite-icon" title="Sevimli">❤️</button>
+                        <button type="submit" class="favorite-icon" title="Sevimli"> ❤️ </button>
                     </form>
 
                     @if (!string.IsNullOrEmpty(book.Img))

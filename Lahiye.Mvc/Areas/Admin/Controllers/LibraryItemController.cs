@@ -3,10 +3,12 @@ using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.Core.ViewModels;
 using OnlineLearning.Core.Helpers.Exictance;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace OnlineLearning.Web.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class LibraryItemController : Controller
     {
         private readonly ILibraryItemService _service;

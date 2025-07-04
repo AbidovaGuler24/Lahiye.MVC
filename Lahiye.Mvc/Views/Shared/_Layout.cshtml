@@ -69,6 +69,7 @@
                                             @if(User.Identity.Name != null)
                                             {
                                                <span>@User.Identity.Name</span>
+                                                <span>|</span>
                                                 <a asp-action="Logout" asp-controller="Account"><i class="ti ti-logout"></i> Logout</a>
                                             }
                                             else
@@ -77,23 +78,21 @@
                                                 <a asp-action="Register" asp-controller="Account"><i class="fa fa-lock"></i>Register</a>
                                             }
                                             <span>|</span>
-                                            <li class="nav-item">
+                                          @*   <li class="nav-item">
                                                 <a class="nav-link text-dark" asp-controller="Cart" asp-action="ViewCart" asp-route-email=@User.Identity.Name>🛒</a>
-                                            </li>
+                                            </li> *@
                                             @if (User.IsInRole("Admin"))
                                             {
                                                 <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="btn btn-primary">
                                                     Admin Panel
                                                 </a>
                                             }
-                                            <li class="nav-item">
+                                          @*   <li class="nav-item">
                                                 <a class="nav-link" asp-controller="Favorites" asp-action="ViewFavorites">
                                                     <i class="fa fa-heart"></i>
                                                 </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link text-dark" asp-controller="Library" asp-action="MyBooks">📚 Kitablarım</a>
-                                            </li>
+                                            </li> *@
+                                          
                                         </div>
                                     </div>
                                     
@@ -139,38 +138,41 @@
                                     </style>
 
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle btn btn-outline-dark" href="#" id="bookDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent;">
+                                        <a class="nav-link dropdown-toggle btn btn-outline-dark" href="#" id="bookDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;" style="background-color: transparent;">
                                             📚 Book
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="bookDropdown">
                                             <li><a class="dropdown-item" asp-controller="Book" asp-action="Index">📖 Free Book</a></li>
                                             <li><a class="dropdown-item" asp-controller="PaidBook" asp-action="Index">💰 Paid Book</a></li>
                                             <li><a class="dropdown-item" asp-controller="LibraryItem" asp-action="Index">🎧 Audiobook Library</a></li>
+                                            <li >
+                                                <a class="dropdown-item" asp-controller="Library" asp-action="MyBooks">📚MyBooks</a>
+                                            </li>
                                         </ul>
                                     </li>
 
 
 
-                                    
                                     <li class="dropdown">
-                                        <a asp-controller="NewsEvent" asp-action="Index" class="btn btn-outline-dark">News & Event </a>
+                                        <a asp-controller="NewsEvent" asp-action="Index" class="btn btn-outline-dark" style="color: black">News & Event</a>
                                     </li>
                                     
                                     <li class="dropdown">
-                                        <a asp-action="Blog" asp-controller="Blog" data-toggle="dropdown" class="dropdown-toggle disabled" >Blog</a>
+                                        <a asp-action="Blog" asp-controller="Blog" data-toggle="dropdown" class="dropdown-toggle disabled" style="color: black">Blog</a>
                                        
                                     </li>
                                     <li class="dropdown">
-                                        <a asp-action="Index" asp-controller="Employee">Employee</a>
+                                        <a asp-action="Index" asp-controller="Employee" style="color: black">Employee</a>
 
                                     </li>
                                     <li class="dropdown">
-                                        <a asp-action="Index" asp-controller="CafeMenu">CafeMenu</a>
+                                        <a asp-action="Index" asp-controller="CafeMenu" style="color:black ">CafeMenu</a>
 
                                     </li>
                                     <li class="dropdown">
-                                        <a asp-controller="Moment" asp-action="Index" class="btn btn-outline-dark">Moment</a>
+                                        <a asp-controller="Moment" asp-action="Index" class="btn btn-outline-dark" style="color: black">Memories</a>
                                     </li>
+                                  
                                   
                                 </ul>
                             </div>

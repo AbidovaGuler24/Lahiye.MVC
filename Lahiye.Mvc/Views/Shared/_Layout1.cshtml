@@ -136,19 +136,19 @@
 
             <div class="collapse navbar-collapse" id="navbarPremiumBooks">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
+                   @*  <li class="nav-item">
                         <a class="nav-link" href="@Url.Action("Index", "Home")">Ana Səhifə</a>
-                    </li>
+                    </li> *@
 
                    
-                    <li><a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "LibraryItem")">🎧 Audiobook Library</a></li>
+                    <li><a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "LibraryItem")">Audiobook Library</a></li>
                       
 
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "PaidBook")">💰 Paid Book</a>
+                        <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "PaidBook")"> Paid Book</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "Book")">📖 Free Book</a>
+                        <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "Book")"> Free Book</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "NewsEvent")">News & Event</a>
@@ -157,14 +157,28 @@
                         <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Blog", "Blog")" tabindex="-1" aria-disabled="true">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-2" href="@Url.Action("Index", "Employee")">Employee</a>
+                        <a class="nav-link btn btn-outline-dark ms-2" " href="@Url.Action("Index", "Employee")">Employee</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-2" href="@Url.Action("Index", "CafeMenu")">CafeMenu</a>
+                        <a class="nav-link btn btn-outline-dark ms-2" " href="@Url.Action("Index", "CafeMenu")">CafeMenu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "Moment")">Moment</a>
+                        <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "Moment")">Memories</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("MyBooks", "Library")">MyBooks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Favorites" asp-action="ViewFavorites">
+                            ❤️
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-controller="Cart" asp-action="ViewCart" asp-route-email=@User.Identity.Name>🛒</a>
+                    </li>
+                   @*  <li class="nav-item">
+                        <a class="nav-linkbtn btn-outline-dark ms-2" " asp-controller="Library" asp-action="MyBooks"> MyBooks</a>
+                    </li> *@
                 </ul>
             </div>
         </div>

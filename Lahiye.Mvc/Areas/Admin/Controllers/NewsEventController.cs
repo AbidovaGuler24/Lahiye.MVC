@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.BL.Services.Concretes;
 using OnlineLearning.Core.ViewModels;
@@ -6,6 +7,7 @@ using OnlineLearning.Core.ViewModels;
 namespace Lahiye.Mvc.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class NewsEventController : Controller
     {
         private readonly INewsEventService _newsEventService;

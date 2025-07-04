@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.Core.ViewModels;
 using OnlineLearning.DAL.Repositories.Abstracts;
@@ -6,6 +7,7 @@ using OnlineLearning.DAL.Repositories.Abstracts;
 namespace Lahiye.Mvc.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class BlogController : Controller
     {
 

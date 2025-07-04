@@ -83,5 +83,10 @@ namespace Lahiye.Mvc.Controllers
             }
             return Content("Roles created!");
         }
+        [HttpGet]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
 }

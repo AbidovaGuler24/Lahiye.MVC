@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OnlineLearning.DAL.Context;
 using Stripe;
 using Stripe.Checkout;
@@ -6,6 +7,7 @@ using Stripe.Checkout;
 namespace Lahiye.Mvc.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class PaymentController : Controller
     {
         private readonly IConfiguration _configuration;

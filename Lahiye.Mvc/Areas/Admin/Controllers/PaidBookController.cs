@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.BL.Services.Concretes;
 using OnlineLearning.Core.Entities;
@@ -8,6 +9,7 @@ using OnlineLearning.DAL.Context;
 namespace OnlineLearning.MVC.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class PaidBookController : Controller
     {
         private readonly IPaidBookService _paidBookService;
