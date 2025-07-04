@@ -25,7 +25,7 @@ namespace Lahiye.Mvc.Controllers
         [HttpPost]
         public async Task<IActionResult> AddToFavorites(int id)
         {
-            var user = await _userManager.GetUserAsync(User); // Identity-dən istifadəçi tap
+            var user = await _userManager.GetUserAsync(User); 
             if (user == null) return RedirectToAction("Login", "Account");
 
             var result = await _favoriteBookService.AddFavoriteAsync(user.Id, id);
@@ -41,11 +41,42 @@ namespace Lahiye.Mvc.Controllers
             return View(favorites);  // buradakı books => List<PaidBook>
         }
 
+        [HttpPost]
         public async Task<IActionResult> RemoveFromFavorites(int id)
         {
+
+
             await _favoriteBookService.RemoveFavoriteAsync(id);
             return RedirectToAction("ViewFavorites", new { email = User.Identity.Name });
+
         }
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> ToggleFavorite(int id)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var favorites = await _favoriteBookService.GetFavoritesAsync(user.Id);
+            var existing = favorites.FirstOrDefault(b => b.BookId == id);
+
+            if (existing != null)
+            {
+                await _favoriteBookService.RemoveFavoriteAsync(existing.Id);
+            }
+            else
+            {
+                await _favoriteBookService.AddFavoriteAsync(user.Id, id);
+            }
+
+            return RedirectToAction("ViewFavorites");
+        }
+
+
+
     }
 }
 

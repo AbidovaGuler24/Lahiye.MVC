@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OnlineLearning.BL.Services.Abstracts;
@@ -10,7 +11,6 @@ using OnlineLearning.Core.Helpers.Exictance;
 using OnlineLearning.DAL.Context;
 using Stripe;
 using Stripe.Checkout;
-
 namespace Lahiye.Mvc.Controllers
 {
     public class CartController : Controller
@@ -19,13 +19,38 @@ namespace Lahiye.Mvc.Controllers
 
         private readonly IPaidBookService _paidBookService;
         private readonly IPaymentService _paymentService;
-        public CartController(ICartService cartService, IPaidBookService paidBookService, IPaymentService paymentService)
+         private readonly UserManager<AppUser> _userManager;
+
+
+        public CartController(ICartService cartService, IPaidBookService paidBookService, IPaymentService paymentService, UserManager<AppUser> userManager)
         {
             _cartService = cartService;
             _paidBookService = paidBookService;
-            _paymentService = paymentService; 
+            _paymentService = paymentService;
+            _userManager = userManager;
 
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Remove(int bookId)
+        {
+            var userId = _userManager.GetUserId(User);
+            await _cartService.RemoveFromCartAsync(userId, bookId);
+            return RedirectToAction("ViewCart","Cart");
+        }
+        //[HttpPost]
+        //public async Task<IActionResult> RemoveSingleItem(int bookId)
+        //{
+        //    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        //    if (userId == null)
+        //    {
+        //        return RedirectToAction("Login", "Account");
+        //    }
+
+        //    await _cartService.RemoveSingleItemAsync(userId, bookId);
+        //    return RedirectToAction("ViewCart");
+        //}
+
         [HttpPost]
         public async Task<IActionResult> AddToCart(int bookId)
         {
@@ -101,20 +126,33 @@ namespace Lahiye.Mvc.Controllers
             return Json(new { success = true });
         }
 
+        //[HttpPost]
+        //public async Task<IActionResult> RemoveSingleItem(int bookId)
+
+        //{
+        //    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        //    if (userId == null)
+        //    {
+
+        //        return Json(new { success = false, message = "Zəhmət olmasa, daxil olun." });
+        //    }
+
+        //    await _cartService.RemoveSingleItemAsync(userId, bookId);
+        //    return Json(new { success = true });
+
+        //}
+
         [HttpPost]
         public async Task<IActionResult> RemoveSingleItem(int bookId)
-
         {
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (userId == null)
             {
-
-                return Json(new { success = false, message = "Zəhmət olmasa, daxil olun." });
+                return RedirectToAction("Login", "Account");
             }
 
             await _cartService.RemoveSingleItemAsync(userId, bookId);
-            return Json(new { success = true });
-
+            return RedirectToAction("ViewCart");
         }
         [HttpPost]
         public async Task<IActionResult> Checkout()

@@ -16,6 +16,7 @@ namespace OnlineLearning.BL.Services.Abstracts
 
         Task<bool> AddSingleItemAsync(string userId, int bookId);
         Task<bool> RemoveSingleItemAsync(string userId, int bookId);
+       
 
     }
 }

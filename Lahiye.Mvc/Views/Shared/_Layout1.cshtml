@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - OnlineLearning</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        /* Temel sayfa stili */
+        body {
+            background-color: #f5f1e7;
+            color: #4b3b2b;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Navbar arka plan ve gölge */
+        nav.navbar {
+            background: linear-gradient(90deg, #6f4e37, #a97458);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            padding: 0.6rem 1.5rem;
+            font-weight: 600;
+        }
+
+            /* Marka ismi */
+            nav.navbar .navbar-brand {
+                font-weight: 800;
+                font-size: 1.8rem;
+                letter-spacing: 1.5px;
+                color: #f8f4e3 !important;
+                text-shadow: 1.5px 1.5px 3px #4b3b2b;
+                transition: color 0.3s ease;
+            }
+
+                nav.navbar .navbar-brand:hover {
+                    color: #ffd85a !important;
+                    text-shadow: 0 0 8px #ffd85a;
+                }
+
+            /* Navbar linkleri */
+            nav.navbar .nav-link {
+                color: #f8f4e3 !important;
+                font-weight: 500;
+                font-size: 1.05rem;
+                padding: 0.45rem 1rem;
+                border-radius: 6px;
+                transition: background-color 0.3s ease, color 0.3s ease;
+            }
+
+                nav.navbar .nav-link:hover,
+                nav.navbar .nav-link.active {
+                    color: #6f4e37 !important;
+                    background-color: #ffd85a;
+                    text-shadow: none;
+                }
+
+        /* Dropdown menü */
+        .dropdown-menu {
+            background-color: #f8f4e3;
+            border: none;
+            box-shadow: 0 8px 20px rgba(111, 78, 55, 0.25);
+            border-radius: 12px;
+            min-width: 210px;
+        }
+
+            .dropdown-menu .dropdown-item {
+                color: #6f4e37;
+                font-weight: 600;
+                padding: 10px 20px;
+                transition: background-color 0.25s ease, color 0.25s ease;
+                border-radius: 8px;
+            }
+
+                .dropdown-menu .dropdown-item:hover {
+                    background-color: #a97458;
+                    color: #fff;
+                }
+
+        /* Mobil toggle ikonu renk */
+        .navbar-toggler {
+            border: 2px solid #f8f4e3;
+        }
+
+        .navbar-toggler-icon {
+            filter: invert(100%);
+        }
+
+        /* Container içeriği kutusu */
+        .container.mt-4 {
+            background: #fffdfa;
+            border-radius: 14px;
+            padding: 40px 50px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.07);
+            flex-grow: 1;
+            margin-top: 2rem !important;
+        }
+
+        /* Buton gibi görünen linkler */
+        .btn-outline-dark {
+            border-color: #6f4e37 !important;
+            color: #6f4e37 !important;
+            font-weight: 600;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+            .btn-outline-dark:hover {
+                background-color: #6f4e37 !important;
+                color: #fff !important;
+            }
+
+        /* Disabled link görünümü */
+        .dropdown-toggle.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+    </style>
+
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                <img src="~/images/libraria-logo-v1.png" alt="OnlineLearning Logo" style="height:50px;" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPremiumBooks" aria-controls="navbarPremiumBooks" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarPremiumBooks">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Home")">Ana Səhifə</a>
+                    </li>
+
+                   
+                    <li><a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "LibraryItem")">🎧 Audiobook Library</a></li>
+                      
+
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "PaidBook")">💰 Paid Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "Book")">📖 Free Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "NewsEvent")">News & Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Blog", "Blog")" tabindex="-1" aria-disabled="true">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2" href="@Url.Action("Index", "Employee")">Employee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2" href="@Url.Action("Index", "CafeMenu")">CafeMenu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-dark ms-2" href="@Url.Action("Index", "Moment")">Moment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+
+    <!-- Bootstrap JS Bundle (Popper da içerir) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

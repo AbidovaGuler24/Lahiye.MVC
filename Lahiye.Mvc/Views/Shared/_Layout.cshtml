@@ -46,9 +46,9 @@
                             <div class="navbar-header">
                                 <div class="navbar-brand">
                                     <h1>
-                                        <a href="index-2.html">
+                                       
                                             <img src="~/images/libraria-logo-v1.png" alt="LIBRARIA" />
-                                        </a>
+                                      
                                     </h1>
                                 </div>
                             </div>
@@ -69,6 +69,7 @@
                                             @if(User.Identity.Name != null)
                                             {
                                                <span>@User.Identity.Name</span>
+                                                <a asp-action="Logout" asp-controller="Account"><i class="ti ti-logout"></i> Logout</a>
                                             }
                                             else
                                             {
@@ -117,6 +118,23 @@
                                             background-color: transparent !important;
                                             border: none !important;
                                             box-shadow: none !important;
+                                        }
+
+                                        .dropdown-item:hover {
+                                            background-color: #f0f0f0 !important; /* Hoverda biraz açık gri, istediğin renge değiştir */
+                                            color: black !important;
+                                        }
+
+                                        .dropdown-item {
+                                            background-color: white !important;
+                                            color: black !important;
+                                        }
+
+                                        li:hover {
+                                            background-color: transparent !important;
+                                            color: inherit !important;
+                                            text-decoration: none !important;
+                                            cursor: default;
                                         }
                                     </style>
 
@@ -191,15 +209,7 @@
                                         <li><a href="news-events-detail.html">News &amp; Events Detail</a></li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="#">Pages</a>
-                                    <ul>
-                                        <li><a href="cart.html">Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="signin.html">Signin/Register</a></li>
-                                        <li><a href="404.html">404/Error</a></li>
-                                    </ul>
-                                </li>
+                              
                                 <li>
                                     <a asp-action="Blog" asp-controller="Blog" >Blog</a>
                                    
@@ -223,8 +233,6 @@
             <figure>
                 <img alt="Home Slide" src="~/images/header-slider/home-v1/header-slide.jpg" />
             </figure>
-            <div class="container">
-                <div class="carousel-caption">
                   
                    
                     <div class="slide-buttons hidden-sm hidden-xs">
@@ -234,31 +242,21 @@
             </div>
         </div>
         <div class="item">
-            <figure>
-                <img alt="Home Slide" src="~/images/header-slider/home-v1/header-slide.jpg" />
-            </figure>
+            
             <div class="container">
                 <div class="carousel-caption">
                    
-                    <div class="slide-buttons hidden-sm hidden-xs">
-                        <a href="#" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-default">Purchase</a>
-                    </div>
+                   
                 </div>
             </div>
         </div>
         <div class="item">
-            <figure>
-                <img alt="Home Slide" src="~/images/header-slider/home-v1/header-slide.jpg" />
-            </figure>
+           
             <div class="container">
                 <div class="carousel-caption">
                 
                    
-                    <div class="slide-buttons hidden-sm hidden-xs">
-                        <a href="#" class="btn btn-primary">Read More</a>
-                        <a href="#" class="btn btn-default">Purchase</a>
-                    </div>
+                   
                 </div>
             </div>
         </div>

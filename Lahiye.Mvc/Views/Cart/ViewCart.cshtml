@@ -1,4 +1,3 @@
-
 ﻿@using Microsoft.Extensions.Options
 @using OnlineLearning.Core.Entities
 
@@ -7,283 +6,276 @@
 
 
 @{
-    Layout = null;
+	Layout = "_Layout1";
+
 }
 <style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	body {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		background-color: #faf7f1;
+		color: #4a3a27;
+		margin: 40px 20px;
+	}
 
-        background-color: #faf7f1;
-        color: #4a3a27;
-        margin: 40px 20px;
+	.cart-container {
+		max-width: 900px;
+		margin: auto;
+		background-color: #fff8ed;
+		padding: 32px 28px;
+		border-radius: 14px;
+		box-shadow: 0 8px 24px rgba(130, 85, 40, 0.18);
+	}
 
-    }
+	h2 {
+		text-align: center;
+		color: #7f5a2a;
+		font-size: 2.25rem;
+		font-weight: 800;
+		letter-spacing: 1.15px;
+		margin-bottom: 36px;
+		user-select: none;
+	}
 
-    .cart-container {
-        max-width: 900px;
+	table {
+		width: 100%;
+		border-collapse: separate;
+		border-spacing: 0 14px;
+	}
 
-        margin: auto;
-        background-color: #fff8ed;
-        padding: 32px 28px;
-        border-radius: 14px;
-        box-shadow: 0 8px 24px rgba(130, 85, 40, 0.18);
+	thead th {
+		background-color: #b89562;
+		color: #3f2e1c;
+		padding: 16px 24px;
+		font-weight: 700;
+		border-radius: 10px 10px 0 0;
+		user-select: none;
+		text-align: left;
+	}
 
-    }
+	tbody tr {
+		background-color: #eaddc8;
+		box-shadow: 0 4px 16px rgba(130, 85, 40, 0.12);
+		border-radius: 14px;
+		transition: box-shadow 0.35s ease;
+	}
 
-    h2 {
-        text-align: center;
+		tbody tr:hover {
+			box-shadow: 0 8px 32px rgba(130, 85, 40, 0.28);
+		}
 
-        color: #7f5a2a;
-        font-size: 2.25rem;
-        font-weight: 800;
-        letter-spacing: 1.15px;
-        margin-bottom: 36px;
-        user-select: none;
-    }
+	tbody td {
+		padding: 16px 24px;
+		vertical-align: middle;
+		color: #4a3a27;
+		font-weight: 600;
+		border-top: 1px solid #d6c9b3;
+	}
 
-    table {
-        width: 100%;
-        border-collapse: separate;
-        border-spacing: 0 14px;
-    }
+		tbody td:first-child {
+			width: 110px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+		}
 
-    thead th {
-        background-color: #b89562;
-        color: #3f2e1c;
-        padding: 16px 24px;
-        font-weight: 700;
-        border-radius: 10px 10px 0 0;
-        user-select: none;
-        text-align: left;
-    }
+		tbody td img {
+			width: 72px;
+			height: 108px;
+			object-fit: cover;
+			border-radius: 8px;
+			box-shadow: 0 0 8px rgba(130, 85, 40, 0.10);
+		}
 
-    tbody tr {
-        background-color: #eaddc8;
-        box-shadow: 0 4px 16px rgba(130, 85, 40, 0.12);
-        border-radius: 14px;
-        transition: box-shadow 0.35s ease;
-    }
+		tbody td:nth-child(3),
+		tbody td:nth-child(4),
+		tbody td:nth-child(5) {
+			text-align: right;
+			font-weight: 700;
+			color: #7f5a2a;
+			min-width: 90px;
+		}
 
-        tbody tr:hover {
-            box-shadow: 0 8px 32px rgba(130, 85, 40, 0.28);
-        }
+		tbody td:nth-child(6) {
+			text-align: center;
+			min-width: 150px;
+		}
 
-    tbody td {
-        padding: 16px 24px;
-        vertical-align: middle;
-        color: #4a3a27;
-        font-weight: 600;
-        border-top: 1px solid #d6c9b3;
-    }
+	button.btn {
+		cursor: pointer;
+		padding: 10px 26px;
+		border: none;
+		border-radius: 10px;
+		font-weight: 700;
+		font-size: 1rem;
+		color: white;
+		box-shadow: 0 5px 14px rgba(130, 85, 40, 0.45);
+		transition: background-color 0.35s ease;
+		margin: 0 8px;
+		min-width: 100px;
+	}
 
-        tbody td:first-child {
-            width: 110px;
-            padding-top: 12px;
-            padding-bottom: 12px;
-        }
+	button.btn-add {
+		background-color: #7f5a2a;
+	}
 
-        tbody td img {
-            width: 72px;
-            height: 108px;
-            object-fit: cover;
-            border-radius: 8px;
-            box-shadow: 0 0 8px rgba(130, 85, 40, 0.10);
-        }
+		button.btn-add:hover {
+			background-color: #6a4721;
+		}
 
-        tbody td:nth-child(3),
-        tbody td:nth-child(4),
-        tbody td:nth-child(5) {
-            text-align: right;
-            font-weight: 700;
-            color: #7f5a2a;
-            min-width: 90px;
-        }
+	button.btn-remove {
+		background-color: #b59a6a;
+	}
 
-        tbody td:nth-child(6) {
-            text-align: center;
-            min-width: 150px;
-        }
+		button.btn-remove:hover {
+			background-color: #a38a5d;
+		}
 
-    button.btn {
-        cursor: pointer;
-        padding: 10px 26px;
-        border: none;
-        border-radius: 10px;
-        font-weight: 700;
-        font-size: 1rem;
-        color: white;
-        box-shadow: 0 5px 14px rgba(130, 85, 40, 0.45);
-        transition: background-color 0.35s ease;
-        margin: 0 8px;
-        min-width: 100px;
-    }
+	.cart-footer {
+		margin-top: 40px;
+		padding-top: 24px;
+		border-top: 3px solid #d6c9b3;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-weight: 800;
+		font-size: 1.45rem;
+		color: #7f5a2a;
+		user-select: none;
+	}
 
-    button.btn-add {
-        background-color: #7f5a2a;
-    }
+		.cart-footer .total {
+			margin-bottom: 28px;
+		}
 
-        button.btn-add:hover {
-            background-color: #6a4721;
-        }
+	/* Responsive */
+	@@media (max-width: 700px) {
+		tbody td:first-child, tbody td:nth-child(6) {
+			display: none;
+		}
 
-    button.btn-remove {
-        background-color: #b59a6a;
-    }
+		tbody td:nth-child(2) {
+			font-size: 1.1rem;
+			font-weight: 700;
+		}
 
-        button.btn-remove:hover {
-            background-color: #a38a5d;
-        }
+		color: #865c3b; /* orta tünd qəhvəyi */
+		margin-bottom: 30px;
+		font-weight: 700;
+		font-size: 2rem;
+		letter-spacing: 1.1px;
+	}
 
-    .cart-footer {
-        margin-top: 40px;
-        padding-top: 24px;
-        border-top: 3px solid #d6c9b3;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-weight: 800;
-        font-size: 1.45rem;
-        color: #7f5a2a;
-        user-select: none;
-    }
+	thead tr th {
+		background-color: #c4a67a; /* yumşaq qəhvəyi-bej */
+		color: #4c3b2e;
+		padding: 15px 20px;
+		text-align: left;
+		border-radius: 8px 8px 0 0;
+		font-weight: 600;
+		user-select: none;
+	}
 
-        .cart-footer .total {
-            margin-bottom: 28px;
-        }
+	tbody tr {
+		background: #e6dacf; /* yüngül qəhvəyi-bej */
+		box-shadow: 0 3px 8px rgba(134, 92, 59, 0.15);
+		border-radius: 12px;
+		transition: box-shadow 0.3s ease;
+	}
 
-    /* Responsive */
-    @@media (max-width: 700px) {
-        tbody td:first-child, tbody td:nth-child(6)
+		tbody tr:hover {
+			box-shadow: 0 6px 22px rgba(134, 92, 59, 0.3);
+		}
 
-    {
-        display: none;
-    }
+		tbody tr td {
+			padding: 15px 20px;
+			vertical-align: middle;
+			color: #4c3b2e;
+			font-weight: 500;
+			border-top: 1px solid #d6c9b3;
+		}
 
-    tbody td:nth-child(2) {
-        font-size: 1.1rem;
-        font-weight: 700;
-    }
+			tbody tr td:first-child {
+				width: 100px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
 
-        color: #865c3b; /* orta tünd qəhvəyi */
-        margin-bottom: 30px;
-        font-weight: 700;
-        font-size: 2rem;
-        letter-spacing: 1.1px;
-    }
+			tbody tr td img {
+				width: 70px;
+				height: 105px;
+				object-fit: cover;
+				border-radius: 6px;
+				box-shadow: 0 0 6px rgba(134, 92, 59, 0.12);
+			}
 
-    thead tr th {
-        background-color: #c4a67a; /* yumşaq qəhvəyi-bej */
-        color: #4c3b2e;
-        padding: 15px 20px;
-        text-align: left;
-        border-radius: 8px 8px 0 0;
-        font-weight: 600;
-        user-select: none;
-    }
+			tbody tr td:nth-child(3),
+			tbody tr td:nth-child(4),
+			tbody tr td:nth-child(5) {
+				text-align: right;
+				font-weight: 600;
+				color: #865c3b;
+				min-width: 90px;
+			}
 
-    tbody tr {
-        background: #e6dacf; /* yüngül qəhvəyi-bej */
-        box-shadow: 0 3px 8px rgba(134, 92, 59, 0.15);
-        border-radius: 12px;
-        transition: box-shadow 0.3s ease;
-    }
+			tbody tr td:nth-child(6) {
+				text-align: center;
+				min-width: 140px;
+			}
 
-        tbody tr:hover {
-            box-shadow: 0 6px 22px rgba(134, 92, 59, 0.3);
-        }
+	button.btn {
+		cursor: pointer;
+		padding: 10px 22px;
+		border: none;
+		border-radius: 8px;
+		font-weight: 600;
+		font-size: 0.95rem;
+		color: white;
+		box-shadow: 0 4px 12px rgba(134, 92, 59, 0.4);
+		transition: background-color 0.3s ease;
+		margin: 0 6px;
+		min-width: 90px;
+	}
 
-        tbody tr td {
-            padding: 15px 20px;
-            vertical-align: middle;
-            color: #4c3b2e;
-            font-weight: 500;
-            border-top: 1px solid #d6c9b3;
-        }
+	button.btn-add {
+		background-color: #865c3b;
+	}
 
-            tbody tr td:first-child {
-                width: 100px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-            }
+		button.btn-add:hover {
+			background-color: #704c2e;
+		}
 
-            tbody tr td img {
-                width: 70px;
-                height: 105px;
-                object-fit: cover;
-                border-radius: 6px;
-                box-shadow: 0 0 6px rgba(134, 92, 59, 0.12);
-            }
+	button.btn-remove {
+		background-color: #b2875a;
+	}
 
-            tbody tr td:nth-child(3),
-            tbody tr td:nth-child(4),
-            tbody tr td:nth-child(5) {
-                text-align: right;
-                font-weight: 600;
-                color: #865c3b;
-                min-width: 90px;
-            }
+		button.btn-remove:hover {
+			background-color: #a0764a;
+		}
 
-            tbody tr td:nth-child(6) {
-                text-align: center;
-                min-width: 140px;
-            }
+	.cart-footer {
+		margin-top: 35px;
+		padding-top: 20px;
+		border-top: 2px solid #d6c9b3;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-weight: 700;
+		font-size: 1.3rem;
+		color: #865c3b;
+	}
 
-    button.btn {
-        cursor: pointer;
-        padding: 10px 22px;
-        border: none;
-        border-radius: 8px;
-        font-weight: 600;
-        font-size: 0.95rem;
-        color: white;
-        box-shadow: 0 4px 12px rgba(134, 92, 59, 0.4);
-        transition: background-color 0.3s ease;
-        margin: 0 6px;
-        min-width: 90px;
-    }
-
-    button.btn-add {
-        background-color: #865c3b;
-    }
-
-        button.btn-add:hover {
-            background-color: #704c2e;
-        }
-
-    button.btn-remove {
-        background-color: #b2875a;
-    }
-
-        button.btn-remove:hover {
-            background-color: #a0764a;
-        }
-
-    .cart-footer {
-        margin-top: 35px;
-        padding-top: 20px;
-        border-top: 2px solid #d6c9b3;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-weight: 700;
-        font-size: 1.3rem;
-        color: #865c3b;
-    }
-
-        .cart-footer button {
-            background-color: #865c3b;
-            padding: 12px 30px;
-            border-radius: 10px;
-            box-shadow: 0 5
-
+		.cart-footer button {
+			background-color: #865c3b;
+			padding: 12px 30px;
+			border-radius: 10px;
+			box-shadow: 0 5
 
 </style>
 
 <div class="cart-container" role="main" aria-label="Shopping Cart">
-    <h2>Shopping Cart</h2>
+	<h2>Shopping Cart</h2>
 
 
-    @* <table aria-describedby="cartSummary" class="cart-table">
+	@* <table aria-describedby="cartSummary" class="cart-table">
         <thead>
             <tr>
                 <th scope="col">Img</th>
@@ -313,49 +305,57 @@
                         <button class="btn btn-remove" type="button" onclick="removeItem(@item.Id)">Remove</button>
 
                     </td>
-                   
+
                 </tr>
-                
+
 
             }
         </tbody>
 
     </table> *@
-    <form asp-controller="Checkout" asp-action="CreateCheckoutSessionBasket" method="post" id="checkoutForm">
-        <table>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>
-                        <img src="@(item.PaidBook?.Img != null ? Url.Content("~/imagess/" + item.PaidBook.Img) : Url.Content("~/imagess/default-book.jpg"))"
-                             alt="@item.PaidBook?.Title ?? " Default Book Image"" />
-                    </td>
-                    <td>@item.PaidBook?.Title</td>
-                    <td>@item.Quantity</td>
-                    <td>@item.PaidBook?.Price.ToString("C")</td>
-                    <td>@((item.PaidBook.Price * item.Quantity).ToString("C"))</td>
-                    <td>
-                        <button class="btn btn-add" type="button" onclick="addSingleItem(@item.PaidBookId)">Add One</button>
-                        <button class="btn btn-remove" type="button" onclick="removeItem(@item.Id)">Remove</button>
-                    </td>
-                </tr>
 
-                <input type="hidden" name="bookIds" value="@item.PaidBookId" />
-            }
-        </table>
+	<table>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					<img src="@(item.PaidBook?.Img != null ? Url.Content("~/imagess/" + item.PaidBook.Img) : Url.Content("~/imagess/default-book.jpg"))"
+						 alt="@item.PaidBook?.Title ?? " Default Book Image"" />
+				</td>
+				<td>@item.PaidBook?.Title</td>
+				<td hidden>@item.Quantity</td>
+				<td>@item.PaidBook?.Price.ToString("C")</td>
+				<td>@((item.PaidBook.Price * item.Quantity).ToString("C"))</td>
+				<td>
+					
+					<form method="post" asp-controller="Cart" asp-action="Remove" asp-route-bookId="@item.PaidBookId" style="display:inline;">
+						<input type="hidden" name="bookId" value="@item.PaidBookId" />
+						<button type="submit" class="btn btn-remove">Remove</button>
+					</form>
+				</td>
+			</tr>
 
-        <button type="submit" class="btn btn-success">Toplu Ödəniş Et</button>
-    </form>
+			<input type="hidden" name="bookIds" value="@item.PaidBookId" />
+		}
+	</table>
+	<form asp-controller="Checkout" asp-action="CreateCheckoutSessionBasket" method="post" id="checkoutForm">
+		@foreach (var item in Model)
+		{
 
-    <div id="cartSummary" class="cart-footer" aria-live="polite" aria-atomic="true">
-        <div class="total">
-            Total: @Model.Sum(i => i.PaidBook.Price * i.Quantity).ToString("C")
-        </div>
+			<input type="hidden" name="bookIds" value="@item.PaidBookId" />
+		}
+		<button type="submit" class="btn btn-success">Toplu Ödəniş Et</button>
+	</form>
 
-        <!-- Stripe Checkout Button -->
-       @*  <script src="https://checkout.stripe.com/checkout.js"
+	<div id="cartSummary" class="cart-footer" aria-live="polite" aria-atomic="true">
+		<div class="total">
+			Total: @Model.Sum(i => i.PaidBook.Price * i.Quantity).ToString("C")
+		</div>
+
+		<!-- Stripe Checkout Button -->
+		@*  <script src="https://checkout.stripe.com/checkout.js"
                 class="stripe-button"
-               
+
                 data-key="@Stripe.Value.PublishableKey"
                 data-amount="@((int)(Model.Sum(i => i.PaidBook.Price * i.Quantity) * 100))"
                 data-name="[Deveducate]"
@@ -364,27 +364,27 @@
                 data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
                 data-zip-code="true">
         </script> *@
-        <!-- End Stripe -->
+		<!-- End Stripe -->
 
-    </div>
+	</div>
 </div>
 
 <script>
-    function addSingleItem(paidBookId) {
-        alert('Add one more item with PaidBookId: ' + paidBookId);
+	function addSingleItem(paidBookId) {
+		alert('Add one more item with PaidBookId: ' + paidBookId);
 
-    }
-    function removeItem(cartItemId) {
-        if (confirm("Are you sure to remove this item?")) {
-            alert('Remove item with CartItemId: ' + cartItemId);
+	}
+	function removeItem(cartItemId) {
+		if (confirm("Are you sure to remove this item?")) {
+			alert('Remove item with CartItemId: ' + cartItemId);
 
-            // Burada backendə POST/DELETE sorğu göndərə bilərsən
-        }
-    }
+			// Burada backendə POST/DELETE sorğu göndərə bilərsən
+		}
+	}
 
-    function checkoutAll() {
-        alert("Proceeding to checkout all items.");
-        // Checkout funksiyasını işə sal
+	function checkoutAll() {
+		alert("Proceeding to checkout all items.");
+		// Checkout funksiyasını işə sal
 
-    }
+	}
 </script>

@@ -57,6 +57,8 @@ namespace OnlineLearning.BL.Services.Concretes
         public async Task RemoveFavoriteAsync(int id)
         {
             await _favoriteBookRepository.DeleteAsync(id);
+
+            
         }
 
     }
