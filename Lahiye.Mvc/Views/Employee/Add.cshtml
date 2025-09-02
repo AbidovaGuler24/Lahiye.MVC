@@ -1,6 +1,6 @@
 ﻿@model OnlineLearning.Core.ViewModels.EmployeeAddVm
 @{
-    Layout = "_Layout1";
+    Layout = null;
 }
 
 <!DOCTYPE html>
@@ -19,6 +19,10 @@
 </head>
 <body class="bg-[#fdf6e3] min-h-screen flex items-center justify-center">
     <div class="bg-[#fffaf0] shadow-2xl rounded-3xl p-10 w-full max-w-lg border border-[#d2b48c]">
+        <a asp-controller="Employee" asp-action="Index" class="inline-block mb-6 text-[#5a3e1b] hover:text-[#8b5e3c] font-semibold">
+            ← Əvvəlki səhifəyə qayıt
+        </a>
+
         <h3 class="text-3xl font-bold text-center mb-8 text-[#5a3e1b]">İşçi Əlavə Et</h3>
 
         <form asp-action="Add" method="post" enctype="multipart/form-data" class="space-y-6">

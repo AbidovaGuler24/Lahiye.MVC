@@ -7,6 +7,7 @@ using OnlineLearning.Core.Entities;
 using OnlineLearning.Core.Helpers.Exictance;
 using OnlineLearning.Core.ViewModels;
 using OnlineLearning.DAL.Repositories.Abstracts;
+using OnlineLearning.DAL.Repositories.Concretes;
 
 namespace OnlineLearning.BL.Services.Concretes
 {
@@ -39,12 +40,19 @@ namespace OnlineLearning.BL.Services.Concretes
 
         public async Task DeleteBlogAsync(int id)
         {
+            
+
             var blog = await _blogRepository.GetByIdAsync(id);
             if (blog != null)
             {
-                await _blogRepository.DeleteAsync(blog);
-                await _blogRepository.SaveAllChangesAsync();
+                if (!string.IsNullOrEmpty(blog.Img))
+                {
+                    blog.Img.RemoveFile("wwwroot", "imagess");
+                }
+                
             }
+            await _blogRepository.DeleteAsync(blog);
+            await _blogRepository.SaveAllChangesAsync();
         }
 
         public async Task<List<BlogVm>> GetAllBlogsAsync()
@@ -82,29 +90,28 @@ namespace OnlineLearning.BL.Services.Concretes
             var blog = await _blogRepository.GetByIdAsync(vm.Id);
             if (blog == null) return;
 
-            if (vm.ImageFile != null)
-            {
-                var imageName = $"{Guid.NewGuid()}{Path.GetExtension(vm.ImageFile.FileName)}";
-                var path = Path.Combine(wwwroot, "uploads", imageName);
+            if (vm.ImageUrl != null)
+                blog.Img?.RemoveFile(wwwroot, "imagess");
+            blog.Img = FileCreateExtension.CreateFile(vm.ImageFile, wwwroot, "\\Imagess\\");
 
-                var uploadDir = Path.Combine(wwwroot, "uploads");
-                if (!Directory.Exists(uploadDir))
-                {
-                    Directory.CreateDirectory(uploadDir);
-                }
+            //// Yeni şəkil yüklənibsə
+            //if (vm.ImageFile != null)
+            //{
+            //    // Köhnə şəkli sil
+            //    blog.Img?.RemoveFile(wwwroot, "imagess");
 
-                using (var stream = new FileStream(path, FileMode.Create))
-                {
-                    await vm.ImageFile.CopyToAsync(stream);
-                }
-
-                blog.Img = imageName;
-            }
+            //    // Yeni şəkli yüklə və url-i təyin et
+            //    blog.Img = vm.ImageFile.CreateFile(wwwroot, "imagess");
+            //}
 
             blog.Description = vm.Description;
 
             await _blogRepository.UpdateAsync(blog);
             await _blogRepository.SaveAllChangesAsync();
         }
+
+
+
     }
+
 }

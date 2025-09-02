@@ -149,7 +149,7 @@ namespace OnlineLearning.BL.Services.Concretes
             paidBook.CategoryId = vm.CategoryId;
             if (vm.ImgFile != null)
             {
-                paidBook.Img?.RemoveFile(wwwroot, "\\imagess\\");
+                paidBook.Img?.RemoveFile(wwwroot, "imagess");
                 paidBook.Img = vm.ImgFile.CreateFile(wwwroot, "\\imagess\\");
             }
             else if (!string.IsNullOrEmpty(vm.Img))
@@ -159,7 +159,7 @@ namespace OnlineLearning.BL.Services.Concretes
 
             if (vm.PdfFile != null)
             {
-                paidBook.Pdf?.RemoveFile(wwwroot, "\\Files\\");
+                paidBook.Pdf?.RemoveFile(wwwroot, "Files");
                 paidBook.Pdf = vm.PdfFile.CreateFile(wwwroot, "\\Files\\");
             }
             else if (!string.IsNullOrEmpty(vm.Pdf))

@@ -43,7 +43,7 @@ namespace OnlineLearning.BL.Services.Concretes
             if (existing == null) return;
 
             // Faylı da sil
-            existing.ImagePath?.RemoveFile("wwwroot", "//Imagess//");
+            existing.ImagePath?.RemoveFile("wwwroot", "Imagess");
             await _neweventrepository.DeleteAsync(existing);
         }
 
@@ -83,7 +83,7 @@ namespace OnlineLearning.BL.Services.Concretes
 
             if (vm.ImageFile != null)
             {
-                existing.ImagePath?.RemoveFile(rootPath, "//Imagess//");
+                existing.ImagePath?.RemoveFile(rootPath, "imagess");
                 existing.ImagePath = vm.ImageFile.CreateFile(rootPath, "//Imagess//");
             }
 

@@ -10,5 +10,6 @@ namespace OnlineLearning.BL.Services.Abstracts
     public interface ICommentService
     {
         Task AddCommentAsync(CommentViewModel vm);
+        Task DeleteCommentAsync(int commentId);
     }
 }

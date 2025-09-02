@@ -1,12 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OnlineLearning.BL.Services.Abstracts;
+using OnlineLearning.Core.ViewModels;
 
 namespace Lahiye.Mvc.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly IPaidBookService _paidBookService;
+
+        
+        public HomeController(IPaidBookService paidBookService)
         {
-            return View();
+            _paidBookService = paidBookService;
+        }
+
+       
+        public async Task<IActionResult> Index()
+        {
+            List<PaidBookVm> allBooks = await _paidBookService.GetAllAsync();
+
+            return View(allBooks);
         }
     }
 }

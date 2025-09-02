@@ -183,11 +183,13 @@
                     <form asp-action="AddToCart" asp-controller="Cart" asp-route-bookId="@book.BookId" method="post" style="margin:0;">
                         <button type="submit" class="add-to-cart" title="Səbətə əlavə et">🛒</button>
                     </form>
+                    @* <form asp-action="Checkout" asp-controller="Payment" method="post">
+                        <input type="hidden" name="bookId" value="@book.Id" />
+                        <input type="hidden" name="amount" value="@book.Price" />
+                        <a asp-controller="Checkout" asp-action="CreateCheckoutSession" asp-route-bookId="@book.Id" class="btn" title="Al">💳</a>
+                    </form> *@
 
-                    <form asp-action="BuyNow" asp-controller="Cart" asp-route-bookId="@book.BookId" method="post" style="margin:0;">
-                        <button type="submit" class="buy-now" title="Birbaşa al">💳</button>
-                    </form>
-
+                   
                     <form asp-action="RemoveFromFavorites" asp-controller="Favorites" asp-route-id="@book.Id" method="post" style="margin:0;">
                         <button type="submit" class="buy-now" title="Cixart">-</button>
                     </form>

@@ -37,7 +37,16 @@ namespace OnlineLearning.BL.Services.Concretes
 
         public async Task DeleteAsync(int id)
         {
+            var entities = await _cafeMenuRepository.GetByIdAsync(id);
+            if (entities != null)
+            {
+              
+                entities.PhotoPath?.RemoveFile("wwwroot", "imagess");
+            }
+
+           
             await _cafeMenuRepository.DeleteAsync(id);
+            await _cafeMenuRepository.SaveAllChangesAsync();
         }
 
         public async Task<List<CafeMenuItemVM>> GetAllAsync()
@@ -91,38 +100,23 @@ namespace OnlineLearning.BL.Services.Concretes
         public async Task UpdateAsync(CafeMenuItemVM menuItemVM, string wwwroot)
         {
             var existingEntity = await _cafeMenuRepository.GetByIdAsync(menuItemVM.Id);
-            if (existingEntity == null)
-                return;
-                    var imagePath = menuItemVM.ImagePath;
+            if (existingEntity == null) return;
 
             if (menuItemVM.ImageFile != null)
             {
+                // Köhnə şəkli sil
+                existingEntity.PhotoPath?.RemoveFile(wwwroot, "Imagess");
+
+                // Yeni şəkli əlavə et
                 existingEntity.PhotoPath = FileCreateExtension.CreateFile(menuItemVM.ImageFile, wwwroot, "\\Imagess\\");
             }
 
-            // Digər sahələri yenilə
             existingEntity.Name = menuItemVM.Name;
             existingEntity.Price = menuItemVM.Price;
 
-            // Məlumatı yenilə və yadda saxla
             await _cafeMenuRepository.UpdateAsync(existingEntity);
             await _cafeMenuRepository.SaveAllChangesAsync();
-          
-            //if (menuItemVM.ImagePath != null) 
-            //{
-            //    imagePath = FileCreateExtension.CreateFile(menuItemVM.ImageFile, wwwroot, "\\Imagess\\");
-            //}
-            //var entity = new CafeMenuItem
-            //{
-            //    Id = menuItemVM.Id,
-            //    Name = menuItemVM.Name,
-            //    Price = menuItemVM.Price,
-
-            //    PhotoPath = imagePath,
-
-            //};
-
-            //await _cafeMenuRepository.UpdateAsync(entity);
         }
+
     }
 }

@@ -26,13 +26,10 @@
                 <td>@moment.Title</td>
                 <td>@moment.Description</td>
                 <td>
-
                     @if (!string.IsNullOrEmpty(moment.ImagePath))
                     {
-
                         <img src="~/imagess/@moment.ImagePath" alt="Alternate Text" style="width:100px; height:auto;" />
                     }
-                   
                     else
                     {
                         <span>No image</span>
@@ -45,9 +42,47 @@
                     </form>
                 </td>
             </tr>
+            <tr>
+                <td colspan="4">
+                    <strong>Comments:</strong>
+                    @if (moment.Comments != null && moment.Comments.Any())
+                    {
+                        <table class="table table-sm table-bordered mt-2">
+                            <thead>
+                                <tr>
+                                    <th>User</th>
+                                    <th>Content</th>
+                                    <th>Created At</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var comment in moment.Comments)
+                                {
+                                    <tr>
+                                        <td>@comment.UserName</td>
+                                        <td>@comment.Content</td>
+                                        <td>@comment.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                                        <td>
+                                            <form asp-action="DeleteComment" asp-route-id="@comment.Id" method="post" onsubmit="return confirm('Are you sure you want to delete this comment?');">
+                                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                    else
+                    {
+                        <p>No comments yet.</p>
+                    }
+                </td>
+            </tr>
         }
     </tbody>
 </table>
+
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

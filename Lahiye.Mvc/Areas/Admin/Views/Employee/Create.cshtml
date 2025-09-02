@@ -24,6 +24,11 @@
         <input asp-for="PhotoFile" type="file" class="form-control" />
         <span asp-validation-for="PhotoFile" class="text-danger" />
     </div>
+    <div  class="form-group">
+        <label asp-for="CvFile">CvFile</label>
+        <input asp-for="CvFile" type="file" class="form-control" />
+        <span asp-validation-for="CvFile" class="text-danger" />
+    </div>
 
     <button type="submit" class="btn btn-success">Create</button>
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>

@@ -7,6 +7,7 @@ using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.Core.Entities;
 using OnlineLearning.Core.ViewModels;
 using OnlineLearning.DAL.Repositories.Abstracts;
+using OnlineLearning.DAL.Repositories.Concretes;
 
 namespace OnlineLearning.BL.Services.Concretes
 {
@@ -29,6 +30,17 @@ namespace OnlineLearning.BL.Services.Concretes
                 CreatedAt = DateTime.UtcNow
             };
             await _repo.AddAsync(comment);
+        }
+
+        public async Task DeleteCommentAsync(int commentId)
+        {
+            var comment = await _repo.GetByIdAsync(commentId);
+            if (comment == null)
+            {
+                throw new Exception("Şərh tapılmadı");
+            }
+
+            await _repo.DeleteAsync(comment);
         }
     }
 }

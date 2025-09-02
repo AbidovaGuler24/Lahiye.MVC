@@ -14,10 +14,10 @@
         <thead class="table-dark">
             <tr>
                 <th>Title</th>
-                <th>Description</th>
+                @* <th>Description</th> *@
                 <th>Page Count</th>
-                <th>Image</th>
                 <th>Category</th>
+                <th>Image</th>
                 <th></th>
             </tr>
         </thead>
@@ -26,9 +26,9 @@
             {
                 <tr>
                     <td>@book.Title</td>
-                    <td>@book.Description</td>
+                  @*   <td>@book.Description</td> *@
                     <td>@book.PageCount</td>
-                    <td>@book.Category</td>
+                    <td>@book.Category.Name</td>
                     <td>
                         @if (!string.IsNullOrEmpty(book.Img))
                         {

@@ -1,5 +1,5 @@
 ﻿@model List<OnlineLearning.Core.Entities.PurchasedBook>
-
+@using OnlineLearning.Core.Helpers.Exictance
 @{
     Layout = "_Layout1";
 }
@@ -203,11 +203,24 @@
                                     <img src="~/Imagess/@item.Book.Img" alt="@item.Book.Title" class="book-image me-3" />
                                     <div>
                                         <h5 class="book-title">@item.Book.Title</h5>
-                                       
+
+                                       @*  @{
+                                            DateTime sqlDate = item.PurchaseDate;
+                                            DateTime utcDate = DateTime.SpecifyKind(sqlDate, DateTimeKind.Utc);
+                                            TimeZoneInfo azerbaijanTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Azerbaijan Standard Time");
+                                            DateTime azDate = TimeZoneInfo.ConvertTimeFromUtc(utcDate, azerbaijanTimeZone);
+                                        }
+
+                                        <p class="purchase-date mb-3">
+                                            <i class="bi bi-calendar-check me-1"></i>
+                                            @azDate.ToString("dd.MM.yyyy HH:mm")
+                                        </p> *@
+
+                                       @* 
                                         <p class="purchase-date mb-3">
                                             <i class="bi bi-calendar-check me-1"></i>
                                             @item.PurchaseDate.ToLocalTime().ToString("dd.MM.yyyy HH:mm")
-                                        </p>
+                                        </p> *@
                                         <a href="@Url.Action("ReadBook", "PaidBook", new { id = item.Book.Id })"
                                            class="btn btn-read text-white" target="_blank">
                                             <i class="bi bi-book me-1"></i> Oxumağa Başla

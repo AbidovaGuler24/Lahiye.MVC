@@ -81,11 +81,11 @@ namespace OnlineLearning.BL.Services.Concretes
         public async Task DeleteAsync(int id)
         {
             var item = await _repo.GetByIdAsync(id);
-            //if (item != null)
-            //{
-            //    item.AudioFilePath?.RemoveFile("wwwroot", _audioFolder);
-            //    item.ImageFilePath?.RemoveFile("wwwroot", _imageFolder);
-            //}
+            if (item != null)
+            {
+                item.AudioFilePath?.RemoveFile("wwwroot", "audio");
+                item.ImageFilePath?.RemoveFile("wwwroot", "imagess");
+            }
 
             await _repo.DeleteAsync(id);
         }

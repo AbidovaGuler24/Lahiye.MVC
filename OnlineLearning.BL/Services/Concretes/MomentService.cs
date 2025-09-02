@@ -54,10 +54,10 @@ namespace OnlineLearning.BL.Services.Concretes
             if (vm.ImageFile != null)
             {
                 // Əvvəlki şəkli sil
-                existingMoment.ImagePath?.RemoveFile(webRootPath, "\\imagess\\");
+                existingMoment.ImagePath?.RemoveFile(webRootPath, "imagess");
 
                 // Yeni şəkli yüklə və yolunu təyin et
-                string newImageName = FileCreateExtension.CreateFile(vm.ImageFile, webRootPath, "\\imagess\\");
+                string newImageName = FileCreateExtension.CreateFile(vm.ImageFile, webRootPath, "\\Imagess\\");
                 existingMoment.ImagePath = newImageName;
             }
            
@@ -75,7 +75,7 @@ namespace OnlineLearning.BL.Services.Concretes
             if (existingMoment == null)
                 throw new Exception("Moment not found");
 
-            existingMoment.ImagePath?.RemoveFile(webRootPath, "\\imagess\\");
+            existingMoment.ImagePath?.RemoveFile(webRootPath, "imagess");
 
             await _repository.DeleteAsync(existingMoment);
         }

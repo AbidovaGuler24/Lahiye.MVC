@@ -21,7 +21,9 @@ namespace OnlineLearning.DAL.Repositories.Concretes
 
         public async Task<List<Moment>> GetAllAsync()
         {
-            return await _context.Moments.ToListAsync();
+            return await _context.Moments
+        .Include(m => m.Comments) 
+        .ToListAsync();
         }
 
         public async Task<Moment?> GetByIdAsync(int id)

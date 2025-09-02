@@ -54,15 +54,13 @@
                             </div>
                         </div>
                         <div class="col-md-9">
+
+
                             <!-- Header Topbar -->
                             <div class="header-topbar hidden-sm hidden-xs">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <div class="topbar-info">
-                                            <a href="tel:055-390-11-21"><i class="fa fa-phone"></i>055-390-11-21</a>
-                                            <span>/</span>
-                                            <a href="mailto:support@libraria.com"><i class="fa fa-envelope"></i>support@libraria.com</a>
-                                        </div>
+                                       
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="topbar-links">
@@ -138,41 +136,37 @@
                                     </style>
 
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle btn btn-outline-dark" href="#" id="bookDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;" style="background-color: transparent;">
+                                        <a class="nav-link dropdown-toggle btn btn-outline-dark" href="#" id="bookDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white; font-weight: bold;">
                                             📚 Book
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="bookDropdown">
-                                            <li><a class="dropdown-item" asp-controller="Book" asp-action="Index">📖 Free Book</a></li>
-                                            <li><a class="dropdown-item" asp-controller="PaidBook" asp-action="Index">💰 Paid Book</a></li>
-                                            <li><a class="dropdown-item" asp-controller="LibraryItem" asp-action="Index">🎧 Audiobook Library</a></li>
-                                            <li >
-                                                <a class="dropdown-item" asp-controller="Library" asp-action="MyBooks">📚MyBooks</a>
-                                            </li>
+                                            <li><a class="dropdown-item" asp-controller="Book" asp-action="Index" style="color: white; font-weight: bold;">📖 Free Book</a></li>
+                                            <li><a class="dropdown-item" asp-controller="PaidBook" asp-action="Index" style="color: white; font-weight: bold;">💰 Paid Book</a></li>
+                                            <li><a class="dropdown-item" asp-controller="LibraryItem" asp-action="Index" style="color: white; font-weight: bold;">🎧 Audiobook Library</a></li>
+                                            <li><a class="dropdown-item" asp-controller="Library" asp-action="MyBooks" style="color: white; font-weight: bold;">📚MyBooks</a></li>
                                         </ul>
                                     </li>
 
+                                    <li class="dropdown">
+                                        <a asp-controller="NewsEvent" asp-action="Index" class="btn btn-outline-dark" style="color: white; font-weight: bold;">News & Event</a>
+                                    </li>
 
+                                    <li class="dropdown">
+                                        <a asp-action="Blog" asp-controller="Blog" data-toggle="dropdown" class="dropdown-toggle disabled" style="color: white; font-weight: bold;">Blog</a>
+                                    </li>
 
                                     <li class="dropdown">
-                                        <a asp-controller="NewsEvent" asp-action="Index" class="btn btn-outline-dark" style="color: black">News & Event</a>
+                                        <a asp-action="Index" asp-controller="Employee" style="color: white; font-weight: bold;">Employee</a>
                                     </li>
-                                    
-                                    <li class="dropdown">
-                                        <a asp-action="Blog" asp-controller="Blog" data-toggle="dropdown" class="dropdown-toggle disabled" style="color: black">Blog</a>
-                                       
-                                    </li>
-                                    <li class="dropdown">
-                                        <a asp-action="Index" asp-controller="Employee" style="color: black">Employee</a>
 
-                                    </li>
                                     <li class="dropdown">
-                                        <a asp-action="Index" asp-controller="CafeMenu" style="color:black ">CafeMenu</a>
+                                        <a asp-action="Index" asp-controller="CafeMenu" style="color: white; font-weight: bold;">CafeMenu</a>
+                                    </li>
 
-                                    </li>
                                     <li class="dropdown">
-                                        <a asp-controller="Moment" asp-action="Index" class="btn btn-outline-dark" style="color: black">Memories</a>
+                                        <a asp-controller="Moment" asp-action="Index" class="btn btn-outline-dark" style="color: white; font-weight: bold;">MemoShare</a>
                                     </li>
-                                  
+
                                   
                                 </ul>
                             </div>
@@ -230,20 +224,25 @@
     </header>
     <!-- End: Header Section -->
     <!-- Carousel slides -->
-    <div class="carousel-inner">
+   @*  <div  class="carousel-inner" >
         <div class="item active">
             <figure>
-                <img alt="Home Slide" src="~/images/header-slider/home-v1/header-slide.jpg" />
+                <img alt="Home Slide" src="~/images/StockCake-Cozy bookstore ambiance_1752074990.jpg" style="width: 100%; height: 500px; object-fit: cover;" />
             </figure>
-                  
                    
                     <div class="slide-buttons hidden-sm hidden-xs">
                      
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="item">
+        </div> *@
+    <div class="banner">
+        <figure>
+            <img alt="Home Slide" src="~/images/StockCake-Bookstore Browsing Moment_1752076810.jpg"
+                 style="width: 100%; height: 500px; object-fit: cover;" />
+        </figure>
+    </div>
+       @* <div class="item">
             
             <div class="container">
                 <div class="carousel-caption">
@@ -261,7 +260,7 @@
                    
                 </div>
             </div>
-        </div>
+        </div>  *@
     </div>
 
     @RenderBody()

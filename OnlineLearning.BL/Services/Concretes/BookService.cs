@@ -51,7 +51,13 @@ namespace OnlineLearning.BL.Services.Concretes
 
         public async Task DeleteBookAsync(int id)
         {
+
             var book = await _bookRepository.GetByIdAsync(id);
+            if (book != null)
+            {
+                book.PdfUrl?.RemoveFile("wwwroot", "Files");
+                book.ImgUrl?.RemoveFile("wwwroot", "imagess");
+            }
 
             await _bookRepository.DeleteAsync(id);
             await _bookRepository.SaveAllChangesAsync();
@@ -96,12 +102,20 @@ namespace OnlineLearning.BL.Services.Concretes
             book.PageCount = vm.PageCount;
             //book.AuthorId = vm.AuthorId;
             book.CategoryId = vm.CategoryId;
+         
 
             if (vm.ImgUrl != null)
+                book.ImgUrl?.RemoveFile(wwwroot, "imagess");
                 book.ImgUrl = FileCreateExtension.CreateFile(vm.ImgUrl, wwwroot, "\\Imagess\\");
 
             if (vm.PdfFile != null)
+            {
+
+
+                book.PdfUrl?.RemoveFile(wwwroot, "Files");
                 book.PdfUrl = vm.PdfFile.CreateFile(wwwroot, "\\Files\\");
+            }
+
             else
                 book.PdfUrl = vm.Pdf;
 

@@ -25,7 +25,6 @@
   <ItemGroup>
     <Folder Include="wwwroot\Imagess\" />
     <Folder Include="wwwroot\Files\" />
-    <Folder Include="wwwroot\ads\" />
     <Folder Include="wwwroot\audio\" />
     <Folder Include="wwwroot\cv\" />
     <Folder Include="wwwroot\uploads\moments\" />

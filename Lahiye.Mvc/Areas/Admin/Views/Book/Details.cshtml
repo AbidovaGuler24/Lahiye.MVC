@@ -27,7 +27,7 @@
                     
                     <p>@(Model.Category != null ? Model.Category.Name : "Kateqoriya mövcud deyil")</p>
 
-                    <p>
+                   @*  <p>
                         <strong>PDF File:</strong><br />
                         @if (!string.IsNullOrEmpty(Model.Pdf))
                         {
@@ -39,7 +39,7 @@
                         {
                             <span class="text-muted"><em>No PDF available</em></span>
                         }
-                    </p>
+                    </p> *@
                 </div>
             </div>
         </div>

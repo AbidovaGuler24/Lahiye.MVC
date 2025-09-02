@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using OnlineLearning.BL.Services.Abstracts;
 using OnlineLearning.Core.ViewModels;
 using System.Threading.Tasks;
@@ -13,11 +14,13 @@ namespace OnlineLearning.Web.Controllers.Admin
     {
         private readonly IMomentService _momentService;
         private readonly IWebHostEnvironment _env;
+        private readonly ICommentService _commentService;
 
-        public MomentController(IMomentService momentService, IWebHostEnvironment env)
+        public MomentController(IMomentService momentService, IWebHostEnvironment env, ICommentService commentService)
         {
             _momentService = momentService;
             _env = env;
+            _commentService = commentService;
         }
 
         public async Task<IActionResult> Index()
@@ -87,6 +90,23 @@ namespace OnlineLearning.Web.Controllers.Admin
             catch (System.Exception ex)
             {
                 // Hata idarəsi
+                return BadRequest(ex.Message);
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        // Admin üçün bütün yorumların siyahısını göstərir
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteComment(int id)
+        {
+            try
+            {
+                await _commentService.DeleteCommentAsync(id);
+            }
+            catch (Exception ex)
+            {
                 return BadRequest(ex.Message);
             }
 

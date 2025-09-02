@@ -36,7 +36,7 @@
         @if (!string.IsNullOrEmpty(Model.ExistingAudioPath))
         {
             <audio controls>
-                <source src="@Model.ExistingAudioPath" type="audio/mpeg" />
+                <source src="~/imagess/@Model.ExistingAudioPath" type="audio/mpeg" />
                 Brauzeriniz audio elementini dəstəkləmir.
             </audio>
         }
@@ -55,7 +55,7 @@
         <label>Mövcud Şəkil</label><br />
         @if (!string.IsNullOrEmpty(Model.ExistingImagePath))
         {
-            <img src="@Model.ExistingImagePath" alt="@Model.Title" style="max-height: 100px;" />
+            <img src="~/imagess/@Model.ExistingImagePath" alt="@Model.Title" style="max-height: 100px;" />
         }
         else
         {

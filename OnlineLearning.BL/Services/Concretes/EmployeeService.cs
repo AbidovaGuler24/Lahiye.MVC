@@ -10,6 +10,7 @@ using OnlineLearning.Core.Helpers.Exictance;
 using OnlineLearning.Core.ViewModels;
 
 using OnlineLearning.DAL.Repositories.Abstracts;
+using OnlineLearning.DAL.Repositories.Concretes;
 
 namespace OnlineLearning.BL.Services.Concretes
 {
@@ -55,8 +56,12 @@ namespace OnlineLearning.BL.Services.Concretes
             var employee = await _employeeRepository.GetByIdAsync(id);
             if (employee != null)
             {
-                await _employeeRepository.DeleteAsync(employee);
+                employee.PhotoPath?.RemoveFile("wwwroot", "imagess");
             }
+
+
+            await _employeeRepository.DeleteAsync(employee);
+            await _employeeRepository.SaveAllChangesAsync();
         }
 
         public async Task<List<Employee>> GetAllAsync()
@@ -87,7 +92,7 @@ namespace OnlineLearning.BL.Services.Concretes
             if (vm.Photo != null)
             {
                 
-                employee.PhotoPath?.RemoveFile(wwwroot, "Images");
+                employee.PhotoPath?.RemoveFile(wwwroot, "Imagess");
 
                
                 employee.PhotoPath = vm.Photo.CreateFile(wwwroot, "\\imagess\\");
